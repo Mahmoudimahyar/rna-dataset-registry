@@ -1,0 +1,17 @@
+{
+  "checked_on": "2026-11-05",
+  "source": "User-provided RNA literature collection",
+  "source_pdf_files": 193,
+  "unique_pdf_byte_streams": 181,
+  "duplicate_copies": 12,
+  "new_unique_pdf_byte_streams_since_prior_review": 0,
+  "exclusions": [
+    "__MACOSX",
+    "output",
+    "outputs",
+    "rna-dataset-registry",
+    "tmp",
+    "versions"
+  ],
+  "limits": "Hash inventory establishes corpus coverage, not scientific review or dataset completeness."
+}

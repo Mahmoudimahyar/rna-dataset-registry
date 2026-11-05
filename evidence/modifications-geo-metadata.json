@@ -1,0 +1,805 @@
+[
+  {
+    "accession": "GSE58200",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58200&targ=self&form=text&view=full",
+    "checked_on": "2026-11-04",
+    "metadata_fields": {
+      "title": [
+        "Pseudouridine profiling reveals widespread regulated mRNA pseudouridylation in yeast and human cells"
+      ],
+      "status": [
+        "Public on Sep 05 2014"
+      ],
+      "submission_date": [
+        "Jun 03 2014"
+      ],
+      "last_update_date": [
+        "May 15 2019"
+      ],
+      "pubmed_id": [
+        "25192136"
+      ],
+      "type": [
+        "Expression profiling by high throughput sequencing",
+        "Other"
+      ],
+      "sample_id": [
+        "GSM1403085",
+        "GSM1403086",
+        "GSM1403087",
+        "GSM1403088",
+        "GSM1403089",
+        "GSM1403090",
+        "GSM1403091",
+        "GSM1403092",
+        "GSM1403093",
+        "GSM1403094",
+        "GSM1403095",
+        "GSM1403096",
+        "GSM1403097",
+        "GSM1403098",
+        "GSM1403099",
+        "GSM1403100",
+        "GSM1403101",
+        "GSM1403102",
+        "GSM1403103",
+        "GSM1403104",
+        "GSM1403105",
+        "GSM1403106",
+        "GSM1403107",
+        "GSM1403108",
+        "GSM1403109",
+        "GSM1403110",
+        "GSM1403111",
+        "GSM1403112",
+        "GSM1403113",
+        "GSM1403114",
+        "GSM1403115",
+        "GSM1403116",
+        "GSM1403117",
+        "GSM1403118",
+        "GSM1403119",
+        "GSM1403120",
+        "GSM1403121",
+        "GSM1403122",
+        "GSM1403123",
+        "GSM1403124",
+        "GSM1403125",
+        "GSM1403126",
+        "GSM1403127",
+        "GSM1403128",
+        "GSM1403129",
+        "GSM1403130",
+        "GSM1403131",
+        "GSM1403132",
+        "GSM1403133",
+        "GSM1403134",
+        "GSM1403135",
+        "GSM1403136",
+        "GSM1403137",
+        "GSM1403138",
+        "GSM1403139",
+        "GSM1403140",
+        "GSM1403141",
+        "GSM1403142",
+        "GSM1403143",
+        "GSM1403144",
+        "GSM1403145",
+        "GSM1403146",
+        "GSM1403147",
+        "GSM1403148",
+        "GSM1403149",
+        "GSM1403150",
+        "GSM1403151",
+        "GSM1403152",
+        "GSM1403153",
+        "GSM1403154",
+        "GSM1403155",
+        "GSM1403156",
+        "GSM1403157",
+        "GSM1403158",
+        "GSM1403159",
+        "GSM1403160",
+        "GSM1403161",
+        "GSM1403162",
+        "GSM1403163",
+        "GSM1403164",
+        "GSM1403165",
+        "GSM1403166",
+        "GSM1403167",
+        "GSM1403168",
+        "GSM1403169",
+        "GSM1488988",
+        "GSM1488989",
+        "GSM1488990",
+        "GSM1488991",
+        "GSM1488992",
+        "GSM1488993",
+        "GSM1488994",
+        "GSM1488995",
+        "GSM1488996",
+        "GSM1488997",
+        "GSM1488998",
+        "GSM1488999",
+        "GSM1489000",
+        "GSM1489001",
+        "GSM1489002",
+        "GSM1489003",
+        "GSM1489004",
+        "GSM1489005",
+        "GSM1489006",
+        "GSM1489007",
+        "GSM1489008",
+        "GSM1489009",
+        "GSM1489010",
+        "GSM1489011"
+      ],
+      "supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE58nnn/GSE58200/suppl/GSE58200_HeLa_rpkms_rpkms.txt.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE58nnn/GSE58200/suppl/GSE58200_RAW.tar",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE58nnn/GSE58200/suppl/GSE58200_yeast_rpkms.txt.gz"
+      ],
+      "relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA251554",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP042670"
+      ]
+    },
+    "series_sample_count": 109,
+    "verification_scope": "Series-level public metadata only; no source data files opened"
+  },
+  {
+    "accession": "GSE212210",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212210&targ=self&form=text&view=full",
+    "checked_on": "2026-11-04",
+    "metadata_fields": {
+      "title": [
+        "Quantitative profiling of pseudouridylation landscape in the human transcriptome"
+      ],
+      "status": [
+        "Public on Feb 06 2023"
+      ],
+      "submission_date": [
+        "Aug 29 2022"
+      ],
+      "last_update_date": [
+        "May 08 2023"
+      ],
+      "pubmed_id": [
+        "36997645"
+      ],
+      "type": [
+        "Expression profiling by high throughput sequencing",
+        "Other"
+      ],
+      "sample_id": [
+        "GSM6513552",
+        "GSM6605988",
+        "GSM6605989",
+        "GSM6605990",
+        "GSM6605991",
+        "GSM6605992",
+        "GSM6605993",
+        "GSM6605994",
+        "GSM6605995",
+        "GSM6605996",
+        "GSM6605997",
+        "GSM6605998",
+        "GSM6605999",
+        "GSM6606000",
+        "GSM6606001",
+        "GSM6606002",
+        "GSM6606003",
+        "GSM6606004",
+        "GSM6606005",
+        "GSM6606006",
+        "GSM6735538",
+        "GSM6735539",
+        "GSM6735540",
+        "GSM6735541",
+        "GSM7029090",
+        "GSM7029091",
+        "GSM7029092",
+        "GSM7029093",
+        "GSM7029094",
+        "GSM7029095",
+        "GSM7029096",
+        "GSM7029097",
+        "GSM7029098",
+        "GSM7029099",
+        "GSM7029100",
+        "GSM7029101",
+        "GSM7029102",
+        "GSM7029103"
+      ],
+      "supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE212nnn/GSE212210/suppl/GSE212210_RAW.tar"
+      ],
+      "relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA874572"
+      ]
+    },
+    "series_sample_count": 38,
+    "verification_scope": "Series-level public metadata only; no source data files opened"
+  },
+  {
+    "accession": "GSE90963",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90963&targ=self&form=text&view=full",
+    "checked_on": "2026-11-04",
+    "metadata_fields": {
+      "title": [
+        "Transcriptome-wide Profiling of Multiple RNA Modifications Simultaneously at Single-base Resolution"
+      ],
+      "status": [
+        "Public on Mar 08 2019"
+      ],
+      "submission_date": [
+        "Dec 06 2016"
+      ],
+      "last_update_date": [
+        "May 15 2019"
+      ],
+      "pubmed_id": [
+        "30872485"
+      ],
+      "type": [
+        "Other"
+      ],
+      "sample_id": [
+        "GSM2418439",
+        "GSM2418440",
+        "GSM2418441",
+        "GSM2418442",
+        "GSM2418443",
+        "GSM2418444",
+        "GSM2418445",
+        "GSM2418446",
+        "GSM2418447",
+        "GSM2418448",
+        "GSM2418449",
+        "GSM2418450",
+        "GSM2418451",
+        "GSM2418452"
+      ],
+      "supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90963/suppl/GSE90963_Table_S1-m5C_candidate_sites.xlsx",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90963/suppl/GSE90963_Table_S3-m1A_candidate_sites.xlsx",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90963/suppl/GSE90963_Table_S5-PseudoU_candidate_sites.xlsx",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90963/suppl/GSE90963_Table_S8-PseudoU_candidate_site_validation.xlsx"
+      ],
+      "relation": [
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP093982"
+      ]
+    },
+    "series_sample_count": 14,
+    "verification_scope": "Series-level public metadata only; no source data files opened"
+  },
+  {
+    "accession": "GSE240569",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE240569&targ=self&form=text&view=full",
+    "checked_on": "2026-11-04",
+    "metadata_fields": {
+      "title": [
+        "mRNA bisulfite sequencing of pluripotent stem cells and the derived cardiomyocytes"
+      ],
+      "status": [
+        "Public on Nov 13 2024"
+      ],
+      "submission_date": [
+        "Aug 10 2023"
+      ],
+      "last_update_date": [
+        "Jan 30 2025"
+      ],
+      "pubmed_id": [
+        "39695135"
+      ],
+      "type": [
+        "Other"
+      ],
+      "sample_id": [
+        "GSM7702396",
+        "GSM7702397",
+        "GSM7702398",
+        "GSM7702399",
+        "GSM7702400",
+        "GSM7702401",
+        "GSM7702402",
+        "GSM7702403",
+        "GSM7702404",
+        "GSM7702405",
+        "GSM7702406",
+        "GSM7702407",
+        "GSM7702408",
+        "GSM7702409",
+        "GSM7702410",
+        "GSM7702411",
+        "GSM7702412",
+        "GSM7702413",
+        "GSM7702414",
+        "GSM7702415",
+        "GSM8541000",
+        "GSM8541001",
+        "GSM8541002",
+        "GSM8541003",
+        "GSM8541004",
+        "GSM8541005",
+        "GSM8541006",
+        "GSM8541007",
+        "GSM8541008",
+        "GSM8541009",
+        "GSM8541010",
+        "GSM8541011",
+        "GSM8541012",
+        "GSM8541013",
+        "GSM8541014",
+        "GSM8541015",
+        "GSM8541016",
+        "GSM8541017"
+      ],
+      "supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE240nnn/GSE240569/suppl/GSE240569_DESeq2_DEGs.xlsx",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE240nnn/GSE240569/suppl/GSE240569_HTseqCount_raw.txt.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE240nnn/GSE240569/suppl/GSE240569_m5C_loci.xlsx"
+      ],
+      "relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1004248"
+      ]
+    },
+    "series_sample_count": 38,
+    "verification_scope": "Series-level public metadata only; no source data files opened"
+  },
+  {
+    "accession": "GSE225614",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225614&targ=self&form=text&view=full",
+    "checked_on": "2026-11-04",
+    "metadata_fields": {
+      "title": [
+        "Ultrafast Bisulfite Sequencing for Efficient and Accurate 5-Methylcytosine Detection in DNA and RNA"
+      ],
+      "status": [
+        "Public on Oct 13 2023"
+      ],
+      "submission_date": [
+        "Feb 20 2023"
+      ],
+      "last_update_date": [
+        "Apr 16 2025"
+      ],
+      "pubmed_id": [
+        "38168991"
+      ],
+      "type": [
+        "Methylation profiling by high throughput sequencing"
+      ],
+      "sample_id": [
+        "GSM7051124",
+        "GSM7051125",
+        "GSM7051126",
+        "GSM7051127",
+        "GSM7051128",
+        "GSM7051129",
+        "GSM7051130",
+        "GSM7051131",
+        "GSM7051132",
+        "GSM7051133",
+        "GSM7051134",
+        "GSM7051135",
+        "GSM7051136",
+        "GSM7051137",
+        "GSM7051138",
+        "GSM7051139",
+        "GSM7051140",
+        "GSM7051141",
+        "GSM7051142",
+        "GSM7051143",
+        "GSM7051144",
+        "GSM7051145",
+        "GSM7051146",
+        "GSM7051147",
+        "GSM7051148",
+        "GSM7051149",
+        "GSM7051150",
+        "GSM7051151",
+        "GSM7051152",
+        "GSM7051153",
+        "GSM7051154",
+        "GSM7051155",
+        "GSM7051156",
+        "GSM7051157",
+        "GSM7051158",
+        "GSM7051159",
+        "GSM7840492",
+        "GSM7840493",
+        "GSM7840494",
+        "GSM7840495",
+        "GSM7840496",
+        "GSM7840497",
+        "GSM7840498",
+        "GSM7840499"
+      ],
+      "supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE225nnn/GSE225614/suppl/GSE225614_HEK293T-WT_sites.tsv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE225nnn/GSE225614/suppl/GSE225614_HeLa-WT_sites.tsv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE225nnn/GSE225614/suppl/GSE225614_HeLa-shControl_sites.tsv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE225nnn/GSE225614/suppl/GSE225614_HeLa-shNSUN2_sites.tsv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE225nnn/GSE225614/suppl/GSE225614_HeLa-siControl_sites.tsv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE225nnn/GSE225614/suppl/GSE225614_HeLa-siNSUN6_sites.tsv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE225nnn/GSE225614/suppl/GSE225614_RAW.tar"
+      ],
+      "relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA936787"
+      ]
+    },
+    "series_sample_count": 44,
+    "verification_scope": "Series-level public metadata only; no source data files opened"
+  },
+  {
+    "accession": "GSE90164",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90164&targ=self&form=text&view=full",
+    "checked_on": "2026-11-04",
+    "metadata_fields": {
+      "title": [
+        "Nm-seq finds thousands of modified 2\u2019-O-methylation sites in mRNA with base precision"
+      ],
+      "status": [
+        "Public on May 15 2017"
+      ],
+      "submission_date": [
+        "Nov 22 2016"
+      ],
+      "last_update_date": [
+        "May 15 2019"
+      ],
+      "pubmed_id": [
+        "28504680"
+      ],
+      "type": [
+        "Methylation profiling by high throughput sequencing"
+      ],
+      "sample_id": [
+        "GSM2802905",
+        "GSM2802906",
+        "GSM2802907",
+        "GSM2802908",
+        "GSM2802909",
+        "GSM2802910",
+        "GSM2802911",
+        "GSM2802912",
+        "GSM2802913",
+        "GSM2802914"
+      ],
+      "supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90164/suppl/GSE90164_HEKmRNA.Nm.genome.bed.txt.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE90nnn/GSE90164/suppl/GSE90164_HeLamRNA.Nm.genome.bed.txt.gz"
+      ],
+      "relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA354610",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP093757"
+      ]
+    },
+    "series_sample_count": 10,
+    "verification_scope": "Series-level public metadata only; no source data files opened"
+  },
+  {
+    "accession": "GSE174518",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174518&targ=self&form=text&view=full",
+    "checked_on": "2026-11-04",
+    "metadata_fields": {
+      "title": [
+        "Nm-Mut-seq: The base-resolution quantitative method for mapping transcriptome-wide 2\u2019-O-methylations"
+      ],
+      "status": [
+        "Public on Jun 01 2023"
+      ],
+      "submission_date": [
+        "May 17 2021"
+      ],
+      "last_update_date": [
+        "Nov 06 2023"
+      ],
+      "pubmed_id": [
+        "37316584"
+      ],
+      "type": [
+        "Expression profiling by high throughput sequencing",
+        "Other"
+      ],
+      "sample_id": [
+        "GSM5318810",
+        "GSM5318811",
+        "GSM5318812",
+        "GSM5318813",
+        "GSM5318814",
+        "GSM5318815",
+        "GSM5318816",
+        "GSM5318817",
+        "GSM5318818",
+        "GSM5318819",
+        "GSM5318820",
+        "GSM5318821",
+        "GSM5318822",
+        "GSM5318823",
+        "GSM5318824",
+        "GSM5318825",
+        "GSM5318826",
+        "GSM5318827",
+        "GSM5318828",
+        "GSM5318829",
+        "GSM5318830",
+        "GSM5318831",
+        "GSM5318832",
+        "GSM5318833",
+        "GSM5318834",
+        "GSM5318835",
+        "GSM5318836",
+        "GSM5318837",
+        "GSM5318838",
+        "GSM5318839",
+        "GSM5318840",
+        "GSM5318841",
+        "GSM5318842",
+        "GSM5318843",
+        "GSM5318844",
+        "GSM5318845",
+        "GSM5318846",
+        "GSM5318847",
+        "GSM5318848",
+        "GSM5318849",
+        "GSM5318850",
+        "GSM5318851",
+        "GSM5318852",
+        "GSM5318853",
+        "GSM5318854",
+        "GSM5318855",
+        "GSM5318856",
+        "GSM5318857",
+        "GSM5318858",
+        "GSM5318859",
+        "GSM5318860",
+        "GSM5318861",
+        "GSM5318862"
+      ],
+      "supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174518/suppl/GSE174518_HeLa_WT_polyA-RNA_Nm.xlsx",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174518/suppl/GSE174518_Hela_WT_rRNA.xlsx",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174518/suppl/GSE174518_HepG2_WT_polyA-RNA_Nm.xlsx",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174518/suppl/GSE174518_HepG2_rRNA_siFBL.xlsx",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174518/suppl/GSE174518_HepG2_siFBL_polyA-RNA_Nm.xlsx",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174518/suppl/GSE174518_HepG2_siFTSJ3_polyA-RNA_Nm.xlsx",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174518/suppl/GSE174518_Nm_Calibration-curves.xlsx"
+      ],
+      "relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA730412",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP320050"
+      ]
+    },
+    "series_sample_count": 53,
+    "verification_scope": "Series-level public metadata only; no source data files opened"
+  },
+  {
+    "accession": "GSE97419",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97419&targ=self&form=text&view=full",
+    "checked_on": "2026-11-04",
+    "metadata_fields": {
+      "title": [
+        "Single-nucleotide mapping of N1-methyladenosine reveals a tissue-specific role in translational repression"
+      ],
+      "status": [
+        "Public on Oct 30 2017"
+      ],
+      "submission_date": [
+        "Apr 05 2017"
+      ],
+      "last_update_date": [
+        "May 15 2019"
+      ],
+      "pubmed_id": [
+        "29072297"
+      ],
+      "type": [
+        "Other"
+      ],
+      "sample_id": [
+        "GSM2564277",
+        "GSM2564278",
+        "GSM2564279",
+        "GSM2564280",
+        "GSM2564281",
+        "GSM2564282",
+        "GSM2564283",
+        "GSM2564284",
+        "GSM2564285",
+        "GSM2564286",
+        "GSM2564287",
+        "GSM2564288",
+        "GSM2564289",
+        "GSM2564290",
+        "GSM2564291",
+        "GSM2564292",
+        "GSM2564293",
+        "GSM2564294",
+        "GSM2564295",
+        "GSM2564296"
+      ],
+      "supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE97nnn/GSE97419/suppl/GSE97419_RAW.tar"
+      ],
+      "relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA381759",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP103089"
+      ]
+    },
+    "series_sample_count": 20,
+    "verification_scope": "Series-level public metadata only; no source data files opened"
+  },
+  {
+    "accession": "GSE102113",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102113&targ=self&form=text&view=full",
+    "checked_on": "2026-11-04",
+    "metadata_fields": {
+      "title": [
+        "Acetylation of cytidine in messenger RNA"
+      ],
+      "status": [
+        "Public on Nov 07 2018"
+      ],
+      "submission_date": [
+        "Aug 01 2017"
+      ],
+      "last_update_date": [
+        "Jun 10 2022"
+      ],
+      "pubmed_id": [
+        "30449621"
+      ],
+      "type": [
+        "Expression profiling by high throughput sequencing",
+        "Other"
+      ],
+      "sample_id": [
+        "GSM2724023",
+        "GSM2724024",
+        "GSM2724025",
+        "GSM2724026",
+        "GSM2724027",
+        "GSM2724028",
+        "GSM2724029",
+        "GSM2724030",
+        "GSM2724031",
+        "GSM2724032",
+        "GSM2724033",
+        "GSM2724034",
+        "GSM2724035",
+        "GSM2724036",
+        "GSM2724037",
+        "GSM2724038",
+        "GSM2724039",
+        "GSM3415496",
+        "GSM3415497",
+        "GSM3415498",
+        "GSM3415499",
+        "GSM3415500",
+        "GSM3415501",
+        "GSM3415502",
+        "GSM3415503",
+        "GSM3415504",
+        "GSM3415505",
+        "GSM3415506",
+        "GSM3415507",
+        "GSM3415508",
+        "GSM3415509",
+        "GSM3415510",
+        "GSM3415511",
+        "GSM3415512",
+        "GSM3415513",
+        "GSM3415514",
+        "GSM3415515",
+        "GSM3415516",
+        "GSM3415517",
+        "GSM3415518",
+        "GSM3415519"
+      ],
+      "supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE102nnn/GSE102113/suppl/GSE102113_processed_data.tar.gz"
+      ],
+      "relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA396698",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP114504"
+      ]
+    },
+    "series_sample_count": 41,
+    "verification_scope": "Series-level public metadata only; no source data files opened"
+  },
+  {
+    "accession": "GSE114002",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002&targ=self&form=text&view=full",
+    "checked_on": "2026-11-04",
+    "metadata_fields": {
+      "title": [
+        "Human 5\u2032 UTR design and variant effect prediction from a massively parallel translation assay"
+      ],
+      "status": [
+        "Public on May 03 2018"
+      ],
+      "submission_date": [
+        "May 03 2018"
+      ],
+      "last_update_date": [
+        "Jul 01 2024"
+      ],
+      "pubmed_id": [
+        "31267113",
+        "38902240"
+      ],
+      "type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "sample_id": [
+        "GSM3130435",
+        "GSM3130436",
+        "GSM3130437",
+        "GSM3130438",
+        "GSM3130439",
+        "GSM3130440",
+        "GSM3130441",
+        "GSM3130442",
+        "GSM3130443",
+        "GSM4084997"
+      ],
+      "supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE114nnn/GSE114002/suppl/GSE114002_RAW.tar"
+      ],
+      "relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA454863",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP144485"
+      ]
+    },
+    "series_sample_count": 10,
+    "verification_scope": "Series-level public metadata only; no source data files opened"
+  },
+  {
+    "accession": "GSE227087",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227087&targ=self&form=text&view=full",
+    "checked_on": "2026-11-05",
+    "metadata_fields": {
+      "title": [
+        "Transfer learning enables identification of multiple types of RNA modification using nanopore direct RNA sequencing"
+      ],
+      "status": [
+        "Public on Mar 28 2024"
+      ],
+      "submission_date": [
+        "Mar 10 2023"
+      ],
+      "last_update_date": [
+        "Feb 23 2026"
+      ],
+      "pubmed_id": [
+        "38744925",
+        "41145497"
+      ],
+      "type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "sample_id": [
+        "GSM7091445",
+        "GSM7091446",
+        "GSM7091447",
+        "GSM7091448",
+        "GSM7091449",
+        "GSM7091450",
+        "GSM7091451",
+        "GSM7091452"
+      ],
+      "supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227087/suppl/GSE227087_RAW.tar",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227087/suppl/GSE227087_synthetic_reference.fa.gz"
+      ],
+      "relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA943203"
+      ]
+    },
+    "series_sample_count": 8,
+    "verification_scope": "Series-level public metadata only; no source data files opened"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Mahmoudimahyar/rna-dataset-registry/schemas/resource.schema.json",
+  "title": "RNA resource metadata record",
+  "type": "object",
+  "required": ["id", "name", "kind", "topics", "rna_scope", "description", "source_urls", "paper_doi", "accessions", "organisms", "biological_context", "assays", "observation_unit", "labels", "scale", "access", "verification", "ml_tasks", "cell_specificity", "integration_caveats", "related_model_ids", "related_resource_ids", "priority", "status"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$"},
+    "name": {"type": "string", "minLength": 1},
+    "kind": {"enum": ["database", "archive", "reference", "study", "benchmark", "model_release", "software_example", "derived_resource"]},
+    "status": {"enum": ["curated", "candidate", "blocked"]},
+    "priority": {"enum": ["high", "medium", "context"]},
+    "topics": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "source_urls": {"type": "array", "items": {"type": "string", "format": "uri"}, "minItems": 1},
+    "labels": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["name", "meaning", "label_type", "unit", "resolution"], "properties": {"name": {"type": "string"}, "meaning": {"type": "string"}, "label_type": {"enum": ["measured", "computed", "annotation", "prediction", "synthetic", "unknown"]}, "unit": {"type": "string"}, "resolution": {"type": "string"}}}},
+    "access": {"type": "object", "required": ["level", "data_urls", "formats", "license", "redistribution"], "properties": {"level": {"enum": ["open", "mixed", "controlled", "request", "unavailable", "unknown"]}, "data_urls": {"type": "array", "items": {"type": "string", "format": "uri"}}}},
+    "verification": {"type": "object", "required": ["level", "checked_on", "evidence", "files_inspected", "limitations"], "properties": {"level": {"enum": ["file_sample", "schema", "metadata", "paper", "unverified"]}, "checked_on": {"type": "string", "format": "date"}, "evidence": {"type": "array", "items": {"type": "object", "required": ["url", "supports"]}}, "files_inspected": {"type": "array"}, "limitations": {"type": "array"}}}
+  }
+}

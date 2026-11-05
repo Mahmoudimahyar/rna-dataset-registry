@@ -1,0 +1,3510 @@
+[
+  {
+    "id": "gencode",
+    "name": "GENCODE",
+    "kind": "reference",
+    "topics": [
+      "sequence_reference",
+      "transcript_annotation"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "ncRNA"
+    ],
+    "description": "Human and mouse transcript/gene annotations and sequences.",
+    "source_urls": [
+      "https://www.gencodegenes.org/pages/data_access"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Human and mouse reference annotation; not cell-state expression",
+    "assays": [],
+    "observation_unit": "Gene, transcript, exon or annotated genomic feature",
+    "labels": [
+      {
+        "name": "feature / biotype / transcript_id",
+        "meaning": "Reference transcript structure, CDS/UTR boundaries and biotype",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "interval"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.gencodegenes.org/pages/data_access"
+      ],
+      "formats": [
+        "GTF",
+        "GFF3",
+        "FASTA"
+      ],
+      "license": "Open access per GENCODE; exact export terms must be retained",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.gencodegenes.org/pages/data_access",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "sequence_reference",
+      "transcript_annotation"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Freeze assembly and annotation release. Longest transcript is not necessarily the expressed isoform.",
+      "Sequence/feature annotations do not supply expression or half-life targets."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "refseq",
+    "name": "NCBI RefSeq",
+    "kind": "reference",
+    "topics": [
+      "sequence_reference",
+      "transcript_annotation"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "ncRNA"
+    ],
+    "description": "Curated and computationally annotated reference transcripts with stable accession versions.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/refseq/about/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Versioned transcript or other reference entity",
+    "labels": [
+      {
+        "name": "accession.version / feature annotation",
+        "meaning": "Sequence identity and reference features; known and model RefSeq records have different evidence",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "interval"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/refseq/about/"
+      ],
+      "formats": [
+        "GenBank",
+        "FASTA",
+        "GFF"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/refseq/about/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "sequence_reference",
+      "transcript_annotation"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "NM/NR and XM/XR have different curation histories; keep evidence status.",
+      "Versioned transcript identifiers and genome annotations must remain linked."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "rnacentral",
+    "name": "RNAcentral",
+    "kind": "reference",
+    "topics": [
+      "sequence_reference",
+      "rna_family"
+    ],
+    "rna_scope": [
+      "ncRNA"
+    ],
+    "description": "Integrated non-coding RNA sequences with stable URS identifiers and expert-database cross-references.",
+    "source_urls": [
+      "https://rnacentral.org/help/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Unique RNA sequence and taxon-linked annotation",
+    "labels": [
+      {
+        "name": "RNA type / cross-reference",
+        "meaning": "Source annotation, not a functional assay outcome",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://rnacentral.org/help/"
+      ],
+      "formats": [
+        "FASTA",
+        "JSON",
+        "TSV"
+      ],
+      "license": "CC0-1.0",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://rnacentral.org/help/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "sequence_reference",
+      "rna_family"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Core scope is non-coding RNA, not a substitute for a full mRNA corpus.",
+      "Identical-sequence merging does not make source biological contexts identical."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "rfam",
+    "name": "Rfam",
+    "kind": "reference",
+    "topics": [
+      "rna_family",
+      "secondary_structure"
+    ],
+    "rna_scope": [
+      "ncRNA",
+      "mRNA regulatory elements"
+    ],
+    "description": "RNA families, seed alignments, covariance models and genome hits.",
+    "source_urls": [
+      "https://rfam.org/downloads"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Family, aligned sequence or family hit",
+    "labels": [
+      {
+        "name": "family / consensus structure / hit score",
+        "meaning": "Evolutionary family and comparative structure annotation",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://rfam.org/downloads"
+      ],
+      "formats": [
+        "Stockholm",
+        "FASTA",
+        "CM",
+        "TSV"
+      ],
+      "license": "CC0-1.0",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://rfam.org/downloads",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "rna_family",
+      "secondary_structure"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Split by family/homology; do not treat all homologs as independent examples.",
+      "Consensus/comparative structure is distinct from an experimental per-nucleotide reactivity vector."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rnacentral"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "mirbase",
+    "name": "miRBase",
+    "kind": "reference",
+    "topics": [
+      "mirna",
+      "sequence_reference"
+    ],
+    "rna_scope": [
+      "miRNA"
+    ],
+    "description": "Versioned precursor and mature miRNA sequences, genomic coordinates and names.",
+    "source_urls": [
+      "https://www.mirbase.org/download/CURRENT/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "miRNA precursor or mature miRNA",
+    "labels": [
+      {
+        "name": "mature / hairpin / accession",
+        "meaning": "miRNA sequence/processing annotation",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.mirbase.org/download/CURRENT/"
+      ],
+      "formats": [
+        "FASTA",
+        "GFF"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.mirbase.org/download/CURRENT/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "mirna",
+      "sequence_reference"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Release directory advertises23.1; retain source LICENSE and version with export.",
+      "A miRNA reference does not measure cell-specific miRNA activity or prove a target interaction."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "geo",
+    "name": "NCBI Gene Expression Omnibus",
+    "kind": "archive",
+    "topics": [
+      "discovery",
+      "expression",
+      "assay_metadata"
+    ],
+    "rna_scope": [
+      "RNA"
+    ],
+    "description": "Primary functional-genomics study/sample metadata and processed files across RNA assays.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/gds/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Series, sample or submitted processed observation",
+    "labels": [
+      {
+        "name": "study-specific labels",
+        "meaning": "Endpoint and units vary by submitted assay; no universal expression target",
+        "label_type": "unknown",
+        "unit": "unknown",
+        "resolution": "unknown"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/gds/"
+      ],
+      "formats": [
+        "SOFT",
+        "MINiML",
+        "TSV",
+        "study-specific"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/gds/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "discovery",
+      "expression",
+      "assay_metadata"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "SuperSeries and SubSeries overlap; resolve assay-specific subseries before use.",
+      "Series abstract can describe the entire paper while a subseries contains only a companion assay."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "sra",
+    "name": "NCBI Sequence Read Archive",
+    "kind": "archive",
+    "topics": [
+      "discovery",
+      "raw_evidence"
+    ],
+    "rna_scope": [
+      "DNA",
+      "RNA"
+    ],
+    "description": "Raw sequencing reads and run metadata, including RNA experiments.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/sra/docs/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Study, BioSample, experiment or run",
+    "labels": [
+      {
+        "name": "library / organism / sample descriptors",
+        "meaning": "Metadata describing raw evidence; functional targets require assay-specific processing",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "mixed",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/sra/docs/"
+      ],
+      "formats": [
+        "SRA",
+        "FASTQ",
+        "BAM"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/sra/docs/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "discovery",
+      "raw_evidence"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "INSDC mirrors are not independent experiments.",
+      "Some human sequencing is controlled; metadata visibility is not data-access authorization."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "geo",
+      "ena"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "ena",
+    "name": "European Nucleotide Archive",
+    "kind": "archive",
+    "topics": [
+      "discovery",
+      "raw_evidence"
+    ],
+    "rna_scope": [
+      "DNA",
+      "RNA"
+    ],
+    "description": "INSDC sequencing archive with public study/sample/run reports and file manifests.",
+    "source_urls": [
+      "https://ena-docs.readthedocs.io/en/latest/retrieval/programmatic-access.html"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Study, sample, experiment or run",
+    "labels": [
+      {
+        "name": "run / library descriptors",
+        "meaning": "Assay metadata and file provenance rather than a harmonized functional target",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "mixed",
+      "data_urls": [
+        "https://ena-docs.readthedocs.io/en/latest/retrieval/programmatic-access.html"
+      ],
+      "formats": [
+        "FASTQ",
+        "BAM",
+        "CRAM",
+        "TSV",
+        "XML"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://ena-docs.readthedocs.io/en/latest/retrieval/programmatic-access.html",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "discovery",
+      "raw_evidence"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Cross-map BioProject and INSDC accessions to avoid mirror duplicates.",
+      "An empty query is not proof that a study never released data."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "sra"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "encode",
+    "name": "ENCODE RNA experiments",
+    "kind": "database",
+    "topics": [
+      "expression",
+      "rbp_binding",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Released RNA-seq, long-read RNA, eCLIP, RNA Bind-n-Seq and perturbation data with assay standards and audits.",
+    "source_urls": [
+      "https://www.encodeproject.org/data-standards/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [
+      "RNA-seq",
+      "eCLIP",
+      "RBNS",
+      "perturbation RNA-seq"
+    ],
+    "observation_unit": "Experiment/file, gene expression estimate or RBP peak",
+    "labels": [
+      {
+        "name": "counts / abundance",
+        "meaning": "RNA expression quantification; source normalization applies",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "eCLIP peak / IDR",
+        "meaning": "RBP binding evidence with replicate/control provenance",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "interval"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.encodeproject.org/data-standards/"
+      ],
+      "formats": [
+        "FASTQ",
+        "BAM",
+        "BED",
+        "bigWig",
+        "TSV",
+        "JSON"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.encodeproject.org/data-standards/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "expression",
+      "rbp_binding",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Preserve size-matched input, RBP identity, replicate, audit flags and assay.",
+      "RBP binding and perturbation effects are not direct translation-efficiency labels."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "gtex",
+    "name": "GTEx",
+    "kind": "database",
+    "topics": [
+      "expression",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Tissue-context gene/transcript expression and QTL resources, with open processed data and controlled donor/raw data.",
+    "source_urls": [
+      "https://www.gtexportal.org/home/faq"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Normal human tissue cohorts; donor covariates and tissue mixture matter",
+    "assays": [
+      "bulk RNA-seq"
+    ],
+    "observation_unit": "Gene/transcript by donor/tissue sample",
+    "labels": [
+      {
+        "name": "TPM",
+        "meaning": "RNA abundance in transcripts per million",
+        "label_type": "measured",
+        "unit": "TPM",
+        "resolution": "transcript"
+      },
+      {
+        "name": "QTL statistics",
+        "meaning": "Genotype-expression association, not a direct synthetic-sequence perturbation label",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "mixed",
+      "data_urls": [
+        "https://www.gtexportal.org/home/faq"
+      ],
+      "formats": [
+        "GCT",
+        "TSV",
+        "VCF"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.gtexportal.org/home/faq",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "expression",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Raw sequencing and protected donor fields require authorized access.",
+      "Bulk tissue expression is a mixture of cell populations; it is not matched synthetic mRNA specificity."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "human-cell-atlas",
+    "name": "Human Cell Atlas Data Portal",
+    "kind": "database",
+    "topics": [
+      "expression",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Single-cell and other human atlas projects with project, donor, sample and matrix metadata.",
+    "source_urls": [
+      "https://data.humancellatlas.org/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [
+      "scRNA-seq",
+      "multi-omics"
+    ],
+    "observation_unit": "Cell-by-gene measurement with project/sample context",
+    "labels": [
+      {
+        "name": "gene expression counts",
+        "meaning": "Assay-specific observed gene counts",
+        "label_type": "measured",
+        "unit": "source read/UMI counts",
+        "resolution": "cell"
+      },
+      {
+        "name": "cell identity",
+        "meaning": "Curated or inferred cell annotation with source-specific uncertainty",
+        "label_type": "annotation",
+        "unit": "category",
+        "resolution": "cell"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://data.humancellatlas.org/"
+      ],
+      "formats": [
+        "matrix",
+        "H5AD",
+        "MTX",
+        "metadata manifest"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://data.humancellatlas.org/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "expression",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Cell labels have source-specific uncertainty and ontology mappings.",
+      "Expression identifies potential sensing inputs but does not validate a sensor response."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "cellxgene-census",
+    "name": "CZ CELLxGENE Census",
+    "kind": "derived_resource",
+    "topics": [
+      "expression",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Versioned single-cell corpus with standardized cell/gene metadata and queryable slices.",
+    "source_urls": [
+      "https://chanzuckerberg.github.io/cellxgene-census/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Cell-by-gene count plus cell/dataset metadata",
+    "labels": [
+      {
+        "name": "counts",
+        "meaning": "Molecule or full-gene read counts depending on assay; preserve assay",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "cell_type / tissue / disease",
+        "meaning": "Source cell-state annotations",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "cell"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://chanzuckerberg.github.io/cellxgene-census/"
+      ],
+      "formats": [
+        "TileDB-SOMA",
+        "AnnData",
+        "Arrow"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://chanzuckerberg.github.io/cellxgene-census/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "expression",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Filter duplicate cells using is_primary_data; retain original dataset citations.",
+      "UMI and full-length read counts are not directly interchangeable.",
+      "Dataset licenses and donor/project splits remain source-specific."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "human-cell-atlas"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "archs4",
+    "name": "ARCHS4",
+    "kind": "derived_resource",
+    "topics": [
+      "expression",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Uniformly processed public RNA-seq expression with GEO/SRA metadata; current portal moved to archs4.org.",
+    "source_urls": [
+      "https://maayanlab.cloud/archs4/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Gene/transcript by source sample",
+    "labels": [
+      {
+        "name": "gene/transcript counts",
+        "meaning": "Quantified RNA abundance; pipeline and release determine identifier and scaling",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://archs4.org/",
+        "https://maayanlab.cloud/archs4/download.html"
+      ],
+      "formats": [
+        "HDF5",
+        "TSV"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://maayanlab.cloud/archs4/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "expression",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Old download page lists older releases; do not call its version the current global release.",
+      "Overlaps raw GEO/SRA and other reanalyses; source sample is the deduplication key."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "geo",
+      "sra",
+      "recount3"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "recount3",
+    "name": "recount3",
+    "kind": "derived_resource",
+    "topics": [
+      "expression",
+      "splicing",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Uniformly processed human/mouse RNA-seq gene, exon and exon-junction counts plus coverage.",
+    "source_urls": [
+      "https://rna.recount.bio/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Sample by gene/exon/junction or genomic coverage bin",
+    "labels": [
+      {
+        "name": "coverage/count",
+        "meaning": "Processed sequence evidence; package-specific scaling is required",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "junction count",
+        "meaning": "Splice junction support",
+        "label_type": "measured",
+        "unit": "count",
+        "resolution": "interval"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://rna.recount.bio/"
+      ],
+      "formats": [
+        "bigWig",
+        "TSV",
+        "RangedSummarizedExperiment"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://rna.recount.bio/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "expression",
+      "splicing",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Gene/exon/junction units differ; retain reference and normalization.",
+      "Many source studies overlap other portals."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "geo",
+      "sra",
+      "archs4"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "expression-atlas",
+    "name": "EMBL-EBI Expression Atlas",
+    "kind": "derived_resource",
+    "topics": [
+      "expression",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Baseline and differential expression studies with download indexes, processed counts and analysis results.",
+    "source_urls": [
+      "https://www.ebi.ac.uk/gxa/download.html"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Gene by condition/sample or differential contrast",
+    "labels": [
+      {
+        "name": "counts / baseline abundance",
+        "meaning": "RNA-seq expression quantification",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "log2 fold change / significance",
+        "meaning": "Processed contrast-specific differential expression",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ebi.ac.uk/gxa/download.html"
+      ],
+      "formats": [
+        "TSV",
+        "R object",
+        "ZIP"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ebi.ac.uk/gxa/download.html",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "expression",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Differential tables are not raw abundance matrices; preserve contrast definition.",
+      "Absent rows in filtered downloads are not expression zeros."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "geo"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "human-protein-atlas-rna",
+    "name": "Human Protein Atlas RNA expression downloads",
+    "kind": "database",
+    "topics": [
+      "expression",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Tissue, cell-line and cell-type RNA expression tables alongside distinct protein modalities.",
+    "source_urls": [
+      "https://www.proteinatlas.org/about/download"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Human tissue, immune, cell-line and single-cell reference contexts",
+    "assays": [],
+    "observation_unit": "Gene by tissue/cell context",
+    "labels": [
+      {
+        "name": "RNA abundance",
+        "meaning": "RNA expression quantification; source table defines normalization",
+        "label_type": "measured",
+        "unit": "source normalized abundance",
+        "resolution": "gene"
+      },
+      {
+        "name": "specificity score / class",
+        "meaning": "Derived expression specificity score or classification; not a directly measured response",
+        "label_type": "computed",
+        "unit": "score/category",
+        "resolution": "gene"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.proteinatlas.org/about/download"
+      ],
+      "formats": [
+        "TSV",
+        "JSON",
+        "XML"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.proteinatlas.org/about/download",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "expression",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Keep RNA and protein evidence separate.",
+      "Reference cell-type expression does not establish physical mRNA delivery or response to a regulatory design."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "rpfdb3",
+    "name": "RPFdb v3",
+    "kind": "database",
+    "topics": [
+      "translation",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Reprocessed Ribo-seq and matched RNA-seq resources, ORF annotations and pausing summaries.",
+    "source_urls": [
+      "https://sysbio.gzzoc.com/rpfdb/index.html"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [
+      "Ribo-seq",
+      "matched RNA-seq"
+    ],
+    "observation_unit": "Gene/ORF or position by biological sample",
+    "labels": [
+      {
+        "name": "ribosome occupancy",
+        "meaning": "Ribosome-protected fragment signal",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "translation efficiency",
+        "meaning": "Source-defined comparison of ribosome occupancy and matched RNA abundance",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "pause score",
+        "meaning": "Processed tripeptide-motif pausing score; exact table schema remains unchecked",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "unknown"
+      }
+    ],
+    "scale": {
+      "value": 5018,
+      "unit": "Ribo-seq samples advertised on v3 page",
+      "basis": "Source-reported; not independent biological replicates or current global total",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://sysbio.gzzoc.com/rpfdb/index.html"
+      ],
+      "formats": [
+        "tracks",
+        "tables"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://sysbio.gzzoc.com/rpfdb/index.html",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "translation",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Matched RNA-seq exists for a subset, not every Ribo-seq sample.",
+      "Preserve P-site/periodicity quality, source studies and TE definition; TE is not mean ribosome load."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "riboseq-org",
+    "name": "RiboSeq.Org portal family",
+    "kind": "database",
+    "topics": [
+      "translation",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Ribo-seq data portal plus genome/transcript browsers and processing tools.",
+    "source_urls": [
+      "https://riboseq.org/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [
+      "Ribo-seq"
+    ],
+    "observation_unit": "Ribo-seq sample or processed track",
+    "labels": [
+      {
+        "name": "ribosome footprint coverage",
+        "meaning": "Processed RPF evidence; ORF and translation summaries depend on pipeline",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://riboseq.org/"
+      ],
+      "formats": [
+        "browser tracks",
+        "processed files"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://riboseq.org/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "translation",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Portal, GWIPS-viz and Trips-viz views may show the same source experiments.",
+      "Do not add sample counts from overlapping Ribo-seq resources."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rpfdb3",
+      "sra"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "postar3",
+    "name": "POSTAR3",
+    "kind": "database",
+    "topics": [
+      "rbp_binding",
+      "post_transcriptional_regulation"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "ncRNA"
+    ],
+    "description": "Integrated CLIP-derived RBP interaction data and other post-transcriptional annotations.",
+    "source_urls": [
+      "https://doi.org/10.1093/nar/gkab702"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [
+      "CLIP variants"
+    ],
+    "observation_unit": "RBP-site interaction or annotated RNA region",
+    "labels": [
+      {
+        "name": "RBP binding interval",
+        "meaning": "CLIP-derived binding evidence; protocol and support vary",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "interval"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "http://postar.ncrnalab.org/"
+      ],
+      "formats": [
+        "BED",
+        "tables"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1093/nar/gkab702",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "rbp_binding",
+      "post_transcriptional_regulation"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Different CLIP technologies and callers have different resolution/background.",
+      "Database integrates source datasets; interaction counts are not independent experiments."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "encori",
+    "name": "ENCORI / starBase",
+    "kind": "database",
+    "topics": [
+      "rbp_binding",
+      "mirna",
+      "rna_interaction"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "ncRNA",
+      "miRNA"
+    ],
+    "description": "RNA-RNA, miRNA-target and RBP-RNA interaction resources with query/download APIs.",
+    "source_urls": [
+      "https://www.rnasysu.com/encori/tutorialAPI.php"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [
+      "CLIP",
+      "RNA interaction assays"
+    ],
+    "observation_unit": "Interaction pair with support/assembly metadata",
+    "labels": [
+      {
+        "name": "CLIP support / interaction evidence",
+        "meaning": "Evidence-supported interaction annotation; keep prediction and experimental support distinct",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "interval"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.rnasysu.com/encori/tutorialAPI.php"
+      ],
+      "formats": [
+        "API tables",
+        "TSV"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.rnasysu.com/encori/tutorialAPI.php",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "rbp_binding",
+      "mirna",
+      "rna_interaction"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Filter by assembly and evidence type; correlation or predicted targeting is not causal repression.",
+      "ENCORI and starBase are aliases rather than independent datasets."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "attract",
+    "name": "ATtRACT",
+    "kind": "reference",
+    "topics": [
+      "rbp_binding",
+      "motif"
+    ],
+    "rna_scope": [
+      "RNA"
+    ],
+    "description": "Experimentally supported RNA-binding proteins and associated motif annotations.",
+    "source_urls": [
+      "https://attract.cnic.es/documentation"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "RBP motif and source-evidence record",
+    "labels": [
+      {
+        "name": "motif / PWM",
+        "meaning": "Binding preference model/annotation rather than cellular expression",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://attract.cnic.es/documentation"
+      ],
+      "formats": [
+        "motif matrices",
+        "tables"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://attract.cnic.es/documentation",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "rbp_binding",
+      "motif"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Motifs are context-independent priors; a motif match is not evidence of binding or cell specificity.",
+      "Preserve assay, species and motif source."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "rnalocate",
+    "name": "RNALocate",
+    "kind": "database",
+    "topics": [
+      "subcellular_localization"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "ncRNA"
+    ],
+    "description": "RNA subcellular localization records with separately downloadable experimental and prediction data.",
+    "source_urls": [
+      "https://www.rnalocate.org/download"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "RNA-localization-context association",
+    "labels": [
+      {
+        "name": "localization",
+        "meaning": "Compartment annotation; experimental and predicted entries must remain separate",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.rnalocate.org/download"
+      ],
+      "formats": [
+        "tables",
+        "API"
+      ],
+      "license": "Non-commercial use/distribution with citation; commercial users must contact source",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.rnalocate.org/download",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "subcellular_localization"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Subcellular localization is not cell-type specificity.",
+      "Experimental records and model predictions are separate downloads."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "rasp2",
+    "name": "RASP v2",
+    "kind": "database",
+    "topics": [
+      "structure_probing",
+      "rna_interaction"
+    ],
+    "rna_scope": [
+      "RNA"
+    ],
+    "description": "Transcriptome-wide/targeted RNA probing and RNA-RNA interaction datasets; some tracks have imputed missing values.",
+    "source_urls": [
+      "https://doi.org/10.1093/nar/gkae1117"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkae1117"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [
+      "SHAPE",
+      "DMS",
+      "proximity ligation"
+    ],
+    "observation_unit": "Nucleotide reactivity or interaction pair under assay condition",
+    "labels": [
+      {
+        "name": "reactivity",
+        "meaning": "Chemical-probing signal under source normalization",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "imputed reactivity",
+        "meaning": "Model-filled missing signal; not measured ground truth",
+        "label_type": "prediction",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://rasp2.zhanglab.net/download/"
+      ],
+      "formats": [
+        "tracks",
+        "tables"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1093/nar/gkae1117",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "structure_probing",
+      "rna_interaction"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Keep raw versus imputed track identity and probe.",
+      "Probing conditions/in-vivo status affect interpretation; reactivity is not a binary pairing truth."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "rmdb",
+    "name": "RNA Mapping Database",
+    "kind": "database",
+    "topics": [
+      "structure_probing"
+    ],
+    "rna_scope": [
+      "RNA"
+    ],
+    "description": "Curated quantitative RNA mapping experiments; current static site/release hosting replaced old server in May2026.",
+    "source_urls": [
+      "https://github.com/DasLab/Server_RMDB"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "RNA construct by nucleotide and condition",
+    "labels": [
+      {
+        "name": "reactivity / uncertainty",
+        "meaning": "Experimental chemical accessibility with condition/probe metadata",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://rmdb.stanford.edu/",
+        "https://github.com/DasLab/rmdb.github.io/releases"
+      ],
+      "formats": [
+        "RDAT"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://github.com/DasLab/Server_RMDB",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "structure_probing"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Current RDAT assets are on release-category tags; old server API assumptions may fail.",
+      "Designed constructs and repeated conditions are not independent natural transcripts."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rasp2"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "bprna",
+    "name": "bpRNA-1m",
+    "kind": "reference",
+    "topics": [
+      "secondary_structure"
+    ],
+    "rna_scope": [
+      "RNA"
+    ],
+    "description": "RNA secondary structures with structural-feature annotations and source-method metadata.",
+    "source_urls": [
+      "https://bprna.cgrb.oregonstate.edu/help.php"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "RNA secondary-structure record",
+    "labels": [
+      {
+        "name": "base pairs / structural class",
+        "meaning": "Structural annotation derived from heterogeneous comparative/experimental sources",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://bprna.cgrb.oregonstate.edu/help.php"
+      ],
+      "formats": [
+        "ST",
+        "DBN",
+        "CT"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://bprna.cgrb.oregonstate.edu/help.php",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "secondary_structure"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Source annotation and validation methods differ; not all labels are independently measured structures.",
+      "Homology/family overlap can produce leakage."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "pdb-rna",
+    "name": "PDB experimental RNA structures",
+    "kind": "archive",
+    "topics": [
+      "tertiary_structure"
+    ],
+    "rna_scope": [
+      "RNA",
+      "RNA-protein complexes"
+    ],
+    "description": "Experimental macromolecular structures; RNA-containing entries can be selected with method/quality metadata.",
+    "source_urls": [
+      "https://www2.rcsb.org/downloads"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [
+      "X-ray",
+      "NMR",
+      "cryo-EM"
+    ],
+    "observation_unit": "Structural entry, RNA chain or atom coordinate",
+    "labels": [
+      {
+        "name": "coordinates / validation metadata",
+        "meaning": "Experimental structure model, not direct functional/translation output",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www2.rcsb.org/downloads"
+      ],
+      "formats": [
+        "PDBx/mmCIF",
+        "PDB",
+        "PDBML"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www2.rcsb.org/downloads",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "tertiary_structure"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Deposited coordinates are fitted structural models with method-specific uncertainty.",
+      "Complex fragments, crystal conditions and RNA families bias coverage."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "saluki-half-life",
+    "name": "Saluki half-life corpus",
+    "kind": "benchmark",
+    "topics": [
+      "stability"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Human/mouse half-life collections with raw sparse matrices, processed matrices and aggregate consensus targets.",
+    "source_urls": [
+      "https://link.springer.com/article/10.1186/s13059-022-02811-x"
+    ],
+    "paper_doi": [
+      "10.1186/s13059-022-02811-x"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Gene/transcript with per-study half-life and consensus score",
+    "labels": [
+      {
+        "name": "individual half-life",
+        "meaning": "Study-specific decay estimate; original units/method required",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "PC1 consensus",
+        "meaning": "First principal component of filtered/transformed/imputed/normalized half-life matrix; not literal hours",
+        "label_type": "computed",
+        "unit": "unitless",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://zenodo.org/records/6326409",
+        "https://github.com/vagarwal87/saluki_paper"
+      ],
+      "formats": [
+        "XLSX",
+        "ZIP",
+        "HDF5"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://link.springer.com/article/10.1186/s13059-022-02811-x",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "stability"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Do not relabel PCA consensus as half-life in hours.",
+      "Retain missingness/imputation and individual assay provenance; aggregate can hide context differences."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "utr-seq-zebrafish",
+    "name": "UTR-Seq zebrafish reporter timecourses",
+    "kind": "study",
+    "topics": [
+      "stability",
+      "utr_function"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Reporter UTR timecourse analysis; public repository includes an example rather than proof of the entire experimental release.",
+    "source_urls": [
+      "https://github.com/rabanilab/UTR-Seq"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Zebrafish embryogenesis; source-specific A+/A- conditions",
+    "assays": [
+      "UTR reporter timecourse"
+    ],
+    "observation_unit": "Reporter UTR by timepoint",
+    "labels": [
+      {
+        "name": "AR01..AR11",
+        "meaning": "Timecourse abundance columns; time mapping comes from source documentation",
+        "label_type": "measured",
+        "unit": "counts",
+        "resolution": "transcript"
+      },
+      {
+        "name": "decay parameters",
+        "meaning": "Fitted reporter degradation properties",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://github.com/rabanilab/UTR-Seq"
+      ],
+      "formats": [
+        "TXT",
+        "Matlab"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://github.com/rabanilab/UTR-Seq",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "stability",
+      "utr_function"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Example data is not the entire experiment.",
+      "Timepoint labels must be mapped from README; abundance counts are not already half-life."
+    ],
+    "related_model_ids": [
+      "P022"
+    ],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "k562-slamseq",
+    "name": "K562 SLAM-seq endogenous decay",
+    "kind": "study",
+    "topics": [
+      "stability"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "SLAM-seq for K562 endogenous mRNA decay",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126522"
+    ],
+    "paper_doi": [],
+    "accessions": [
+      "GSE126522"
+    ],
+    "organisms": [],
+    "biological_context": "K562 endogenous mRNA decay",
+    "assays": [
+      "SLAM-seq"
+    ],
+    "observation_unit": "Gene/transcript by timepoint",
+    "labels": [
+      {
+        "name": "conversion-aware abundance / decay",
+        "meaning": "Metabolic-labeling-based decay observations and fitted estimates; preserve exact fit/unit",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 16,
+      "unit": "GEO sample records",
+      "basis": "Counted in live series metadata; not independent biological replicates",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126522",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE126nnn/GSE126522/suppl/GSE126522_RNAlevels.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE126nnn/GSE126522/suppl/GSE126522_time_course_slam_CPM.csv.gz"
+      ],
+      "formats": [
+        "GEO metadata",
+        "source processed files",
+        "SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126522",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126522&targ=self&form=text&view=brief",
+          "supports": "Live SOFT series title, design, subseries relationships, sample IDs and supplementary filenames"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "stability"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "GSE126523 is the parent SuperSeries; do not count parent and this child as independent data.",
+      "Retain timepoint, replicate and conversion/QC metadata."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "geo",
+      "sra"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "human-cell-decay",
+    "name": "Human 293T/HeLa/RPE endogenous decay",
+    "kind": "study",
+    "topics": [
+      "stability",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "endogenous mRNA decay in 293t, hela, RPE cell line",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126520"
+    ],
+    "paper_doi": [],
+    "accessions": [
+      "GSE126520"
+    ],
+    "organisms": [],
+    "biological_context": "See source sample/condition metadata",
+    "assays": [
+      "RNA-seq decay timecourse"
+    ],
+    "observation_unit": "Gene/transcript by cell/timepoint",
+    "labels": [
+      {
+        "name": "abundance timecourse / decay",
+        "meaning": "Condition-specific endogenous decay measurements",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 28,
+      "unit": "GEO sample records",
+      "basis": "Counted in live series metadata; not independent biological replicates",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126520",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE126nnn/GSE126520/suppl/GSE126520_time_course_endogenous_genes.csv.gz"
+      ],
+      "formats": [
+        "GEO metadata",
+        "source processed files",
+        "SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126520",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126520&targ=self&form=text&view=brief",
+          "supports": "Live SOFT series title, design, subseries relationships, sample IDs and supplementary filenames"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "stability",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Different chase/label methods and cells are not interchangeable.",
+      "Shares paper and parent GSE126523 with SLAM/ORFome data."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "geo",
+      "sra"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "orfome-codon-decay",
+    "name": "ORFome reporter decay",
+    "kind": "study",
+    "topics": [
+      "stability",
+      "codon_usage"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "ORFome decay in 293t and k562",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126521"
+    ],
+    "paper_doi": [],
+    "accessions": [
+      "GSE126521"
+    ],
+    "organisms": [],
+    "biological_context": "See source sample/condition metadata",
+    "assays": [
+      "ORFome reporter timecourse"
+    ],
+    "observation_unit": "Reporter ORF by cell/timepoint",
+    "labels": [
+      {
+        "name": "reporter decay",
+        "meaning": "Decay outcome of ORFome constructs; not an endogenous same-gene assay",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 28,
+      "unit": "GEO sample records",
+      "basis": "Counted in live series metadata; not independent biological replicates",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126521",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE126nnn/GSE126521/suppl/GSE126521_ORFome_Ids.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE126nnn/GSE126521/suppl/GSE126521_barcodes_quantifications.csv.gz"
+      ],
+      "formats": [
+        "GEO metadata",
+        "source processed files",
+        "SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126521",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126521&targ=self&form=text&view=brief",
+          "supports": "Live SOFT series title, design, subseries relationships, sample IDs and supplementary filenames"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "stability",
+      "codon_usage"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Source SuperSeries includes separate endogenous assays.",
+      "Reporter composition and cell context affect transfer."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "geo",
+      "sra"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "full-length-human-utr",
+    "name": "Full-length human 3-prime UTR regulation study",
+    "kind": "study",
+    "topics": [
+      "utr_function",
+      "stability",
+      "translation"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "The quantitative impact of 3′UTRs on gene expression",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270254"
+    ],
+    "paper_doi": [],
+    "accessions": [
+      "GSE270254",
+      "GSE270247",
+      "GSE270248",
+      "GSE270249",
+      "GSE270252",
+      "GSE270253"
+    ],
+    "organisms": [],
+    "biological_context": "Human full-length UTR reporter study with distinct promoter contexts",
+    "assays": [
+      "amplicon-seq",
+      "RNA-seq",
+      "PRO-seq",
+      "miRNA-seq",
+      "plasmid-seq"
+    ],
+    "observation_unit": "UTR construct or companion assay sample",
+    "labels": [
+      {
+        "name": "RNA stability",
+        "meaning": "Reporter-specific stability outcome",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "translation / protein output",
+        "meaning": "Distinct reporter endpoints; not all present in every subseries",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "companion miRNA counts",
+        "meaning": "Small-RNA context measurement in GSE270249; not the reporter target itself",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 118,
+      "unit": "GEO sample records",
+      "basis": "Counted in live series metadata; not independent biological replicates",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270254"
+      ],
+      "formats": [
+        "GEO metadata",
+        "source processed files",
+        "SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270254",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270254&targ=self&form=text&view=brief",
+          "supports": "Live SOFT series title, design, subseries relationships, sample IDs and supplementary filenames"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "utr_function",
+      "stability",
+      "translation"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "GSE270249 alone is4sample miRNA-seq; reporter amplicon subseries isGSE270252.",
+      "Preserve promoter, reporter, library, normalization and biological replicate."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "geo",
+      "sra"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "single-cell-ribo",
+    "name": "Single-cell ribosome profiling",
+    "kind": "study",
+    "topics": [
+      "translation",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Ribosomal profiling in single cells reveals cell-cycle dependent translational pausing",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162060"
+    ],
+    "paper_doi": [],
+    "accessions": [
+      "GSE162060"
+    ],
+    "organisms": [],
+    "biological_context": "See source sample/condition metadata",
+    "assays": [
+      "scRibo-seq"
+    ],
+    "observation_unit": "Cell/condition by ribosome footprint or positional count",
+    "labels": [
+      {
+        "name": "ribosome footprint counts",
+        "meaning": "Direct RPF signal; sparse at single-cell scale",
+        "label_type": "measured",
+        "unit": "count",
+        "resolution": "position"
+      },
+      {
+        "name": "pausing summary",
+        "meaning": "Derived analysis of footprints; not a directly counted pausing target",
+        "label_type": "computed",
+        "unit": "source-defined score",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": 37,
+      "unit": "GEO sample records",
+      "basis": "Counted in live series metadata; not independent biological replicates",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162060",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_EE_Dis_layout.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_EE_Mid_layout.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_EE_Pro_layout.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_EE_RPFcounts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_EE_metadata.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_HEK293T_RPFcounts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_HEK293T_Starv_RPFcounts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_HEK293T_Starv_layout.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_HEK293T_Starv_metadata.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_HEK293T_layout.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_HEK293T_metadata.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE-FUCCI_RPFcounts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE-FUCCI_metadata.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE_G0_layout.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE_KO_layout.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE_MGI_layout.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE_Mit_layout.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE_SR2_layout.csv.gz"
+      ],
+      "formats": [
+        "GEO metadata",
+        "source processed files",
+        "SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162060",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162060&targ=self&form=text&view=brief",
+          "supports": "Live SOFT series title, design, subseries relationships, sample IDs and supplementary filenames"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "translation",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Single-cell footprint data is sparse; retain UMI/cell quality and cell-cycle labels.",
+      "Not interchangeable with ordinary scRNA-seq or ribosome-associated editing."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "geo",
+      "sra"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "cns-trap",
+    "name": "CNS cell-population TRAP atlas",
+    "kind": "study",
+    "topics": [
+      "translation",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Application of a translational profiling approach for the comparative analysis of CNS cell types.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13379"
+    ],
+    "paper_doi": [],
+    "accessions": [
+      "GSE13379"
+    ],
+    "organisms": [],
+    "biological_context": "Defined mouse CNS populations",
+    "assays": [
+      "TRAP",
+      "microarray"
+    ],
+    "observation_unit": "Gene by TRAP/input sample",
+    "labels": [
+      {
+        "name": "TRAP enrichment / array intensity",
+        "meaning": "Ribosome-associated RNA enrichment and microarray signal, not codon-level occupancy",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 107,
+      "unit": "GEO sample records",
+      "basis": "Counted in live series metadata; not independent biological replicates",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13379",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE13nnn/GSE13379/suppl/GSE13379_RAW.tar"
+      ],
+      "formats": [
+        "GEO metadata",
+        "source processed files",
+        "SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13379",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13379&targ=self&form=text&view=brief",
+          "supports": "Live SOFT series title, design, subseries relationships, sample IDs and supplementary filenames"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "translation",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "107GEO records are not107distinct cell populations or biological replicates.",
+      "Immunoprecipitation/input enrichment is not a Ribo-seq TE label."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "geo",
+      "sra"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "brain-ribostamp",
+    "name": "Mouse-brain single-cell and isoform Ribo-STAMP study",
+    "kind": "study",
+    "topics": [
+      "translation",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Single cell and isoform-specific translational profiling of the mouse brain",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314176"
+    ],
+    "paper_doi": [],
+    "accessions": [
+      "GSE314176",
+      "GSE275091",
+      "GSE275133",
+      "GSE276504",
+      "GSE314058",
+      "GSE314059"
+    ],
+    "organisms": [],
+    "biological_context": "Mouse brain, source-defined cell types and isoforms",
+    "assays": [
+      "Ribo-STAMP",
+      "short-read RNA-seq",
+      "long-read RNA-seq"
+    ],
+    "observation_unit": "Cell/transcript or bulk sample, assay-specific",
+    "labels": [
+      {
+        "name": "editing / ribosome association",
+        "meaning": "Ribosome-associated editing proxy, not direct ribosome footprints",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "cell / isoform annotation",
+        "meaning": "Cell identity and long-read isoform context",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "cell"
+      }
+    ],
+    "scale": {
+      "value": 25,
+      "unit": "GEO sample records",
+      "basis": "Counted in live series metadata; not independent biological replicates",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314176",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE314nnn/GSE314176/suppl/GSE314176_RAW.tar"
+      ],
+      "formats": [
+        "GEO metadata",
+        "source processed files",
+        "SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314176",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314176&targ=self&form=text&view=brief",
+          "supports": "Live SOFT series title, design, subseries relationships, sample IDs and supplementary filenames"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "translation",
+      "cell_context"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "SuperSeries has multiple assay-specific subseries; do not pool all samples as one measurement type.",
+      "Editing efficiency, expression and detection biases affect interpretation."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "geo",
+      "sra"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "mrnabench",
+    "name": "mRNABench dataset collection",
+    "kind": "benchmark",
+    "topics": [
+      "benchmark",
+      "stability",
+      "translation",
+      "localization"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Reusable dataset catalog and split logic for evaluating mRNA representations, with a linked Hugging Face collection.",
+    "source_urls": [
+      "https://github.com/morrislab/mRNABench"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Task-specific transcript/sequence example",
+    "labels": [
+      {
+        "name": "target",
+        "meaning": "Task-specific label; semantics differ across dataset cards",
+        "label_type": "unknown",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://huggingface.co/collections/morrislab/mrnabench-6825747c0b9253c3226078d9"
+      ],
+      "formats": [
+        "Hugging Face datasets",
+        "tables"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://github.com/morrislab/mRNABench",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "benchmark",
+      "stability",
+      "translation",
+      "localization"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Code AGPL does not define every source dataset license.",
+      "Redistributions overlap original studies; retain original papers and split definitions."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "saluki-half-life",
+      "rnalocate"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "polyasite",
+    "name": "PolyASite bulk and single-cell atlases",
+    "kind": "database",
+    "topics": [
+      "polyadenylation",
+      "transcript_annotation"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Curated cleavage/polyadenylation sites with bulk and newer single-cell-derived atlas flavors.",
+    "source_urls": [
+      "https://polyasite.unibas.ch/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [
+      "3-prime-end sequencing",
+      "single-cell3-prime RNA-seq"
+    ],
+    "observation_unit": "Poly(A) site/cluster by sample/context",
+    "labels": [
+      {
+        "name": "PAS coordinate / usage / confidence",
+        "meaning": "Inferred cleavage-site annotation and relative usage from3-prime sequencing",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://polyasite.unibas.ch/"
+      ],
+      "formats": [
+        "BED",
+        "tables"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://polyasite.unibas.ch/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "polyadenylation",
+      "transcript_annotation"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Bulk and single-cell atlas releases have different evidence/filtering.",
+      "Internal priming, motif confidence and site clustering affect labels."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "polya-db",
+    "name": "PolyA_DB3",
+    "kind": "database",
+    "topics": [
+      "polyadenylation"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Cleavage/polyadenylation-site catalogs based on sequencing across multiple genomes.",
+    "source_urls": [
+      "https://exon.apps.wistar.org/polya_db/v3/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Poly(A) site",
+    "labels": [
+      {
+        "name": "cleavage coordinate",
+        "meaning": "Sequence-supported site annotation",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://exon.apps.wistar.org/polya_db/v3/"
+      ],
+      "formats": [
+        "tables",
+        "browser tracks"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://exon.apps.wistar.org/polya_db/v3/",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "polyadenylation"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Preserve genome assembly, transcript model and site-support definition.",
+      "Overlapping source studies with other PAS catalogs are not independent examples."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "polyasite"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "aparent2",
+    "name": "APARENT2 training data",
+    "kind": "benchmark",
+    "topics": [
+      "polyadenylation",
+      "utr_function"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Source training-data and model release for alternative polyadenylation/cleavage prediction.",
+    "source_urls": [
+      "https://zenodo.org/records/7317446"
+    ],
+    "paper_doi": [
+      "10.1186/s13059-022-02799-4"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "Sequence construct with cleavage/profile target",
+    "labels": [
+      {
+        "name": "cleavage / APA target",
+        "meaning": "Reporter-derived polyadenylation and cleavage endpoint; preserve source-specific normalization",
+        "label_type": "measured",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://zenodo.org/records/7317446",
+        "https://github.com/johli/aparent-resnet"
+      ],
+      "formats": [
+        "release archives"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://zenodo.org/records/7317446",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "polyadenylation",
+      "utr_function"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "Model weights and training data are distinct assets in a combined release.",
+      "Cleavage/APA is not a direct protein-expression label."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "openprot",
+    "name": "OpenProt",
+    "kind": "reference",
+    "topics": [
+      "orf_annotation",
+      "translation"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "ncRNA coding potential"
+    ],
+    "description": "Canonical and alternative ORF/protein annotations with separable experimental-support filters.",
+    "source_urls": [
+      "https://api.openprot.org/downloads"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Varies by contributing study; retain source sample metadata",
+    "assays": [],
+    "observation_unit": "ORF/protein annotation linked to transcript",
+    "labels": [
+      {
+        "name": "ORF identity / support",
+        "meaning": "Predicted coding potential and evidence flags; selected mass-spectrometry support is distinct",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Not independently counted; freeze source release before acquisition",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://api.openprot.org/downloads"
+      ],
+      "formats": [
+        "TSV",
+        "FASTA",
+        "BED"
+      ],
+      "license": "unknown",
+      "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://api.openprot.org/downloads",
+          "supports": "Resource identity, available label types and access route described in primary source documentation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Metadata/schema review is not inspection of every underlying dataset file."
+      ]
+    },
+    "ml_tasks": [
+      "orf_annotation",
+      "translation"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Context annotation can support stratified analysis; it does not establish selective expression or delivery of a synthetic construct."
+    },
+    "integration_caveats": [
+      "All predicted ORFs are not all translated proteins.",
+      "Use explicit ribosome/MS support categories and transcript/assembly versions."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  }
+]

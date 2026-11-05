@@ -1,0 +1,3283 @@
+[
+  {
+    "id": "modomics",
+    "name": "MODOMICS (2025 update)",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "lncRNA",
+      "tRNA",
+      "rRNA",
+      "other RNA"
+    ],
+    "description": "Reference catalog of modified residues, modification machinery and annotated RNA positions; includes natural and synthetic residue chemistry rather than a synthetic-mRNA expression screen.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12807697/",
+      "https://genesilico.pl/modomics/download"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkaf1284"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Cross-species reference chemistry and RNA annotations; new long-RNA annotations draw from Sci-ModoM.",
+    "assays": [
+      "literature curation",
+      "structure-supported annotation",
+      "integrated high-throughput modification mapping"
+    ],
+    "observation_unit": "A chemical-residue record, machinery record, or annotated modification position in an RNA reference; these tables have different units.",
+    "labels": [
+      {
+        "name": "modification identity",
+        "meaning": "Curated identity and nomenclature of a modified residue.",
+        "label_type": "annotation",
+        "unit": "category",
+        "resolution": "position"
+      },
+      {
+        "name": "annotated RNA modification position",
+        "meaning": "Evidence-filtered modification annotation on an RNA reference.",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://genesilico.pl/modomics/download"
+      ],
+      "formats": [
+        "MOL2",
+        "SDF",
+        "OWL Lite",
+        "N3",
+        "downloadable tables (paper-described)"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12807697/",
+          "supports": "2025 update describes chemistry, evidence framework, Sci-ModoM-derived long-RNA annotations and research access."
+        },
+        {
+          "url": "https://genesilico.pl/modomics/download",
+          "supports": "Current download page lists chemistry, ontology and modified-position exports."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Dataset license was not established from the download page; paper states free research access."
+      ]
+    },
+    "ml_tasks": [
+      "modification_nomenclature_harmonization",
+      "reference_annotation"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Reference identities and pooled annotations are not a cell-selectivity assay."
+    },
+    "integration_caveats": [
+      "The latest paper marks only sites passing cross-dataset evidence filters; other displayed bases are not verified unmodified negatives.",
+      "Do not pool residue chemistry records with position annotations or treat either as measured expression.",
+      "Sci-ModoM-derived annotations overlap the upstream resource."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "sci-modom"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "rmbase-v3",
+    "name": "RMBase v3.0",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "tRNA",
+      "rRNA",
+      "other RNA"
+    ],
+    "description": "Integrated modification maps and functional context assembled from heterogeneous epitranscriptomic assays and curated sources.",
+    "source_urls": [
+      "https://academic.oup.com/nar/article/52/D1/D273/7416807",
+      "https://bioinformaticsscience.cn/rmbase/download.php"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkad1070"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Multiple source studies; context must be retained per source record.",
+    "assays": [
+      "MeRIP-seq/m6A-seq",
+      "single-base modification profiling",
+      "curated MODOMICS and publication annotations"
+    ],
+    "observation_unit": "A source-supported modification site or enrichment region, with assay and reference assembly attached.",
+    "labels": [
+      {
+        "name": "RNA modification call",
+        "meaning": "Assay-derived or curated modification annotation; resolution follows its source.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "m6A enriched region",
+        "meaning": "Enrichment call from lower-resolution profiling, not a uniquely measured modified base.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "interval"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://bioinformaticsscience.cn/rmbase/download.php"
+      ],
+      "formats": [
+        "download tables (documented; files not inspected)"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://academic.oup.com/nar/article/52/D1/D273/7416807",
+          "supports": "Original v3 paper describes multi-species integration and distinguishes approximate 200-nt m6A maps from single-nucleotide annotations."
+        },
+        {
+          "url": "https://bioinformaticsscience.cn/rmbase/download.php",
+          "supports": "Indexed primary download documentation describes downloadable modification records and linked annotations."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Direct page fetch timed out; indexed primary documentation and original paper were inspected, but current file delivery was not verified."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "A missing call is unobserved under a source assay, not a confirmed unmodified base.",
+      "Retain assay, genome assembly, evidence provenance and interval-versus-position resolution.",
+      "Shares source studies and curated annotations with other modification databases; sizes must not be added."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "modomics",
+      "m6a-atlas-v2"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "m6a-atlas-v2",
+    "name": "m6A-Atlas v2.0",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "m6A atlas with high-resolution sites, lower-resolution MeRIP regions, condition-specific profiles and separate single-cell modules.",
+    "source_urls": [
+      "https://academic.oup.com/nar/article/52/D1/D194/7243455",
+      "https://rnamd.org/m6a/help.php"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkad691"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens",
+      "Mus musculus"
+    ],
+    "biological_context": "Multiple species and experimental conditions; human and mouse single-cell modules are explicitly documented.",
+    "assays": [
+      "base-resolution modification profiling",
+      "MeRIP-seq",
+      "scDART-seq",
+      "scm6A-seq"
+    ],
+    "observation_unit": "A modification site or MeRIP interval within an experimental context; single-cell profiles remain a separate observation family.",
+    "labels": [
+      {
+        "name": "high-resolution m6A site",
+        "meaning": "Site supported by a documented base-resolution assay.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "MeRIP m6A region",
+        "meaning": "m6A-enriched interval; cannot be promoted to single-base ground truth.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "interval"
+      },
+      {
+        "name": "condition-specific quantitative profile",
+        "meaning": "Assay-derived methylation profile with source-specific normalization.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "single-cell m6A profile",
+        "meaning": "Human scDART-seq or mouse scm6A-seq profile; preserve technology and cell identity.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "cell"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://rnamd.org/m6a/help.php"
+      ],
+      "formats": [
+        "CSV (documented DMR exports)"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://academic.oup.com/nar/article/52/D1/D194/7243455",
+          "supports": "Original v2 study describes integrated high-resolution and MeRIP data."
+        },
+        {
+          "url": "https://rnamd.org/m6a/help.php",
+          "supports": "Current help separates sites, enriched regions, quantitative contexts, single-cell modules and CSV differential-region export."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Help page gives inconsistent MeRIP sample totals in different sections; no single exact scale is asserted.",
+        "No downloadable profile was opened."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Multiple contexts and a single-cell module are documented; this does not establish general cell-selective expression."
+    },
+    "integration_caveats": [
+      "High-resolution sites, MeRIP intervals and single-cell profiles cannot share a single resolution label.",
+      "Absent calls are not confirmed unmodified controls.",
+      "Quantitative profiles from distinct assays and conditions require compatible normalization."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rmbase-v3",
+      "m5c-atlas"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "m6a2target",
+    "name": "m6A2Target",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Targets of m6A writers, erasers and readers, separated into low-throughput validated targets and high-throughput potential targets.",
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/32392583/",
+      "https://doi.org/10.1093/bib/bbaa055"
+    ],
+    "paper_doi": [
+      "10.1093/bib/bbaa055"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Multiple source studies; context must be retained per source record.",
+    "assays": [
+      "low-throughput validation curation",
+      "high-throughput regulator-target studies"
+    ],
+    "observation_unit": "A regulator-to-target-gene association supported by a stated experiment.",
+    "labels": [
+      {
+        "name": "validated target",
+        "meaning": "Writer, eraser or reader target curated from low-throughput evidence.",
+        "label_type": "annotation",
+        "unit": "association",
+        "resolution": "transcript"
+      },
+      {
+        "name": "potential target",
+        "meaning": "Regulator-associated target inferred from high-throughput studies; not equivalent to a proven direct target.",
+        "label_type": "computed",
+        "unit": "association",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unknown",
+      "data_urls": [
+        "http://m6a2target.canceromics.org/"
+      ],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32392583/",
+          "supports": "Original paper explicitly defines validated versus potential target modules and gives the resource endpoint."
+        },
+        {
+          "url": "https://doi.org/10.1093/bib/bbaa055",
+          "supports": "Original publication identity and target-association scope."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Current resource endpoint timed out; public availability is described by the paper, but current download access and formats are unknown.",
+        "Organism coverage and exact source-table schema were not established in this inspection."
+      ]
+    },
+    "ml_tasks": [
+      "regulator_target_annotation"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Regulator perturbation or binding evidence is not a measured modification site or proof of a causal modification effect.",
+      "Keep validated and potential target labels separate.",
+      "RM2Target is an expanded related resource, not an independent source of all associations."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rm2target"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "rm2target",
+    "name": "RM2Target",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "other RNA"
+    ],
+    "description": "Expanded regulator-target association database spanning writers, erasers and readers of multiple RNA modification classes.",
+    "source_urls": [
+      "https://doi.org/10.1093/nar/gkac945"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkac945"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Multiple source studies; context must be retained per source record.",
+    "assays": [
+      "literature curation",
+      "high-throughput regulator-target studies"
+    ],
+    "observation_unit": "An RNA-modification regulator-to-target association with source evidence.",
+    "labels": [
+      {
+        "name": "WER-target association",
+        "meaning": "Curated or high-throughput-inferred association involving a modification writer, eraser or reader.",
+        "label_type": "annotation",
+        "unit": "association",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unknown",
+      "data_urls": [
+        "http://rm2target.canceromics.org/"
+      ],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1093/nar/gkac945",
+          "supports": "Original paper describes expansion to regulators of nine modification classes, including Nm and A-to-I editing."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Current endpoint timed out; current downloadable formats and access terms were not established.",
+        "Paper describes two organisms; their identities were not independently extracted here."
+      ]
+    },
+    "ml_tasks": [
+      "regulator_target_annotation"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Target association does not equal a base-level modification measurement.",
+      "Evidence classes and assays must remain separate; perturbations can have indirect effects.",
+      "Overlaps m6A2Target rather than adding an independent measurement set."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "m6a2target"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "m6avar",
+    "name": "m6AVar (original release)",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Variant annotations for potential effects on m6A, stratified by experimental or predicted source evidence.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5753261/"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkx895"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Human germline/somatic variation with integrated transcript annotations and disease associations.",
+    "assays": [
+      "miCLIP",
+      "PA-m6A-seq",
+      "MeRIP-seq",
+      "sequence-based prediction"
+    ],
+    "observation_unit": "A genetic variant associated computationally with a possible change to an m6A site or local modification context.",
+    "labels": [
+      {
+        "name": "m6A-associated variant evidence class",
+        "meaning": "High/medium/low source strata based on base-resolution assays, MeRIP or sequence prediction.",
+        "label_type": "annotation",
+        "unit": "category",
+        "resolution": "position"
+      },
+      {
+        "name": "potential modification effect",
+        "meaning": "Inferred possible effect of a variant, not an experimentally measured effect for every allele.",
+        "label_type": "prediction",
+        "unit": "category",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unknown",
+      "data_urls": [
+        "http://m6avar.renlab.org"
+      ],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5753261/",
+          "supports": "Original paper defines assay-based confidence strata and transcriptome-wide random-forest predictions."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Legacy website delivery was not verified; paper-level resource metadata only."
+      ]
+    },
+    "ml_tasks": [
+      "variant_annotation",
+      "modification_effect_prediction"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Even the high-confidence class describes evidence supporting a source m6A location; it is not universal causal validation of a variant.",
+      "Prediction labels must not be used as measured chemical modification or expression.",
+      "Do not relabel RMVar 2.0 as a verified release named m6AVar2."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rmvar-v2"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "rmvar-v2",
+    "name": "RMVar 2.0",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "other RNA"
+    ],
+    "description": "Multi-modification variant resource with four source-evidence levels, including allele-specific MeRIP analysis and sequence-derived predictions.",
+    "source_urls": [
+      "https://doi.org/10.1093/nar/gkae924",
+      "https://rmvar.renlab.cn/"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkae924"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens",
+      "Mus musculus"
+    ],
+    "biological_context": "Human and mouse variants mapped to modification-associated annotations; disease links are separate annotations.",
+    "assays": [
+      "single-base modification-source integration",
+      "allele-specific MeRIP-seq analysis",
+      "motif analysis",
+      "sequence-based prediction"
+    ],
+    "observation_unit": "A variant-to-possible-modification-effect annotation with an explicit evidence level.",
+    "labels": [
+      {
+        "name": "RM gain/loss-associated variant",
+        "meaning": "Potential change inferred by overlap, motif analysis, allele-specific enrichment or prediction.",
+        "label_type": "prediction",
+        "unit": "category",
+        "resolution": "position"
+      },
+      {
+        "name": "evidence level",
+        "meaning": "Four source strata from single-base support through transcriptome-wide sequence prediction.",
+        "label_type": "annotation",
+        "unit": "category",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://rmvar.renlab.cn/"
+      ],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1093/nar/gkae924",
+          "supports": "Original 2.0 paper defines four evidence levels and derivation of potential modification gain/loss variants."
+        },
+        {
+          "url": "https://rmvar.renlab.cn/",
+          "supports": "Endpoint responds but returned no readable static content in this inspection."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Interactive database table schema and downloadable data were not inspected."
+      ]
+    },
+    "ml_tasks": [
+      "variant_annotation",
+      "modification_effect_prediction"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Source confidence is not direct causal evidence for each variant.",
+      "Disease annotation or GWAS linkage is not an experimentally measured modification effect.",
+      "Retain evidence levels; predicted effects cannot be pooled as observed modification labels."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "m6avar"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "m5c-atlas",
+    "name": "m5C-Atlas",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "tRNA",
+      "rRNA"
+    ],
+    "description": "Integrated RNA m5C site annotations and condition-specific RNA-bisulfite profiles with downloadable contextual metadata.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8728298/",
+      "https://rnamd.org/m5c-atlas/help.html",
+      "https://rnamd.org/m5c-atlas/download.html"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkab1075"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens",
+      "Mus musculus",
+      "Saccharomyces cerevisiae",
+      "Arabidopsis thaliana"
+    ],
+    "biological_context": "Multiple source studies; context must be retained per source record.",
+    "assays": [
+      "RNA bisulfite-seq",
+      "miCLIP",
+      "RBS-seq",
+      "m5C MeRIP",
+      "Aza-IP"
+    ],
+    "observation_unit": "A candidate m5C position in a reference assembly and its source assay/condition.",
+    "labels": [
+      {
+        "name": "m5C site",
+        "meaning": "Candidate site annotation from base-resolution assay sources; enrichment-only intervals are separate.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "condition-specific methylation level",
+        "meaning": "Coverage-dependent methylation estimate from RNA-bisulfite sequencing.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "m5C enrichment interval",
+        "meaning": "MeRIP/enrichment-based interval; cannot be treated as a resolved single-base call without supporting evidence",
+        "label_type": "computed",
+        "unit": "source enrichment/support",
+        "resolution": "interval"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://rnamd.org/m5c-atlas/download.html"
+      ],
+      "formats": [
+        "CSV",
+        "ZIP"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8728298/",
+          "supports": "Original paper describes integrated assays, quantitative conditions and conversion/structure limitations."
+        },
+        {
+          "url": "https://rnamd.org/m5c-atlas/help.html",
+          "supports": "Primary help defines candidate sites and metadata export."
+        },
+        {
+          "url": "https://rnamd.org/m5c-atlas/download.html",
+          "supports": "Download page separately lists sites, assays, contexts and reference assemblies."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Homepage/paper and help use differing species totals; no single exact scale is asserted.",
+        "Download page lists surprising assembly labels for some plants; reference identity requires file-level checking before use."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Condition-specific profiles span multiple cell lines/tissues; assay and coverage confounding remain."
+    },
+    "integration_caveats": [
+      "Incomplete bisulfite conversion and RNA structure can create false positives; noncalls are not verified unmodified negatives.",
+      "Source quality and mRNA coverage differ by organism and experiment.",
+      "tRNA mapping ambiguity and duplicate input studies require separate handling.",
+      "The integrated assay collection includes enrichment measurements; preserve interval versus base resolution and do not assign every source a single-position label."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rbs-seq-gse90963",
+      "ubs-seq-gse225614"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "m7ghub-v2",
+    "name": "m7GHub V2.0",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "tRNA",
+      "rRNA",
+      "other RNA"
+    ],
+    "description": "m7G collection with distinct base-resolution NGS, enrichment-region, nanopore and predicted variant-effect modules.",
+    "source_urls": [
+      "https://www.rnamd.org/m7GHub2/",
+      "https://www.rnamd.org/m7GHub2/help.html",
+      "https://www.rnamd.org/m7GHub2/download.html"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkad789"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens",
+      "Mus musculus",
+      "Saccharomyces cerevisiae",
+      "Danio rerio"
+    ],
+    "biological_context": "Multiple source studies; context must be retained per source record.",
+    "assays": [
+      "m7G-seq",
+      "m7G-MeRIP-seq",
+      "m7G-miCLIP-seq",
+      "m7G-MaP-seq",
+      "nanopore direct RNA sequencing"
+    ],
+    "observation_unit": "A source m7G site/region or a separately predicted m7G-associated variant.",
+    "labels": [
+      {
+        "name": "NGS base-resolution m7G annotation",
+        "meaning": "Source-identified base-level annotation.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "NGS m7G region",
+        "meaning": "Enrichment interval rather than a resolved modified nucleotide.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "interval"
+      },
+      {
+        "name": "ONT putative m7G site",
+        "meaning": "Nanopore-derived putative annotation; retain tool and evidence.",
+        "label_type": "prediction",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "m7G-associated variant",
+        "meaning": "Model-derived potential modification gain/loss annotation.",
+        "label_type": "prediction",
+        "unit": "category",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.rnamd.org/m7GHub2/download.html"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.rnamd.org/m7GHub2/",
+          "supports": "Primary homepage identifies release and separate source/prediction modules."
+        },
+        {
+          "url": "https://www.rnamd.org/m7GHub2/help.html",
+          "supports": "Help identifies ONT annotations as putative and separates variant predictions."
+        },
+        {
+          "url": "https://www.rnamd.org/m7GHub2/download.html",
+          "supports": "Download page separates base-resolution, region and nanopore exports."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Do not collapse intervals, base-level sites and ONT predictions into one ground-truth label.",
+      "Internal m7G annotations are not equivalent to cap identity or cap efficiency measurements.",
+      "Absence from a source assay is not proof of an unmodified guanosine."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rmbase-v3",
+      "directrmdb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "rediportal",
+    "name": "REDIportal (2025 publication)",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "other RNA"
+    ],
+    "description": "A-to-I RNA-editing reference with site annotations, sample-level editing levels and aggregated tissue/disease context.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701558/"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkae1083"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens",
+      "Mus musculus"
+    ],
+    "biological_context": "Human GTEx and TCGA RNA-seq contexts plus mouse tissue data; source-project provenance must be retained.",
+    "assays": [
+      "RNA-seq reanalysis",
+      "known-site annotation",
+      "selected proteomic support"
+    ],
+    "observation_unit": "An editing position with sample-specific RNA-seq support or a sample-level editing index.",
+    "labels": [
+      {
+        "name": "A-to-I editing site",
+        "meaning": "Known editing annotation and genomic context.",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "sample editing level",
+        "meaning": "RNA-seq-derived edited-read proportion at a covered site.",
+        "label_type": "computed",
+        "unit": "proportion",
+        "resolution": "position"
+      },
+      {
+        "name": "AEI/REI",
+        "meaning": "Aggregated editing indices; not site-level labels.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "mixed",
+      "data_urls": [
+        "http://srv00.recas.ba.infn.it/atlas/"
+      ],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701558/",
+          "supports": "Original update describes GTEx/TCGA contexts, site and sample tables, editing indices and mouse coverage."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Portal endpoint could not be fetched in this inspection; current export format unverified.",
+        "Derived annotations are public; access conditions for upstream human raw data must be checked independently."
+      ]
+    },
+    "ml_tasks": [
+      "rna_editing_prediction",
+      "tissue_association_analysis"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Sample/tissue context is documented across projects; pooled tissue labels do not imply cell-specific causality."
+    },
+    "integration_caveats": [
+      "A-to-G RNA evidence requires genomic-variant and mapping controls; not every mismatch proves editing.",
+      "A noncalled site can reflect insufficient expression/coverage rather than absence of editing.",
+      "Aggregated tissue support is not per-cell resolution; newer ONT modules discussed as future work in this publication are not assumed available."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "radar-editing",
+      "darned-editing"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "radar-editing",
+    "name": "RADAR",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "other RNA"
+    ],
+    "description": "Reference collection of A-to-I editing sites with manual annotations and tissue-specific editing levels from published RNA-seq.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3965033/"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkt996"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens",
+      "Mus musculus",
+      "Drosophila melanogaster"
+    ],
+    "biological_context": "Multiple source studies; context must be retained per source record.",
+    "assays": [
+      "published RNA-seq integration",
+      "manual literature annotation"
+    ],
+    "observation_unit": "An editing-site annotation and, when available, a tissue-specific editing-level observation.",
+    "labels": [
+      {
+        "name": "A-to-I editing annotation",
+        "meaning": "Published and curated editing-site membership.",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "tissue editing level",
+        "meaning": "RNA-seq-derived editing level in a stated tissue context.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unknown",
+      "data_urls": [
+        "http://RNAedit.com"
+      ],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3965033/",
+          "supports": "Original paper describes human, mouse and fly sites with tissue-specific editing levels."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Current legacy endpoint and downloadable files were not independently verified.",
+        "Article license does not by itself establish database export licensing."
+      ]
+    },
+    "ml_tasks": [
+      "rna_editing_reference_annotation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Tissue-specific RNA-seq levels are documented; these are pooled tissue observations."
+    },
+    "integration_caveats": [
+      "Historical assemblies and release timing must be retained.",
+      "Missing sites or tissue measurements are not verified unedited negatives.",
+      "Overlap with REDIportal and DARNED prevents additive counting."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rediportal",
+      "darned-editing"
+    ],
+    "priority": "context",
+    "status": "curated"
+  },
+  {
+    "id": "darned-editing",
+    "name": "DARNED (original human reference release)",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "other RNA"
+    ],
+    "description": "Historical literature-integrated editing-location database with genomic, transcript-region and tissue-source annotations.",
+    "source_urls": [
+      "https://academic.oup.com/bioinformatics/article/26/14/1772/178844"
+    ],
+    "paper_doi": [
+      "10.1093/bioinformatics/btq285"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Multiple source studies; context must be retained per source record.",
+    "assays": [
+      "literature and transcript-sequence evidence integration"
+    ],
+    "observation_unit": "An editing-location annotation mapped to a reference genome with source information.",
+    "labels": [
+      {
+        "name": "editing-location annotation",
+        "meaning": "Published RNA-editing instance, mainly A-to-I in the original release.",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "source tissue",
+        "meaning": "Tissue/cell source of supporting sequences rather than a quantitative specificity measurement.",
+        "label_type": "annotation",
+        "unit": "category",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unknown",
+      "data_urls": [
+        "http://darned.ucc.ie"
+      ],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article/26/14/1772/178844",
+          "supports": "Original paper defines the human resource, genomic mapping and tissue/region query fields."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "This record is scoped to the inspected 2010 paper, not an assertion about current site content or later organism additions.",
+        "Current legacy delivery and export format not verified."
+      ]
+    },
+    "ml_tasks": [
+      "rna_editing_reference_annotation"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Retain genome build and supporting-source provenance.",
+      "Tissue source does not establish exclusive editing in that tissue.",
+      "Unlisted positions are unobserved, not validated unedited negatives."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rediportal",
+      "radar-editing"
+    ],
+    "priority": "context",
+    "status": "curated"
+  },
+  {
+    "id": "directrmdb",
+    "name": "DirectRMDB",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "other RNA"
+    ],
+    "description": "Integrated direct-RNA-sequencing modification calls with isoform/context annotations and accompanying transcript expression estimates.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9825532/",
+      "https://www.rnamd.org/directRMDB/"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkac1061"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Multiple source studies; context must be retained per source record.",
+    "assays": [
+      "nanopore direct RNA sequencing",
+      "cross-technology annotation"
+    ],
+    "observation_unit": "A putative modification position supported by a specified ONT analysis tool/sample, linked to transcript context.",
+    "labels": [
+      {
+        "name": "putative modification site",
+        "meaning": "Computational call from nanopore direct-RNA data; support from other technologies is separately annotated.",
+        "label_type": "prediction",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "transcript expression level",
+        "meaning": "Computational abundance estimate from the associated DRS context, distinct from modification frequency.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.rnamd.org/directRMDB/"
+      ],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9825532/",
+          "supports": "Original paper describes isoform distribution, expression estimates and tool/sample evidence, and warns of false-positive sites."
+        },
+        {
+          "url": "https://www.rnamd.org/directRMDB/",
+          "supports": "Current landing page was accessible; no data table/file was opened."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Predicted chemistry/site identity must retain caller, controls and independent evidence.",
+      "Abundance and modification are separate endpoints with different units.",
+      "Isoform assignment is not equivalent to single-cell specificity; uncalled bases remain unobserved."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rmpore",
+      "rmbase-v3"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "sci-modom",
+    "name": "Sci-ModoM",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "lncRNA"
+    ],
+    "description": "Quantitative transcriptome-wide modification database retaining reported coverage and frequency in the standardized bedRMod representation.",
+    "source_urls": [
+      "https://scimodom.dieterichlab.org/",
+      "https://academic.oup.com/nar/article/53/D1/D310/7875981",
+      "https://dieterich-lab.github.io/scimodom/bedrmod.html"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkae972"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens",
+      "Mus musculus"
+    ],
+    "biological_context": "Multiple source studies; context must be retained per source record.",
+    "assays": [
+      "whole-transcriptome base-resolution modification assays"
+    ],
+    "observation_unit": "A modification position within one assay/context dataset with coverage, score and frequency.",
+    "labels": [
+      {
+        "name": "coverage/score",
+        "meaning": "Valid assay coverage reported for confidence assessment.",
+        "label_type": "computed",
+        "unit": "read/call count",
+        "resolution": "position"
+      },
+      {
+        "name": "frequency",
+        "meaning": "Reported modification frequency; preserve dataset technology and source definition.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://scimodom.dieterichlab.org/",
+        "https://dieterich-lab.github.io/scimodom/api.html"
+      ],
+      "formats": [
+        "bedRMod",
+        "REST API metadata"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://scimodom.dieterichlab.org/",
+          "supports": "Primary page documents quantitative datasets and free browsing without login."
+        },
+        {
+          "url": "https://academic.oup.com/nar/article/53/D1/D310/7875981",
+          "supports": "Original paper describes source-linked data integration and scope."
+        },
+        {
+          "url": "https://dieterich-lab.github.io/scimodom/bedrmod.html",
+          "supports": "Schema documentation specifies headers, coverage/frequency and 0-based half-open coordinates."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Schema documentation was inspected, not an exported dataset.",
+        "Source-code AGPL licensing was identified; it is not assumed to govern all contributed data."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Dataset contexts are retained; cross-context measurements need comparable coverage and assay."
+    },
+    "integration_caveats": [
+      "bedRMod coordinates are 0-based and half-open; conversions must be explicit.",
+      "Retain technology, assembly/annotation and context metadata; reported frequency is assay-dependent.",
+      "A missing row is unobserved under that dataset, not a proven unmodified base.",
+      "MODOMICS imports a filtered subset, so the resources overlap."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "modomics"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "rmpore",
+    "name": "RMPore",
+    "kind": "database",
+    "topics": [
+      "chemical_modification"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "other RNA"
+    ],
+    "description": "Recent multi-tool nanopore modification database with genomic/transcript annotations, confidence strata and supporting-tool/sample counts.",
+    "source_urls": [
+      "https://academic.oup.com/nar/article/54/D1/D291/8315799",
+      "https://rmpore.renlab.cn/"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Multiple source studies; context must be retained per source record.",
+    "assays": [
+      "nanopore direct RNA sequencing",
+      "multi-tool computational integration"
+    ],
+    "observation_unit": "A tool-derived modification call and its evidence at genomic or transcript position; some analyses retain molecule-level information.",
+    "labels": [
+      {
+        "name": "modification call",
+        "meaning": "Tool-derived putative modification identity/position.",
+        "label_type": "prediction",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "evidence level",
+        "meaning": "Source confidence stratum based on independent annotation/controls and supporting data.",
+        "label_type": "annotation",
+        "unit": "category",
+        "resolution": "position"
+      },
+      {
+        "name": "modification stoichiometry",
+        "meaning": "Caller-derived abundance of modified reads, not a uniformly validated chemical fraction.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://rmpore.renlab.cn/"
+      ],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://academic.oup.com/nar/article/54/D1/D291/8315799",
+          "supports": "Original paper documents multi-species DRS integration, tool-specific thresholds and confidence classes."
+        },
+        {
+          "url": "https://rmpore.renlab.cn/",
+          "supports": "Current endpoint responded without readable static table content."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Interactive table/export schema and data files were not inspected; no exact current site count asserted."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Multi-tool agreement is not independent chemical validation.",
+      "Calls are dependent on sequencing chemistry, basecaller and modification-caller versions.",
+      "Molecule-level predictions and pooled per-site frequencies are separate units; missing calls are not unmodified negatives."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "directrmdb",
+      "modomics"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "pseudo-seq-gse58200",
+    "name": "Pseudo-seq: regulated pseudouridylation (Carlile et al., 2014)",
+    "kind": "study",
+    "topics": [
+      "chemical_modification",
+      "pseudouridine"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "other RNA"
+    ],
+    "description": "Early endogenous pseudouridine mapping in yeast and human cells using treatment-dependent reverse-transcription stops.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58200&targ=self&form=text&view=full",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58200"
+    ],
+    "paper_doi": [
+      "10.1038/nature13802"
+    ],
+    "accessions": [
+      "GSE58200"
+    ],
+    "organisms": [
+      "Saccharomyces cerevisiae",
+      "Homo sapiens"
+    ],
+    "biological_context": "Yeast and HeLa cells; treatments, enzyme perturbations and technical subsets must be read per sample.",
+    "assays": [
+      "Pseudo-seq",
+      "RNA-seq"
+    ],
+    "observation_unit": "A treatment-dependent RT-stop signature at an RNA position in a source sample/condition.",
+    "labels": [
+      {
+        "name": "pseudouridine site call",
+        "meaning": "Modification inferred from treatment-dependent RT-stop enrichment.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "RPKM",
+        "meaning": "Transcript-normalized RNA abundance in supplied companion tables; separate from modification evidence.",
+        "label_type": "computed",
+        "unit": "RPKM",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 109,
+      "unit": "GEO samples (all subsets)",
+      "basis": "Counted Series_sample_id fields in live GEO series metadata; not a site count.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58200"
+      ],
+      "formats": [
+        "TXT.GZ (RPKM tables)",
+        "TAR (supplementary archive)",
+        "SRA"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58200&targ=self&form=text&view=full",
+          "supports": "Live SOFT metadata establishes title, Pseudo-seq scope, organisms, design, sample count and listed supplementary files."
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58200",
+          "supports": "Primary accession identifies endogenous yeast/HeLa pseudouridine mapping and treatment-dependent RT-stop logic."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Main GEO HTML triggered a browser challenge; the public SOFT metadata endpoint succeeded.",
+        "Archive members and quantitative site-call schema were not inspected."
+      ]
+    },
+    "ml_tasks": [
+      "pseudouridine_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "RT-stop enrichment is a modification-detection signature, not a direct absolute pseudouridine fraction.",
+      "No RT-stop call is not a confirmed unmodified uridine.",
+      "The site annotations are endogenous; do not merge as synthetic Ψ-mRNA reporter performance."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "praise-gse212210",
+      "rbs-seq-gse90963"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "praise-gse212210",
+    "name": "PRAISE: quantitative human pseudouridylation",
+    "kind": "study",
+    "topics": [
+      "chemical_modification",
+      "pseudouridine"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "ncRNA",
+      "tRNA",
+      "rRNA"
+    ],
+    "description": "Human RNA pseudouridine mapping and quantification using deletion signatures, with IVT and enzyme-perturbation controls.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212210&targ=self&form=text&view=full",
+      "https://www.nature.com/articles/s41589-023-01304-7"
+    ],
+    "paper_doi": [
+      "10.1038/s41589-023-01304-7"
+    ],
+    "accessions": [
+      "GSE212210"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "HEK293T total/poly(A)+/small RNA; wild type, selected pseudouridine-synthase perturbations and IVT controls.",
+    "assays": [
+      "PRAISE"
+    ],
+    "observation_unit": "A genomic/transcript position with treatment-dependent deletion evidence in a specific RNA fraction and condition.",
+    "labels": [
+      {
+        "name": "pseudouridine site",
+        "meaning": "Deletion-signature-based call after assay-specific filtering.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "quantitative pseudouridine level",
+        "meaning": "Assay-derived pseudouridylation estimate; exact file column/scale requires data inspection.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "enzyme dependence",
+        "meaning": "Modification difference associated with a particular synthase perturbation.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": 38,
+      "unit": "GEO samples (all subsets)",
+      "basis": "Counted live GEO Series_sample_id fields; not independent sites.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212210"
+      ],
+      "formats": [
+        "TAR (supplementary archive)",
+        "SRA"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212210&targ=self&form=text&view=full",
+          "supports": "Live series metadata describes HEK293T fractions, IVT negative control, enzyme perturbations and sample list."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41589-023-01304-7",
+          "supports": "Original article defines quantitative pseudouridine profiling and confirms accession GSE212210."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "No archive members or numerical stoichiometry column was inspected."
+      ]
+    },
+    "ml_tasks": [
+      "pseudouridine_site_prediction",
+      "modification_quantification",
+      "enzyme_dependence_annotation"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Untreated, IVT and perturbation controls serve different purposes; do not pool their labels.",
+      "Endogenous noncalls may reflect coverage or filtering; IVT negatives are an experimentally defined control class.",
+      "Nuclear and mitochondrial positions and RNA fractions must remain identifiable."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "pseudo-seq-gse58200",
+      "rbs-seq-gse90963"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "rbs-seq-gse90963",
+    "name": "RBS-Seq simultaneous modification profiling",
+    "kind": "study",
+    "topics": [
+      "chemical_modification",
+      "m5C",
+      "m1A",
+      "pseudouridine"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "ncRNA",
+      "tRNA",
+      "rRNA"
+    ],
+    "description": "Bisulfite-based transcriptome profiling of m5C, pseudouridine and m1A with modification-specific mismatch/deletion signatures.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90963&targ=self&form=text&view=full",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90963"
+    ],
+    "paper_doi": [],
+    "accessions": [
+      "GSE90963"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "HeLa total/ribodepleted, small and poly(A) RNA; DKC1 knockdown and control subsets; validation includes HEK293.",
+    "assays": [
+      "RBS-Seq"
+    ],
+    "observation_unit": "A candidate modified position with a chemistry-specific sequencing signature and source RNA fraction.",
+    "labels": [
+      {
+        "name": "m5C candidate site",
+        "meaning": "Assay-specific candidate m5C call from bisulfite signatures.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "m1A candidate site",
+        "meaning": "Assay-specific candidate m1A call; not a confirmed widespread mRNA label.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "pseudouridine candidate site",
+        "meaning": "Candidate Ψ call supported by characteristic deletions.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": 14,
+      "unit": "GEO samples",
+      "basis": "Counted live GEO Series_sample_id fields.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90963"
+      ],
+      "formats": [
+        "XLSX (candidate and validation tables)",
+        "SRA"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90963&targ=self&form=text&view=full",
+          "supports": "Live GEO metadata identifies simultaneous m5C/Ψ/m1A RBS-Seq, HeLa design, sample count and named candidate XLSX files."
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90963",
+          "supports": "Primary series reports substantial disagreement with earlier m5C/m1A maps, including little substantial m1A in mRNA."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "This accession is not an Nm-seq dataset.",
+      "Candidate tables contain assay calls, not universally verified positive sites.",
+      "Absence or failure to reproduce a call is not proof of an unmodified nucleotide in every context.",
+      "Preserve separate chemistries, RNA fractions and orthogonal validation status."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "m5c-atlas",
+      "pseudo-seq-gse58200",
+      "m1a-safra-gse97419"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "hpsc-m5c-gse240569",
+    "name": "mRNA m5C in pluripotent stem cells and derived cardiomyocytes",
+    "kind": "study",
+    "topics": [
+      "chemical_modification",
+      "m5C"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "RNA bisulfite profiles of human pluripotent stem-cell sources and derived cardiomyocytes, with separate expression companion outputs.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE240569&targ=self&form=text&view=full",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8541012"
+    ],
+    "paper_doi": [],
+    "accessions": [
+      "GSE240569"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Three human pluripotent stem-cell sources and their cardiomyocyte derivatives; full sample/assay mapping requires local source-file inspection.",
+    "assays": [
+      "mRNA bisulfite sequencing",
+      "RNA-seq"
+    ],
+    "observation_unit": "A candidate m5C locus and methylation estimate within one sample/condition; companion expression rows have a different unit.",
+    "labels": [
+      {
+        "name": "m5C locus/methylation level",
+        "meaning": "Bisulfite-derived candidate position and methylation estimate.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "gene read count",
+        "meaning": "Companion expression count rather than a modification-site label.",
+        "label_type": "computed",
+        "unit": "read count",
+        "resolution": "transcript"
+      },
+      {
+        "name": "differential expression",
+        "meaning": "DESeq2 comparison statistic supplied separately.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 38,
+      "unit": "GEO samples (all assay types)",
+      "basis": "Counted live GEO Series_sample_id fields; cannot be equated with 38 m5C profiles.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE240569"
+      ],
+      "formats": [
+        "XLSX (m5C loci, DEGs)",
+        "TXT.GZ (HTSeq counts)",
+        "SRA"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE240569&targ=self&form=text&view=full",
+          "supports": "Live series metadata establishes source/derivative comparison, title, sample list and m5C/expression supplementary filenames."
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8541012",
+          "supports": "Sample metadata describes hg38 reference and source supplementary-file roles."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "The study compares pluripotent and differentiated states; donor/source and assay confounding require sample-aware analysis."
+    },
+    "integration_caveats": [
+      "Series includes expression companions; modification and expression labels must not be conflated.",
+      "Cell-state comparison is not a synthetic-mRNA expression or degradation experiment.",
+      "Coverage, conversion efficiency and replicate agreement constrain negative/site calls."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "m5c-atlas",
+      "ubs-seq-gse225614"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "ubs-seq-gse225614",
+    "name": "UBS-seq m5C benchmark: RNA subset",
+    "kind": "study",
+    "topics": [
+      "chemical_modification",
+      "m5C"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "other RNA"
+    ],
+    "description": "Ultrafast-bisulfite assay study containing both DNA experiments and a distinct RNA m5C profiling subset.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225614&targ=self&form=text&view=full",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225614",
+      "https://www.nature.com/articles/s41587-023-02034-w.pdf"
+    ],
+    "paper_doi": [
+      "10.1038/s41587-023-02034-w"
+    ],
+    "accessions": [
+      "GSE225614"
+    ],
+    "organisms": [
+      "Homo sapiens",
+      "Mus musculus"
+    ],
+    "biological_context": "RNA subset includes HeLa/HEK293T poly(A)+ RNA and selected NSUN2/NSUN6 perturbations; mouse and cfDNA experiments are distinct DNA subsets.",
+    "assays": [
+      "UBS-seq",
+      "conventional bisulfite-seq comparison"
+    ],
+    "observation_unit": "A covered RNA cytosine with a source methylation estimate; DNA observations are outside the RNA subset.",
+    "labels": [
+      {
+        "name": "RNA m5C site",
+        "meaning": "RNA-bisulfite-derived m5C call in a source condition.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "RNA methylation stoichiometry",
+        "meaning": "Coverage- and conversion-dependent estimate, distinct from DNA methylation output.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": 44,
+      "unit": "GEO samples (mixed DNA and RNA)",
+      "basis": "Counted live GEO Series_sample_id fields; RNA-only sample count not asserted.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225614"
+      ],
+      "formats": [
+        "TSV.GZ (RNA site tables)",
+        "TAR (BW archive)",
+        "SRA"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225614&targ=self&form=text&view=full",
+          "supports": "Live series metadata confirms mixed DNA/RNA title and RNA-specific HeLa/HEK293T site tables."
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225614",
+          "supports": "Primary accession lists RNA poly(A)+ contexts and NSUN2/NSUN6 perturbations separately from DNA samples."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41587-023-02034-w.pdf",
+          "supports": "Original article establishes RNA/DNA m5C assay scope and accession linkage."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Do not import DNA methylation rows into an RNA modification dataset.",
+      "The total series scale is not an RNA sample/site count.",
+      "Bisulfite nonconversion, structure and coverage affect m5C inference; a noncall is not a universally unmodified cytosine."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "m5c-atlas",
+      "rbs-seq-gse90963",
+      "hpsc-m5c-gse240569"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "nm-seq-gse90164",
+    "name": "Nm-seq (including published correction)",
+    "kind": "study",
+    "topics": [
+      "chemical_modification",
+      "2_prime_O_methylation"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Human mRNA 2′-O-methylation mapping resource with revised analysis/data described in a subsequent correction.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90164&targ=self&form=text&view=full",
+      "https://www.nature.com/articles/nmeth.4294",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6994179/"
+    ],
+    "paper_doi": [
+      "10.1038/nmeth.4294"
+    ],
+    "accessions": [
+      "GSE90164"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "HeLa and HEK mRNA profiles; original and corrected evidence must be identified before selecting labels.",
+    "assays": [
+      "Nm-seq"
+    ],
+    "observation_unit": "A candidate 2′-O-methylated position in a source cell-line profile.",
+    "labels": [
+      {
+        "name": "Nm position",
+        "meaning": "Chemical-enrichment-derived candidate 2′-O-methylation call.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": 10,
+      "unit": "GEO samples",
+      "basis": "Counted live GEO Series_sample_id fields; not distinct candidate sites.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90164"
+      ],
+      "formats": [
+        "BED-like TXT.GZ",
+        "SRA"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90164&targ=self&form=text&view=full",
+          "supports": "Live GEO metadata identifies Nm-seq and listed HeLa/HEK coordinate-file names."
+        },
+        {
+          "url": "https://www.nature.com/articles/nmeth.4294",
+          "supports": "Primary article includes change history addressing adaptor/mispriming concerns."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6994179/",
+          "supports": "Published correction documents revised Nm-seq data deposited in the same accession."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Corrected versus original file versions were not resolved by file inspection; candidate labels need this check before reuse."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Adaptor-related artifacts affected the original consensus claim; treat original labels cautiously and retain correction provenance.",
+      "A missing enrichment call is not a verified Nm-free base.",
+      "Do not treat this resource as interchangeable with Nm-Mut-seq, which has different chemistry coverage."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "nm-mut-seq-gse174518",
+      "rmbase-v3"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "nm-mut-seq-gse174518",
+    "name": "Nm-Mut-seq",
+    "kind": "study",
+    "topics": [
+      "chemical_modification",
+      "2_prime_O_methylation"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "rRNA"
+    ],
+    "description": "Mutation-signature mapping and quantitative calibration of Am, Cm and Gm, with explicit lack of Um detection.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174518&targ=self&form=text&view=full",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10474006/"
+    ],
+    "paper_doi": [],
+    "accessions": [
+      "GSE174518"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "HeLa/HepG2 total and poly(A)+ RNA; includes calibration sets and HepG2 FBL/FTSJ3 perturbation subsets.",
+    "assays": [
+      "Nm-Mut-seq"
+    ],
+    "observation_unit": "A covered Am/Cm/Gm candidate position in an assay context, or a calibration observation.",
+    "labels": [
+      {
+        "name": "Am/Cm/Gm site",
+        "meaning": "Modification inferred from source mutation signatures; Um is outside assay detection.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "Nm methylation fraction",
+        "meaning": "Assay-derived estimate informed by source calibration curves.",
+        "label_type": "computed",
+        "unit": "fraction",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": 53,
+      "unit": "GEO samples (profiling, calibration and perturbation subsets)",
+      "basis": "Counted live GEO Series_sample_id fields.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174518"
+      ],
+      "formats": [
+        "XLSX (site, rRNA, calibration tables)",
+        "SRA"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174518&targ=self&form=text&view=full",
+          "supports": "Live series metadata explicitly states Am/Cm/Gm detection, Um non-detection, calibration and perturbation subsets."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10474006/",
+          "supports": "Original study describes base-resolution quantitative Nm mapping and GEO linkage."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Um non-detection is an assay blind spot, not evidence that uridines lack 2′-O-methylation.",
+      "Calibration and profiling rows have distinct observation units.",
+      "Comparisons with Nm-seq require assay-specific bias and version control; endogenous noncalls are not definitive negatives."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "nm-seq-gse90164"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "m1a-safra-gse97419",
+    "name": "Single-base cytosolic/mitochondrial m1A map (Safra et al., 2017)",
+    "kind": "study",
+    "topics": [
+      "chemical_modification",
+      "m1A"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Semi-quantitative m1A mapping with antibody, RT and chemical-control comparisons, distinguishing sparse cytosolic calls from mitochondrial m1A.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97419&targ=self&form=text&view=full",
+      "https://pubmed.ncbi.nlm.nih.gov/29072297/"
+    ],
+    "paper_doi": [
+      "10.1038/nature24456"
+    ],
+    "accessions": [
+      "GSE97419"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Accession profiling uses HEK293 RNA with RT, immunoprecipitation, chemical rearrangement and TRMT6/TRMT61A comparisons; broader tissue/development observations are reported in the paper.",
+    "assays": [
+      "m1A mapping with RT-signature and antibody controls"
+    ],
+    "observation_unit": "A candidate m1A position and assay-dependent misincorporation/stoichiometry estimate.",
+    "labels": [
+      {
+        "name": "m1A site",
+        "meaning": "Control-supported single-base candidate m1A annotation.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "semi-quantitative m1A level",
+        "meaning": "Assay-derived relative/stoichiometric estimate; numerical schema was not inspected.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": 20,
+      "unit": "GEO samples",
+      "basis": "Counted live GEO Series_sample_id fields.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97419"
+      ],
+      "formats": [
+        "TAR (supplementary archive)",
+        "SRA"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97419&targ=self&form=text&view=full",
+          "supports": "Live series metadata gives HEK293 profiling contrasts and semi-quantitative map scope."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29072297/",
+          "supports": "Original paper reports limited low-stoichiometry cytosolic m1A and a tissue/development-regulated mitochondrial ND5 site."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only."
+      ]
+    },
+    "ml_tasks": [
+      "modification_site_prediction",
+      "cross_assay_comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Do not inherit broad m1A-positive labels from older enrichment maps without reconciling resolution and artifacts.",
+      "A cell-line GEO subset does not itself establish every tissue/development result in the paper.",
+      "Noncalls are coverage/control-dependent and do not certify globally unmethylated adenosines."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rbs-seq-gse90963"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "ac4c-arango-gse102113",
+    "name": "ac4C mapping and mRNA stability/translation (Arango et al., 2018)",
+    "kind": "study",
+    "topics": [
+      "chemical_modification",
+      "ac4C",
+      "translation",
+      "rna_stability"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Study combining endogenous ac4C-enrichment maps with RNA abundance, ribosome profiling and stability endpoints plus targeted reporter validation.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102113&targ=self&form=text&view=full",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6295233/"
+    ],
+    "paper_doi": [
+      "10.1016/j.cell.2018.10.030"
+    ],
+    "accessions": [
+      "GSE102113"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "HeLa NAT10-competent/depleted contexts; endogenous transcript assays and targeted synthetic ac4C reporter experiments are distinct components.",
+    "assays": [
+      "acRIP-seq",
+      "RNA-seq",
+      "Ribo-seq",
+      "BRIC-seq",
+      "targeted reporter measurements"
+    ],
+    "observation_unit": "An enriched ac4C interval or transcript-specific expression/translation/stability measurement under a condition.",
+    "labels": [
+      {
+        "name": "ac4C-enriched region",
+        "meaning": "Antibody-enriched interval, not a resolved acetylated nucleotide.",
+        "label_type": "computed",
+        "unit": "enrichment",
+        "resolution": "interval"
+      },
+      {
+        "name": "translation efficiency",
+        "meaning": "Ribosome-density relative to mRNA abundance, as defined in the source.",
+        "label_type": "computed",
+        "unit": "ratio",
+        "resolution": "transcript"
+      },
+      {
+        "name": "mRNA half-life",
+        "meaning": "Assay-fitted transcript stability endpoint; units/schema require table inspection.",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 41,
+      "unit": "GEO samples (multiple assay types)",
+      "basis": "Counted live GEO Series_sample_id fields; cannot be used as a per-assay count.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102113"
+      ],
+      "formats": [
+        "TAR.GZ (processed archive)",
+        "SRA"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102113&targ=self&form=text&view=full",
+          "supports": "Live GEO metadata confirms RIP, RNA-seq, Ribo-seq and BRIC-seq components."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6295233/",
+          "supports": "Original article distinguishes ac4C enrichment, transcript half-life, ribosome-density efficiency and targeted reporters."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only."
+      ]
+    },
+    "ml_tasks": [
+      "modification_association_analysis",
+      "translation_efficiency_analysis",
+      "rna_stability_analysis"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Source context annotations do not by themselves establish cell-selective function."
+    },
+    "integration_caveats": [
+      "Antibody peaks are intervals and do not imply per-base acetylation ground truth.",
+      "NAT10 perturbation can affect multiple RNA processes; association alone is not a pure cis ac4C effect.",
+      "Targeted synthetic reporters are not a large chemistry-specific reporter-library dataset.",
+      "Keep mRNA abundance, half-life and translation efficiency as different labels."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "sample2019-chemistry-reporters",
+      "rmbase-v3"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "sample2019-chemistry-reporters",
+    "name": "Sample et al. 2019 chemistry-specific 5′ UTR reporter libraries",
+    "kind": "study",
+    "topics": [
+      "chemical_modification",
+      "synthetic_chemically_modified_mrna",
+      "translation"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Synthetic reporter-library measurements with separately labeled U, pseudouridine and N1-methylpseudouridine RNA chemistries.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002&targ=self&form=text&view=full",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002&targ=gsm&form=text&view=full",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7100133/",
+      "https://github.com/pjsample/human_5utr_modeling"
+    ],
+    "paper_doi": [
+      "10.1038/s41587-019-0164-5"
+    ],
+    "accessions": [
+      "GSE114002",
+      "GSM3130435",
+      "GSM3130436",
+      "GSM3130437",
+      "GSM3130438",
+      "GSM3130439",
+      "GSM3130440"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Pooled reporter mRNAs assayed in HEK293T cells; chemistry-specific eGFP replicate pairs, mCherry and other library subsets must remain distinct.",
+    "assays": [
+      "polysome profiling",
+      "fraction RNA sequencing"
+    ],
+    "observation_unit": "A reporter-library member × RNA chemistry × experiment, with fraction counts and derived mean ribosome load.",
+    "labels": [
+      {
+        "name": "RNA chemistry",
+        "meaning": "Experimental U/Ψ/m1Ψ chemistry class, not an endogenous site annotation.",
+        "label_type": "annotation",
+        "unit": "category",
+        "resolution": "construct"
+      },
+      {
+        "name": "mean ribosome load (MRL)",
+        "meaning": "Fraction-weighted estimate of reporter ribosome occupancy.",
+        "label_type": "computed",
+        "unit": "ribosomes per reporter (assay estimate)",
+        "resolution": "construct"
+      },
+      {
+        "name": "polysome distribution",
+        "meaning": "Relative reporter counts across polysome fractions.",
+        "label_type": "computed",
+        "unit": "relative count",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": 10,
+      "unit": "GEO samples (all library subsets)",
+      "basis": "Counted live series/sample metadata; six samples are paired chemistry-specific eGFP libraries, not six independent variant sets.",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002"
+      ],
+      "formats": [
+        "CSV.GZ (sample-level processed tables)",
+        "TAR (series aggregate)",
+        "SRA"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002&targ=self&form=text&view=full",
+          "supports": "Live series metadata names three RNA chemistries and distinct library subsets."
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002&targ=gsm&form=text&view=full",
+          "supports": "Live sample metadata confirms paired eGFP unmodified/pseudo/m1pseudo CSV files."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7100133/",
+          "supports": "Original paper defines MRL, HEK293T context and chemistry-specific reporter measurements."
+        },
+        {
+          "url": "https://github.com/pjsample/human_5utr_modeling",
+          "supports": "Author README links processed CSVs to GEO; repository code license is separate from data reuse rights."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "No processed table header or biological data row was downloaded.",
+        "GEO describes a 300,000-member randomized library whereas the paper analyzes 280,000; no unified construct count is asserted.",
+        "GEO and paper also differ on some variant-result totals; these are not used as registry scale."
+      ]
+    },
+    "ml_tasks": [
+      "chemistry_conditioned_translation_analysis",
+      "reporter_library_reanalysis"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "The pooled assay context is HEK293T; it is not a multi-cell-type selectivity screen."
+    },
+    "integration_caveats": [
+      "This is a synthetic chemically modified mRNA performance study, not an endogenous pseudouridine-site map.",
+      "MRL is an assay-derived translation proxy, not direct protein concentration, half-life or degradation rate.",
+      "Treat chemistry and reporter context as explicit variables; shared library members/replicates require leakage-aware grouping.",
+      "A canonical-U control is experimentally defined for this library, unlike unobserved sites in endogenous maps."
+    ],
+    "related_model_ids": [
+      "P002",
+      "P006",
+      "P007",
+      "P012",
+      "P018",
+      "P019"
+    ],
+    "related_resource_ids": [
+      "ac4c-arango-gse102113"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "tandemmod-ivet-gse227087",
+    "name": "TandemMod IVET/DRS benchmark datasets",
+    "kind": "benchmark",
+    "topics": [
+      "chemical_modification",
+      "nanopore_benchmark"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "synthetic RNA"
+    ],
+    "description": "Modification-labeled in-vitro epitranscriptome data and direct-RNA experiments released with TandemMod; synthetic benchmark labels remain distinct from in-vivo predictions.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11094168/",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227087&targ=self&form=text&view=full",
+      "https://github.com/yulab2021/TandemMod"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-024-48437-4"
+    ],
+    "accessions": [
+      "GSE227087"
+    ],
+    "organisms": [
+      "Oryza sativa"
+    ],
+    "biological_context": "Rice-cDNA-derived IVET calibration data, synthetic RNA controls and rice in-vivo DRS subsets; independent human validation uses reused public studies.",
+    "assays": [
+      "nanopore direct RNA sequencing",
+      "source-defined modified/unmodified calibration"
+    ],
+    "observation_unit": "A nanopore read-position/signal observation with source chemistry label; pooled in-vivo calls form a separate endpoint.",
+    "labels": [
+      {
+        "name": "IVET modification class",
+        "meaning": "Experimental source chemistry class, including m6A/m1A/m5C calibration sets; not a native site-discovery label.",
+        "label_type": "synthetic",
+        "unit": "category",
+        "resolution": "position"
+      },
+      {
+        "name": "nanopore modification prediction",
+        "meaning": "Model-derived modification probability/call for native RNA, distinct from benchmark truth.",
+        "label_type": "prediction",
+        "unit": "probability",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": 8,
+      "unit": "GEO samples (mixed IVET, synthetic and rice contexts)",
+      "basis": "Counted live GEO Series_sample_id fields; not a count of labeled sites or transcripts.",
+      "as_of": "2026-11-05"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227087",
+        "https://github.com/yulab2021/TandemMod"
+      ],
+      "formats": [
+        "TAR (series archive)",
+        "FAST5 (paper-described raw signals)",
+        "XLSX (paper source data)"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-05",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11094168/",
+          "supports": "Original paper distinguishes IVET labels, in-vivo validation, predictions and new data under GSE227087."
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227087&targ=self&form=text&view=full",
+          "supports": "Live metadata confirms title, eight samples and listed archives."
+        },
+        {
+          "url": "https://github.com/yulab2021/TandemMod",
+          "supports": "Author repository documents separate training/prediction modes and data-related assets; no model was executed."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Raw signal archive and benchmark split membership were not inspected.",
+        "The same paper reuses other DRS/orthogonal datasets; they are not counted as newly generated observations here."
+      ]
+    },
+    "ml_tasks": [
+      "nanopore_modification_benchmarking"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Calibration chemistry and rice context do not establish mammalian cell selectivity."
+    },
+    "integration_caveats": [
+      "Synthetic chemistry labels and orthogonal-assay labels have different evidential strength.",
+      "Training/test division must control shared transcripts and signal batches; no validated leakage-free split is claimed.",
+      "Modification calibration data do not measure therapeutic-mRNA expression or degradation."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "nanobaselib",
+      "rmap-challenge"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "nanobaselib",
+    "name": "NanoBaseLib",
+    "kind": "benchmark",
+    "topics": [
+      "chemical_modification",
+      "nanopore_benchmark"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "synthetic RNA",
+      "other RNA"
+    ],
+    "description": "Unified reprocessing and benchmark collection for nanopore tasks, including RNA-modification detection alongside DNA and non-modification tasks.",
+    "source_urls": [
+      "https://nanobaselib.github.io/",
+      "https://zenodo.org/records/10889896",
+      "https://papers.nips.cc/paper_files/paper/2024/file/8bce223b376f52fb86a148097eebb10d-Supplemental-Datasets_and_Benchmarks_Track.pdf"
+    ],
+    "paper_doi": [
+      "10.52202/079017-2430"
+    ],
+    "accessions": [
+      "10.5281/zenodo.10889896"
+    ],
+    "organisms": [],
+    "biological_context": "Mixture of source studies and species, synthetic controls and native RNA; isolate the relevant RNA task/subset.",
+    "assays": [
+      "nanopore sequencing",
+      "source orthogonal assays for benchmark labels"
+    ],
+    "observation_unit": "A raw/read-level signal, aligned event, or site label depending on benchmark task.",
+    "labels": [
+      {
+        "name": "RNA modification benchmark label",
+        "meaning": "Source-defined reference label from synthetic chemistry or orthogonal assays; provenance varies by subset.",
+        "label_type": "annotation",
+        "unit": "category",
+        "resolution": "position"
+      },
+      {
+        "name": "per-site modification probability",
+        "meaning": "Algorithm output; distinct from reference benchmark labels.",
+        "label_type": "prediction",
+        "unit": "probability",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": 16,
+      "unit": "integrated source datasets (all DNA/RNA tasks)",
+      "basis": "Author homepage reports 16 input datasets; not independently file-counted or restricted to RNA-modification tasks.",
+      "as_of": "2026-11-05"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://zenodo.org/records/10889896",
+        "https://nanobaselib.github.io/"
+      ],
+      "formats": [
+        "TAR.GZ archives",
+        "FAST5 and processed intermediate files (documented)"
+      ],
+      "license": "CC BY 4.0 for processed dataset (author-stated); source data terms remain source-specific",
+      "redistribution": "Processed dataset reuse is author-licensed under CC BY 4.0; upstream raw-source rights require separate checking."
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-05",
+      "evidence": [
+        {
+          "url": "https://nanobaselib.github.io/",
+          "supports": "Current author page describes tasks, mixed DNA/RNA scope and separate dataset/code licenses."
+        },
+        {
+          "url": "https://zenodo.org/records/10889896",
+          "supports": "Zenodo metadata establishes versioned dataset identity and available archive names without downloading them."
+        },
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2024/file/8bce223b376f52fb86a148097eebb10d-Supplemental-Datasets_and_Benchmarks_Track.pdf",
+          "supports": "Author checklist states processed dataset CC BY licensing and repository/benchmark documentation."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "No source or processed archive opened; task-specific file schema, completeness and split integrity are not established.",
+        "Zenodo page did not expose a readable license value in browser extraction; CC BY 4.0 wording is supported by the current author site."
+      ]
+    },
+    "ml_tasks": [
+      "nanopore_modification_benchmarking",
+      "signal_alignment_benchmarking"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "A heterogeneous sequencing benchmark is not a cell-specific functional assay."
+    },
+    "integration_caveats": [
+      "Source datasets overlap separate study records; neither read counts nor dataset counts can be added across them.",
+      "DNA, poly(A) and basecalling observations are not RNA modification labels.",
+      "Absent source modification calls are not automatically true negatives; retain each subset's control definition.",
+      "Benchmark performance from a fixed preprocessing/basecaller release does not transfer automatically to new chemistry."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "tandemmod-ivet-gse227087"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "nanoconsensus-rrna-benchmark",
+    "name": "NanoConsensus rRNA modification benchmark/study",
+    "kind": "benchmark",
+    "topics": [
+      "chemical_modification",
+      "nanopore_benchmark"
+    ],
+    "rna_scope": [
+      "rRNA"
+    ],
+    "description": "Comparative DRS benchmark with source-defined rRNA controls and a separate study of antibiotic-associated rRNA modification differences.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11607429/",
+      "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB42568",
+      "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB48806",
+      "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB37798",
+      "https://www.nature.com/articles/s41467-024-54368-x"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-024-54368-x"
+    ],
+    "accessions": [
+      "PRJEB42568",
+      "PRJEB48806",
+      "PRJEB37798"
+    ],
+    "organisms": [
+      "Escherichia coli",
+      "Saccharomyces cerevisiae"
+    ],
+    "biological_context": "Bacterial and yeast rRNA reference/control comparisons; antibiotic-exposure data are a distinct application subset.",
+    "assays": [
+      "nanopore direct RNA sequencing",
+      "comparative modification calling"
+    ],
+    "observation_unit": "A source-defined rRNA read/position benchmark label or a differentially modified region from pairwise comparison.",
+    "labels": [
+      {
+        "name": "benchmark modified/unmodified assignment",
+        "meaning": "Source assumes wild-type reads modified and corresponding enzyme-deficient reads unmodified at selected reference sites.",
+        "label_type": "annotation",
+        "unit": "category",
+        "resolution": "position"
+      },
+      {
+        "name": "differentially modified region",
+        "meaning": "Consensus computational signal difference; qualitative or semi-quantitative and not single-base resolved.",
+        "label_type": "computed",
+        "unit": "score",
+        "resolution": "interval"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-05"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ebi.ac.uk/ena/browser/view/PRJEB42568",
+        "https://www.ebi.ac.uk/ena/browser/view/PRJEB48806",
+        "https://www.ebi.ac.uk/ena/browser/view/PRJEB37798"
+      ],
+      "formats": [
+        "FAST5",
+        "source-data tables",
+        "BED (documented analysis outputs)"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-05",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11607429/",
+          "supports": "Original paper documents benchmark assumptions, lower-resolution differential regions and limitations in direction/quantification."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB42568",
+          "supports": "Live ENA project title verifies single-control-strain study provenance."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB48806",
+          "supports": "Live ENA project title verifies antibiotic-exposure subset."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB37798",
+          "supports": "Live ENA project title verifies reused yeast total-RNA modification data."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-024-54368-x",
+          "supports": "Primary article notes a 2025 author correction and separates generated versus reused accession families."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Only three relevant project titles were independently read; other accessions mentioned by the paper are not asserted as separately verified records.",
+        "Correction content and full supplementary benchmark definitions require review before numerical reuse."
+      ]
+    },
+    "ml_tasks": [
+      "nanopore_modification_benchmarking",
+      "differential_modification_analysis"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Species/strain and exposure contrasts do not establish mammalian cell specificity."
+    },
+    "integration_caveats": [
+      "Wild-type 100%/control 0% assignments are benchmark assumptions at selected sites, not general measured stoichiometry for every molecule.",
+      "NanoConsensus output regions lack single-nucleotide resolution and do not inherently give change direction.",
+      "This is primarily rRNA evidence; it is not a mammalian synthetic mRNA expression dataset.",
+      "Repeated mixtures/subsampling of the same molecules are not independent biological examples."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "modomics",
+      "dorado-rna004-modification-benchmark"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "rmap-challenge",
+    "name": "RMaP nanopore RNA-modification challenge",
+    "kind": "benchmark",
+    "topics": [
+      "chemical_modification",
+      "nanopore_benchmark"
+    ],
+    "rna_scope": [
+      "synthetic RNA"
+    ],
+    "description": "Community benchmark of m5C, m6A and pseudouridine detection/frequency estimation using synthetic modified and canonical RNA signal mixtures.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11993749/",
+      "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB84053"
+    ],
+    "paper_doi": [
+      "10.1038/s42004-025-01507-0"
+    ],
+    "accessions": [
+      "PRJEB84053"
+    ],
+    "organisms": [],
+    "biological_context": "Synthetic in-vitro reference data; pseudouridine challenge has a documented training/test division.",
+    "assays": [
+      "nanopore direct RNA sequencing",
+      "synthetic modification-control benchmarking"
+    ],
+    "observation_unit": "A read-position chemistry label or per-reference-position modification target frequency within a challenge.",
+    "labels": [
+      {
+        "name": "source modification class",
+        "meaning": "Chemistry-defined modified or canonical input class.",
+        "label_type": "synthetic",
+        "unit": "category",
+        "resolution": "position"
+      },
+      {
+        "name": "target modification frequency",
+        "meaning": "Reference mixture-based modified fraction used for benchmark scoring.",
+        "label_type": "synthetic",
+        "unit": "fraction",
+        "resolution": "position"
+      },
+      {
+        "name": "reported modification frequency",
+        "meaning": "Participant/model estimate assessed against source target frequencies.",
+        "label_type": "prediction",
+        "unit": "fraction",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-05"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ebi.ac.uk/ena/browser/view/PRJEB84053"
+      ],
+      "formats": [
+        "FAST5",
+        "bedRMod (reported-result format)"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-05",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11993749/",
+          "supports": "Original challenge paper documents three chemistries, target frequencies, pseudouridine split and source accession."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB84053",
+          "supports": "Live ENA project title independently confirms RMaP challenge provenance."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "Challenge files, labels and exact train/test molecule membership were not opened.",
+        "Paper describes original private submission infrastructure; public project access does not imply participant submissions are all public."
+      ]
+    },
+    "ml_tasks": [
+      "nanopore_modification_benchmarking",
+      "stoichiometry_estimation_benchmarking"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Synthetic assay benchmark without cell-selectivity measurements."
+    },
+    "integration_caveats": [
+      "Ground truth is synthetic source/mixture labeling, not an endogenous RNA chemical map.",
+      "Reference-frequency accuracy and per-read classification are different endpoints.",
+      "Shared templates and chemistry distributions constrain external generalization; no mammalian functional labels are measured."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "tandemmod-ivet-gse227087",
+      "dorado-rna004-modification-benchmark"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "dorado-rna004-modification-benchmark",
+    "name": "RNA004 modification-aware basecalling benchmark (Diensthuber et al., 2026)",
+    "kind": "benchmark",
+    "topics": [
+      "chemical_modification",
+      "nanopore_benchmark"
+    ],
+    "rna_scope": [
+      "synthetic RNA",
+      "rRNA"
+    ],
+    "description": "Recent RNA004 DRS benchmark of modification-caller specificity, stoichiometry and cross-reactivity with synthetic controls plus multi-species native RNA.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13273306/",
+      "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB91026",
+      "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB90280"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkag349"
+    ],
+    "accessions": [
+      "PRJEB91026",
+      "PRJEB90280"
+    ],
+    "organisms": [
+      "Escherichia coli",
+      "Saccharomyces cerevisiae",
+      "Mus musculus",
+      "Homo sapiens"
+    ],
+    "biological_context": "Synthetic chemistry controls and native/IVT RNA across species; SeqTagger demultiplexing training data are separate from modification-caller benchmarking.",
+    "assays": [
+      "nanopore direct RNA sequencing (RNA004)",
+      "known-chemistry calibration",
+      "native-versus-IVT/control comparisons"
+    ],
+    "observation_unit": "A read-position modification probability or per-site frequency linked to a known input chemistry/control context.",
+    "labels": [
+      {
+        "name": "input modification chemistry/proportion",
+        "meaning": "Source-defined benchmark condition, including cognate and noncognate chemistries.",
+        "label_type": "synthetic",
+        "unit": "category/proportion",
+        "resolution": "position"
+      },
+      {
+        "name": "per-read modification probability",
+        "meaning": "Modification-aware basecaller output.",
+        "label_type": "prediction",
+        "unit": "probability",
+        "resolution": "position"
+      },
+      {
+        "name": "per-site modification stoichiometry",
+        "meaning": "Aggregated caller estimate; paper documents systematic biases.",
+        "label_type": "computed",
+        "unit": "fraction",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No current biological-data count independently established.",
+      "as_of": "2026-11-05"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ebi.ac.uk/ena/browser/view/PRJEB91026",
+        "https://www.ebi.ac.uk/ena/browser/view/PRJEB90280"
+      ],
+      "formats": [
+        "POD5",
+        "BAM",
+        "reference annotation files (paper-described; not opened)"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-05",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13273306/",
+          "supports": "Original 2026 article documents RNA004, synthetic/native controls, cross-reactivity and caller-specific stoichiometry bias."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB91026",
+          "supports": "Live project metadata independently verifies modification-aware basecalling benchmark identity."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB90280",
+          "supports": "Live project metadata independently identifies b96_RNA004 SeqTagger training data as a distinct subset."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
+        "No signal, alignment or reference file was inspected.",
+        "Benchmark conclusions apply to the paper's specified caller/model versions; no model execution or current-version performance check was performed."
+      ]
+    },
+    "ml_tasks": [
+      "nanopore_modification_benchmarking",
+      "modification_caller_specificity_analysis"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Multi-species detection controls are not a screen for cell-selective mRNA function."
+    },
+    "integration_caveats": [
+      "PRJEB90280 is demultiplexing training data; do not call it an independent modification benchmark split.",
+      "Cross-reactivity means a high predicted modification probability is not uniquely established chemistry.",
+      "Canonical IVT controls are experimentally defined negatives for their construction; native noncalls remain coverage/caller-dependent.",
+      "Paper notes duplicate sequencing of one low-proportion subset; lower-coverage duplicates were excluded by authors.",
+      "Source evaluation used Dorado v0.8.0 with v5.1.0 modification-aware models; preserve these versions and RNA004 chemistry when reproducing reported comparisons."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rmap-challenge",
+      "nanoconsensus-rrna-benchmark"
+    ],
+    "priority": "high",
+    "status": "curated"
+  }
+]

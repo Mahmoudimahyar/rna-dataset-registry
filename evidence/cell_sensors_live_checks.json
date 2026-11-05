@@ -1,0 +1,434 @@
+{
+  "checked_on": "2026-11-04",
+  "scope": "Public schema and non-sequence metadata checks only",
+  "checks": [
+    {
+      "url": "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/data/GARDN_toehold_processed_data.csv",
+      "header": [
+        "Name",
+        "ON",
+        "",
+        "",
+        "OFF",
+        "",
+        "",
+        "Avg. ON",
+        "Avg. OFF",
+        "ON/OFF Ratio",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/processed_gardn_data_6_28.csv",
+      "header": [
+        "",
+        "NAME",
+        "SWITCH",
+        "TRIGGER",
+        "OD260_1",
+        "OD260_2",
+        "OD260_4",
+        "ON_1",
+        "ON_2",
+        "ON_4",
+        "OFF_1",
+        "OFF_2",
+        "OFF_4",
+        "POS",
+        "NEG",
+        "EXTINCTION_COEFFICIENT",
+        "CONC_IN_RXN_1",
+        "CONC_IN_RXN_2",
+        "CONC_IN_RXN_4",
+        "ON_OFF_1",
+        "ON_OFF_2",
+        "ON_OFF_4",
+        "BLK",
+        "SLOPE_ON",
+        "SLOPE_OFF",
+        "ADJ_ON",
+        "SPEAR_OFF",
+        "ADJ_OFF",
+        "ADJ_ON_OFF"
+      ]
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/data/sequence_experiments/UTR_big_sequence_experiments.csv",
+      "header": [
+        "",
+        "Pre_Optimized_Sequence",
+        "Post_Optimized_Sequence",
+        "Pre_Optimized_Value",
+        "Post_Optimized_Value",
+        "Target_Value",
+        "Delta"
+      ]
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149225/suppl/GSE149225_toehold_processed_datafile.csv.gz",
+      "inspected": "CSV header and aggregate QC fields only; nucleotide fields neither saved nor reported",
+      "rows": 244000,
+      "quality_field_counts": [
+        {
+          "field": "QC_OFF",
+          "value": "1",
+          "rows": 16585
+        },
+        {
+          "field": "QC_OFF",
+          "value": "2",
+          "rows": 73703
+        },
+        {
+          "field": "QC_OFF",
+          "value": "3",
+          "rows": 22757
+        },
+        {
+          "field": "QC_OFF",
+          "value": "4",
+          "rows": 54956
+        },
+        {
+          "field": "QC_OFF",
+          "value": "5",
+          "rows": 12551
+        },
+        {
+          "field": "QC_OFF",
+          "value": "NA",
+          "rows": 63448
+        },
+        {
+          "field": "QC_ON",
+          "value": "1",
+          "rows": 17553
+        },
+        {
+          "field": "QC_ON",
+          "value": "2",
+          "rows": 32027
+        },
+        {
+          "field": "QC_ON",
+          "value": "3",
+          "rows": 37757
+        },
+        {
+          "field": "QC_ON",
+          "value": "4",
+          "rows": 33096
+        },
+        {
+          "field": "QC_ON",
+          "value": "5",
+          "rows": 6187
+        },
+        {
+          "field": "QC_ON",
+          "value": "NA",
+          "rows": 117380
+        },
+        {
+          "field": "QC_ON_OFF",
+          "value": "1",
+          "rows": 19397
+        },
+        {
+          "field": "QC_ON_OFF",
+          "value": "2",
+          "rows": 48490
+        },
+        {
+          "field": "QC_ON_OFF",
+          "value": "3",
+          "rows": 23061
+        },
+        {
+          "field": "QC_ON_OFF",
+          "value": "4",
+          "rows": 18846
+        },
+        {
+          "field": "QC_ON_OFF",
+          "value": "5",
+          "rows": 1137
+        },
+        {
+          "field": "QC_ON_OFF",
+          "value": "NA",
+          "rows": 133069
+        }
+      ]
+    },
+    {
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA856413&result=read_run&fields=study_accession,run_accession,scientific_name,sample_title,library_strategy&format=tsv",
+      "project": "PRJNA856413",
+      "run_count": 6,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "library_strategies": [
+        "RNA-Seq"
+      ],
+      "sample_titles": [
+        "Human sample from Homo sapiens"
+      ]
+    },
+    {
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA874842&result=read_run&fields=study_accession,run_accession,scientific_name,sample_title,library_strategy&format=tsv",
+      "project": "PRJNA874842",
+      "run_count": 42,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "library_strategies": [
+        "AMPLICON"
+      ],
+      "sample_titles": [
+        "84-1-11-sens",
+        "84-1-12-sens",
+        "84-1-3-sens",
+        "84-1-4-sens",
+        "84-1-7-sens",
+        "84-1-8-sens",
+        "84-2-1-trigger",
+        "84-2-11-sens",
+        "84-2-11-trigger",
+        "84-2-12-sens",
+        "84-2-3-sens",
+        "84-2-3-trigger",
+        "84-2-4-sens",
+        "84-2-5-trigger",
+        "84-2-7-sens"
+      ]
+    },
+    {
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA883765&result=read_run&fields=study_accession,run_accession,scientific_name,sample_title,library_strategy&format=tsv",
+      "project": "PRJNA883765",
+      "run_count": 0,
+      "organisms": [],
+      "library_strategies": [],
+      "sample_titles": []
+    },
+    {
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA932010&result=read_run&fields=study_accession,run_accession,scientific_name,sample_title,library_strategy&format=tsv",
+      "project": "PRJNA932010",
+      "run_count": 48,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "library_strategies": [
+        "AMPLICON",
+        "RNA-Seq"
+      ],
+      "sample_titles": [
+        "Human sample from Homo sapiens"
+      ]
+    },
+    {
+      "url": "https://www.encodeproject.org/ENCSR481QRH/?format=json",
+      "accession": "ENCSR481QRH",
+      "types": [
+        "FunctionalCharacterizationExperiment",
+        "Dataset",
+        "Item"
+      ],
+      "status": "released",
+      "assay_term_name": "MPRA",
+      "description": null,
+      "biosample_summary": "Homo sapiens HEK293 genetically modified (episome) using transient transfection",
+      "file_count": 10
+    },
+    {
+      "url": "https://www.encodeproject.org/ENCSR812PWW/?format=json",
+      "accession": "ENCSR812PWW",
+      "types": [
+        "FunctionalCharacterizationExperiment",
+        "Dataset",
+        "Item"
+      ],
+      "status": "released",
+      "assay_term_name": "MPRA",
+      "description": null,
+      "biosample_summary": "Homo sapiens GM12878 genetically modified (episome) using transient transfection",
+      "file_count": 8
+    },
+    {
+      "url": "https://www.encodeproject.org/ENCSR147BIK/?format=json",
+      "accession": "ENCSR147BIK",
+      "types": [
+        "FunctionalCharacterizationExperiment",
+        "Dataset",
+        "Item"
+      ],
+      "status": "released",
+      "assay_term_name": "MPRA",
+      "description": null,
+      "biosample_summary": "Homo sapiens K562 genetically modified (episome) using transient transfection",
+      "file_count": 8
+    },
+    {
+      "url": "https://www.encodeproject.org/ENCSR885ULM/?format=json",
+      "accession": "ENCSR885ULM",
+      "types": [
+        "FunctionalCharacterizationExperiment",
+        "Dataset",
+        "Item"
+      ],
+      "status": "released",
+      "assay_term_name": "MPRA",
+      "description": null,
+      "biosample_summary": "Homo sapiens HepG2 genetically modified (episome) using transient transfection",
+      "file_count": 8
+    },
+    {
+      "url": "https://www.encodeproject.org/ENCSR181PJG/?format=json",
+      "accession": "ENCSR181PJG",
+      "types": [
+        "FunctionalCharacterizationExperiment",
+        "Dataset",
+        "Item"
+      ],
+      "status": "released",
+      "assay_term_name": "MPRA",
+      "description": null,
+      "biosample_summary": "Homo sapiens SK-N-SH genetically modified (episome) using transient transfection",
+      "file_count": 8
+    },
+    {
+      "url": "https://www.encodeproject.org/ENCSR616NNF/?format=json",
+      "accession": "ENCSR616NNF",
+      "types": [
+        "FunctionalCharacterizationExperiment",
+        "Dataset",
+        "Item"
+      ],
+      "status": "released",
+      "assay_term_name": "MPRA",
+      "description": null,
+      "biosample_summary": "Homo sapiens mammary epithelial cell female genetically modified (episome) using transient transfection",
+      "file_count": 10
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/aptaswitch_data.xlsx",
+      "inspection": "Workbook sheet names, declared dimensions and header rows only; nucleotide values not retained",
+      "sheets": [
+        {
+          "name": "high_throughput",
+          "declared_rows": 385,
+          "declared_columns": 28,
+          "header": [
+            "WELL",
+            "SWITCH",
+            "TRIGGER",
+            "OD260_1",
+            "OD260_2",
+            "OD260_4",
+            "ON_1",
+            "ON_2",
+            "ON_4",
+            "OFF_1",
+            "OFF_2",
+            "OFF_4",
+            "POS",
+            "NEG",
+            "EXTINCTION_COEFFICIENT",
+            "CONC_IN_RXN_1",
+            "CONC_IN_RXN_2",
+            "CONC_IN_RXN_4",
+            "ON_OFF_1",
+            "ON_OFF_2",
+            "ON_OFF_4",
+            "BLK",
+            "SLOPE_ON",
+            "SLOPE_OFF",
+            "ADJ_ON",
+            "SPEAR_OFF",
+            "ADJ_OFF",
+            "ADJ_ON_OFF"
+          ]
+        },
+        {
+          "name": "forward_designed",
+          "declared_rows": 85,
+          "declared_columns": 22,
+          "header": [
+            "NAME",
+            "SWITCH",
+            "TRIGGER",
+            "OD260_1",
+            "OD260_2",
+            "OD260_4",
+            "ON_1",
+            "ON_2",
+            "ON_4",
+            "OFF_1",
+            "OFF_2",
+            "OFF_4",
+            "POS",
+            "NEG",
+            "EXTINCTION_COEFFICIENT",
+            "CONC_IN_RXN_1",
+            "CONC_IN_RXN_2",
+            "CONC_IN_RXN_4",
+            "ON_OFF_1",
+            "ON_OFF_2",
+            "ON_OFF_4",
+            "BLK"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/autosome-ru/parade/commits/master",
+      "commit_sha": "f8e3e02688918e40d85eff0976a984810ee04372",
+      "commit_date": "2026-05-20T19:53:22Z"
+    },
+    {
+      "url": "https://api.github.com/repos/AlexGreenLab/GARDN-SANDSTORM/commits/main",
+      "commit_sha": "8694e3ef614ba89e519d093f06caf624a2345189",
+      "commit_date": "2025-04-08T18:17:25Z"
+    },
+    {
+      "url": "https://api.github.com/repos/BorgwardtLab/SAPIENs/commits/main",
+      "commit_sha": "316a562e85379b03ba3bea8f5149391f59c581ed",
+      "commit_date": "2020-06-12T07:35:31Z"
+    },
+    {
+      "url": "https://api.github.com/repos/broadinstitute/adapt-seq-design/commits/main",
+      "commit_sha": "034359c187f16103cfe4fbaa82121b1dd87696b1",
+      "commit_date": "2021-12-24T22:18:17Z"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/broadinstitute/adapt-seq-design/main/data/CCF-curated/CCF_merged_pairs_annotated.curated.tsv",
+      "inspection": "TSV header only",
+      "header": [
+        "guide_seq",
+        "guide_pos_nt",
+        "target_at_guide",
+        "target_before",
+        "target_after",
+        "crrna_block",
+        "type",
+        "guide_target_hamming_dist",
+        "out_logk_median",
+        "out_logk_stdev",
+        "out_logk_replicate_count",
+        "out_logk_measurements"
+      ]
+    },
+    {
+      "url": "https://api.github.com/repos/autosome-ru/parade/issues/2",
+      "title": "Link to Zenodo data",
+      "state": "open",
+      "comments": 0,
+      "updated_at": "2026-08-19T13:14:32Z",
+      "observation": "README mentions a data archive without a link; issue requests that link. This does not prove there is no release elsewhere."
+    }
+  ]
+}

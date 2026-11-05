@@ -1,0 +1,1005 @@
+[
+  {
+    "repository": "https://github.com/RainaBio/GEMORNA",
+    "model_ids": [
+      "P001"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/RainaBio/GEMORNA/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/pjsample/human_5utr_modeling",
+    "model_ids": [
+      "P002",
+      "P006"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/pjsample/human_5utr_modeling/contents/README.md",
+    "data_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002"
+    ],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/eternagame/DegScore",
+    "model_ids": [
+      "P003",
+      "P052"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/eternagame/DegScore/contents/README.md",
+    "data_urls": [
+      "https://doi.org/10.5281/zenodo.7130659",
+      "https://zenodo.org/badge/280538188.svg",
+      "https://zenodo.org/badge/latestdoi/280538188",
+      "https://www.kaggle.com/c/stanford-covid-vaccine"
+    ],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/Durixas/iDRO",
+    "model_ids": [
+      "P004"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/Durixas/iDRO/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [
+      "sample_data/mDS-20230925.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/LinearDesignSoftware/LinearDesign",
+    "model_ids": [
+      "P005"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/LinearDesignSoftware/LinearDesign/contents/README.md",
+    "data_urls": [
+      "https://img.shields.io/github/downloads/LinearDesignSoftware/LinearDesign/total"
+    ],
+    "referenced_asset_names": [
+      "codon_usage_freq_table_human.csv",
+      "codon_usage_freq_table_yeast.csv"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/castillohair/paper-5utr-design",
+    "model_ids": [
+      "P006"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/castillohair/paper-5utr-design/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/johli/seqprop",
+    "model_ids": [
+      "P006"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/johli/seqprop/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/johli/genesis",
+    "model_ids": [
+      "P006"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/johli/genesis/contents/README.md",
+    "data_urls": [
+      "https://drive.google.com/drive/folders/1DgL5aMwhqcKkg_-aIeYA8tlHg9OSehtr?usp=sharing"
+    ],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/deepomicslab/Smart5UTR",
+    "model_ids": [
+      "P007"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/deepomicslab/Smart5UTR/contents/README.md",
+    "data_urls": [
+      "https://drive.google.com/drive/folders/1WBFdi0Nv15Epu3FJmOJFmKO5XoTxz1Q8?usp=share_link"
+    ],
+    "referenced_asset_names": [
+      "requirements.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/Sanofi-Public/mRNA-LM",
+    "model_ids": [
+      "P008"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/Sanofi-Public/mRNA-LM/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [
+      "//cdn.prod.accelerator.sanofi/llm/CodonBERT.zip",
+      "//cdn.prod.accelerator.sanofi/llm/mrna_5utr_model.zip",
+      "//cdn.prod.accelerator.sanofi/llm/mrna_3utr_model.zip"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/CenikLab/coTE_paper",
+    "model_ids": [
+      "P009"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/CenikLab/coTE_paper/contents/README.md",
+    "data_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11326257/",
+      "https://zenodo.org/records/15337774"
+    ],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/CenikLab/TE_model",
+    "model_ids": [
+      "P009"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/CenikLab/TE_model/contents/README.md",
+    "data_urls": [
+      "https://zenodo.org/records/10594392"
+    ],
+    "referenced_asset_names": [
+      "gene_correction_map_rna.csv",
+      "gene_correction_map.csv",
+      "data/paxdb_filtered_sample.csv",
+      "model_results.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/Sanofi-Public/RiboNN",
+    "model_ids": [
+      "P010"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/Sanofi-Public/RiboNN/contents/README.md",
+    "data_urls": [
+      "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname",
+      "https://zenodo.org/records/17258709",
+      "https://zenodo.org/records/17258709:"
+    ],
+    "referenced_asset_names": [
+      "prediction_input.txt",
+      "prediction_output.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/CenikLab/TE_classic_ML",
+    "model_ids": [
+      "P010"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/CenikLab/TE_classic_ML/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [
+      "appris_human_v2_selected.fa",
+      "appris_mouse_v2_selected.fa",
+      "human_all_biochem_feature_no_len.csv",
+      "./examples/predict_input_example.csv",
+      "./examples/predict_output_example.csv"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/AlexGreenLab/GARDN-SANDSTORM",
+    "model_ids": [
+      "P012"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/AlexGreenLab/GARDN-SANDSTORM/contents/README.txt",
+    "data_urls": [
+      "https://zenodo.org/records/15058435"
+    ],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/HudenJear/RPLoss",
+    "model_ids": [
+      "P013"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/HudenJear/RPLoss/contents/README.md",
+    "data_urls": [
+      "https://drive.google.com/file/d/1RkJ-U22sH4z2_vWHPW8EeFtkkbaOE6Nf/view?usp=drive_link"
+    ],
+    "referenced_asset_names": [
+      "requirements.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/BaseUQ/mRNArchitect-paper-jon",
+    "model_ids": [
+      "P014"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/BaseUQ/mRNArchitect-paper-jon/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/base-facility/mrnarchitect_codon_tables",
+    "model_ids": [
+      "P014"
+    ],
+    "status": "readme_not_located",
+    "error": null,
+    "checked_on": "2026-11-05"
+  },
+  {
+    "repository": "https://github.com/a96123155/UTR-LM",
+    "model_ids": [
+      "P018"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/a96123155/UTR-LM/contents/README.md",
+    "data_urls": [
+      "https://codeocean.com/capsule/4214075/tree/v1",
+      "https://drive.google.com/drive/folders/1oGGgQ33cbx340vXsH_Ds_Py6Ad0TslLD?usp=share_link",
+      "https://drive.google.com/drive/u/1/folders/1_kmnYqYA5PNHQIxvwRgUn_RLZXS8Z7j3",
+      "https://drive.google.com/drive/u/1/folders/1csTXwy3LDCLKnzHHtcRsnu4LiJUEYHm3",
+      "https://drive.google.com/drive/u/1/folders/190oihtrwCxWjtDCK9kJzyhXPKxbr5xoR"
+    ],
+    "referenced_asset_names": [
+      "4.1_train_data_GSM3130435_egfp_unmod_1.csv",
+      "4.1_test_data_GSM3130435_egfp_unmod_1.csv",
+      "4.2_train_data_GSM3130435_egfp_unmod_1.csv",
+      "4.2_test_data_GSM3130435_egfp_unmod_1.csv",
+      "utrlm_requirements.txt",
+      "./Data/Pretrained_Data/Fivespecies_Cao_energy_structure_CaoEnergyNormalDist_255795sequence.fasta"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/pansaichao/UTR_Insight",
+    "model_ids": [
+      "P019"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/pansaichao/UTR_Insight/contents/README.md",
+    "data_urls": [
+      "https://ngdc.cncb.ac.cn/omix"
+    ],
+    "referenced_asset_names": [
+      "OMIX008723-01.tar.gz",
+      "OMIX008723-02.7z"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/honggen-zhang/mRNA2vec",
+    "model_ids": [
+      "P020"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/honggen-zhang/mRNA2vec/contents/README.md",
+    "data_urls": [
+      "https://www.ncbi.nlm.nih.gov/datasets/docs/v2/reference-docs/command-line/datasets/",
+      "https://drive.google.com/drive/folders/1zTUZ9qGdjJJqdmjjzdZlmBUU8FgpTLtb?usp=sharing"
+    ],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/Shujun-He/RNAdegformer",
+    "model_ids": [
+      "P021"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/Shujun-He/RNAdegformer/contents/README.md",
+    "data_urls": [
+      "https://www.kaggle.com/c/stanford-covid-vaccine/data",
+      "https://www.kaggle.com/shujun717/openvaccine-12x-dataset"
+    ],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/rabanilab/UTR-Seq",
+    "model_ids": [
+      "P022"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/rabanilab/UTR-Seq/contents/README.md",
+    "data_urls": [
+      "https://www.ncbi.nlm.nih.gov/pubmed/29727622"
+    ],
+    "referenced_asset_names": [
+      "UTR-Seq-master.zip",
+      "example/reporter_counts.txt",
+      "example/reporter_seq.txt",
+      "example/test_seq.txt",
+      "example/bg_seq.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/Devil625/Codon_Optimization",
+    "model_ids": [
+      "P024"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/Devil625/Codon_Optimization/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [
+      "sample_data/CPA.txt",
+      "sample_data/cboxtrain.txt",
+      "sample_data/cboxdev.txt",
+      "sample_data/cboxtest.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/Sanofi-Public/CodonBERT",
+    "model_ids": [
+      "P025"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/Sanofi-Public/CodonBERT/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [
+      "//cdn.prod.accelerator.sanofi/llm/CodonBERT.zip",
+      "sample.fasta",
+      "benchmarks/CodonBERT/data/sample.fasta",
+      "train_seqs_id_1.csv.zip",
+      "benchmarks/CodonBERT/data/pre-train/train_seqs_id_1.csv.zip",
+      "train_seqs_id_2.csv.zip",
+      "benchmarks/CodonBERT/data/pre-train/train_seqs_id_2.csv.zip",
+      "train_samples.csv",
+      "benchmarks/CodonBERT/data/pre-train/train_samples.csv",
+      "eval.csv",
+      "benchmarks/CodonBERT/data/pre-train/eval.csv",
+      "benchmarks/CodonBERT/data/fine-tune/MLOS.csv",
+      "mRFP_Expression.csv",
+      "benchmarks/CodonBERT/data/fine-tune/mRFP_Expression.csv",
+      "Fungal_expression.csv",
+      "benchmarks/CodonBERT/data/fine-tune/Fungal_expression.csv",
+      "E.Coli_proteins.csv",
+      "benchmarks/CodonBERT/data/fine-tune/E.Coli_proteins.csv",
+      "Tc-Riboswitches.csv",
+      "benchmarks/CodonBERT/data/fine-tune/Tc-Riboswitches.csv",
+      "mRNA_Stability.csv",
+      "benchmarks/CodonBERT/data/fine-tune/mRNA_Stability.csv",
+      "CoV_Vaccine_Degradation.csv",
+      "benchmarks/CodonBERT/data/fine-tune/CoV_Vaccine_Degradation.csv",
+      "datamodel_mRFP.csv"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/BTheDragonMaster/mew",
+    "model_ids": [
+      "P026"
+    ],
+    "status": "readme_not_located",
+    "error": null,
+    "checked_on": "2026-11-05"
+  },
+  {
+    "repository": "https://github.com/fightw/5UTR_RFuploadw",
+    "model_ids": [
+      "P028"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/fightw/5UTR_RFuploadw/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/fightw/modules_SeqNN",
+    "model_ids": [
+      "P028"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/fightw/modules_SeqNN/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/autosome-ru/parade",
+    "model_ids": [
+      "P029"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/autosome-ru/parade/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/yyly6/mRNABERT",
+    "model_ids": [
+      "P031"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/yyly6/mRNABERT/contents/README.md",
+    "data_urls": [
+      "https://zenodo.org/records/17786045",
+      "https://zenodo.org/records/15051237",
+      "https://huggingface.co/YYLY66/mRNABERT",
+      "https://zenodo.org/records/12516160",
+      "https://www.ncbi.nlm.nih.gov/orffinder",
+      "https://github.com/huggingface/transformers/tree/main/examples/pytorch/language-modeling"
+    ],
+    "referenced_asset_names": [
+      "requirements.txt",
+      "/path/to/mrnabert.tar.gz",
+      "/sample_data/pre.txt",
+      "data_process/pre-train/pre_input.fasta",
+      "sample_data/pre.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/wangfanfff/RiboDecode",
+    "model_ids": [
+      "P032"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/wangfanfff/RiboDecode/contents/readme.md",
+    "data_urls": [
+      "https://drive.google.com/file/d/19Yyl8uUbjQn0TAA4E52ZUGBd_pb_RyW8/view?usp=sharing",
+      "https://drive.google.com/file/d/1BVrQvO85b0HI34cWfCNtim_eG2LXSEuv/view?usp=sharing"
+    ],
+    "referenced_asset_names": [
+      "env_file.csv",
+      "optim_results.txt",
+      "/samples/optim_results.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/ml4bio/RhoFold",
+    "model_ids": [
+      "P033"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/ml4bio/RhoFold/contents/README.md",
+    "data_urls": [
+      "https://drive.google.com/file/d/1To2bjbhQLFx1k8hBOW5q1JFq6ut27XEv/view?usp=sharing",
+      "https://huggingface.co/cuhkaih/rhofold/resolve/main/rhofold_pretrained_params.pt",
+      "https://huggingface.co/datasets/cuhkaih/rhofold",
+      "https://drive.google.com/file/d/1qcETN6QQES7cwdfsTPnnlsa77brmyBrN/view?usp=sharing"
+    ],
+    "referenced_asset_names": [
+      "log.txt",
+      "./example/input/3owzA/3owzA.fasta"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/Shunsuke-1994/rfamgen",
+    "model_ids": [
+      "P034"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/Shunsuke-1994/rfamgen/contents/README.md",
+    "data_urls": [
+      "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1044007"
+    ],
+    "referenced_asset_names": [
+      "datasets/RF00234/RF00234.fa",
+      "datasets/RF00234/RF00234_filtered.fa",
+      "_filtered_T2U.fa",
+      "datasets/RF00234/RF00234_unique_seed_removed.fa",
+      "datasets/RF00234/RF00234_unique_seed_removed_notrunc_traceback_onehot_cm.h5",
+      "datasets/RF00234/RF00234_unique_seed_removed_notrunc_traceback_onehot_cm_train.h5",
+      "RF00234_unique_seed_removed_notrunc_traceback_onehot_cm_train.h5",
+      "RF00234_unique_seed_removed_notrunc_traceback_onehot_cm_train_weight_threshold0p1.h5",
+      "RF00234_unique_seed_removed_notrunc_traceback_onehot_cm_valid.h5",
+      "RF00234_unique_seed_removed_notrunc_traceback_onehot_cm_valid_weight_threshold0p1.h5",
+      "./outputs/RF00234/sampled_5seq.fa"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/jaswindersingh2/SPOT-RNA",
+    "model_ids": [
+      "P035"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/jaswindersingh2/SPOT-RNA/contents/README.md",
+    "data_urls": [
+      "https://developer.nvidia.com/cuda-10.0-download-archive",
+      "https://www.dropbox.com/s/w3kc4iro8ztbf3m/bpRNA_dataset.zip",
+      "https://www.dropbox.com/s/vnq0k9dg7vynu3q/PDB_dataset.zip?dl=0"
+    ],
+    "referenced_asset_names": [
+      "//www.dropbox.com/s/dsrcf460nbjqpxa/SPOT-RNA-models.tar.gz",
+      "SPOT-RNA-models.tar.gz",
+      "requirements.txt",
+      "sample_inputs/single_seq.fasta",
+      "sample_inputs/batch_seq.fasta",
+      "//www.dropbox.com/s/w3kc4iro8ztbf3m/bpRNA_dataset.zip",
+      "//www.dropbox.com/s/vnq0k9dg7vynu3q/PDB_dataset.zip"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/oxpig/CaLM",
+    "model_ids": [
+      "P036"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/oxpig/CaLM/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/ShenLab-Genomics/biombenchmark",
+    "model_ids": [
+      "P037"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/ShenLab-Genomics/biombenchmark/contents/README.md",
+    "data_urls": [
+      "https://proj.cse.cuhk.edu.hk/rnafm/api/download?filename=RNA-FM_pretrained.pth",
+      "https://drive.google.com/file/d/10gJBl24OGQ_aZfxtj09dik0rrM4dOk_R/view?usp=sharing",
+      "https://drive.google.com/file/d/1-Gl9LGjR_dmDfOARrIVvuOmb7w_tJvGA/view?usp=sharing",
+      "https://huggingface.co/LLM-EDA/RNAErnie/tree/main",
+      "https://doi.org/10.5281/zenodo.7995778",
+      "https://huggingface.co/zhihan1996/DNA_bert_3",
+      "https://huggingface.co/zhihan1996/DNABERT-2-117M",
+      "https://codeocean.com/capsule/4214075/tree/v1",
+      "https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-500m-multi-species",
+      "https://drive.google.com/drive/folders/1bNvG5JRnUmADC1PXzeCQqkrUBtYKKaxu?usp=sharing"
+    ],
+    "referenced_asset_names": [
+      "output.txt",
+      "error_output.txt",
+      "tables/m6a101_4_0.1.txt",
+      "analyzer/tables/m6a101_4_0.1_collected_data.csv"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/buetnlpbio/BiRNA-BERT",
+    "model_ids": [
+      "P038"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/buetnlpbio/BiRNA-BERT/contents/README.md",
+    "data_urls": [
+      "https://huggingface.co/collections/buetnlpbio/birna-bert-66840c2645d8ceb446b6c919",
+      "https://huggingface.co/mosaicml/mosaic-bert-base",
+      "https://huggingface.co/Lancelot53/birnabert-2ep"
+    ],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/Bruce-ywj/ERNIE-RNA",
+    "model_ids": [
+      "P040"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/Bruce-ywj/ERNIE-RNA/contents/README.md",
+    "data_urls": [
+      "https://drive.google.com/drive/folders/10Yz-sdezhmazzVtrtdBGdzzqK1Z6f-Xv"
+    ],
+    "referenced_asset_names": [
+      "./data/test_seqs.txt",
+      "./data/ss_prediction/bpRNA-1m_testseqs.fasta",
+      "./data/ss_prediction/rna3db_testseqs.fasta",
+      "./data/ss_prediction/bpRNA-new_testseqs.fasta",
+      "./results/ernie_rna_3d_clossness/example.fasta",
+      "./data/MRL_data/seqs.fasta"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/coffeebond/PAL-AI",
+    "model_ids": [
+      "P041"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/coffeebond/PAL-AI/contents/README.html",
+    "data_urls": [],
+    "referenced_asset_names": [
+      "PAL_AI_environment.txt",
+      "Data/XL_oo_pp_7h_tail_length_change.txt",
+      "Data/XL_utr3.fa",
+      "Data/XL_cds.fa",
+      "Data/Datasets_XL_HS_MM_wCDS.txt",
+      "Data/XL_F044_utr3.fa",
+      "Data/XL_F044_cds.fa",
+      "Data/Datasets_F044_wCDS.txt",
+      "HS_cds.fa",
+      "_log.txt",
+      "Data_summary.xlsx"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/lbcb-sci/RiNALMo",
+    "model_ids": [
+      "P042"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/lbcb-sci/RiNALMo/contents/README.md",
+    "data_urls": [
+      "https://zenodo.org/records/15043668",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_pretrained.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_mega_pretrained.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_micro_pretrained.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-16s_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-23s_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-5s_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-srp_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-grp1_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-telomerase_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-tmRNA_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-tRNA_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-RNaseP_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_bprna_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_splice_acceptor_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_splice_donor_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_mrl_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_ncrna_class_0_noise_ft.pt",
+      "https://zenodo.org/records/15043668/files/rinalmo_giga_ncrna_class_200_noise_ft.pt"
+    ],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/heqin-zhu/BPfold",
+    "model_ids": [
+      "P043"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/heqin-zhu/BPfold/contents/README.md",
+    "data_urls": [
+      "https://github.com/heqin-zhu/BPfold/releases/latest/download/model_predict.tar.gz",
+      "https://github.com/heqin-zhu/BPfold/releases/latest/download/BPfold_data.tar.gz",
+      "https://github.com/heqin-zhu/BPfold/releases/download/v0.2/BPfold_test_results.tar.gz",
+      "https://github.com/heqin-zhu/BPfold/releases/download/v0.2/model_reproduce.tar.gz"
+    ],
+    "referenced_asset_names": [
+      "model_predict.tar.gz",
+      "//github.com/heqin-zhu/BPfold/releases/latest/download/model_predict.tar.gz",
+      "BPfold_data.tar.gz",
+      "//github.com/heqin-zhu/BPfold/releases/latest/download/BPfold_data.tar.gz",
+      "examples/examples.fasta",
+      "//github.com/heqin-zhu/BPfold/releases/download/v0.2/BPfold_test_results.tar.gz",
+      "BPfold_test_results.tar.gz",
+      "BPfold_reproduce.tar.gz",
+      "//github.com/heqin-zhu/BPfold/releases/download/v0.2/model_reproduce.tar.gz",
+      "model_reproduce.tar.gz"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/cgoliver/rnamigos2",
+    "model_ids": [
+      "P044"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/cgoliver/rnamigos2/contents/README.md",
+    "data_urls": [
+      "https://download.pytorch.org/whl/cpu",
+      "https://data.dgl.ai/wheels/torch-2.2/repo.html"
+    ],
+    "referenced_asset_names": [
+      "requirements.txt",
+      "sample_files/test_smiles.txt",
+      "scores.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/LRB-IIMCB/ninetails",
+    "model_ids": [
+      "P045"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/LRB-IIMCB/ninetails/contents/README.md",
+    "data_urls": [
+      "https://zenodo.org/badge/DOI/10.5281/zenodo.13309819.svg",
+      "https://doi.org/10.5281/zenodo.13309819"
+    ],
+    "referenced_asset_names": [
+      "path/to/dorado_alignment_summary.txt",
+      "path/to/dorado_summary.txt",
+      "nanopolish_output.tsv",
+      "sequencing_summary.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/TRISTAN-ORF/RiboTIE",
+    "model_ids": [
+      "P046"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/TRISTAN-ORF/RiboTIE/contents/README.md",
+    "data_urls": [
+      "https://zenodo.org/badge/DOI/10.5281/zenodo.8059764.svg",
+      "https://doi.org/10.5281/zenodo.8059764"
+    ],
+    "referenced_asset_names": [
+      "path/to/fa_file.fa",
+      "my_experiment.h5",
+      "GRCh38v110_snippet.h5",
+      ".unfiltered.csv"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/TRISTAN-ORF/RiboTIE_article",
+    "model_ids": [
+      "P046"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/TRISTAN-ORF/RiboTIE_article/contents/README.md",
+    "data_urls": [
+      "https://zenodo.org/badge/DOI/10.5281/zenodo.8059764.svg",
+      "https://doi.org/10.5281/zenodo.8059764",
+      "https://zenodo.org/record/8059764"
+    ],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/kiharalab/NuFold",
+    "model_ids": [
+      "P047"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/kiharalab/NuFold/contents/README.md",
+    "data_urls": [
+      "https://download.pytorch.org/whl/cu117",
+      "https://github.com/satoken/ipknot/releases/download/v1.1.0/ipknot-1.1.0-x86_64-linux.zip"
+    ],
+    "referenced_asset_names": [
+      "//github.com/satoken/ipknot/releases/download/v1.1.0/ipknot-1.1.0-x86_64-linux.zip",
+      "ipknot-1.1.0-x86_64-linux.zip",
+      "2DER_C.fasta",
+      "test_input/2DER_C/2DER_C.fasta"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/hsalis/SalisLabCode",
+    "model_ids": [
+      "P048"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/hsalis/SalisLabCode/contents/README.md",
+    "data_urls": [],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/lingxusb/Riboformer",
+    "model_ids": [
+      "P049"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/lingxusb/Riboformer/contents/README.md",
+    "data_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119104",
+      "https://www.ncbi.nlm.nih.gov/nuccore/49175990",
+      "https://drive.google.com/file/d/1B5RV_74uPLYjpakOdUmH03_NMP0hQXrB/view?usp=sharing",
+      "https://drive.google.com/file/d/1F8mwXFDC9ufXTsuWQEP6g_PGHD23cGjV/view?usp=sharing",
+      "https://drive.google.com/file/d/1XXmyePpJDK5RkbrF1tRkVu8EFFiy-rOd/view?usp=sharing"
+    ],
+    "referenced_asset_names": [
+      "genome_sequence.fasta",
+      "model_prediction.txt",
+      "zc.txt",
+      "pause_indices.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/MSDLLCpapers/mRNAid",
+    "model_ids": [
+      "P050"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/MSDLLCpapers/mRNAid/contents/README.md",
+    "data_urls": [
+      "https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html",
+      "https://nodejs.org/en/download/"
+    ],
+    "referenced_asset_names": [],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/eternagame/KaggleOpenVaccine",
+    "model_ids": [
+      "P052"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/eternagame/KaggleOpenVaccine/contents/README.md",
+    "data_urls": [
+      "https://www.kaggle.com/c/stanford-covid-vaccine",
+      "https://www.kaggle.com/c/stanford-covid-vaccine/overview",
+      "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189620|",
+      "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189709|",
+      "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189574|",
+      "https://www.kaggle.com/group16/covid-19-mrna-4th-place-solution",
+      "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189691|",
+      "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189241|",
+      "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189564|",
+      "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/190314|",
+      "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189845|",
+      "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189571|",
+      "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189585|"
+    ],
+    "referenced_asset_names": [
+      "Kaggle_RYOS_trainset_prediction_output_Sep2021.txt",
+      "all_predictions_233x.csv",
+      "233_sequences.txt",
+      "233x_nullrecurrent_output_Oct2021_deg_Mg_50C.txt",
+      "requirements.txt",
+      "example.txt",
+      "predict.txt"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/yangyn533/3UTRBERT",
+    "model_ids": [
+      "P093"
+    ],
+    "status": "readme_data_pointers_scanned",
+    "checked_on": "2026-11-05",
+    "source_url": "https://api.github.com/repos/yangyn533/3UTRBERT/contents/README.md",
+    "data_urls": [
+      "https://doi.org/10.6084/m9.figshare.26082916.v1",
+      "https://figshare.com/articles/software/Pre-trained_3mer_model/22847354",
+      "https://figshare.com/articles/software/Pre-trained_4mer_model/22851119",
+      "https://figshare.com/articles/software/Pre-trained_5mer_model/22851191",
+      "https://figshare.com/articles/software/Pre-trained_6mer_model/22851272"
+    ],
+    "referenced_asset_names": [
+      "requirements.txt",
+      "train.tsv",
+      "dev.tsv",
+      "test.tsv",
+      "pred_results.npy",
+      "pred_results_scores.npy",
+      "ORIGINAL_SEQ_PATH/test.tsv",
+      "PREDICTION_PATH/original_pred/pred_results.npy",
+      "MUTATE_SEQ_PATH/test.tsv",
+      "PREDICTION_PATH/mutate_pred/pred_results.npy",
+      "seq_to_extract.fasta"
+    ],
+    "error": null,
+    "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+  },
+  {
+    "repository": "https://github.com/NanilTx/codonGPT_pub",
+    "model_ids": [
+      "P030"
+    ],
+    "checked_on": "2026-11-05",
+    "status": "repository_unavailable",
+    "error": "404 on live repository metadata check",
+    "data_urls": []
+  }
+]

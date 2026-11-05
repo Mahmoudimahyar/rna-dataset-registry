@@ -1,0 +1,29 @@
+{
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "record_count": 30,
+  "unique_ids": 30,
+  "kind_counts": {
+    "database": 15,
+    "study": 10,
+    "benchmark": 5
+  },
+  "verification_counts": {
+    "metadata": 20,
+    "paper": 9,
+    "schema": 1
+  },
+  "distinct_evidence_url_count": 68,
+  "checks": [
+    "Required record and label fields",
+    "Controlled enum values",
+    "Unique stable IDs",
+    "Internal relation resolution",
+    "Public web URL shapes",
+    "JSON parse for assigned evidence files",
+    "No local path values",
+    "No sequence-like values",
+    "No biological data file inspection overclaim"
+  ],
+  "errors": []
+}

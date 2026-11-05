@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "records": 209,
+  "models": 52,
+  "errors": [],
+  "warnings": [],
+  "limits": "Structural/semantic validation does not independently establish scientific correctness or full file coverage."
+}

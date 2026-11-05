@@ -1,0 +1,191 @@
+{
+  "scope": "Selected sample identity/context fields only; no wet-lab instructions or sequence values retained. Not an all-sample review.",
+  "records": [
+    {
+      "accession": "GSM1624818",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1624818&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "tRNA control 1"
+        ],
+        "source_name_ch1": [
+          "tRNA control 1"
+        ],
+        "organism_ch1": [
+          "Homo sapiens"
+        ],
+        "characteristics_ch1": [
+          "cell line: HEK293T",
+          "treatment: no AlkB-derived enzyme mixture"
+        ],
+        "description": [
+          "tRNA"
+        ],
+        "data_processing": [
+          "Genome_build: hg19",
+          "Supplementary_files_format_and_content: tab-delimited text files containing gene IDs and raw read counts"
+        ]
+      }
+    },
+    {
+      "accession": "GSM4618837",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4618837&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Scer_WT_rep1"
+        ],
+        "source_name_ch1": [
+          "WT exponential phase"
+        ],
+        "organism_ch1": [
+          "Saccharomyces cerevisiae"
+        ],
+        "characteristics_ch1": [
+          "strain: BY4741"
+        ],
+        "description": [
+          "Scer_anticodon_counts.csv",
+          "Scer_isodecoder_counts.csv"
+        ],
+        "data_processing": [
+          "Genome_build: S288c, 972h, dm6, hg19"
+        ]
+      }
+    },
+    {
+      "accession": "GSM7973707",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7973707&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Cerebellar granule cells, ChIP, replicate 1"
+        ],
+        "source_name_ch1": [
+          "Cerebellum"
+        ],
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "characteristics_ch1": [
+          "tissue: Cerebellum",
+          "cell type: Cerebellar granule cells",
+          "chip antibody: FLAG (Sigma, F1804)",
+          "genotype: Polr3a cKI/+, Gabra6-Cre"
+        ],
+        "data_processing": [
+          "Assembly: mm10"
+        ]
+      }
+    },
+    {
+      "accession": "GSM7671071",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7671071&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Dentate gyrus granule cells, replicate 1, batch 1"
+        ],
+        "source_name_ch1": [
+          "Hippocampus"
+        ],
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "characteristics_ch1": [
+          "tissue: Hippocampus",
+          "cell type: Dentate gyrus granule cells",
+          "genotype: Rpl22 Fl/+, Rbp4-Cre",
+          "Sex: Female"
+        ],
+        "data_processing": [
+          "Assembly: Gencode M24 transcript"
+        ]
+      }
+    },
+    {
+      "accession": "GSM5537291",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5537291&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "OPC_repl1"
+        ],
+        "source_name_ch1": [
+          "Oligodendrocyte Progenitor Cells"
+        ],
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "characteristics_ch1": [
+          "cell type: Epiblast stem cells-derived OPCs",
+          "strain: 129S/SvEv",
+          "treatment: N/A",
+          "molecule: tRNA"
+        ],
+        "data_processing": [
+          "Genome_build: mm10",
+          "Supplementary_files_format_and_content: Csv files that contain RPM for tRNA genes grouped by isodecoders or anticodons, for the 3 cell types. Csv files that contain the log difference and p-value from the DESeq2 differential analysis between OPCs and OLs."
+        ]
+      }
+    },
+    {
+      "accession": "GSM5035557",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5035557&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Na\u00efve CD4 T-cells (sorted for live cells) [set1_Naive_1]"
+        ],
+        "source_name_ch1": [
+          "Na\u00efve CD4 T-cells (sorted for live cells)"
+        ],
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "characteristics_ch1": [
+          "strain: B6",
+          "activation stage: na\u00efve",
+          "cell type: CD4 T-cells",
+          "molecule subtype: tRNA"
+        ],
+        "description": [
+          "Set1_Naive_1_S69",
+          "processed data file:",
+          "set1_cytosolictRNAReads_RPM.csv",
+          "set1_cytosolictRNA_byAntiCodon_RPM.csv"
+        ],
+        "data_processing": [
+          "Genome_build: mm10",
+          "Supplementary_files_format_and_content: read counts of mature tRNA and sum of read per anticodon of all samples"
+        ]
+      }
+    },
+    {
+      "accession": "GSM5946903",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5946903&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "MCF7_totalRNA_minusCMC_shortRT_minusDM_rep1"
+        ],
+        "source_name_ch1": [
+          "RNA extracted from MCF7 cell culture, without CMC treatment"
+        ],
+        "organism_ch1": [
+          "Homo sapiens"
+        ],
+        "characteristics_ch1": [
+          "strain: MCF7",
+          "fraction: Total RNA",
+          "enzyme/chemical treatment: none",
+          "rt condition: Short RT"
+        ],
+        "data_processing": [
+          "Assembly: Hg19; hg38"
+        ]
+      }
+    }
+  ]
+}

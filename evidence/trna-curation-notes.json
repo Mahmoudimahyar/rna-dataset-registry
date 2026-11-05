@@ -1,0 +1,45 @@
+{
+  "checked_on": "2026-11-04",
+  "scope": "25 distinct resources/study families: 24 curated and one candidate. References and derived portals are not independent expression experiments. Metadata registry only.",
+  "boundaries": [
+    "No sequence design, model execution, raw sequencing download, wet-lab instructions, or biological sequence values.",
+    "GEO text metadata and selected processed-table header lines were inspected; no all-files or all-rows validation.",
+    "Unknown licenses remain unknown; public access is not redistribution permission."
+  ],
+  "source_classes": {
+    "genomic_reference": [
+      "gtrnadb",
+      "trnadb"
+    ],
+    "reference_derived_prediction": [
+      "trnamod-reference-derived"
+    ],
+    "ordinary_smallrna_estimates": [
+      "tric",
+      "dbtrend",
+      "ecdysone-smallrna-gse69934"
+    ],
+    "paired_dedicated_ordinary": [
+      "hydro-smallrna-comparison-gse137834"
+    ],
+    "dedicated_charging": [
+      "charged-trnaseq-gse97259",
+      "prostate-charge-gse196251",
+      "charge-trnaseq-zenodo10778311"
+    ],
+    "occupancy_proxy_with_mrna_context": [
+      "brain-trna-poliii-ribotag-study"
+    ],
+    "unverified_release": [
+      "gtex-dedicated-trna-atlas-project"
+    ]
+  },
+  "major_corrections": [
+    "GSE227927 is four-state differentiation, not a generic human tissue atlas.",
+    "GSE66550 is dedicated human method-development data, not a tissue distribution cohort.",
+    "GSE239759 is six-population RiboTag mRNA, not tRNA sequencing; 22 GEO records reflect 18 biological samples plus four repeat sequencings.",
+    "The same brain paper deposits Pol III ChIP data under GSE250090; occupancy is not mature total tRNA.",
+    "GSE182811 is a multi-assay SuperSeries; use tRNA subseries GSE182808 and preserve separate yeast controls.",
+    "ALL-tRNAseq all-tRNA and full-length table headers differ in one GBM55 label; equivalence not inferred."
+  ]
+}

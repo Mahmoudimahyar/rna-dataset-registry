@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Future assay-specific observation record (not populated in this registry)",
+  "type": "object",
+  "required": ["observation_id", "resource_id", "entity", "context", "assay", "target", "provenance"],
+  "properties": {
+    "observation_id": {"type": "string"},
+    "resource_id": {"type": "string"},
+    "entity": {"type": "object", "required": ["id", "type", "taxid"], "properties": {"id": {"type": "string"}, "type": {"type": "string"}, "taxid": {"type": ["integer", "null"]}, "assembly": {"type": ["string", "null"]}, "annotation_release": {"type": ["string", "null"]}, "sequence_sha256": {"type": ["string", "null"]}}},
+    "context": {"type": "object", "required": ["cell_or_tissue", "state", "condition", "biological_replicate"], "properties": {"cell_or_tissue": {"type": ["string", "null"]}, "state": {"type": ["string", "null"]}, "condition": {"type": ["string", "null"]}, "biological_replicate": {"type": ["string", "null"]}}},
+    "assay": {"type": "object", "required": ["name", "method_reference", "resolution"]},
+    "target": {"type": "object", "required": ["name", "value", "unit", "evidence_type", "missingness", "negative_definition"], "properties": {"name": {"type": "string"}, "value": {"type": ["number", "string", "array", "null"]}, "unit": {"type": "string"}, "evidence_type": {"enum": ["measured", "computed", "annotation", "prediction", "synthetic", "unknown"]}, "missingness": {"enum": ["observed", "missing", "below_detection", "not_assayed", "imputed", "unknown"]}, "negative_definition": {"type": ["string", "null"]}}},
+    "provenance": {"type": "object", "required": ["study_accession", "sample_accession", "source_file", "source_checksum", "processing_version"], "properties": {"study_accession": {"type": ["string", "null"]}, "sample_accession": {"type": ["string", "null"]}, "source_file": {"type": "string"}, "source_checksum": {"type": ["string", "null"]}, "processing_version": {"type": ["string", "null"]}}}
+  }
+}

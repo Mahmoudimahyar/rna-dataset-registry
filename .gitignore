@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+downloads/
+data/raw/
+data/processed/
+*.fastq
+*.fastq.gz
+*.fasta
+*.fa
+*.bam
+*.cram
+*.sra
+*.pdf
+.env
+*.token
+evidence/private/

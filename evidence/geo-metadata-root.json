@@ -1,0 +1,1612 @@
+[
+  {
+    "accession": "GSE126522",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126522&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "SLAM-seq for K562 endogenous mRNA decay"
+      ],
+      "Series_status": [
+        "Public on May 01 2019"
+      ],
+      "Series_submission_date": [
+        "Feb 13 2019"
+      ],
+      "Series_last_update_date": [
+        "Oct 29 2019"
+      ],
+      "Series_pubmed_id": [
+        "31012849"
+      ],
+      "Series_summary": [
+        "mRNA translation decodes nucleotide into amino acid sequences. However, translation has also been shown to affect mRNA stability depending on codon composition in model organisms, although universality of this mechanism remains unclear. Here, using three independent approaches to measure exogenous and endogenous mRNA decay, we define which codons are associated with stable or unstable mRNAs in human cells. We demonstrate that the regulatory information affecting mRNA stability is encoded in codons and not in nucleotides. Stabilizing codons tend to be associated with higher tRNA levels and higher charged/total tRNA ratios. While mRNAs enriched in destabilizing codons tend to possess shorter poly(A)-tails, the poly(A)-tail is not required for the codon-mediated mRNA stability. This mechanism depends on translation; however, the number of ribosome loads into a mRNA modulates the codon-mediated effects on gene expression. This work provides definitive evidence that translation strongly affects mRNA stability in a codon-dependent manner in human cells."
+      ],
+      "Series_overall_design": [
+        "SLAMseq Kinetics Kit - Catabolic Kinetics Module) from Lexogen was performed. Basically, k562 cells were feed with 100uM 4sU for 24h, fresh media containing s4U was changed every 3h. For chasing, old media are removed and cells were washed with PBS three times before adding media without s4U, but 10mM UTP instead, samples were collected at 0, 2, 4, 6h in triplicates for RNA extract and IAA treatment. All the operations were done in red light source to protect 4sU from crosslink. QuantSeq 3’mRNA-seq library were generated and sequenced. The SLAM-seq data was processed with the slam dunk pipeline (https://github.com/t-neumann/slamdunk 0.3.3.) The reads were aligned to the human genome GRCh38. The half-life was estimated according to the SLAM-seq paper; for downstream analyses a cut-off of p-value < 0.05 was applied to the decay rate estimates.",
+        "Comparing mRNA levels using QuantSeq and RNA-seq poly-A selection."
+      ],
+      "Series_type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM3602994",
+        "GSM3602995",
+        "GSM3602996",
+        "GSM3602997",
+        "GSM3602998",
+        "GSM3602999",
+        "GSM3603000",
+        "GSM3603001",
+        "GSM3603002",
+        "GSM3603003",
+        "GSM3603004",
+        "GSM3603005",
+        "GSM4140812",
+        "GSM4140813",
+        "GSM4140814",
+        "GSM4140815"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE126nnn/GSE126522/suppl/GSE126522_RNAlevels.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE126nnn/GSE126522/suppl/GSE126522_time_course_slam_CPM.csv.gz"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE126523",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA522262",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP185835"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE126523",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126523&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "Translation affects mRNA stability in a codon dependent manner in human cells"
+      ],
+      "Series_status": [
+        "Public on May 01 2019"
+      ],
+      "Series_submission_date": [
+        "Feb 13 2019"
+      ],
+      "Series_last_update_date": [
+        "Oct 29 2019"
+      ],
+      "Series_pubmed_id": [
+        "31012849"
+      ],
+      "Series_summary": [
+        "This SuperSeries is composed of the SubSeries listed below."
+      ],
+      "Series_overall_design": [
+        "Refer to individual Series"
+      ],
+      "Series_type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM3602938",
+        "GSM3602939",
+        "GSM3602940",
+        "GSM3602941",
+        "GSM3602942",
+        "GSM3602943",
+        "GSM3602944",
+        "GSM3602945",
+        "GSM3602946",
+        "GSM3602947",
+        "GSM3602948",
+        "GSM3602949",
+        "GSM3602950",
+        "GSM3602951",
+        "GSM3602952",
+        "GSM3602953",
+        "GSM3602954",
+        "GSM3602955",
+        "GSM3602956",
+        "GSM3602957",
+        "GSM3602958",
+        "GSM3602959",
+        "GSM3602960",
+        "GSM3602961",
+        "GSM3602962",
+        "GSM3602963",
+        "GSM3602964",
+        "GSM3602965",
+        "GSM3602966",
+        "GSM3602967",
+        "GSM3602968",
+        "GSM3602969",
+        "GSM3602970",
+        "GSM3602971",
+        "GSM3602972",
+        "GSM3602973",
+        "GSM3602974",
+        "GSM3602975",
+        "GSM3602976",
+        "GSM3602977",
+        "GSM3602978",
+        "GSM3602979",
+        "GSM3602980",
+        "GSM3602981",
+        "GSM3602982",
+        "GSM3602983",
+        "GSM3602984",
+        "GSM3602985",
+        "GSM3602986",
+        "GSM3602987",
+        "GSM3602988",
+        "GSM3602989",
+        "GSM3602990",
+        "GSM3602991",
+        "GSM3602992",
+        "GSM3602993",
+        "GSM3602994",
+        "GSM3602995",
+        "GSM3602996",
+        "GSM3602997",
+        "GSM3602998",
+        "GSM3602999",
+        "GSM3603000",
+        "GSM3603001",
+        "GSM3603002",
+        "GSM3603003",
+        "GSM3603004",
+        "GSM3603005",
+        "GSM4140812",
+        "GSM4140813",
+        "GSM4140814",
+        "GSM4140815"
+      ],
+      "Series_relation": [
+        "SuperSeries of: GSE126520",
+        "SuperSeries of: GSE126521",
+        "SuperSeries of: GSE126522",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA522258"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE270249",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270249&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "The quantitative impact of 3′UTRs on gene expression [miRNA-seq]"
+      ],
+      "Series_status": [
+        "Public on Jun 18 2025"
+      ],
+      "Series_submission_date": [
+        "Jun 19 2024"
+      ],
+      "Series_last_update_date": [
+        "Jul 10 2025"
+      ],
+      "Series_pubmed_id": [
+        "40586305"
+      ],
+      "Series_summary": [
+        "Control of gene expression is fundamental to biology, and post transcriptional regulation is an important component of this process. In mammals, the 3′UTR in particular serves as a major source of regulatory information within the transcript. Here, we developed an accurate, high throughput, reporter based system to evaluate the impact of >1,400 full length human 3′UTRs on RNA stability, translational regulation, and total protein output. We used this data to model the relative contributions of RNA stability and translational efficiency towards total 3′UTR mediated regulation, revealing an unexpectedly large role for 3′UTR specified translational control. We observed relationships between GC content and 3′UTR length and different modes of regulation, and identified candidate RNA binding proteins involved in 3′UTR dependent gene expression. We compared regulation from >1,400 3′UTRs under control of two dissimilar promoters, which revealed promoter driven differences in post transcriptional regulation for certain 3′UTRs. Together, this dataset represents a comprehensive characterization of 3′UTR mediated quantitative regulation."
+      ],
+      "Series_overall_design": [
+        "Small RNA-sequencing of monoclonal landing pad cell lines containing either the PGK or CAG promoter to identify differentially expressed miRNAs"
+      ],
+      "Series_type": [
+        "Non-coding RNA profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM8338106",
+        "GSM8338107",
+        "GSM8338108",
+        "GSM8338109"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE270nnn/GSE270249/suppl/GSE270249_mirnaFamily_counts.tsv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE270nnn/GSE270249/suppl/GSE270249_mirna_counts.tsv.gz"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE270254",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1125873"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE162060",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162060&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "Ribosomal profiling in single cells reveals cell-cycle dependent translational pausing"
+      ],
+      "Series_status": [
+        "Public on Jun 30 2021"
+      ],
+      "Series_submission_date": [
+        "Nov 24 2020"
+      ],
+      "Series_last_update_date": [
+        "Sep 13 2021"
+      ],
+      "Series_pubmed_id": [
+        "34497418"
+      ],
+      "Series_summary": [
+        "In recent years novel single-cell sequencing methods have allowed an in-depth analysis of the diversity of cell types and cell states in a wide range of organisms. These novel tools predominantly focus on sequencing the genomes, epigenomes, and transcriptomes of single cells. However, despite recent progress in detecting proteins by mass spectrometry with single-cell resolution, it remains a major challenge to measure translation in individual cells. Building upon existing ribosome profiling protocols, we majorly increased the sensitivity of these assays allowing ribosome profiling in single cells. Integrated with a machine learning approach, this technology achieves single codon resolution in individual cells. We validate this method by demonstrating that limitation for a particular amino acid causes ribosome pausing at a subset of the codons representing this amino acid. Interestingly, this pausing is only observed in a sub-population of cells correlating to its cell-cycle state. We further corroborate this phenomenon in non-limiting conditions and detect pronounced GAA pausing during mitosis. Finally, we demonstrate the applicability of this technique to rare primary enteroendocrine cells. This new technology provides the first steps towards determining the contribution of the translational process to the astonishing diversity between seemingly identical cells."
+      ],
+      "Series_overall_design": [
+        "Ribosome profiling in single HEK293T and hTERT-RPE1 FUCCI cells."
+      ],
+      "Series_type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM4932420",
+        "GSM4932421",
+        "GSM4932422",
+        "GSM4932423",
+        "GSM4932424",
+        "GSM4932425",
+        "GSM4932426",
+        "GSM4932427",
+        "GSM4932428",
+        "GSM4932429",
+        "GSM4932430",
+        "GSM4932431",
+        "GSM4932432",
+        "GSM4932433",
+        "GSM4932434",
+        "GSM4932435",
+        "GSM4932436",
+        "GSM4932437",
+        "GSM4932438",
+        "GSM4932439",
+        "GSM4932440",
+        "GSM4932441",
+        "GSM5311356",
+        "GSM5311357",
+        "GSM5311358",
+        "GSM5311359",
+        "GSM5311360",
+        "GSM5311361",
+        "GSM5311362",
+        "GSM5311363",
+        "GSM5311364",
+        "GSM5311365",
+        "GSM5311366",
+        "GSM5311367",
+        "GSM5311368",
+        "GSM5311369",
+        "GSM5311370"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_EE_Dis_layout.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_EE_Mid_layout.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_EE_Pro_layout.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_EE_RPFcounts.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_EE_metadata.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_HEK293T_RPFcounts.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_HEK293T_Starv_RPFcounts.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_HEK293T_Starv_layout.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_HEK293T_Starv_metadata.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_HEK293T_layout.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_HEK293T_metadata.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE-FUCCI_RPFcounts.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE-FUCCI_metadata.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE_G0_layout.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE_KO_layout.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE_MGI_layout.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE_Mit_layout.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE162nnn/GSE162060/suppl/GSE162060_RPE_SR2_layout.csv.gz"
+      ],
+      "Series_relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA680481",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP293782"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE13379",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13379&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "Application of a translational profiling approach for the comparative analysis of CNS cell types."
+      ],
+      "Series_status": [
+        "Public on Nov 14 2008"
+      ],
+      "Series_submission_date": [
+        "Oct 28 2008"
+      ],
+      "Series_last_update_date": [
+        "Feb 11 2019"
+      ],
+      "Series_pubmed_id": [
+        "19013282",
+        "20308160"
+      ],
+      "Series_summary": [
+        "Comparative analysis can provide important insights into complex biological systems. As demonstrated in the accompanying paper, Translating Ribosome Affinity Purification (TRAP), permits comprehensive studies of translated mRNAs in genetically defined cell populations following physiological perturbations.",
+        "To establish the generality of this approach, we present translational profiles for twenty four CNS cell populations, and identify known cell-specific and enriched transcripts for each population.",
+        "We report thousands of cell-specific mRNAs that were not detected in whole tissue microarray studies, and provide examples that demonstrate the benefits deriving from comparative analysis.",
+        "To provide a foundation for further biological and in silico studies, we provide a resource of sixteen transgenic mouse lines, their corresponding anatomic characterization, and translational profiles for cell types from a variety of CNS structures.",
+        "This resource will enable a wide spectrum of molecular and mechanistic studies of both well known and previously uncharacterized neural cell populations.",
+        "",
+        "Keywords: Cell Type Comparison"
+      ],
+      "Series_overall_design": [
+        "For each cell population, three independent TRAP replicates were collected, and total RNA from both the immunoprecipitate and unbound fractions were seperately amplified and hybridized.",
+        "For each tissue, several representative unbound fractions are provided to serve as controls.  Biological replicates are GCRMA normalized within groups.",
+        "Following averaging of replicates, we recommend further global normalization between groups, using affymetrix biotinylated controls, to correct for any broad biases in scanning and hybridization.",
+        "Finally for many analyses, we also recommend filtering to remove those probesets with low IP/UB fold change values from each cell type.",
+        "Researchers can contact us for spreadsheets where these additional steps have been completed."
+      ],
+      "Series_type": [
+        "Expression profiling by array"
+      ],
+      "Series_sample_id": [
+        "GSM337760",
+        "GSM337761",
+        "GSM337762",
+        "GSM337763",
+        "GSM337764",
+        "GSM337765",
+        "GSM337766",
+        "GSM337767",
+        "GSM337768",
+        "GSM337769",
+        "GSM337770",
+        "GSM337771",
+        "GSM337772",
+        "GSM337773",
+        "GSM337774",
+        "GSM337775",
+        "GSM337776",
+        "GSM337777",
+        "GSM337778",
+        "GSM337779",
+        "GSM337780",
+        "GSM337781",
+        "GSM337782",
+        "GSM337783",
+        "GSM337784",
+        "GSM337785",
+        "GSM337786",
+        "GSM337787",
+        "GSM337788",
+        "GSM337789",
+        "GSM337790",
+        "GSM337791",
+        "GSM337792",
+        "GSM337793",
+        "GSM337794",
+        "GSM337795",
+        "GSM337796",
+        "GSM337797",
+        "GSM337798",
+        "GSM337799",
+        "GSM337800",
+        "GSM337801",
+        "GSM337802",
+        "GSM337803",
+        "GSM337804",
+        "GSM337805",
+        "GSM337806",
+        "GSM337807",
+        "GSM337808",
+        "GSM337809",
+        "GSM337810",
+        "GSM337811",
+        "GSM337812",
+        "GSM337813",
+        "GSM337814",
+        "GSM337815",
+        "GSM337816",
+        "GSM337817",
+        "GSM337818",
+        "GSM337819",
+        "GSM337820",
+        "GSM337821",
+        "GSM337822",
+        "GSM337823",
+        "GSM337824",
+        "GSM337825",
+        "GSM337826",
+        "GSM337827",
+        "GSM337828",
+        "GSM337829",
+        "GSM337830",
+        "GSM337831",
+        "GSM337832",
+        "GSM337833",
+        "GSM337834",
+        "GSM337835",
+        "GSM337836",
+        "GSM337837",
+        "GSM337838",
+        "GSM337839",
+        "GSM337840",
+        "GSM337841",
+        "GSM337842",
+        "GSM337843",
+        "GSM337844",
+        "GSM337845",
+        "GSM337846",
+        "GSM337847",
+        "GSM337848",
+        "GSM337849",
+        "GSM337850",
+        "GSM337851",
+        "GSM337852",
+        "GSM337853",
+        "GSM337854",
+        "GSM337855",
+        "GSM337856",
+        "GSM337857",
+        "GSM337858",
+        "GSM337859",
+        "GSM337860",
+        "GSM337861",
+        "GSM337862",
+        "GSM337863",
+        "GSM337864",
+        "GSM337865",
+        "GSM337866"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE13nnn/GSE13379/suppl/GSE13379_RAW.tar"
+      ],
+      "Series_relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA109803"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE239759",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239759&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "Cell-type-specific expression of tRNAs in the brain regulates cellular homeostasis"
+      ],
+      "Series_status": [
+        "Public on Feb 19 2024"
+      ],
+      "Series_submission_date": [
+        "Aug 01 2023"
+      ],
+      "Series_last_update_date": [
+        "Feb 21 2024"
+      ],
+      "Series_pubmed_id": [
+        "38377989"
+      ],
+      "Series_summary": [
+        "Defects in tRNA biogenesis are associated with multiple neurological disorders, yet our understanding of these diseases has been hampered an inability to determine tRNA expression in individual cell types within a complex tissue. Here, we developed a mouse model in which RNA Polymerase III is conditionally epitope-tagged in a Cre-dependent manner, allowing us to accurately profile tRNA expression in any cell type in vivo. We investigated tRNA expression in eleven diverse nervous system cell types, revealing dramatic heterogeneity in the expression of tRNA genes between populations. We found that while maintenance of levels of tRNA anticodon pools is critical for cellular homeostasis, neurons are differentially vulnerable to insults to distinct tRNA anticodon families. Cell type-specific translatome analysis suggests that the balance between tRNA availability and codon demand may underlie such differential resilience. Our work provides a platform for investigating the complexities of mRNA translation and tRNA biology in the brain."
+      ],
+      "Series_overall_design": [
+        "The RiboTag mouse line (B6N.129-Rpl22tm1.1Psam/J mice) was crossed to appropriate Cre driver lines to obtain Rpl22 Fl/+, CRE + mice, expressing HA-tagged Rpl22 in the appropriate cell populations. The following populations were profiled: Cerebellar granule cells (Gabra6-cre, cerebellum), layer V cortical neurons (Rbp4-cre, cortex), dentate gyrus granule cells (Rbp4-cre, hippocamus), inhibitory interneurons (Dlx6a-cre, hippocampus), astrocytes (Aldh1-cre, cortex), and microglia (Tmem119-cre, cortex). HA-tagged RPL22 and associated mRNAs were immunoprecipitated using Pierce anti-HA magnetic beads (ThermoFisher Scientific) from the appropriate brain regions of 6-week-old mice, and mRNA libraries were made using the Kapa Stranded mRNA-Seq Kit (Roche) according to the manufacturer’s protocol.The design includes three biological replicates for each cell type. For cerebellar granule cells, astrocytes, layer V cortical neurons, and dentate gyrus granule cells, one sample each was sequenced twice to account for batch effects."
+      ],
+      "Series_type": [
+        "Other"
+      ],
+      "Series_sample_id": [
+        "GSM7671071",
+        "GSM7671072",
+        "GSM7671073",
+        "GSM7671074",
+        "GSM7671075",
+        "GSM7671076",
+        "GSM7671077",
+        "GSM7671078",
+        "GSM7671079",
+        "GSM7671080",
+        "GSM7671081",
+        "GSM7671082",
+        "GSM7671083",
+        "GSM7671084",
+        "GSM7671085",
+        "GSM7671086",
+        "GSM7671087",
+        "GSM7671088",
+        "GSM7671089",
+        "GSM7671090",
+        "GSM7671091",
+        "GSM7671092"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239759/suppl/GSE239759_RAW.tar"
+      ],
+      "Series_relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1000925"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE314176",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314176&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "Single cell and isoform-specific translational profiling of the mouse brain"
+      ],
+      "Series_status": [
+        "Public on Dec 18 2025"
+      ],
+      "Series_submission_date": [
+        "Dec 17 2025"
+      ],
+      "Series_last_update_date": [
+        "Mar 22 2026"
+      ],
+      "Series_pubmed_id": [
+        "41708856"
+      ],
+      "Series_summary": [
+        "This SuperSeries is composed of the SubSeries listed below."
+      ],
+      "Series_overall_design": [
+        "Refer to individual Series"
+      ],
+      "Series_type": [
+        "Expression profiling by high throughput sequencing",
+        "Other"
+      ],
+      "Series_sample_id": [
+        "GSM8465528",
+        "GSM8465529",
+        "GSM8465530",
+        "GSM8465531",
+        "GSM8465532",
+        "GSM8465533",
+        "GSM8465534",
+        "GSM8465535",
+        "GSM8465536",
+        "GSM8471257",
+        "GSM8471258",
+        "GSM8471259",
+        "GSM8471260",
+        "GSM8499627",
+        "GSM8499628",
+        "GSM8499629",
+        "GSM8499630",
+        "GSM8499631",
+        "GSM8499632",
+        "GSM9380796",
+        "GSM9380797",
+        "GSM9380798",
+        "GSM9380799",
+        "GSM9380800",
+        "GSM9380801"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE314nnn/GSE314176/suppl/GSE314176_RAW.tar"
+      ],
+      "Series_relation": [
+        "SuperSeries of: GSE275091",
+        "SuperSeries of: GSE275133",
+        "SuperSeries of: GSE276504",
+        "SuperSeries of: GSE314058",
+        "SuperSeries of: GSE314059",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1390205"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE114002",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "Human 5′ UTR design and variant effect prediction from a massively parallel translation assay"
+      ],
+      "Series_status": [
+        "Public on May 03 2018"
+      ],
+      "Series_submission_date": [
+        "May 03 2018"
+      ],
+      "Series_last_update_date": [
+        "Jul 01 2024"
+      ],
+      "Series_pubmed_id": [
+        "31267113",
+        "38902240"
+      ],
+      "Series_summary": [
+        "Predicting the impact of cis-regulatory sequence on gene expression is a foundational challenge for biology. We combine polysome profiling of hundreds of thousands of randomized 5′ UTRs with deep learning to build a predictive model that relates human 5′ UTR sequence to translation. Together with a genetic algorithm, we use the model to engineer new 5 UTRs that accurately target specified levels of ribosome loading, providing the ability to tune sequences for optimal protein expression. We show that the same approach can be extended to chemically modified RNA, an important feature for applications in mRNA therapeutics and synthetic biology. We test 35,000 truncated human 5′ UTRs and 3,577 naturally-occurring variants and show that the model accurately predicts ribosome loading of these sequences. Finally, we provide evidence of 47 SNVs associated with human diseases that cause a significant change in ribosome loading and thus a plausible molecular basis for disease."
+      ],
+      "Series_overall_design": [
+        "Polysom profiling and sequencing was performed using a library of 300,000 randomized 5' UTR 50-mers with eGFP used as the CDS. Three RNA chemistries were tested: unmodified, pseudouridine, and 1-methylpseudouridine. These were performed in duplicate (6 samples total). A designed library that includes human 5' UTRs, SNVs, and sequences engineered with a genetic algorithm was used with the eGFP CDS (no duplicate). A second randomized library used mCherry as the CDS, also performed in duplicate."
+      ],
+      "Series_type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM3130435",
+        "GSM3130436",
+        "GSM3130437",
+        "GSM3130438",
+        "GSM3130439",
+        "GSM3130440",
+        "GSM3130441",
+        "GSM3130442",
+        "GSM3130443",
+        "GSM4084997"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE114nnn/GSE114002/suppl/GSE114002_RAW.tar"
+      ],
+      "Series_relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA454863",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP144485"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE232927",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232927&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "Optimizing 5’UTRs for mRNA-delivered gene editing using deep learning"
+      ],
+      "Series_status": [
+        "Public on Jul 01 2023"
+      ],
+      "Series_submission_date": [
+        "May 19 2023"
+      ],
+      "Series_last_update_date": [
+        "Jul 01 2024"
+      ],
+      "Series_pubmed_id": [
+        "38902240"
+      ],
+      "Series_summary": [
+        "mRNA therapeutics are revolutionizing the pharmaceutical industry, but methods to optimize the primary sequence for increased expression are still lacking. Here, we design 5’UTRs for efficient mRNA translation using deep learning. We perform polysome profiling of fully or partially randomized 5'UTR libraries in three cell types and find that UTR performance is highly correlated across cell types. We train models on all our datasets and use them to guide the design of high-performing 5’UTRs using gradient descent and generative neural networks. We experimentally test designed 5’UTRs with mRNA encoding megaTALTM gene editing enzymes for two different gene targets and in two different cell lines. We find that the designed 5’UTRs support strong gene editing activity. Editing efficiency is correlated between cell types and gene targets, although the best performing UTR was specific to one cargo and cell type. Our results highlight the potential of model-based sequence design for mRNA therapeutics."
+      ],
+      "Series_overall_design": [
+        "Polysome profiling followed by Illumina sequencing of synthetic reporter libraries of in-vitro transcribed mRNA with random 5'UTRs."
+      ],
+      "Series_type": [
+        "Other"
+      ],
+      "Series_sample_id": [
+        "GSM7393153",
+        "GSM7393154",
+        "GSM7393155",
+        "GSM7393156",
+        "GSM7393157",
+        "GSM7393158",
+        "GSM7393159",
+        "GSM7393160",
+        "GSM7393161",
+        "GSM7393162",
+        "GSM7393163",
+        "GSM7393164",
+        "GSM7393165",
+        "GSM7393166",
+        "GSM7393167",
+        "GSM7393168",
+        "GSM7393169",
+        "GSM7393170",
+        "GSM7393171",
+        "GSM7393172",
+        "GSM7393173",
+        "GSM7393174",
+        "GSM7393175",
+        "GSM7393176",
+        "GSM7393177",
+        "GSM7393178",
+        "GSM7393179",
+        "GSM7393180",
+        "GSM7393181",
+        "GSM7393182",
+        "GSM7393183",
+        "GSM7393184",
+        "GSM7393185",
+        "GSM7393186",
+        "GSM7393187",
+        "GSM7393188",
+        "GSM7393189",
+        "GSM7393190",
+        "GSM7393191",
+        "GSM7393192",
+        "GSM7393193",
+        "GSM7393194",
+        "GSM7393195",
+        "GSM7393196",
+        "GSM7393197",
+        "GSM7393198",
+        "GSM7393199",
+        "GSM7393200",
+        "GSM7393201",
+        "GSM7393202",
+        "GSM7393203",
+        "GSM7393204",
+        "GSM7393205",
+        "GSM7393206",
+        "GSM7393207",
+        "GSM7393208",
+        "GSM7393209",
+        "GSM7393210",
+        "GSM7393211",
+        "GSM7393212",
+        "GSM7393213",
+        "GSM7393214",
+        "GSM7393215",
+        "GSM7393216",
+        "GSM7393217",
+        "GSM7393218",
+        "GSM7393219",
+        "GSM7393220",
+        "GSM7393221",
+        "GSM7393222",
+        "GSM7393223",
+        "GSM7393224",
+        "GSM7393225",
+        "GSM7393226",
+        "GSM7393227"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE232nnn/GSE232927/suppl/GSE232927_processed_defined_end_hepg2_r1.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE232nnn/GSE232927/suppl/GSE232927_processed_defined_end_tcell_r1.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE232nnn/GSE232927/suppl/GSE232927_processed_defined_end_tcell_r2.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE232nnn/GSE232927/suppl/GSE232927_processed_random_end_hek293t_N25_r1.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE232nnn/GSE232927/suppl/GSE232927_processed_random_end_hek293t_N25_r2.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE232nnn/GSE232927/suppl/GSE232927_processed_random_end_hek293t_N50_r1.csv.gz"
+      ],
+      "Series_relation": [
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA974439"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE126520",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126520&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "endogenous mRNA decay in 293t, hela, RPE cell line"
+      ],
+      "Series_status": [
+        "Public on May 01 2019"
+      ],
+      "Series_submission_date": [
+        "Feb 13 2019"
+      ],
+      "Series_last_update_date": [
+        "May 01 2019"
+      ],
+      "Series_pubmed_id": [
+        "31012849"
+      ],
+      "Series_summary": [
+        "mRNA endogenous decay profiles approach in 293T, HeLa and RPE cells.",
+        "mRNA translation decodes nucleotide into amino acid sequences. However, translation has also been shown to affect mRNA stability depending on codon composition in model organisms, although universality of this mechanism remains unclear. Here, using three independent approaches to measure exogenous and endogenous mRNA decay, we define which codons are associated with stable or unstable mRNAs in human cells. We demonstrate that the regulatory information affecting mRNA stability is encoded in codons and not in nucleotides. Stabilizing codons tend to be associated with higher tRNA levels and higher charged/total tRNA ratios. While mRNAs enriched in destabilizing codons tend to possess shorter poly(A)-tails, the poly(A)-tail is not required for the codon-mediated mRNA stability. This mechanism depends on translation; however, the number of ribosome loads into a mRNA modulates the codon-mediated effects on gene expression. This work provides definitive evidence that translation strongly affects mRNA stability in a codon-dependent manner in human cells."
+      ],
+      "Series_overall_design": [
+        "3 different cells with different timepoint,  Cells were sub-cultured in 24 well plate overnight, so the cells were at around 80% coverage before treatment. Actinomycin D was added into the well, with final concentration of (5ug/ml), in 0.1% DMSO. Cells were directly collected with Trizol, at desired time-point for RNA extract. RNA-seq with ribo depletion  was done for each sample, to calculate mRNA decay based on time-course mRNA-seq. For 293t, it is also treated with Cycloheximide. It was added at 2ug/ml, in H2O.  \"ad\" in sample name means actinomycin D treatment, \"chx\" in the name means Cycloheximide."
+      ],
+      "Series_type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM3602938",
+        "GSM3602939",
+        "GSM3602940",
+        "GSM3602941",
+        "GSM3602942",
+        "GSM3602943",
+        "GSM3602944",
+        "GSM3602945",
+        "GSM3602946",
+        "GSM3602947",
+        "GSM3602948",
+        "GSM3602949",
+        "GSM3602950",
+        "GSM3602951",
+        "GSM3602952",
+        "GSM3602953",
+        "GSM3602954",
+        "GSM3602955",
+        "GSM3602956",
+        "GSM3602957",
+        "GSM3602958",
+        "GSM3602959",
+        "GSM3602960",
+        "GSM3602961",
+        "GSM3602962",
+        "GSM3602963",
+        "GSM3602964",
+        "GSM3602965"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE126nnn/GSE126520/suppl/GSE126520_time_course_endogenous_genes.csv.gz"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE126523",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA522261",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP185833"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE126521",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126521&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "ORFome decay in 293t and k562"
+      ],
+      "Series_status": [
+        "Public on May 01 2019"
+      ],
+      "Series_submission_date": [
+        "Feb 13 2019"
+      ],
+      "Series_last_update_date": [
+        "May 01 2019"
+      ],
+      "Series_pubmed_id": [
+        "31012849"
+      ],
+      "Series_summary": [
+        "mRNA translation decodes nucleotide into amino acid sequences. However, translation has also been shown to affect mRNA stability depending on codon composition in model organisms, although universality of this mechanism remains unclear. Here, using three independent approaches to measure exogenous and endogenous mRNA decay, we define which codons are associated with stable or unstable mRNAs in human cells. We demonstrate that the regulatory information affecting mRNA stability is encoded in codons and not in nucleotides. Stabilizing codons tend to be associated with higher tRNA levels and higher charged/total tRNA ratios. While mRNAs enriched in destabilizing codons tend to possess shorter poly(A)-tails, the poly(A)-tail is not required for the codon-mediated mRNA stability. This mechanism depends on translation; however, the number of ribosome loads into a mRNA modulates the codon-mediated effects on gene expression. This work provides definitive evidence that translation strongly affects mRNA stability in a codon-dependent manner in human cells.",
+        "293T cells and k562 cells were infected with ORFome library to decay exodogenous gene mRNA decay. Stable infected cells were treated with actinmycin D at 6 well plate and samples were collected in duplicate every hour 0-6h for RNA-seq"
+      ],
+      "Series_overall_design": [
+        "The 96 well format ORFome library was pool together using an automatic robot.  First in 20 bins were created based in ORF size, then those 20 were pooled in 5 groups, grown, DNA maxi-preparation done. After quantification, the five groups were mixed into a single cocktail. The ORFome cocktail was transfected with lentivirus vector: Pax2 and VSV-G into 293T cells for virus packing. Media containing virus were filtered and ultracentrifuged to enrich virus for infection. 293T cells and k562 cells were infected and selected with puromycin for a week, at the concentration of 293T(2ug/ml), K562(0.75ug/ml). Then, cells were treated with Actinomycin D (5ug/ml) at 6 well plate and samples were collected in duplicate every hour 0-6h for RNA-seq.  Specific oligos were used to target the surrounding barcode region of ORFome to generate library and sequenced."
+      ],
+      "Series_type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM3602966",
+        "GSM3602967",
+        "GSM3602968",
+        "GSM3602969",
+        "GSM3602970",
+        "GSM3602971",
+        "GSM3602972",
+        "GSM3602973",
+        "GSM3602974",
+        "GSM3602975",
+        "GSM3602976",
+        "GSM3602977",
+        "GSM3602978",
+        "GSM3602979",
+        "GSM3602980",
+        "GSM3602981",
+        "GSM3602982",
+        "GSM3602983",
+        "GSM3602984",
+        "GSM3602985",
+        "GSM3602986",
+        "GSM3602987",
+        "GSM3602988",
+        "GSM3602989",
+        "GSM3602990",
+        "GSM3602991",
+        "GSM3602992",
+        "GSM3602993"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE126nnn/GSE126521/suppl/GSE126521_ORFome_Ids.csv.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE126nnn/GSE126521/suppl/GSE126521_barcodes_quantifications.csv.gz"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE126523",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA522263",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP185834"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE270254",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270254&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "The quantitative impact of 3′UTRs on gene expression"
+      ],
+      "Series_status": [
+        "Public on Jun 18 2025"
+      ],
+      "Series_submission_date": [
+        "Jun 19 2024"
+      ],
+      "Series_last_update_date": [
+        "Jul 10 2025"
+      ],
+      "Series_pubmed_id": [
+        "40586305"
+      ],
+      "Series_summary": [
+        "This SuperSeries is composed of the SubSeries listed below."
+      ],
+      "Series_overall_design": [
+        "Refer to individual Series"
+      ],
+      "Series_type": [
+        "Other",
+        "Non-coding RNA profiling by high throughput sequencing",
+        "Expression profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM8338095",
+        "GSM8338096",
+        "GSM8338097",
+        "GSM8338098",
+        "GSM8338099",
+        "GSM8338100",
+        "GSM8338101",
+        "GSM8338102",
+        "GSM8338103",
+        "GSM8338104",
+        "GSM8338105",
+        "GSM8338106",
+        "GSM8338107",
+        "GSM8338108",
+        "GSM8338109",
+        "GSM8338153",
+        "GSM8338154",
+        "GSM8338155",
+        "GSM8338156",
+        "GSM8338157",
+        "GSM8338158",
+        "GSM8338159",
+        "GSM8338160",
+        "GSM8338161",
+        "GSM8338162",
+        "GSM8338163",
+        "GSM8338164",
+        "GSM8338165",
+        "GSM8338166",
+        "GSM8338167",
+        "GSM8338168",
+        "GSM8338169",
+        "GSM8338170",
+        "GSM8338171",
+        "GSM8338172",
+        "GSM8338173",
+        "GSM8338174",
+        "GSM8338175",
+        "GSM8338176",
+        "GSM8338177",
+        "GSM8338178",
+        "GSM8338179",
+        "GSM8338180",
+        "GSM8338181",
+        "GSM8338182",
+        "GSM8338183",
+        "GSM8338184",
+        "GSM8338185",
+        "GSM8338186",
+        "GSM8338187",
+        "GSM8338188",
+        "GSM8338189",
+        "GSM8338190",
+        "GSM8338191",
+        "GSM8338192",
+        "GSM8338193",
+        "GSM8338194",
+        "GSM8338195",
+        "GSM8338196",
+        "GSM8338197",
+        "GSM8338198",
+        "GSM8338199",
+        "GSM8338200",
+        "GSM8338201",
+        "GSM8338202",
+        "GSM8338203",
+        "GSM8338204",
+        "GSM8338205",
+        "GSM8338206",
+        "GSM8338207",
+        "GSM8338208",
+        "GSM8338209",
+        "GSM8338210",
+        "GSM8338211",
+        "GSM8338212",
+        "GSM8338213",
+        "GSM8338214",
+        "GSM8338215",
+        "GSM8338216",
+        "GSM8338217",
+        "GSM8338218",
+        "GSM8338219",
+        "GSM8338220",
+        "GSM8338221",
+        "GSM8338222",
+        "GSM8338223",
+        "GSM8338224",
+        "GSM8338225",
+        "GSM8338226",
+        "GSM8338227",
+        "GSM8338228",
+        "GSM8338229",
+        "GSM8338230",
+        "GSM8338231",
+        "GSM8338232",
+        "GSM8338233",
+        "GSM8338234",
+        "GSM8338235",
+        "GSM8338236",
+        "GSM8338237",
+        "GSM9039890",
+        "GSM9039891",
+        "GSM9039892",
+        "GSM9039893",
+        "GSM9039894",
+        "GSM9039895",
+        "GSM9039896",
+        "GSM9039897",
+        "GSM9039898",
+        "GSM9039899",
+        "GSM9039900",
+        "GSM9039901",
+        "GSM9039902",
+        "GSM9039903",
+        "GSM9039904",
+        "GSM9039905",
+        "GSM9039906",
+        "GSM9039907"
+      ],
+      "Series_relation": [
+        "SuperSeries of: GSE270247",
+        "SuperSeries of: GSE270248",
+        "SuperSeries of: GSE270249",
+        "SuperSeries of: GSE270252",
+        "SuperSeries of: GSE270253",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1125882"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE275091",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE275091&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "Single cell and isoform-specific translational profiling of the mouse brain [Ribo-STAMP]"
+      ],
+      "Series_status": [
+        "Public on Dec 22 2025"
+      ],
+      "Series_submission_date": [
+        "Aug 16 2024"
+      ],
+      "Series_last_update_date": [
+        "Mar 26 2026"
+      ],
+      "Series_pubmed_id": [
+        "41708856"
+      ],
+      "Series_summary": [
+        "The brain displays the richest repertoire of post-transcriptional mechanisms regulating mRNA translation1–12. Among these, alternative isoform expression has been shown to drive cell type specificity and, when disrupted, is strongly linked to neurological disorders13–18. However, genome-wide measurements of mRNA translation with isoform-sensitivity at single-cell resolution have not been achieved. To address this, we deployed Ribo-STAMP (Surveying Ribosomal Targets by APOBEC-Mediated Profiling) coupled with short- and long-read single-cell RNA-sequencing in the brain19. We generated the first isoform-sensitive single cell translatomes of the mouse hippocampus, discovering 797 alternative isoforms across 325 genes, with CA1 exhibiting the most differentially expressed and CA3 the most differentially translated isoforms. We defined high and low translational states in CA1 and CA3 neurons, with ribosomal, metabolic, and synaptic genes enriched in high states. Surprisingly, we found that CA3 neurons exhibited higher basal translation compared to CA1, as confirmed by metabolic labeling of newly synthesized proteins and immunohistochemistry of mRNA translation factors. This easily adoptable platform will expand our understanding of how isoform-specific translation drives brain physiology and disease."
+      ],
+      "Series_overall_design": [
+        "To evaluate Ribo-STAMP's sensitivity in detecting rapid translational changes on the order of minutes to hours, we treated neurons with Brain-Derived Neurotrophic Factor (BDNF) after Ribo-STAMP expression."
+      ],
+      "Series_type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM8465528",
+        "GSM8465529",
+        "GSM8465530",
+        "GSM8465531",
+        "GSM8465532",
+        "GSM8465533",
+        "GSM8465534",
+        "GSM8465535",
+        "GSM8465536"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE275nnn/GSE275091/suppl/GSE275091_RAW.tar"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE314176",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1149087"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE275133",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE275133&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "Single cell and isoform-specific translational profiling of the mouse brain [Bulk RNA-seq]"
+      ],
+      "Series_status": [
+        "Public on Dec 22 2025"
+      ],
+      "Series_submission_date": [
+        "Aug 19 2024"
+      ],
+      "Series_last_update_date": [
+        "Mar 26 2026"
+      ],
+      "Series_pubmed_id": [
+        "41708856"
+      ],
+      "Series_summary": [
+        "The brain displays the richest repertoire of post-transcriptional mechanisms regulating mRNA translation1–12. Among these, alternative isoform expression has been shown to drive cell type specificity and, when disrupted, is strongly linked to neurological disorders13–18. However, genome-wide measurements of mRNA translation with isoform-sensitivity at single-cell resolution have not been achieved. To address this, we deployed Ribo-STAMP (Surveying Ribosomal Targets by APOBEC-Mediated Profiling) coupled with short- and long-read single-cell RNA-sequencing in the brain19. We generated the first isoform-sensitive single cell translatomes of the mouse hippocampus, discovering 797 alternative isoforms across 325 genes, with CA1 exhibiting the most differentially expressed and CA3 the most differentially translated isoforms. We defined high and low translational states in CA1 and CA3 neurons, with ribosomal, metabolic, and synaptic genes enriched in high states. Surprisingly, we found that CA3 neurons exhibited higher basal translation compared to CA1, as confirmed by metabolic labeling of newly synthesized proteins and immunohistochemistry of mRNA translation factors. This easily adoptable platform will expand our understanding of how isoform-specific translation drives brain physiology and disease."
+      ],
+      "Series_overall_design": [
+        "To determine if RPS2-STAMP accurately reports ribosome occupancy on mRNAs in neurons, we benchmarked it against enhanced cross-linking and immunoprecipitation (eCLIP) of ribosomal proteins."
+      ],
+      "Series_type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM8471257",
+        "GSM8471258",
+        "GSM8471259",
+        "GSM8471260"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE275nnn/GSE275133/suppl/GSE275133_RAW.tar"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE314176",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1149662"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE276504",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276504&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "Single cell and isoform-specific translational profiling of the mouse brain [ribostamp]"
+      ],
+      "Series_status": [
+        "Public on Dec 22 2025"
+      ],
+      "Series_submission_date": [
+        "Sep 06 2024"
+      ],
+      "Series_last_update_date": [
+        "Mar 26 2026"
+      ],
+      "Series_pubmed_id": [
+        "41708856"
+      ],
+      "Series_summary": [
+        "The brain displays the richest repertoire of post-transcriptional mechanisms regulating mRNA translation1–12. Among these, alternative isoform expression has been shown to drive cell type specificity and, when disrupted, is strongly linked to neurological disorders13–18. However, genome-wide measurements of mRNA translation with isoform-sensitivity at single-cell resolution have not been achieved. To address this, we deployed Ribo-STAMP (Surveying Ribosomal Targets by APOBEC-Mediated Profiling) coupled with short- and long-read single-cell RNA-sequencing in the brain19. We generated the first isoform-sensitive single cell translatomes of the mouse hippocampus, discovering 797 alternative isoforms across 325 genes, with CA1 exhibiting the most differentially expressed and CA3 the most differentially translated isoforms. We defined high and low translational states in CA1 and CA3 neurons, with ribosomal, metabolic, and synaptic genes enriched in high states. Surprisingly, we found that CA3 neurons exhibited higher basal translation compared to CA1, as confirmed by metabolic labeling of newly synthesized proteins and immunohistochemistry of mRNA translation factors. This easily adoptable platform will expand our understanding of how isoform-specific translation drives brain physiology and disease."
+      ],
+      "Series_overall_design": [
+        "To optimize Ribo-STAMP for expression in brain cells, we compared RPL10a, RPL22 and RPS2 NT (deposited at GSE275091) Ribo-STAMP constructs in mouse cortical neurons."
+      ],
+      "Series_type": [
+        "Other"
+      ],
+      "Series_sample_id": [
+        "GSM8499627",
+        "GSM8499628",
+        "GSM8499629",
+        "GSM8499630",
+        "GSM8499631",
+        "GSM8499632"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE276nnn/GSE276504/suppl/GSE276504_RAW.tar"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE314176",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1157744"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE314058",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314058&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "Single-cell and isoform-specific translational profiling of the mouse brain [scRNA-seq]"
+      ],
+      "Series_status": [
+        "Public on Dec 22 2025"
+      ],
+      "Series_submission_date": [
+        "Dec 17 2025"
+      ],
+      "Series_last_update_date": [
+        "Mar 26 2026"
+      ],
+      "Series_pubmed_id": [
+        "41708856"
+      ],
+      "Series_summary": [
+        "The brain displays the richest repertoire of post-transcriptional mechanisms regulating mRNA translation. Among these, alternative splicing has been shown to drive cell type specificity and, when disrupted, is strongly linked to neurological disorders. However, genome-wide measurements of mRNA translation with isoform-sensitivity at single-cell (sc) resolution have not been achieved. To address this, we deployed Ribo-STAMP (Surveying Ribosomal Targets by APOBEC-Mediated Profiling) coupled with short- and long-read scRNA-sequencing (scRNA-seq) in the brain20. We generated the first isoform-sensitive sc translatomes of the mouse hippocampus at postnatal day 25, discovering cell type-specific translation of 3,857 alternative transcripts across 1,641 genes, and identifying isoforms of the same genes undergoing differential translation within and across eight different cell types. We defined high and low translational states in CA1 and CA3 neurons, with synaptic and metabolic genes enriched in high states. Surprisingly, we found that CA3 exhibited higher basal translation compared to CA1, as confirmed by metabolic labeling of newly synthesized proteins and immunohistochemistry of translational machinery components. This accessible platform will expand our understanding of how cell type- and isoform-specific translation drives brain physiology and disease."
+      ],
+      "Series_overall_design": [
+        "Single-cell suspensions from hippocampi were obtained from three male P22 C57BL/6J mice which were stereotactically injected in the dHC with 800nl EF1a-Ribo-STAMP virus. Results were analyzed using scRNA-seq."
+      ],
+      "Series_type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM9380796",
+        "GSM9380797",
+        "GSM9380798"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE314nnn/GSE314058/suppl/GSE314058_RAW.tar"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE314176",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1389906"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE314059",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314059&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "Single-cell and isoform-specific translational profiling of the mouse brain with long-read sequencing [scRNA-Seq, longread]"
+      ],
+      "Series_status": [
+        "Public on Dec 22 2025"
+      ],
+      "Series_submission_date": [
+        "Dec 17 2025"
+      ],
+      "Series_last_update_date": [
+        "Mar 26 2026"
+      ],
+      "Series_pubmed_id": [
+        "41708856"
+      ],
+      "Series_summary": [
+        "The brain displays the richest repertoire of post-transcriptional mechanisms regulating mRNA translation. Among these, alternative splicing has been shown to drive cell type specificity and, when disrupted, is strongly linked to neurological disorders. However, genome-wide measurements of mRNA translation with isoform-sensitivity at single-cell (sc) resolution have not been achieved. To address this, we deployed Ribo-STAMP (Surveying Ribosomal Targets by APOBEC-Mediated Profiling) coupled with long-read scRNA-sequencing (scRNA-seq) in the brain. We generated the first isoform-sensitive sc translatomes of the mouse hippocampus at postnatal day 25, discovering cell type-specific translation of 3,857 alternative transcripts across 1,641 genes, and identifying isoforms of the same genes undergoing differential translation within and across eight different cell types. We defined high and low translational states in CA1 and CA3 neurons, with synaptic and metabolic genes enriched in high states. Surprisingly, we found that CA3 exhibited higher basal translation compared to CA1, as confirmed by metabolic labeling of newly synthesized proteins and immunohistochemistry of translational machinery components. This accessible platform will expand our understanding of how cell type- and isoform-specific translation drives brain physiology and disease."
+      ],
+      "Series_overall_design": [
+        "Single-cell suspensions from hippocampi were obtained from three male P22 C57BL/6J mice which were stereotactically injected in the dHC with 800nl EF1a-Ribo-STAMP virus. Results were analyzed using long-read scRNA-seq on PacBio Revio."
+      ],
+      "Series_type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM9380799",
+        "GSM9380800",
+        "GSM9380801"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE314nnn/GSE314059/suppl/GSE314059_RAW.tar"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE314176",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1389908"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE270247",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270247&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "The quantitative impact of 3′UTRs on gene expression [PRO-seq]"
+      ],
+      "Series_status": [
+        "Public on Jun 18 2025"
+      ],
+      "Series_submission_date": [
+        "Jun 19 2024"
+      ],
+      "Series_last_update_date": [
+        "Jul 10 2025"
+      ],
+      "Series_pubmed_id": [
+        "40586305"
+      ],
+      "Series_summary": [
+        "Control of gene expression is fundamental to biology, and post transcriptional regulation is an important component of this process. In mammals, the 3′UTR in particular serves as a major source of regulatory information within the transcript. Here, we developed an accurate, high throughput, reporter based system to evaluate the impact of >1,400 full length human 3′UTRs on RNA stability, translational regulation, and total protein output. We used this data to model the relative contributions of RNA stability and translational efficiency towards total 3′UTR mediated regulation, revealing an unexpectedly large role for 3′UTR specified translational control. We observed relationships between GC content and 3′UTR length and different modes of regulation, and identified candidate RNA binding proteins involved in 3′UTR dependent gene expression. We compared regulation from >1,400 3′UTRs under control of two dissimilar promoters, which revealed promoter driven differences in post transcriptional regulation for certain 3′UTRs. Together, this dataset represents a comprehensive characterization of 3′UTR mediated quantitative regulation."
+      ],
+      "Series_overall_design": [
+        "Nascent RNA profiling (PRO-seq) of monoclonal landing pad cell lines containing either the PGK or CAG promoter, to measure transcriptome-wide RNA stability (used in combination with RNA-seq performed in parallel)"
+      ],
+      "Series_type": [
+        "Other"
+      ],
+      "Series_sample_id": [
+        "GSM8338095",
+        "GSM8338096",
+        "GSM8338097",
+        "GSM8338098",
+        "GSM8338099"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE270nnn/GSE270247/suppl/GSE270247_proseq_gene_counts.tsv.gz"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE270254",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1125866"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE270248",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270248&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "The quantitative impact of 3′UTRs on gene expression [RNA-seq]"
+      ],
+      "Series_status": [
+        "Public on Jun 18 2025"
+      ],
+      "Series_submission_date": [
+        "Jun 19 2024"
+      ],
+      "Series_last_update_date": [
+        "Jul 10 2025"
+      ],
+      "Series_pubmed_id": [
+        "40586305"
+      ],
+      "Series_summary": [
+        "Control of gene expression is fundamental to biology, and post transcriptional regulation is an important component of this process. In mammals, the 3′UTR in particular serves as a major source of regulatory information within the transcript. Here, we developed an accurate, high throughput, reporter based system to evaluate the impact of >1,400 full length human 3′UTRs on RNA stability, translational regulation, and total protein output. We used this data to model the relative contributions of RNA stability and translational efficiency towards total 3′UTR mediated regulation, revealing an unexpectedly large role for 3′UTR specified translational control. We observed relationships between GC content and 3′UTR length and different modes of regulation, and identified candidate RNA binding proteins involved in 3′UTR dependent gene expression. We compared regulation from >1,400 3′UTRs under control of two dissimilar promoters, which revealed promoter driven differences in post transcriptional regulation for certain 3′UTRs. Together, this dataset represents a comprehensive characterization of 3′UTR mediated quantitative regulation."
+      ],
+      "Series_overall_design": [
+        "Gene expression profiling of monoclonal landing pad cell lines containing either the PGK or CAG promoter"
+      ],
+      "Series_type": [
+        "Expression profiling by high throughput sequencing"
+      ],
+      "Series_sample_id": [
+        "GSM8338100",
+        "GSM8338101",
+        "GSM8338102",
+        "GSM8338103",
+        "GSM8338104",
+        "GSM8338105"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE270nnn/GSE270248/suppl/GSE270248_rnaseq_gene_counts.tsv.gz"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE270254",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1125867"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE270252",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270252&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "The quantitative impact of 3′UTRs on gene expression [amplicon-seq]"
+      ],
+      "Series_status": [
+        "Public on Jun 18 2025"
+      ],
+      "Series_submission_date": [
+        "Jun 19 2024"
+      ],
+      "Series_last_update_date": [
+        "Jul 10 2025"
+      ],
+      "Series_pubmed_id": [
+        "40586305"
+      ],
+      "Series_summary": [
+        "Control of gene expression is fundamental to biology, and post transcriptional regulation is an important component of this process. In mammals, the 3′UTR in particular serves as a major source of regulatory information within the transcript. Here, we developed an accurate, high throughput, reporter based system to evaluate the impact of >1,400 full length human 3′UTRs on RNA stability, translational regulation, and total protein output. We used this data to model the relative contributions of RNA stability and translational efficiency towards total 3′UTR mediated regulation, revealing an unexpectedly large role for 3′UTR specified translational control. We observed relationships between GC content and 3′UTR length and different modes of regulation, and identified candidate RNA binding proteins involved in 3′UTR dependent gene expression. We compared regulation from >1,400 3′UTRs under control of two dissimilar promoters, which revealed promoter driven differences in post transcriptional regulation for certain 3′UTRs. Together, this dataset represents a comprehensive characterization of 3′UTR mediated quantitative regulation."
+      ],
+      "Series_overall_design": [
+        "Measuring protein output, translational efficiency, and RNA stability for library of >1,400 GFP 3′UTR reporters under control of two different promoters. Reporters are quantified with amplicon sequencing, targeted to barcodes identifying each 3′UTR."
+      ],
+      "Series_type": [
+        "Other"
+      ],
+      "Series_sample_id": [
+        "GSM8338153",
+        "GSM8338154",
+        "GSM8338155",
+        "GSM8338156",
+        "GSM8338157",
+        "GSM8338158",
+        "GSM8338159",
+        "GSM8338160",
+        "GSM8338161",
+        "GSM8338162",
+        "GSM8338163",
+        "GSM8338164",
+        "GSM8338165",
+        "GSM8338166",
+        "GSM8338167",
+        "GSM8338168",
+        "GSM8338169",
+        "GSM8338170",
+        "GSM8338171",
+        "GSM8338172",
+        "GSM8338173",
+        "GSM8338174",
+        "GSM8338175",
+        "GSM8338176",
+        "GSM8338177",
+        "GSM8338178",
+        "GSM8338179",
+        "GSM8338180",
+        "GSM8338181",
+        "GSM8338182",
+        "GSM8338183",
+        "GSM8338184",
+        "GSM8338185",
+        "GSM8338186",
+        "GSM8338187",
+        "GSM8338188",
+        "GSM8338189",
+        "GSM8338190",
+        "GSM8338191",
+        "GSM8338192",
+        "GSM8338193",
+        "GSM8338194",
+        "GSM8338195",
+        "GSM8338196",
+        "GSM8338197",
+        "GSM8338198",
+        "GSM8338199",
+        "GSM8338200",
+        "GSM8338201",
+        "GSM8338202",
+        "GSM8338203",
+        "GSM8338204",
+        "GSM8338205",
+        "GSM8338206",
+        "GSM8338207",
+        "GSM8338208",
+        "GSM8338209",
+        "GSM8338210",
+        "GSM8338211",
+        "GSM8338212",
+        "GSM8338213",
+        "GSM8338214",
+        "GSM8338215",
+        "GSM8338216",
+        "GSM8338217",
+        "GSM8338218",
+        "GSM8338219",
+        "GSM8338220",
+        "GSM8338221",
+        "GSM8338222",
+        "GSM8338223",
+        "GSM8338224",
+        "GSM8338225",
+        "GSM8338226",
+        "GSM8338227",
+        "GSM8338228",
+        "GSM8338229",
+        "GSM8338230",
+        "GSM8338231",
+        "GSM8338232",
+        "GSM8338233",
+        "GSM9039890",
+        "GSM9039891",
+        "GSM9039892",
+        "GSM9039893",
+        "GSM9039894",
+        "GSM9039895",
+        "GSM9039896",
+        "GSM9039897",
+        "GSM9039898",
+        "GSM9039899",
+        "GSM9039900",
+        "GSM9039901",
+        "GSM9039902",
+        "GSM9039903",
+        "GSM9039904",
+        "GSM9039905",
+        "GSM9039906",
+        "GSM9039907"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE270nnn/GSE270252/suppl/GSE270252_utrome_barcode_counts.tsv.gz"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE270254",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1125884"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  },
+  {
+    "accession": "GSE270253",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270253&targ=self&form=text&view=brief",
+    "http_status": 200,
+    "metadata": {
+      "Series_title": [
+        "The quantitative impact of 3′UTRs on gene expression [plasmid-seq]"
+      ],
+      "Series_status": [
+        "Public on Jun 18 2025"
+      ],
+      "Series_submission_date": [
+        "Jun 19 2024"
+      ],
+      "Series_last_update_date": [
+        "Jul 10 2025"
+      ],
+      "Series_pubmed_id": [
+        "40586305"
+      ],
+      "Series_summary": [
+        "Control of gene expression is fundamental to biology, and post transcriptional regulation is an important component of this process. In mammals, the 3′UTR in particular serves as a major source of regulatory information within the transcript. Here, we developed an accurate, high throughput, reporter based system to evaluate the impact of >1,400 full length human 3′UTRs on RNA stability, translational regulation, and total protein output. We used this data to model the relative contributions of RNA stability and translational efficiency towards total 3′UTR mediated regulation, revealing an unexpectedly large role for 3′UTR specified translational control. We observed relationships between GC content and 3′UTR length and different modes of regulation, and identified candidate RNA binding proteins involved in 3′UTR dependent gene expression. We compared regulation from >1,400 3′UTRs under control of two dissimilar promoters, which revealed promoter driven differences in post transcriptional regulation for certain 3′UTRs. Together, this dataset represents a comprehensive characterization of 3′UTR mediated quantitative regulation."
+      ],
+      "Series_overall_design": [
+        "Plasmid DNA sequencing to identify barcodes linked to 3′UTR reporters, performed by tagmentation library prep (with Tn5 transposase)"
+      ],
+      "Series_type": [
+        "Other"
+      ],
+      "Series_sample_id": [
+        "GSM8338234",
+        "GSM8338235",
+        "GSM8338236",
+        "GSM8338237"
+      ],
+      "Series_supplementary_file": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE270nnn/GSE270253/suppl/GSE270253_barcode_3UTR_linkages.tsv.gz"
+      ],
+      "Series_relation": [
+        "SubSeries of: GSE270254",
+        "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1125885"
+      ]
+    },
+    "checked_on": "2026-11-04",
+    "error": null
+  }
+]

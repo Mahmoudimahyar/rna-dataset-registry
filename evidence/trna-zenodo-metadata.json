@@ -1,0 +1,771 @@
+{
+  "scope": "Repository metadata only; listed files were not downloaded.",
+  "records": [
+    {
+      "url": "https://zenodo.org/api/records/8200906",
+      "checked_on": "2026-11-04",
+      "id": "8200906",
+      "title": "A robust method for measuring aminoacylation through tRNA-Seq",
+      "doi": "10.5281/zenodo.10778311",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "access_right": "open",
+      "files": [
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-aa",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-aa/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ac",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ac/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ab",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ab/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ae",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ae/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ad",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ad/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ag",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ag/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ai",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ai/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ah",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ah/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-af",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-af/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-an",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-an/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-aj",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-aj/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ak",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ak/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-al",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-al/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-as",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-as/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-at",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-at/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-am",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-am/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ao",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ao/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ay",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ay/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-az",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-az/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-aq",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-aq/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-au",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-au/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-av",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-av/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ax",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ax/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ap",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ap/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bc",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bc/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ba",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ba/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bb",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bb/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bf",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bf/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-aw",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-aw/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-be",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-be/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ar",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ar/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bd",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bd/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bg",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bg/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bh",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bh/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bi",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bi/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bj",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bj/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bo",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bo/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bk",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bk/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bn",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bn/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bl",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bl/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bm",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bm/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bs",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bs/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bp",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bp/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-br",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-br/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bq",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bq/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bz",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bz/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-by",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-by/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ca",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ca/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bt",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bt/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bu",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bu/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bw",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bw/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bv",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bv/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bx",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bx/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cb",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cb/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cc",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cc/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ch",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ch/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cg",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cg/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cf",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cf/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cj",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cj/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cd",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cd/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ce",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ce/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cm",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cm/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cs",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cs/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cn",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cn/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cp",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cp/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cq",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cq/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cr",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cr/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ci",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ci/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ck",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ck/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-co",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-co/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cl",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cl/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cv",
+          "size": 435934201,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cv/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ct",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ct/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cu",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cu/content"
+        }
+      ]
+    },
+    {
+      "url": "https://zenodo.org/api/records/10778311",
+      "checked_on": "2026-11-04",
+      "id": "10778311",
+      "title": "A robust method for measuring aminoacylation through tRNA-Seq",
+      "doi": "10.5281/zenodo.10778311",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "access_right": "open",
+      "files": [
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-aa",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-aa/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ac",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ac/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ab",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ab/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ae",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ae/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ad",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ad/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ag",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ag/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ai",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ai/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ah",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ah/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-af",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-af/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-an",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-an/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-aj",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-aj/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ak",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ak/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-al",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-al/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-as",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-as/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-at",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-at/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-am",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-am/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ao",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ao/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ay",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ay/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-az",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-az/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-aq",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-aq/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-au",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-au/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-av",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-av/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ax",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ax/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ap",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ap/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bc",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bc/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ba",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ba/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bb",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bb/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bf",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bf/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-aw",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-aw/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-be",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-be/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ar",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ar/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bd",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bd/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bg",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bg/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bh",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bh/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bi",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bi/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bj",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bj/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bo",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bo/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bk",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bk/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bn",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bn/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bl",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bl/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bm",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bm/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bs",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bs/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bp",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bp/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-br",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-br/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bq",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bq/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bz",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bz/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-by",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-by/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ca",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ca/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bt",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bt/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bu",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bu/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bw",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bw/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bv",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bv/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-bx",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-bx/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cb",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cb/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cc",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cc/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ch",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ch/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cg",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cg/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cf",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cf/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cj",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cj/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cd",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cd/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ce",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ce/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cm",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cm/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cs",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cs/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cn",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cn/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cp",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cp/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cq",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cq/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cr",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cr/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ci",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ci/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ck",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ck/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-co",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-co/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cl",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cl/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cv",
+          "size": 435934201,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cv/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-ct",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-ct/content"
+        },
+        {
+          "key": "tRNA-charge-seq.tar.gz.part-cu",
+          "size": 536870912,
+          "link": "https://zenodo.org/api/records/10778311/files/tRNA-charge-seq.tar.gz.part-cu/content"
+        }
+      ]
+    }
+  ]
+}

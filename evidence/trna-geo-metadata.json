@@ -1,0 +1,1243 @@
+{
+  "scope": "Series-level public metadata only; no raw reads, sequence values, contact fields or protocols saved. Sample count is a repository record count, not an independent donor count.",
+  "records": [
+    {
+      "accession": "GSE227927",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227927&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Transfer RNA pools in human cells are controlled by selective gene expression [tRNA-Seq]"
+        ],
+        "status": [
+          "Public on Oct 23 2023"
+        ],
+        "last_update_date": [
+          "Jan 22 2024"
+        ],
+        "pubmed_id": [
+          "38191669"
+        ],
+        "sample_id": [
+          "GSM7111085",
+          "GSM7111086",
+          "GSM7111087",
+          "GSM7111088",
+          "GSM7111089",
+          "GSM7111090",
+          "GSM7111091",
+          "GSM7111092"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227927/suppl/GSE227927_mimtRNAseq_transcriptCounts.csv.gz"
+        ],
+        "sample_organism": [
+          "Homo sapiens"
+        ],
+        "relation": [
+          "SubSeries of: GSE227928",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA947527"
+        ]
+      },
+      "sample_count": 8
+    },
+    {
+      "accession": "GSE66550",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE66550&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Efficient and quantitative high-throughput tRNA sequencing"
+        ],
+        "status": [
+          "Public on Jul 01 2015"
+        ],
+        "last_update_date": [
+          "May 15 2019"
+        ],
+        "pubmed_id": [
+          "26214130",
+          "27613580"
+        ],
+        "sample_id": [
+          "GSM1624818",
+          "GSM1624819",
+          "GSM1624820",
+          "GSM1624821",
+          "GSM1624822",
+          "GSM1624823",
+          "GSM1624824",
+          "GSM1624825"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE66nnn/GSE66550/suppl/GSE66550_GEO_Processing.txt.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE66nnn/GSE66550/suppl/GSE66550_RAW.tar"
+        ],
+        "sample_organism": [
+          "Homo sapiens"
+        ],
+        "relation": [
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA277309",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP055858"
+        ]
+      },
+      "sample_count": 8
+    },
+    {
+      "accession": "GSE152621",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152621&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "High-resolution quantitative profiling of tRNA abundance and modification status in eukaryotes by mim-tRNAseq"
+        ],
+        "status": [
+          "Public on Feb 12 2021"
+        ],
+        "last_update_date": [
+          "Aug 24 2022"
+        ],
+        "pubmed_id": [
+          "33581077",
+          "35942339"
+        ],
+        "sample_id": [
+          "GSM4618837",
+          "GSM4618838",
+          "GSM4618839",
+          "GSM4618840",
+          "GSM4618841",
+          "GSM4618842",
+          "GSM4618843",
+          "GSM4618844",
+          "GSM4618845",
+          "GSM4618846",
+          "GSM4618847",
+          "GSM4618848",
+          "GSM4618849",
+          "GSM4618850",
+          "GSM4618851",
+          "GSM4618852",
+          "GSM4618853",
+          "GSM4618854",
+          "GSM4618855",
+          "GSM4618856",
+          "GSM4618857",
+          "GSM4618858",
+          "GSM4618859",
+          "GSM4618860",
+          "GSM4618861",
+          "GSM4618862",
+          "GSM4618863",
+          "GSM4618864",
+          "GSM4959735"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Dmel_anticodon_counts.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Dmel_isodecoder_counts.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Hsap_anticodon_counts.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Hsap_isodecoder_counts.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Scer_anticodon_counts.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Scer_isodecoder_counts.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Spom_anticodon_counts.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Spom_isodecoder_counts.csv.gz"
+        ],
+        "sample_organism": [
+          "Schizosaccharomyces pombe",
+          "Saccharomyces cerevisiae",
+          "Drosophila melanogaster",
+          "Homo sapiens"
+        ],
+        "relation": [
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA639839",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP267561"
+        ]
+      },
+      "sample_count": 29
+    },
+    {
+      "accession": "GSE95683",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95683&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Characterizing expression and processing of precursor and mature human tRNAs by hydro-tRNAseq and PAR-CLIP"
+        ],
+        "status": [
+          "Public on Jul 17 2017"
+        ],
+        "last_update_date": [
+          "May 15 2019"
+        ],
+        "pubmed_id": [
+          "28793268"
+        ],
+        "sample_id": [
+          "GSM2521595",
+          "GSM2521596",
+          "GSM2521597",
+          "GSM2521598",
+          "GSM2521599",
+          "GSM2521600"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE95nnn/GSE95683/suppl/GSE95683_RAW.tar"
+        ],
+        "sample_organism": [
+          "Homo sapiens"
+        ],
+        "relation": [
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA377912",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP101361"
+        ]
+      },
+      "sample_count": 6
+    },
+    {
+      "accession": "GSE134987",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134987&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "tRNA pool analysis of S. cerevisiae lacking Paf1 and Rtf1 using tRNA-HySeq"
+        ],
+        "status": [
+          "Public on Oct 01 2019"
+        ],
+        "last_update_date": [
+          "Oct 01 2019"
+        ],
+        "pubmed_id": [
+          "31501524"
+        ],
+        "sample_id": [
+          "GSM3983177",
+          "GSM3983178",
+          "GSM3983179",
+          "GSM3983180",
+          "GSM3983181",
+          "GSM3983182"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE134nnn/GSE134987/suppl/GSE134987_RAW.tar"
+        ],
+        "sample_organism": [
+          "Saccharomyces cerevisiae"
+        ],
+        "relation": [
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA557037",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP216599"
+        ]
+      },
+      "sample_count": 6
+    },
+    {
+      "accession": "GSE186736",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186736&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "ALL-tRNAseq enables robust tRNA profiling in tissue samples"
+        ],
+        "status": [
+          "Public on Feb 24 2023"
+        ],
+        "last_update_date": [
+          "Jun 16 2023"
+        ],
+        "pubmed_id": [
+          "36810209"
+        ],
+        "sample_id": [
+          "GSM5660209",
+          "GSM5660211",
+          "GSM5660212",
+          "GSM5660215",
+          "GSM5660216",
+          "GSM5660218",
+          "GSM5660219",
+          "GSM5660220",
+          "GSM5660221",
+          "GSM5660222",
+          "GSM5660223",
+          "GSM5660224",
+          "GSM5660225",
+          "GSM5660226",
+          "GSM5660227",
+          "GSM5660228",
+          "GSM5660229",
+          "GSM5660230",
+          "GSM5660231",
+          "GSM5660232",
+          "GSM5660233",
+          "GSM5660234",
+          "GSM5660235",
+          "GSM5660236",
+          "GSM5660237",
+          "GSM5660238",
+          "GSM5660239",
+          "GSM5660240",
+          "GSM5660241",
+          "GSM5660242",
+          "GSM5660243",
+          "GSM5660244",
+          "GSM5660245",
+          "GSM5660246",
+          "GSM5660247",
+          "GSM5660248",
+          "GSM5660249",
+          "GSM5660250",
+          "GSM5660251",
+          "GSM5660252",
+          "GSM5660253",
+          "GSM5660254",
+          "GSM5660255",
+          "GSM5660256",
+          "GSM5660257",
+          "GSM6533894",
+          "GSM6533895",
+          "GSM6533896",
+          "GSM6533897",
+          "GSM6533898",
+          "GSM6533899",
+          "GSM6533900",
+          "GSM6533901",
+          "GSM6533902",
+          "GSM6533903",
+          "GSM6533904",
+          "GSM6533905",
+          "GSM6533906"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tRNA_readlength_cell-lines.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tissues_anticodon_RPM_all_tRNA.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tissues_anticodon_RPM_full-length_tRNA.csv.gz"
+        ],
+        "sample_organism": [
+          "Homo sapiens"
+        ],
+        "relation": [
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA775872",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP343580"
+        ]
+      },
+      "sample_count": 58
+    },
+    {
+      "accession": "GSE141436",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141436&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Quantitative tRNA-sequencing uncovers metazoan tissue-specific tRNA regulation"
+        ],
+        "status": [
+          "Public on Aug 04 2020"
+        ],
+        "last_update_date": [
+          "Aug 31 2020"
+        ],
+        "pubmed_id": [
+          "32796835"
+        ],
+        "sample_id": [
+          "GSM4202814",
+          "GSM4202815",
+          "GSM4202816",
+          "GSM4202817",
+          "GSM4202818",
+          "GSM4202819",
+          "GSM4202820",
+          "GSM4202821",
+          "GSM4202822",
+          "GSM4202823",
+          "GSM4202824",
+          "GSM4202825",
+          "GSM4202826",
+          "GSM4202827",
+          "GSM4202828",
+          "GSM4202829",
+          "GSM4202830",
+          "GSM4202831",
+          "GSM4202832",
+          "GSM4202833",
+          "GSM4202834",
+          "GSM4202835",
+          "GSM4202836",
+          "GSM4522992",
+          "GSM4522993",
+          "GSM4522994",
+          "GSM4522995",
+          "GSM4522996",
+          "GSM4522997"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_293FlpIn_DM_isodecoder_raw_counts.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_293FlpIn_isodecoder_raw_counts.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_Mouse_tissue_anticodon_raw_counts.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_Mouse_tissue_isodecoder_raw_counts.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_Mouse_tissue_variant_counts.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_Mouse_tissue_variant_counts_DM.csv.gz"
+        ],
+        "sample_organism": [
+          "Homo sapiens",
+          "Mus musculus"
+        ],
+        "relation": [
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA593498",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP234698"
+        ]
+      },
+      "sample_count": 29
+    },
+    {
+      "accession": "GSE182808",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182808&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Oligodendrocyte differentiation alters tRNA modifications and codon-dependent mRNA decay [QuantMseq]"
+        ],
+        "status": [
+          "Public on Aug 08 2022"
+        ],
+        "last_update_date": [
+          "Aug 31 2022"
+        ],
+        "pubmed_id": [
+          "36008413"
+        ],
+        "sample_id": [
+          "GSM5537291",
+          "GSM5537292",
+          "GSM5537293",
+          "GSM5537294",
+          "GSM5537295",
+          "GSM5537296",
+          "GSM5537297"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182808/suppl/GSE182808_OPC_OL_astro_anticodon_RPM.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182808/suppl/GSE182808_OPC_OL_astro_gene_cyto_RPM.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182808/suppl/GSE182808_OPC_OL_tRNA_anticodon_diff_DESeq2.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182808/suppl/GSE182808_OPC_OL_tRNA_gene_diff_DESeq2.csv.gz"
+        ],
+        "sample_organism": [
+          "Mus musculus"
+        ],
+        "relation": [
+          "SubSeries of: GSE182811",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA757960",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP334202"
+        ]
+      },
+      "sample_count": 7
+    },
+    {
+      "accession": "GSE182809",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182809&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Oligodendrocyte differentiation alters tRNA modifications and codon-dependent mRNA decay [DecaySeq]"
+        ],
+        "status": [
+          "Public on Aug 08 2022"
+        ],
+        "last_update_date": [
+          "Aug 31 2022"
+        ],
+        "pubmed_id": [
+          "36008413"
+        ],
+        "sample_id": [
+          "GSM5537298",
+          "GSM5537299",
+          "GSM5537300",
+          "GSM5537301",
+          "GSM5537302",
+          "GSM5537303",
+          "GSM5537304",
+          "GSM5537305",
+          "GSM5537306",
+          "GSM5537307",
+          "GSM5537308",
+          "GSM5537309",
+          "GSM5537310",
+          "GSM5537311",
+          "GSM5537312",
+          "GSM5537313",
+          "GSM5537314",
+          "GSM5537315",
+          "GSM5537316",
+          "GSM5537317",
+          "GSM5537318",
+          "GSM5537319",
+          "GSM5537320",
+          "GSM5537321",
+          "GSM5537322",
+          "GSM5537323"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182809/suppl/GSE182809_OL1_T12.txt.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182809/suppl/GSE182809_OL2_T12.txt.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182809/suppl/GSE182809_OL_fpkm_normalized_spikeins.txt.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182809/suppl/GSE182809_OPC1_T12.txt.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182809/suppl/GSE182809_OPC2_T12.txt.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182809/suppl/GSE182809_OPC3_T12.txt.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182809/suppl/GSE182809_OPC_fpkm_normalized_spikeins.txt.gz"
+        ],
+        "sample_organism": [
+          "Mus musculus"
+        ],
+        "relation": [
+          "SubSeries of: GSE182811",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA757961",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP334192"
+        ]
+      },
+      "sample_count": 26
+    },
+    {
+      "accession": "GSE182810",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182810&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Oligodendrocyte differentiation alters tRNA modifications and codon-dependent mRNA decay [RiboSeq]"
+        ],
+        "status": [
+          "Public on Aug 08 2022"
+        ],
+        "last_update_date": [
+          "Aug 31 2022"
+        ],
+        "pubmed_id": [
+          "36008413"
+        ],
+        "sample_id": [
+          "GSM5537324",
+          "GSM5537325",
+          "GSM5537326",
+          "GSM5537327",
+          "GSM5537328",
+          "GSM5537329",
+          "GSM5537330",
+          "GSM5537331"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182810/suppl/GSE182810_OPC_OL_footprints_and_abundance_fpkm.txt.gz"
+        ],
+        "sample_organism": [
+          "Mus musculus"
+        ],
+        "relation": [
+          "SubSeries of: GSE182811",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA757962",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP334193"
+        ]
+      },
+      "sample_count": 8
+    },
+    {
+      "accession": "GSE198271",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198271&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Oligodendrocyte differentiation alters tRNA modifications and codon-dependent mRNA decay  [QuantM-seq II]"
+        ],
+        "status": [
+          "Public on Aug 08 2022"
+        ],
+        "last_update_date": [
+          "Aug 31 2022"
+        ],
+        "pubmed_id": [
+          "36008413"
+        ],
+        "sample_id": [
+          "GSM5942926",
+          "GSM5942927",
+          "GSM5942928",
+          "GSM5942929",
+          "GSM5942930",
+          "GSM5942931",
+          "GSM5942932",
+          "GSM5942933"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198271/suppl/GSE198271_Yeast_gene_cyto_RPM.csv.gz"
+        ],
+        "sample_organism": [
+          "Saccharomyces cerevisiae"
+        ],
+        "relation": [
+          "SubSeries of: GSE182811",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA814310"
+        ]
+      },
+      "sample_count": 8
+    },
+    {
+      "accession": "GSE165537",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165537&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Dynamic changes in tRNA modifications and abundance during T-cell activation [tRNA-seq]"
+        ],
+        "status": [
+          "Public on Oct 13 2021"
+        ],
+        "last_update_date": [
+          "Dec 28 2021"
+        ],
+        "pubmed_id": [
+          "34642250"
+        ],
+        "sample_id": [
+          "GSM5035557",
+          "GSM5035558",
+          "GSM5035559",
+          "GSM5035560",
+          "GSM5035561",
+          "GSM5035562",
+          "GSM5035563",
+          "GSM5035564",
+          "GSM5035565",
+          "GSM5035566",
+          "GSM5035567",
+          "GSM5035568",
+          "GSM5035569",
+          "GSM5035570",
+          "GSM5035571",
+          "GSM5035572",
+          "GSM5035573",
+          "GSM5035574",
+          "GSM5035575",
+          "GSM5035576",
+          "GSM5035577",
+          "GSM5035578",
+          "GSM5035579",
+          "GSM5035580",
+          "GSM5035581",
+          "GSM5035582",
+          "GSM5035583",
+          "GSM5035584",
+          "GSM5035585",
+          "GSM5035586"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165537/suppl/GSE165537_set1_cytosolictRNAReads_RPM.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165537/suppl/GSE165537_set1_cytosolictRNA_byAntiCodon_RPM.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165537/suppl/GSE165537_set2_cytosolictRNAReads_RPM.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165537/suppl/GSE165537_set2_cytosolictRNA_byAntiCodon_RPM.csv.gz"
+        ],
+        "sample_organism": [
+          "Mus musculus"
+        ],
+        "relation": [
+          "SubSeries of: GSE165622",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA694919",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP303323"
+        ]
+      },
+      "sample_count": 30
+    },
+    {
+      "accession": "GSE163609",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163609&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Manipulation of the human tRNA pool reveals distinct tRNA sets that act in cellular proliferation or cell cycle arrest [tRNA-seq]"
+        ],
+        "status": [
+          "Public on Dec 22 2020"
+        ],
+        "last_update_date": [
+          "Jan 11 2021"
+        ],
+        "pubmed_id": [
+          "33357381"
+        ],
+        "sample_id": [
+          "GSM4982742",
+          "GSM4982743",
+          "GSM4982744",
+          "GSM4982745",
+          "GSM4982746",
+          "GSM4982747",
+          "GSM4982748",
+          "GSM4982749",
+          "GSM4982750",
+          "GSM4982751",
+          "GSM4982752",
+          "GSM4982753",
+          "GSM4982754",
+          "GSM4982755",
+          "GSM4982756",
+          "GSM4982757",
+          "GSM4982758",
+          "GSM4982759",
+          "GSM4982760",
+          "GSM4982761",
+          "GSM4982762",
+          "GSM4982763",
+          "GSM4982764",
+          "GSM4982765",
+          "GSM4982766",
+          "GSM4982767",
+          "GSM4982768",
+          "GSM4982769",
+          "GSM4982770",
+          "GSM4982771",
+          "GSM4982772",
+          "GSM4982773",
+          "GSM4982774",
+          "GSM4982775",
+          "GSM4982776",
+          "GSM4982777",
+          "GSM4982778",
+          "GSM4982779",
+          "GSM4982780",
+          "GSM4982781"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163609/suppl/GSE163609_maturetRNA_Indel_tRNAtargetedHeLa_rep1.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163609/suppl/GSE163609_maturetRNA_Indel_tRNAtargetedHeLa_rep2.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163609/suppl/GSE163609_maturetRNA_tRNAtargetedHeLa_rep1.csv.gz",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163609/suppl/GSE163609_maturetRNA_tRNAtargetedHeLa_rep2.csv.gz"
+        ],
+        "sample_organism": [
+          "Homo sapiens"
+        ],
+        "relation": [
+          "SubSeries of: GSE163611",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA686944",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP298708"
+        ]
+      },
+      "sample_count": 40
+    },
+    {
+      "accession": "GSE196251",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196251&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "GCN2 enhances the growth and progression of prostate cancer by maintaining amino acid homeostasis [CHARGE-seq]"
+        ],
+        "status": [
+          "Public on Oct 17 2022"
+        ],
+        "last_update_date": [
+          "Oct 17 2022"
+        ],
+        "pubmed_id": [
+          "36107759"
+        ],
+        "sample_id": [
+          "GSM5866514",
+          "GSM5866515",
+          "GSM5866516",
+          "GSM5866517",
+          "GSM5866518",
+          "GSM5866519",
+          "GSM5866520",
+          "GSM5866521",
+          "GSM5866522",
+          "GSM5866523",
+          "GSM5866524",
+          "GSM5866525"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE196nnn/GSE196251/suppl/GSE196251_LNCaP_WT_CHARGEseq_readcounts_unnormalized.csv.gz"
+        ],
+        "sample_organism": [
+          "Homo sapiens"
+        ],
+        "relation": [
+          "SubSeries of: GSE196253",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA804111"
+        ]
+      },
+      "sample_count": 12
+    },
+    {
+      "accession": "GSE97259",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97259&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Determination of tRNA aminoacylation levels by high throughput sequencing"
+        ],
+        "status": [
+          "Public on Jun 15 2017"
+        ],
+        "last_update_date": [
+          "May 15 2019"
+        ],
+        "pubmed_id": [
+          "28586482"
+        ],
+        "sample_id": [
+          "GSM2560256",
+          "GSM2560257",
+          "GSM2560258",
+          "GSM2560259",
+          "GSM2560260",
+          "GSM2560261"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE97nnn/GSE97259/suppl/GSE97259_Aggregate_Ratios.xlsx",
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE97nnn/GSE97259/suppl/GSE97259_RAW.tar"
+        ],
+        "sample_organism": [
+          "Homo sapiens"
+        ],
+        "relation": [
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA381134",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP102804"
+        ]
+      },
+      "sample_count": 6
+    },
+    {
+      "accession": "GSE137834",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137834&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "tRNA quantification of five human cell lines by hydro-tRNAseq and small RNA-seq"
+        ],
+        "status": [
+          "Public on Feb 28 2020"
+        ],
+        "last_update_date": [
+          "Mar 23 2021"
+        ],
+        "pubmed_id": [
+          "32149479",
+          "33730572"
+        ],
+        "sample_id": [
+          "GSM4089240",
+          "GSM4089241",
+          "GSM4089242",
+          "GSM4089243",
+          "GSM4089244",
+          "GSM4089245",
+          "GSM4089246",
+          "GSM4089247",
+          "GSM4089248",
+          "GSM4089249",
+          "GSM4089250",
+          "GSM4089251",
+          "GSM4089252",
+          "GSM4089253",
+          "GSM4089254",
+          "GSM4089255",
+          "GSM4089256",
+          "GSM4089257",
+          "GSM4089258",
+          "GSM4089259",
+          "GSM4089260",
+          "GSM4089261",
+          "GSM4089262",
+          "GSM4089263",
+          "GSM4089264",
+          "GSM4089265",
+          "GSM4089266",
+          "GSM4089267",
+          "GSM4089268",
+          "GSM4089269"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE137nnn/GSE137834/suppl/GSE137834_rpm_matrix.csv.gz"
+        ],
+        "sample_organism": [
+          "Homo sapiens"
+        ],
+        "relation": [
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA573631",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP222951"
+        ]
+      },
+      "sample_count": 30
+    },
+    {
+      "accession": "GSE77401",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77401&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Modulated expression of specific tRNA species drives cancer progression"
+        ],
+        "status": [
+          "Public on Jun 07 2016"
+        ],
+        "last_update_date": [
+          "May 15 2019"
+        ],
+        "pubmed_id": [
+          "27259150"
+        ],
+        "sample_id": [
+          "GSM2047269",
+          "GSM2047270",
+          "GSM2047271",
+          "GSM2047272",
+          "GSM2047273",
+          "GSM2047274",
+          "GSM2048204",
+          "GSM2048205",
+          "GSM2048206",
+          "GSM2048207",
+          "GSM2048208",
+          "GSM2048209",
+          "GSM2048210",
+          "GSM2048211",
+          "GSM2049157",
+          "GSM2049158",
+          "GSM2049159",
+          "GSM2049160",
+          "GSM2049161",
+          "GSM2049162",
+          "GSM2049163",
+          "GSM2049164",
+          "GSM2049169",
+          "GSM2049170",
+          "GSM2049171",
+          "GSM2049172",
+          "GSM2049173",
+          "GSM2049174",
+          "GSM2049175",
+          "GSM2049176",
+          "GSM2049892",
+          "GSM2049894",
+          "GSM2049896",
+          "GSM2049898",
+          "GSM2049900",
+          "GSM2049902",
+          "GSM2049904",
+          "GSM2049907",
+          "GSM2049908",
+          "GSM2049910",
+          "GSM2049912",
+          "GSM2049914",
+          "GSM2049916",
+          "GSM2049917",
+          "GSM2049918",
+          "GSM2049919",
+          "GSM2049920",
+          "GSM2049921",
+          "GSM2049922",
+          "GSM2049923",
+          "GSM2049924",
+          "GSM2049925",
+          "GSM2049926",
+          "GSM2049927",
+          "GSM2049955",
+          "GSM2049956",
+          "GSM2049957",
+          "GSM2049958",
+          "GSM2049959",
+          "GSM2049960",
+          "GSM2049961",
+          "GSM2049962",
+          "GSM2049963",
+          "GSM2049964",
+          "GSM2049965",
+          "GSM2049966"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE77nnn/GSE77401/suppl/GSE77401_RAW.tar"
+        ],
+        "sample_organism": [
+          "Homo sapiens"
+        ],
+        "relation": [
+          "SuperSeries of: GSE77285",
+          "SuperSeries of: GSE77292",
+          "SuperSeries of: GSE77315",
+          "SuperSeries of: GSE77317",
+          "SuperSeries of: GSE77347",
+          "SuperSeries of: GSE77349",
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA310227"
+        ]
+      },
+      "sample_count": 66
+    },
+    {
+      "accession": "GSE69934",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69934&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Small RNA-seq during the ecdysone and heat-shock response in Drosophila Kc167 cells"
+        ],
+        "status": [
+          "Public on Jun 17 2015"
+        ],
+        "last_update_date": [
+          "May 15 2019"
+        ],
+        "pubmed_id": [
+          "26289344"
+        ],
+        "sample_id": [
+          "GSM1713303",
+          "GSM1713304",
+          "GSM1713305",
+          "GSM1713306",
+          "GSM1713307",
+          "GSM1713308",
+          "GSM1713309",
+          "GSM1713310",
+          "GSM1713311",
+          "GSM1713312",
+          "GSM1713313",
+          "GSM1713314",
+          "GSM1713315",
+          "GSM1713316",
+          "GSM1713317",
+          "GSM1713318"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE69nnn/GSE69934/suppl/GSE69934_RAW.tar"
+        ],
+        "sample_organism": [
+          "Drosophila melanogaster"
+        ],
+        "relation": [
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA287161",
+          "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP059558"
+        ]
+      },
+      "sample_count": 16
+    },
+    {
+      "accession": "GSE198441",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198441&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "A multiplex platform for small RNA sequencing elucidates multifaceted tRNA stress response and translational regulation"
+        ],
+        "status": [
+          "Public on Mar 13 2022"
+        ],
+        "last_update_date": [
+          "Jun 24 2025"
+        ],
+        "pubmed_id": [
+          "35513407",
+          "40447571"
+        ],
+        "sample_id": [
+          "GSM5946903",
+          "GSM5946904",
+          "GSM5946905",
+          "GSM5946906",
+          "GSM5946907",
+          "GSM5946908",
+          "GSM5946909",
+          "GSM5946910",
+          "GSM5946911",
+          "GSM5946912",
+          "GSM5946913",
+          "GSM5946914",
+          "GSM5946915",
+          "GSM5946916",
+          "GSM5946917",
+          "GSM5946918",
+          "GSM5946919",
+          "GSM5946920",
+          "GSM5946921",
+          "GSM5946922",
+          "GSM5946923",
+          "GSM5946924",
+          "GSM5946925",
+          "GSM5946926",
+          "GSM5946927",
+          "GSM5946928",
+          "GSM5946929",
+          "GSM5946930",
+          "GSM5946931",
+          "GSM5946932",
+          "GSM5946933",
+          "GSM5946934",
+          "GSM5946935",
+          "GSM5946936",
+          "GSM5946937",
+          "GSM5946938",
+          "GSM5946939",
+          "GSM5946940",
+          "GSM5946941",
+          "GSM5946942",
+          "GSM5946943",
+          "GSM5946944",
+          "GSM5946945",
+          "GSM5946946",
+          "GSM5946947",
+          "GSM5946948",
+          "GSM5946949",
+          "GSM5946950",
+          "GSM5946951",
+          "GSM5946952",
+          "GSM5946953",
+          "GSM5946954",
+          "GSM5946955",
+          "GSM5946956",
+          "GSM5946957",
+          "GSM5946958",
+          "GSM5946959",
+          "GSM5946960",
+          "GSM5946961",
+          "GSM5946962",
+          "GSM5946963",
+          "GSM5946964",
+          "GSM5946965",
+          "GSM5946966"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198441/suppl/GSE198441_RAW.tar"
+        ],
+        "sample_organism": [
+          "Homo sapiens"
+        ],
+        "relation": [
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA815310"
+        ]
+      },
+      "sample_count": 64
+    },
+    {
+      "accession": "GSE239759",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239759&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Cell-type-specific expression of tRNAs in the brain regulates cellular homeostasis"
+        ],
+        "status": [
+          "Public on Feb 19 2024"
+        ],
+        "last_update_date": [
+          "Feb 21 2024"
+        ],
+        "pubmed_id": [
+          "38377989"
+        ],
+        "sample_id": [
+          "GSM7671071",
+          "GSM7671072",
+          "GSM7671073",
+          "GSM7671074",
+          "GSM7671075",
+          "GSM7671076",
+          "GSM7671077",
+          "GSM7671078",
+          "GSM7671079",
+          "GSM7671080",
+          "GSM7671081",
+          "GSM7671082",
+          "GSM7671083",
+          "GSM7671084",
+          "GSM7671085",
+          "GSM7671086",
+          "GSM7671087",
+          "GSM7671088",
+          "GSM7671089",
+          "GSM7671090",
+          "GSM7671091",
+          "GSM7671092"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239759/suppl/GSE239759_RAW.tar"
+        ],
+        "sample_organism": [
+          "Mus musculus"
+        ],
+        "relation": [
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1000925"
+        ]
+      },
+      "sample_count": 22
+    },
+    {
+      "accession": "GSE250090",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250090&targ=self&form=text&view=quick",
+      "checked_on": "2026-11-04",
+      "fields": {
+        "title": [
+          "Cell type-specific expression of tRNAs in the brain regulates cellular homeostasis."
+        ],
+        "status": [
+          "Public on Feb 19 2024"
+        ],
+        "last_update_date": [
+          "Feb 21 2024"
+        ],
+        "pubmed_id": [
+          "38377989"
+        ],
+        "sample_id": [
+          "GSM7973707",
+          "GSM7973708",
+          "GSM7973709",
+          "GSM7973710",
+          "GSM7973711",
+          "GSM7973712",
+          "GSM7973713",
+          "GSM7973714",
+          "GSM7973715",
+          "GSM7973716",
+          "GSM7973717",
+          "GSM7973718",
+          "GSM7973719",
+          "GSM7973720",
+          "GSM7973721",
+          "GSM7973722",
+          "GSM7973723",
+          "GSM7973724",
+          "GSM7973725",
+          "GSM7973726",
+          "GSM7973727",
+          "GSM7973728",
+          "GSM7973729",
+          "GSM7973730",
+          "GSM7973731",
+          "GSM7973732",
+          "GSM7973733",
+          "GSM7973734",
+          "GSM7973735",
+          "GSM7973736",
+          "GSM7973737",
+          "GSM7973738",
+          "GSM7973739",
+          "GSM7973740",
+          "GSM7973741",
+          "GSM7973742",
+          "GSM7973743",
+          "GSM7973744",
+          "GSM7973745",
+          "GSM7973746",
+          "GSM7973747"
+        ],
+        "supplementary_file": [
+          "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE250nnn/GSE250090/suppl/GSE250090_RAW.tar"
+        ],
+        "sample_organism": [
+          "Mus musculus"
+        ],
+        "relation": [
+          "BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1052020"
+        ]
+      },
+      "sample_count": 41
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "scope": "Bounded streaming header inspection only. No raw reads, sequence values, or measurement rows saved. Does not establish correctness of other files or all rows.",
+  "records": [
+    {
+      "accession": "GSE227927",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227927/suppl/GSE227927_mimtRNAseq_transcriptCounts.csv.gz",
+      "inspection": "first CSV header line only; data rows were not retained or inspected",
+      "header": "Unique tRNA,WT_k_hiPSC_rep1,WT_k_hiPSC_rep2,WT_k_NPC_rep1,WT_k_NPC_rep2,WT_k_neurons_rep1,WT_k_neurons_rep2,WT_k_CM_rep1,WT_k_CM_rep2",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "accession": "GSE152621",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Dmel_isodecoder_counts.csv.gz",
+      "inspection": "first CSV header line only; data rows were not retained or inspected",
+      "header": "isodecoder,Dmel_BG3-c2_rep1,Dmel_BG3-c2_rep2,Single_isodecoder",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "accession": "GSE186736",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tRNA_readlength_cell-lines.csv.gz",
+      "inspection": "first CSV header line only; data rows were not retained or inspected",
+      "header": "title,SU-DHL-5 ALL-tRNAseq_1,SU-DHL-5 ALL-tRNAseq_2,SU-DHL-5 ALL-tRNAseq_3,SNB-75_SSIII-DM-treated_1,SNB-75_SSIII-DM-treated_2,SNB75 ALL-tRNAseq_1,SNB75 ALL-tRNAseq_2,SNB-75_mRT-untreated,SNB-75_mRT-ctrl-treated_1,SNB-75_mRT-ctrl-treated_2,HEK293T ALL-tRNAseq_1,HEK293T ALL-tRNAseq_2,HEK293T ALL-tRNAseq_3,hESC T0 ALL-tRNAseq_1,hESC T0 ALL-tRNAseq_2,hESC T0 ALL-tRNAseq_3,hESC T5 ALL-tRNAseq_1,hESC T5 ALL-tRNAseq_2,hESC T5 ALL-tRNAseq_3",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "accession": "GSE141436",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_293FlpIn_DM_isodecoder_raw_counts.csv.gz",
+      "inspection": "first CSV header line only; data rows were not retained or inspected",
+      "header": ",293_DM_1,293_DM_2",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "accession": "GSE182808",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182808/suppl/GSE182808_OPC_OL_astro_anticodon_RPM.csv.gz",
+      "inspection": "first CSV header line only; data rows were not retained or inspected",
+      "header": "\"\",\"OPC_1\",\"OPC_2\",\"OPC_3\",\"OL_1\",\"OL_2\",\"Astrocyte_1\",\"Astrocyte_2\"",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "accession": "GSE165537",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165537/suppl/GSE165537_set1_cytosolictRNAReads_RPM.csv.gz",
+      "inspection": "first CSV header line only; data rows were not retained or inspected",
+      "header": "Row,X_Naive_1,X_Naive_2,X_Naive_3,X_20_1,X_20_2,X_20_3,X_48_hi_1,X_48_hi_2,X_48_hi_3,X_48_lo_1,X_48_lo_2,X_48_lo_3,X_72_hi_1,X_72_hi_2,X_72_hi_3,X_72_lo_1,X_72_lo_2,X_72_lo_3,X_Naive_1_deMe,X_20h_1_deMe,X_48H_1_deMe,X_48L_1_deMe,score,aa,anticodon",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "accession": "GSE196251",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE196nnn/GSE196251/suppl/GSE196251_LNCaP_WT_CHARGEseq_readcounts_unnormalized.csv.gz",
+      "inspection": "first CSV header line only; data rows were not retained or inspected",
+      "header": ",WT_DMSO_1,,,WT_DMSO_2,,,WT_DMSO_3,,,WT_DMSO_4,,,WT_GCN2iB_8hr_1,,,WT_GCN2iB_8hr_2,,,WT_GCN2iB_8hr_3,,,WT_GCN2iB_8hr_4,,,WT_GCN2iB_EAA_8hr_1,,,WT_GCN2iB_EAA_8hr_2,,,WT_GCN2iB_EAA_8hr_3,,,WT_GCN2iB_EAA_8hr_4,,",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "accession": "GSE137834",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE137nnn/GSE137834/suppl/GSE137834_rpm_matrix.csv.gz",
+      "inspection": "first CSV header line only; data rows were not retained or inspected",
+      "header": ",HCT116_rep1_smallRNAseq,MDA-MB-231_rep1_smallRNAseq,HELA_rep2_smallRNAseq,MDA-MB-231_rep3_smallRNAseq,HELA_rep3_smallRNAseq,HCT116_rep3_smallRNAseq,HCT116_rep2_smallRNAseq,HEK293_rep2_smallRNAseq,HEK293_rep3_smallRNAseq,HELA_rep1_smallRNAseq,MDA-MB-231_rep2_smallRNAseq,BJ_rep1_smallRNAseq,BJ_rep3_smallRNAseq,BJ_rep2_smallRNAseq,HEK293_rep1_smallRNAseq,HEK293_rep1_hydroseq,HCT116_rep2_hydroseq,HELA_rep2_hydroseq,HELA_rep3_hydroseq,HCT116_rep3_hydroseq,HEK293_rep3_hydroseq,HELA_rep1_hydroseq,HCT116_rep1_hydroseq,HEK293_rep2_hydroseq,MDA-MB-231_rep1_hydroseq,MDA-MB-231_rep2_hydroseq,MDA-MB-231_rep3_hydroseq,BJ_rep1_hydroseq,BJ_rep2_hydroseq,BJ_rep3_hydroseq",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "accession": "GSE141436",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_Mouse_tissue_isodecoder_raw_counts.csv.gz",
+      "inspection": "first CSV header line only; no measurement rows retained",
+      "header": "\"\",\"Cerebellum_1\",\"Cerebellum_2\",\"Cerebellum_3\",\"Cortex_1\",\"Cortex_2\",\"Cortex_3\",\"Medulla_oblongata_1\",\"Medulla_oblongata_2\",\"Medulla_oblongata_3\",\"Spinal_cord_1\",\"Spinal_cord_2\",\"Spinal_cord_3\",\"Tibialis_1\",\"Tibialis_2\",\"Tibialis_3\",\"Heart_1\",\"Heart_2\",\"Heart_3\",\"Liver_1\",\"Liver_2\",\"Liver_3\"",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "accession": "GSE186736",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tissues_anticodon_RPM_all_tRNA.csv.gz",
+      "inspection": "first CSV header line only; no measurement rows retained",
+      "header": "name,HLN1,HLN2,HLN3,DLBCL_HEM02,DLBCL_HEM05,DLBCL_HEM06,DLBCL_HEM09,DLBCL_HEM12,DLBCL_HEM13,DLBCL_HEM14,DLBCL_HEM21,DLBCL_HEM24,DLBCL_HEM25,DLBCL_HEM26,DLBCL_HEM35,DLBCL_HEM36,DLBCL_HEM37,DLBCL_HEM46,HB1,HB3,HB4,GBM_VU04,GBM_VU06,GBM_VU07,GBM_VU09,GBM_VU11,GBM_VU17,GBM_VU18,GBM_VU21,GBM_VU30,GBM_VU32,GBM_VU34,GBM_VU39,GBM_VU41,GBM_VU50,GBM_55,GBM_VU62,GBM_VU66,GBM_VU76",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "accession": "GSE186736",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tissues_anticodon_RPM_full-length_tRNA.csv.gz",
+      "inspection": "first CSV header line only; no measurement rows retained",
+      "header": "name,HLN1,HLN2,HLN3,DLBCL_HEM02,DLBCL_HEM05,DLBCL_HEM06,DLBCL_HEM09,DLBCL_HEM12,DLBCL_HEM13,DLBCL_HEM14,DLBCL_HEM21,DLBCL_HEM24,DLBCL_HEM25,DLBCL_HEM26,DLBCL_HEM35,DLBCL_HEM36,DLBCL_HEM37,DLBCL_HEM46,HB1,HB3,HB4,GBM_VU04,GBM_VU06,GBM_VU07,GBM_VU09,GBM_VU11,GBM_VU17,GBM_VU18,GBM_VU21,GBM_VU30,GBM_VU32,GBM_VU34,GBM_VU39,GBM_VU41,GBM_VU50,GBM_VU55,GBM_VU62,GBM_VU66,GBM_VU76",
+      "checked_on": "2026-11-04"
+    }
+  ]
+}

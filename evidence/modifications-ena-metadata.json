@@ -1,0 +1,62 @@
+[
+  {
+    "accession": "PRJEB84053",
+    "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB84053",
+    "checked_on": "2026-11-04",
+    "title": "Predicting RNA modifications by nanopore sequencing: The RMaP challenge",
+    "primary_ids": [
+      "PRJEB84053"
+    ],
+    "verification_scope": "Public project metadata only; no reads, signals, or reference sequences downloaded"
+  },
+  {
+    "accession": "PRJEB90280",
+    "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB90280",
+    "checked_on": "2026-11-04",
+    "title": "SeqTagger b96_RNA004 (training data)",
+    "primary_ids": [
+      "PRJEB90280"
+    ],
+    "verification_scope": "Public project metadata only; no reads, signals, or reference sequences downloaded"
+  },
+  {
+    "accession": "PRJEB91026",
+    "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB91026",
+    "checked_on": "2026-11-04",
+    "title": "Benchmarking of modification-aware basecalling models",
+    "primary_ids": [
+      "PRJEB91026"
+    ],
+    "verification_scope": "Public project metadata only; no reads, signals, or reference sequences downloaded"
+  },
+  {
+    "accession": "PRJEB42568",
+    "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB42568",
+    "checked_on": "2026-11-04",
+    "title": "Native RNA nanopore sequencing reveals antibiotic-induced loss of rRNA modifications located in the A and P sites (Single KO strains)",
+    "primary_ids": [
+      "PRJEB42568"
+    ],
+    "verification_scope": "Public project metadata only; no reads, signals, or reference sequences downloaded"
+  },
+  {
+    "accession": "PRJEB48806",
+    "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB48806",
+    "checked_on": "2026-11-04",
+    "title": "Native RNA nanopore sequencing reveals antibiotic-induced loss of rRNA modifications located in the A and P sites (DRS samples exposed to antibiotics)",
+    "primary_ids": [
+      "PRJEB48806"
+    ],
+    "verification_scope": "Public project metadata only; no reads, signals, or reference sequences downloaded"
+  },
+  {
+    "accession": "PRJEB37798",
+    "source_url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB37798",
+    "checked_on": "2026-11-04",
+    "title": "Quantitative profiling of native RNA modifications and their dynamics using nanopore sequencing (Total RNA Sequencing of Yeast)",
+    "primary_ids": [
+      "PRJEB37798"
+    ],
+    "verification_scope": "Public project metadata only; no reads, signals, or reference sequences downloaded"
+  }
+]

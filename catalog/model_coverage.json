@@ -1,0 +1,3829 @@
+[
+  {
+    "id": "P001",
+    "name": "GEMORNA",
+    "paper_title": "Deep generative models design mRNA sequences with enhanced translational capacity and stability",
+    "paper_doi": "10.1126/science.adr8470",
+    "area": "CDS and full mRNA design",
+    "task": "Generate CDS and UTRs with improved expression/stability",
+    "method_summary": "Encoder-decoder Transformer translates protein into codon distributions; decoder-only UTR language models are pretrained and selectively fine-tuned. Autoregressive sampling/greedy/beam decoding generates candidates.",
+    "inputs": "Protein sequence for CDS; natural UTRs for UTR training",
+    "outputs": "Synonymous CDS and independently generated 5′/3′ UTR candidates",
+    "repository_urls": [
+      "https://github.com/RainaBio/GEMORNA"
+    ],
+    "repository_provenance": "Author GitHub repository README/tree verified.",
+    "dataset_ids": [
+      "p001-asset-1",
+      "p001-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Original access/schema audit does not establish an exhaustive inventory of paper datasets."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/RainaBio/GEMORNA",
+        "model_ids": [
+          "P001"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/RainaBio/GEMORNA",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "NOASSERTION",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/RainaBio/GEMORNA",
+        "model_ids": [
+          "P001"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/RainaBio/GEMORNA/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P002",
+    "name": "Optimus 5-Prime",
+    "paper_title": "Human 5′ UTR design and variant effect prediction from a massively parallel translation assay",
+    "paper_doi": "10.1038/s41587-019-0164-5",
+    "area": "5′UTR and translation initiation",
+    "task": "Predict mean ribosome load (MRL) and design UTRs for target loading",
+    "method_summary": "Three convolutional layers plus dense output learn motifs/context; a genetic algorithm mutates and selects sequences using the predictor.",
+    "inputs": "One-hot 50-nt randomized 5′ UTR",
+    "outputs": "MRL or 14-fraction polysome profile; optimized UTR",
+    "repository_urls": [
+      "https://github.com/pjsample/human_5utr_modeling"
+    ],
+    "repository_provenance": "Author repo and GEO metadata/analysis notebook inspected.",
+    "dataset_ids": [
+      "p002-asset-1",
+      "p002-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Original access/schema audit does not establish an exhaustive inventory of paper datasets."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/pjsample/human_5utr_modeling",
+        "model_ids": [
+          "P002",
+          "P006"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/pjsample/human_5utr_modeling",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "GPL-3.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/pjsample/human_5utr_modeling",
+        "model_ids": [
+          "P002",
+          "P006"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/pjsample/human_5utr_modeling/contents/README.md",
+        "data_urls": [
+          "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [
+      "sample2019-chemistry-reporters"
+    ],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P003",
+    "name": "PERSIST-seq, In-line-seq, DegScore, RiboTree",
+    "paper_title": "Combinatorial optimization of mRNA structure, stability, and translation for RNA-based therapeutics",
+    "paper_doi": "10.1038/s41467-022-28776-w",
+    "area": "Stability, 3′UTR and cell specificity",
+    "task": "Measure and optimize mRNA stability, structure and translation jointly",
+    "method_summary": "PERSIST-seq measures cellular half-life/ribosome load; In-line-seq profiles hydrolysis. DegScore ridge regression uses local sequence/structure features; RiboTree uses Monte Carlo tree search for synonymous redesign.",
+    "inputs": "RNA sequence plus predicted secondary-structure neighborhood",
+    "outputs": "Per-nucleotide degradation score and candidate synonymous mRNAs",
+    "repository_urls": [
+      "https://github.com/eternagame/DegScore"
+    ],
+    "repository_provenance": "Author repository README/tree plus actual demo headers inspected.",
+    "dataset_ids": [
+      "p003-asset-1",
+      "p003-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Original access/schema audit does not establish an exhaustive inventory of paper datasets."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/eternagame/DegScore",
+        "model_ids": [
+          "P003",
+          "P052"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/eternagame/DegScore",
+        "default_branch": "master",
+        "archived": true,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/eternagame/DegScore",
+        "model_ids": [
+          "P003",
+          "P052"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/eternagame/DegScore/contents/README.md",
+        "data_urls": [
+          "https://doi.org/10.5281/zenodo.7130659",
+          "https://zenodo.org/badge/280538188.svg",
+          "https://zenodo.org/badge/latestdoi/280538188",
+          "https://www.kaggle.com/c/stanford-covid-vaccine"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P004",
+    "name": "iDRO (BiLSTM-CRF + RNA-Bart)",
+    "paper_title": "Integrated mRNA sequence optimization using deep learning",
+    "paper_doi": "10.1093/bib/bbad001",
+    "area": "CDS and full mRNA design",
+    "task": "Optimize codons and generate matching UTRs for an input protein",
+    "method_summary": "BiLSTM-CRF performs codon tagging with contextual and neighboring-tag information; RNA-Bart is an attention-based encoder-decoder generating UTRs from ORF.",
+    "inputs": "Amino acid sequence; ORF for UTR generator",
+    "outputs": "CDS and generated 5′/3′ UTRs",
+    "repository_urls": [
+      "https://github.com/Durixas/iDRO"
+    ],
+    "repository_provenance": "Candidate public iDRO repository found and inspected; author provenance not established.",
+    "dataset_ids": [
+      "p004-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Original access/schema audit does not establish an exhaustive inventory of paper datasets."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/Durixas/iDRO",
+        "model_ids": [
+          "P004"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/Durixas/iDRO",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "Apache-2.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/Durixas/iDRO",
+        "model_ids": [
+          "P004"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/Durixas/iDRO/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [
+          "sample_data/mDS-20230925.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P005",
+    "name": "LinearDesign",
+    "paper_title": "Algorithm for optimized mRNA design improves stability and immunogenicity",
+    "paper_doi": "10.1038/s41586-023-06127-z",
+    "area": "CDS and full mRNA design",
+    "task": "Optimize synonymous CDS for folding energy and codon usage",
+    "method_summary": "A weighted deterministic finite-state automaton compactly represents synonymous sequences; lattice parsing/RNA-folding DP optimizes energy plus log codon usage. Beam search offers approximate speedups. This is algorithmic optimization, not a trained neural model.",
+    "inputs": "Protein and species codon-usage table; tradeoff λ",
+    "outputs": "CDS plus secondary structure, MFE and CAI",
+    "repository_urls": [
+      "https://github.com/LinearDesignSoftware/LinearDesign"
+    ],
+    "repository_provenance": "Author repository and experimental-deposit metadata verified.",
+    "dataset_ids": [
+      "p005-asset-1",
+      "p005-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Original access/schema audit does not establish an exhaustive inventory of paper datasets."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/LinearDesignSoftware/LinearDesign",
+        "model_ids": [
+          "P005"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/LinearDesignSoftware/LinearDesign",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "NOASSERTION",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/LinearDesignSoftware/LinearDesign",
+        "model_ids": [
+          "P005"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/LinearDesignSoftware/LinearDesign/contents/README.md",
+        "data_urls": [
+          "https://img.shields.io/github/downloads/LinearDesignSoftware/LinearDesign/total"
+        ],
+        "referenced_asset_names": [
+          "codon_usage_freq_table_human.csv",
+          "codon_usage_freq_table_yeast.csv"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P006",
+    "name": "Optimus 5-Prime variants + Fast SeqProp/DEN",
+    "paper_title": "Optimizing 5’UTRs for mRNA-delivered gene editing using deep learning",
+    "paper_doi": "10.1038/s41467-024-49508-2",
+    "area": "5′UTR and translation initiation",
+    "task": "Design UTRs for mRNA-delivered megaTAL gene editing",
+    "method_summary": "CNN predictor; gradient sequence optimization or diversity-promoting Deep Exploration Network. Optional VAE likelihood regularization; explicit uAUG penalty.",
+    "inputs": "25/50-nt randomized UTRs",
+    "outputs": "MRL predictions and candidate UTRs; editing outcome measured separately",
+    "repository_urls": [
+      "https://github.com/castillohair/paper-5utr-design",
+      "https://github.com/pjsample/human_5utr_modeling",
+      "https://github.com/johli/seqprop",
+      "https://github.com/johli/genesis"
+    ],
+    "repository_provenance": "Newly verified author repository castillohair/paper-5utr-design. The first audit linked upstream Optimus and SeqProp but omitted this study-specific repository and the separate DEN/genesis dependency.",
+    "dataset_ids": [
+      "p006-asset-1",
+      "p006-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "First-pass claim of having visited all author repositories was incorrect.",
+      "Actual full GEO files and all gene-editing/MRL/stability supplements not inspected.",
+      "Every downloadable source-data release remains to be matched to paper supplements."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/pjsample/human_5utr_modeling",
+        "model_ids": [
+          "P002",
+          "P006"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/pjsample/human_5utr_modeling",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "GPL-3.0",
+        "error": null
+      },
+      {
+        "url": "https://github.com/castillohair/paper-5utr-design",
+        "model_ids": [
+          "P006"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/castillohair/paper-5utr-design",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "BSD-3-Clause",
+        "error": null
+      },
+      {
+        "url": "https://github.com/johli/seqprop",
+        "model_ids": [
+          "P006"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/johli/seqprop",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      },
+      {
+        "url": "https://github.com/johli/genesis",
+        "model_ids": [
+          "P006"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/johli/genesis",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/pjsample/human_5utr_modeling",
+        "model_ids": [
+          "P002",
+          "P006"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/pjsample/human_5utr_modeling/contents/README.md",
+        "data_urls": [
+          "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      },
+      {
+        "repository": "https://github.com/castillohair/paper-5utr-design",
+        "model_ids": [
+          "P006"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/castillohair/paper-5utr-design/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      },
+      {
+        "repository": "https://github.com/johli/seqprop",
+        "model_ids": [
+          "P006"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/johli/seqprop/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      },
+      {
+        "repository": "https://github.com/johli/genesis",
+        "model_ids": [
+          "P006"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/johli/genesis/contents/README.md",
+        "data_urls": [
+          "https://drive.google.com/drive/folders/1DgL5aMwhqcKkg_-aIeYA8tlHg9OSehtr?usp=sharing"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [
+      "sample2019-chemistry-reporters"
+    ],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P007",
+    "name": "Smart5UTR",
+    "paper_title": "A novel deep generative model for mRNA vaccine development: Designing 5′ UTRs with N1-methyl-pseudouridine modification",
+    "paper_doi": "https://doi.org/10.1016/j.apsb.2023.11.003",
+    "area": "5′UTR and translation initiation",
+    "task": "Generate high-MRL N1-methylpseudouridine-modified UTRs",
+    "method_summary": "Multi-task autoencoder: CNN/dense encoder produces latent vector and MRL; decoder conditions on latent vector plus MRL. Reconstruction and MRL losses, including emphasis on high-MRL examples, guide training.",
+    "inputs": "One-hot 50-nt UTR and desired MRL",
+    "outputs": "Predicted MRL and generated UTR",
+    "repository_urls": [
+      "https://github.com/deepomicslab/Smart5UTR"
+    ],
+    "repository_provenance": "Author README/tree/training-loader evidence inspected.",
+    "dataset_ids": [
+      "p007-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Original access/schema audit does not establish an exhaustive inventory of paper datasets."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/deepomicslab/Smart5UTR",
+        "model_ids": [
+          "P007"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/deepomicslab/Smart5UTR",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "GPL-3.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/deepomicslab/Smart5UTR",
+        "model_ids": [
+          "P007"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/deepomicslab/Smart5UTR/contents/README.md",
+        "data_urls": [
+          "https://drive.google.com/drive/folders/1WBFdi0Nv15Epu3FJmOJFmKO5XoTxz1Q8?usp=share_link"
+        ],
+        "referenced_asset_names": [
+          "requirements.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [
+      "sample2019-chemistry-reporters"
+    ],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P008",
+    "name": "mRNA-LM",
+    "paper_title": "mRNA-LM: full-length integrated SLM for mRNA analysis",
+    "paper_doi": "10.1093/nar/gkaf044",
+    "area": "CDS and full mRNA design",
+    "task": "Predict transcript stability, translation rate, transcript/protein expression",
+    "method_summary": "Separate masked BERT models (codon tokens for CDS, bases for UTRs) are combined using CLIP-style contrastive alignment; LoRA fine-tunes a small subset plus prediction head.",
+    "inputs": "5′ UTR, CDS and 3′ UTR",
+    "outputs": "Aligned segment embeddings and task-specific predictions",
+    "repository_urls": [
+      "https://github.com/Sanofi-Public/mRNA-LM"
+    ],
+    "repository_provenance": "Author repo plus actual CSV headers inspected.",
+    "dataset_ids": [
+      "p008-asset-1",
+      "p008-asset-2",
+      "p008-asset-3"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Original access/schema audit does not establish an exhaustive inventory of paper datasets."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/Sanofi-Public/mRNA-LM",
+        "model_ids": [
+          "P008"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/Sanofi-Public/mRNA-LM",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "NOASSERTION",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/Sanofi-Public/mRNA-LM",
+        "model_ids": [
+          "P008"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/Sanofi-Public/mRNA-LM/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [
+          "//cdn.prod.accelerator.sanofi/llm/CodonBERT.zip",
+          "//cdn.prod.accelerator.sanofi/llm/mrna_5utr_model.zip",
+          "//cdn.prod.accelerator.sanofi/llm/mrna_3utr_model.zip"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P009",
+    "name": "Translation efficiency covariation (TEC)",
+    "paper_title": "Translation efficiency covariation identifies conserved coordination patterns across cell types",
+    "paper_doi": "10.1038/s41587-025-02718-5",
+    "area": "Translation regulation and dynamics",
+    "task": "Find coordinated translation patterns across cell types",
+    "method_summary": "Quality-controlled public datasets are processed into TE using compositional regression; proportionality measures gene-pair covariation; enrichment/association and clustering identify conserved coordination.",
+    "inputs": "Paired Ribo-seq/RNA-seq TE estimates for genes and cell types",
+    "outputs": "TEC proportionality network; associations with function/protein interactions",
+    "repository_urls": [
+      "https://github.com/CenikLab/coTE_paper",
+      "https://github.com/CenikLab/TE_model"
+    ],
+    "repository_provenance": "Author repositories and Zenodo15337774 metadata inspected.",
+    "dataset_ids": [
+      "p009-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Original access/schema audit does not establish an exhaustive inventory of paper datasets."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/CenikLab/coTE_paper",
+        "model_ids": [
+          "P009"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/CenikLab/coTE_paper",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "unknown",
+        "error": null
+      },
+      {
+        "url": "https://github.com/CenikLab/TE_model",
+        "model_ids": [
+          "P009"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/CenikLab/TE_model",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "GPL-3.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/CenikLab/coTE_paper",
+        "model_ids": [
+          "P009"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/CenikLab/coTE_paper/contents/README.md",
+        "data_urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11326257/",
+          "https://zenodo.org/records/15337774"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      },
+      {
+        "repository": "https://github.com/CenikLab/TE_model",
+        "model_ids": [
+          "P009"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/CenikLab/TE_model/contents/README.md",
+        "data_urls": [
+          "https://zenodo.org/records/10594392"
+        ],
+        "referenced_asset_names": [
+          "gene_correction_map_rna.csv",
+          "gene_correction_map.csv",
+          "data/paxdb_filtered_sample.csv",
+          "model_results.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P010",
+    "name": "RiboNN + classic ML",
+    "paper_title": "Predicting the translation efficiency of messenger RNA in mammalian cells",
+    "paper_doi": "10.1038/s41587-025-02712-x",
+    "area": "Translation regulation and dynamics",
+    "task": "Predict mammalian translation efficiency across cell types",
+    "method_summary": "Multitask deep CNN captures position-dependent short sequence patterns; LGBM and lasso/elastic-net/random-forest baselines use lengths, codon/amino-acid/UTR features.",
+    "inputs": "Full transcript sequence/region labels; handcrafted features for classic models",
+    "outputs": "Cell-type-specific TE predictions",
+    "repository_urls": [
+      "https://github.com/Sanofi-Public/RiboNN",
+      "https://github.com/CenikLab/TE_classic_ML"
+    ],
+    "repository_provenance": "Paper explicitly links both Sanofi-Public/RiboNN and CenikLab/TE_classic_ML. RiboNN author README rechecked; its example TEs are fake.",
+    "dataset_ids": [
+      "p010-asset-1",
+      "p010-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Actual supplementary workbooks not inspected in this pass.",
+      "Every accession in the upstream compendium and every external validation study has not been individually reconciled.",
+      "Classic-ML repository assets are not fully audited."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/Sanofi-Public/RiboNN",
+        "model_ids": [
+          "P010"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/Sanofi-Public/RiboNN",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "NOASSERTION",
+        "error": null
+      },
+      {
+        "url": "https://github.com/CenikLab/TE_classic_ML",
+        "model_ids": [
+          "P010"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/CenikLab/TE_classic_ML",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "GPL-3.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/Sanofi-Public/RiboNN",
+        "model_ids": [
+          "P010"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/Sanofi-Public/RiboNN/contents/README.md",
+        "data_urls": [
+          "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname",
+          "https://zenodo.org/records/17258709",
+          "https://zenodo.org/records/17258709:"
+        ],
+        "referenced_asset_names": [
+          "prediction_input.txt",
+          "prediction_output.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      },
+      {
+        "repository": "https://github.com/CenikLab/TE_classic_ML",
+        "model_ids": [
+          "P010"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/CenikLab/TE_classic_ML/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [
+          "appris_human_v2_selected.fa",
+          "appris_mouse_v2_selected.fa",
+          "human_all_biochem_feature_no_len.csv",
+          "./examples/predict_input_example.csv",
+          "./examples/predict_output_example.csv"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P011",
+    "name": "mDD-0",
+    "paper_title": "mDD-0: mRNA Discrete Diﬀusion for Generation of Stable mRNA Sequences",
+    "paper_doi": null,
+    "area": "CDS and full mRNA design",
+    "task": "Generate species-conditioned full mRNA and stable 3′ UTR candidates",
+    "method_summary": "Discrete denoising diffusion combines UTR modules, frozen ESM2 protein embeddings and a joint Transformer; Delphi-guided DPO/SVDD and synthetic-data fine-tuning target stability.",
+    "inputs": "Protein, species token, partially/fully masked UTRs",
+    "outputs": "CDS plus 5′/3′ UTR candidates",
+    "repository_urls": [],
+    "repository_provenance": "Targeted exact model/GitHub searches did not locate an identifiable author mDD-0 release.",
+    "dataset_ids": [
+      "p011-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Original access/schema audit does not establish an exhaustive inventory of paper datasets."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [],
+    "readme_pointer_checks": [],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P012",
+    "name": "SANDSTORM + GARDN",
+    "paper_title": "Generative and predictive neural networks for the design of functional RNA molecules",
+    "paper_doi": "10.1101/2023.07.14.549043",
+    "area": "Enabling RNA models and measurements",
+    "task": "Predict and generate functional RNAs, including mRNA 5′ UTRs",
+    "method_summary": "Compact dual-input CNN combines sequence and structure. A GAN generator learns realistic RNA designs and is guided by predictor outputs.",
+    "inputs": "RNA sequence and sequence-derived possible-base-pair compatibility arrays; not experimentally measured or thermodynamic pairing-probability structure labels.",
+    "outputs": "Function prediction; generated RNA designs",
+    "repository_urls": [
+      "https://github.com/AlexGreenLab/GARDN-SANDSTORM"
+    ],
+    "repository_provenance": "Published paper explicitly links AlexGreenLab/GARDN-SANDSTORM. Author README rechecked.",
+    "dataset_ids": [
+      "p012-asset-1",
+      "p012-asset-2",
+      "p012-asset-3",
+      "p012-asset-4",
+      "p012-asset-5",
+      "p012-asset-6",
+      "p012-asset-7",
+      "p012-asset-8"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "All upstream source files and Supplementary Data1-5 have not been fully reconciled and validated.",
+      "The384-member aptaswitch library now has a distinct curated record; full values, normalization formulas and replicate/missingness audit remain incomplete.",
+      "Generated optimization traces and synthetic scores must remain separate from experimental validation."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/AlexGreenLab/GARDN-SANDSTORM",
+        "model_ids": [
+          "P012"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/AlexGreenLab/GARDN-SANDSTORM",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "NOASSERTION",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/AlexGreenLab/GARDN-SANDSTORM",
+        "model_ids": [
+          "P012"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/AlexGreenLab/GARDN-SANDSTORM/contents/README.txt",
+        "data_urls": [
+          "https://zenodo.org/records/15058435"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [
+      "adapt-cas13-activity",
+      "toehold-flowseq-gse149225",
+      "gardn-predicted-utr-traces",
+      "gardn-aptaswitch-validation",
+      "gardn-toehold-validation",
+      "gardn-aptaswitch-screen",
+      "gardn-sandstorm-release",
+      "sample2019-chemistry-reporters",
+      "sapiens-uaspire-rbs"
+    ],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P013",
+    "name": "RNop",
+    "paper_title": "A New Deep-learning-Based Approach For mRNA Optimization: High Fidelity, Computation Efficiency, and Multiple Optimization Factors",
+    "paper_doi": "10.48550/arXiv.2505.23862",
+    "area": "CDS and full mRNA design",
+    "task": "Optimize synonymous CDS fidelity, codon/tRNA adaptation and folding proxy",
+    "method_summary": "Codon tokenization and image-like reshaping feed a Vision-Transformer-style sequence-to-sequence model. GPLoss penalizes amino-acid changes; CAI/tAI losses target codon preferences; learned MFE loss models provide structural proxy.",
+    "inputs": "CDS plus target-species preferences",
+    "outputs": "Optimized CDS",
+    "repository_urls": [
+      "https://github.com/HudenJear/RPLoss"
+    ],
+    "repository_provenance": "Paper names HudenJear/RPLoss. Current author README rechecked and calls RNA loss components placeholders.",
+    "dataset_ids": [
+      "p013-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Exact released train/validation/test manifests and accessions not established.",
+      "Paper descriptions have inconsistent corpus counts (millions of sequences); no independent count performed.",
+      "Measured validation tables and complete executable loss implementation not verified."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/HudenJear/RPLoss",
+        "model_ids": [
+          "P013"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/HudenJear/RPLoss",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/HudenJear/RPLoss",
+        "model_ids": [
+          "P013"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/HudenJear/RPLoss/contents/README.md",
+        "data_urls": [
+          "https://drive.google.com/file/d/1RkJ-U22sH4z2_vWHPW8EeFtkkbaOE6Nf/view?usp=drive_link"
+        ],
+        "referenced_asset_names": [
+          "requirements.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P014",
+    "name": "mRNArchitect",
+    "paper_title": "mRNArchitect : sequence design of mRNA medicines",
+    "paper_doi": "10.1101/2024.12.03.626696",
+    "area": "CDS and full mRNA design",
+    "task": "Assemble manufacturable mRNAs and optimize design constraints",
+    "method_summary": "Software assembles sequence modules and optimizes hard/soft constraints: species codons, U depletion, windowed GC, forbidden sites/repeats/hairpins. ViennaRNA supplies folding estimates. No learned AI model is established.",
+    "inputs": "Protein/CDS, chosen UTRs/poly(A), constraint settings",
+    "outputs": "Full mRNA plus CAI/MFE/composition statistics",
+    "repository_urls": [
+      "https://github.com/BaseUQ/mRNArchitect-paper-jon",
+      "https://github.com/base-facility/mrnarchitect_codon_tables"
+    ],
+    "repository_provenance": "Paper original BaseUQ/mRNArchitect contents endpoint returns 404. Related BaseUQ/mRNArchitect-paper-jon and base-facility/mrnarchitect_codon_tables were previously verified; these are not proof the original release is complete.",
+    "dataset_ids": [
+      "p014-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Original software release remains unavailable at the paper URL.",
+      "All supplementary experimental data and provenance of every bundled reference table not reconciled.",
+      "No learned training dataset should be invented for an algorithmic toolkit."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/BaseUQ/mRNArchitect-paper-jon",
+        "model_ids": [
+          "P014"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/BaseUQ/mRNArchitect-paper-jon",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "unknown",
+        "error": null
+      },
+      {
+        "url": "https://github.com/base-facility/mrnarchitect_codon_tables",
+        "model_ids": [
+          "P014"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/base-facility/mrnarchitect_codon_tables",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "unknown",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/BaseUQ/mRNArchitect-paper-jon",
+        "model_ids": [
+          "P014"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/BaseUQ/mRNArchitect-paper-jon/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      },
+      {
+        "repository": "https://github.com/base-facility/mrnarchitect_codon_tables",
+        "model_ids": [
+          "P014"
+        ],
+        "status": "readme_not_located",
+        "error": null,
+        "checked_on": "2026-11-05"
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P015",
+    "name": "mRNAdesigner",
+    "paper_title": "mRNAdesigner: an integrated web server for optimizing mRNA design and protein translation in eukaryotes",
+    "paper_doi": "10.1093/nar/gkaf410",
+    "area": "CDS and full mRNA design",
+    "task": "Optimize CDS and select UTR modules for translation",
+    "method_summary": "Highest-frequency synonymous codons initialize search; Monte Carlo tree search/UCB explores substitutions using CAI, GC, unpaired ratio and stem constraints. Curated 5′/3′ UTR libraries complete design.",
+    "inputs": "CDS, host species and optimization priorities",
+    "outputs": "Full sequence candidates",
+    "repository_urls": [],
+    "repository_provenance": "Author web server/tutorial verified previously; no identifiable author GitHub release established.",
+    "dataset_ids": [
+      "p015-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Actual complete 5-prime/3-prime libraries, inherited predictor provenance, and all validation supplements not downloaded/reconciled.",
+      "Web outputs are predictions, not measured labels."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [],
+    "readme_pointer_checks": [],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P016",
+    "name": "DIGs",
+    "paper_title": "A generalized and efficient approach for complete mRNA design improves translation, stability and specificity",
+    "paper_doi": null,
+    "area": "CDS and full mRNA design",
+    "task": "Design UTR/CDS combinations and install cell-specific regulatory motifs",
+    "method_summary": "Integrated gradients between opposite-performance sequences yields nucleotide preference arrays. Discrete design algorithms traverse these arrays; greedy motif placement incorporates RBP/miRNA regulation.",
+    "inputs": "Predictive model, high/low function reference sequences, motif constraints",
+    "outputs": "Attribution-guided RNA components/full transcripts",
+    "repository_urls": [],
+    "repository_provenance": "No official DIGs-specific repository established; earlier guessed repository 404 is not proof none exists.",
+    "dataset_ids": [
+      "p016-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Each referenced transcriptomic/CLIP study accession and raw-to-processed file mapping not established.",
+      "No public complete experiment table or DIGs source release verified.",
+      "First audit collapsed all these different roles into one paper-only entry."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [],
+    "readme_pointer_checks": [],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P017",
+    "name": "Delphi/LSTM predictor + design-build-test",
+    "paper_title": "ML-driven design of 3’ UTRs for mRNA stability",
+    "paper_doi": "10.1101/2024.10.07.616676",
+    "area": "Stability, 3′UTR and cell specificity",
+    "task": "Predict mRNA half-life and design stable 3′ UTRs",
+    "method_summary": "Compact convolution/LSTM predictor, CNN/Transformer/BERT comparisons; genetic algorithm, simulated annealing, mutagenesis, SeqProp and distribution-based design methods are experimentally compared.",
+    "inputs": "3′ UTR sequence with measured half-life labels",
+    "outputs": "Half-life prediction and designed UTRs",
+    "repository_urls": [],
+    "repository_provenance": "No official training-data GitHub release established. Paper provides Ginkgo genomic language-model query API, which is distinct from releasing supervised stability measurements.",
+    "dataset_ids": [
+      "p017-asset-1",
+      "p017-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Complete supervised measurement tables, train/test identities and per-round sample manifests not publicly verified.",
+      "Initial controls combine several sources; each source and all SI tables remain unreconciled.",
+      "Access to an API does not establish downloadable training data."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [],
+    "readme_pointer_checks": [],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P018",
+    "name": "UTR-LM",
+    "paper_title": "A 5′ UTR language model for decoding untranslated regions of mRNA and function predictions",
+    "paper_doi": "10.1038/s42256-024-00823-9",
+    "area": "5′UTR and translation initiation",
+    "task": "Predict MRL, TE, expression, IRESs and guide UTR design",
+    "method_summary": "Six-layer Transformer encoder pretrained with masked-base reconstruction plus structure/MFE supervision; task heads are fine-tuned for regression/classification.",
+    "inputs": "5′ UTR sequence; computed structure and MFE in auxiliary training",
+    "outputs": "Embeddings, property predictions and selected UTR designs",
+    "repository_urls": [
+      "https://github.com/a96123155/UTR-LM"
+    ],
+    "repository_provenance": "Paper links author a96123155/UTR-LM; current README rechecked. CodeOcean and Drive data links are separate assets.",
+    "dataset_ids": [
+      "p018-asset-1",
+      "p018-asset-2",
+      "p018-asset-3"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "All8 libraries, both variable-length benchmarks, IRES source assets, and CodeOcean/Drive archives not individually inspected.",
+      "Downstream sequences also entered pretraining; supervised holdout is not automatically an unseen-sequence pretraining holdout.",
+      "Supplementary DiscussionA remains necessary for full inventory."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/a96123155/UTR-LM",
+        "model_ids": [
+          "P018"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/a96123155/UTR-LM",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "GPL-3.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/a96123155/UTR-LM",
+        "model_ids": [
+          "P018"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/a96123155/UTR-LM/contents/README.md",
+        "data_urls": [
+          "https://codeocean.com/capsule/4214075/tree/v1",
+          "https://drive.google.com/drive/folders/1oGGgQ33cbx340vXsH_Ds_Py6Ad0TslLD?usp=share_link",
+          "https://drive.google.com/drive/u/1/folders/1_kmnYqYA5PNHQIxvwRgUn_RLZXS8Z7j3",
+          "https://drive.google.com/drive/u/1/folders/1csTXwy3LDCLKnzHHtcRsnu4LiJUEYHm3",
+          "https://drive.google.com/drive/u/1/folders/190oihtrwCxWjtDCK9kJzyhXPKxbr5xoR"
+        ],
+        "referenced_asset_names": [
+          "4.1_train_data_GSM3130435_egfp_unmod_1.csv",
+          "4.1_test_data_GSM3130435_egfp_unmod_1.csv",
+          "4.2_train_data_GSM3130435_egfp_unmod_1.csv",
+          "4.2_test_data_GSM3130435_egfp_unmod_1.csv",
+          "utrlm_requirements.txt",
+          "./Data/Pretrained_Data/Fivespecies_Cao_energy_structure_CaoEnergyNormalDist_255795sequence.fasta"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [
+      "sample2019-chemistry-reporters"
+    ],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P019",
+    "name": "UTR-Insight",
+    "paper_title": "UTR-Insight: integrating deep learning for efficient 5′ UTR discovery and design",
+    "paper_doi": "10.1186/s12864-025-11269-7",
+    "area": "5′UTR and translation initiation",
+    "task": "Predict MRL, screen natural UTRs and design synthetic UTRs",
+    "method_summary": "UTR-LM embeddings feed Conv-Former CNN/self-attention layers; frame pooling aligned to start codon handles length/frame; genetic algorithm uses predictor for design.",
+    "inputs": "Variable-length 5′ UTR",
+    "outputs": "MRL prediction and candidate UTR",
+    "repository_urls": [
+      "https://github.com/pansaichao/UTR_Insight"
+    ],
+    "repository_provenance": "Paper links pansaichao/UTR_Insight; current README rechecked and identifies exact deposit OMIX008723.",
+    "dataset_ids": [
+      "p019-asset-1",
+      "p019-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Neither complete archive has been unpacked/checked.",
+      "Every per-library chemical/cargo condition and split is not reconciled against main and supplementary results.",
+      "First record linked generic OMIX landing page rather than exact accession."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/pansaichao/UTR_Insight",
+        "model_ids": [
+          "P019"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/pansaichao/UTR_Insight",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "unknown",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/pansaichao/UTR_Insight",
+        "model_ids": [
+          "P019"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/pansaichao/UTR_Insight/contents/README.md",
+        "data_urls": [
+          "https://ngdc.cncb.ac.cn/omix"
+        ],
+        "referenced_asset_names": [
+          "OMIX008723-01.tar.gz",
+          "OMIX008723-02.7z"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [
+      "sample2019-chemistry-reporters"
+    ],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P020",
+    "name": "mRNA2vec",
+    "paper_title": "mRNA2vec: mRNA Embedding with Language Model in the 5'UTR-CDS for mRNA Design",
+    "paper_doi": null,
+    "area": "CDS and full mRNA design",
+    "task": "Predict translation/expression, CDS stability and protein production",
+    "method_summary": "Data2vec teacher-student contextual target learning; position-dependent masking emphasizes translation-relevant regions; auxiliary MFE and structure tasks. Frozen encoder supports a small trained regressor.",
+    "inputs": "Joint 5′ UTR/CDS triplet tokens",
+    "outputs": "Context embeddings and downstream predictions",
+    "repository_urls": [
+      "https://github.com/honggen-zhang/mRNA2vec"
+    ],
+    "repository_provenance": "Paper and current author README identify honggen-zhang/mRNA2vec. Pretraining/downstream tables are linked separately on Drive.",
+    "dataset_ids": [
+      "p020-asset-1",
+      "p020-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Drive folder actual data and split files not inspected.",
+      "Paper text refers to around6K mRFP sequences whereas Table1 lists1.5K; version/subset needs reconciliation.",
+      "Complete accession/version manifest for pretraining not verified."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/honggen-zhang/mRNA2vec",
+        "model_ids": [
+          "P020"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/honggen-zhang/mRNA2vec",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "unknown",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/honggen-zhang/mRNA2vec",
+        "model_ids": [
+          "P020"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/honggen-zhang/mRNA2vec/contents/README.md",
+        "data_urls": [
+          "https://www.ncbi.nlm.nih.gov/datasets/docs/v2/reference-docs/command-line/datasets/",
+          "https://drive.google.com/drive/folders/1zTUZ9qGdjJJqdmjjzdZlmBUU8FgpTLtb?usp=sharing"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P021",
+    "name": "RNAdegformer",
+    "paper_title": "RNAdegformer: accurate prediction of mRNA degradation at nucleotide resolution with deep learning",
+    "paper_doi": "10.1093/bib/bbac581",
+    "area": "Stability, 3′UTR and cell specificity",
+    "task": "Predict chemical degradation at nucleotide resolution.",
+    "method_summary": "Combines local convolutional sequence features and global self-attention with biophysical structure features; uses supervised and auxiliary training. It is a predictor, so candidate design requires an external search procedure.",
+    "inputs": "RNA sequence, predicted secondary structure/loop types and base-pair probabilities.",
+    "outputs": "Per-position reactivity/degradation measurements under specified solution conditions.",
+    "repository_urls": [
+      "https://github.com/Shujun-He/RNAdegformer"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/Shujun-He/RNAdegformer"
+      ],
+      "live_evidence": [
+        "https://github.com/Shujun-He/RNAdegformer",
+        "https://www.kaggle.com/c/stanford-covid-vaccine/data",
+        "https://github.com/Shujun-He/RNAdegformer/blob/main/src/OpenVaccine/Dataset.py"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p021-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Long-RNA91construct independent-test table missing from first-pass audit.",
+      "Competition train/public/private memberships,12x feature files and pseudo-label generation pools not fully reconciled.",
+      "No claim of complete SI/ablation data coverage."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/Shujun-He/RNAdegformer",
+        "model_ids": [
+          "P021"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/Shujun-He/RNAdegformer",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/Shujun-He/RNAdegformer",
+        "model_ids": [
+          "P021"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/Shujun-He/RNAdegformer/contents/README.md",
+        "data_urls": [
+          "https://www.kaggle.com/c/stanford-covid-vaccine/data",
+          "https://www.kaggle.com/shujun717/openvaccine-12x-dataset"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P022",
+    "name": "UTR-seq sequence/kinetic regression models",
+    "paper_title": "A Massively Parallel Reporter Assay of 3′ UTR Sequences Identifies In Vivo Rules for mRNA Degradation",
+    "paper_doi": "10.1016/j.molcel.2017.11.014",
+    "area": "Stability, 3′UTR and cell specificity",
+    "task": "Predict early versus late mRNA degradation during zebrafish embryogenesis and design regulatory UTRs.",
+    "method_summary": "Fits first-order decay models with constant or step-changing rates; uses likelihood-ratio model selection and k-mer/sequence-based regression. Identifies six classes of stabilizing/destabilizing sequence signals.",
+    "inputs": "Reporter 3-prime UTR sequences and time-series RNA abundance, with polyadenylation conditions.",
+    "outputs": "Decay classes, early/late rate parameters and predicted RNA trajectories.",
+    "repository_urls": [
+      "https://github.com/rabanilab/UTR-Seq"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/rabanilab/UTR-Seq"
+      ],
+      "live_evidence": [
+        "https://github.com/rabanilab/UTR-Seq",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE106677",
+        "https://github.com/rabanilab/UTR-Seq/blob/master/example/reporter_counts.txt"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p022-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Repository sample files do not cover every embryo/oocyte condition.",
+      "Need GSE sample-to-condition map and Tables S2/S3/S5/S6/S7 reconciliation.",
+      "Appended correction p20 reverses Fig2D A+/A- colors;do not use original colors to assign dataset labels."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/rabanilab/UTR-Seq",
+        "model_ids": [
+          "P022"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/rabanilab/UTR-Seq",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/rabanilab/UTR-Seq",
+        "model_ids": [
+          "P022"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/rabanilab/UTR-Seq/contents/README.md",
+        "data_urls": [
+          "https://www.ncbi.nlm.nih.gov/pubmed/29727622"
+        ],
+        "referenced_asset_names": [
+          "UTR-Seq-master.zip",
+          "example/reporter_counts.txt",
+          "example/reporter_seq.txt",
+          "example/test_seq.txt",
+          "example/bg_seq.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [
+      "utr-seq-zebrafish"
+    ],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P023",
+    "name": "LinearDesign2",
+    "paper_title": "Joint Design of 5' Untranslated Region and Coding Sequence of mRNA",
+    "paper_doi": "10.48550/arXiv.2410.20781",
+    "area": "CDS and full mRNA design",
+    "task": "Co-design UTR and synonymous coding sequence for translation-initiation, codon preference and structure tradeoffs.",
+    "method_summary": "Uses a five-layer CNN TIE predictor on UTR plus first 30 CDS nucleotides and handcrafted features. Alternates evolutionary UTR optimization conditional on CDS and CDS optimization conditional on UTR; integrates predicted TIE with CAI/MFE.",
+    "inputs": "Fixed protein sequence, candidate 5-prime UTR/CDS, sequence features.",
+    "outputs": "A jointly optimized UTR/CDS sequence with TIE, CAI and MFE scores.",
+    "repository_urls": [],
+    "repository_provenance": {
+      "status": "author service verified;no author GitHub release found",
+      "repository_urls": [],
+      "live_evidence": [
+        "https://arxiv.org/abs/2410.20781",
+        "https://paddlehelix.baidu.com/solution/mRNA/0",
+        "https://github.com/LinearDesignSoftware/LinearDesign"
+      ],
+      "notes": "Original LinearDesign repository is distinct from LinearDesign2;official PaddleHelix service/paper accessed,not an author code release."
+    },
+    "dataset_ids": [],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "No verified public LinearDesign2 model/reproduction release.",
+      "All seven Table2 dataset names recovered,but source-version mapping and every train/test ID not verified.",
+      "Intra-source ranking deliberately avoids treating MRL,growth,TE,and fluorescence as the same numerical label.",
+      "Supplementary/generated-design sample inventory not reconciled."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [],
+    "readme_pointer_checks": [],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P024",
+    "name": "BiLSTM-CRF codon-box model",
+    "paper_title": "Codon optimization with deep learning to enhance protein expression",
+    "paper_doi": "10.1038/s41598-020-74091-z",
+    "area": "CDS and full mRNA design",
+    "task": "Choose synonymous codons to improve recombinant protein expression in E. coli.",
+    "method_summary": "Recasts codon optimization as sequence annotation, learns context with bidirectional LSTM and dependency structure with conditional random field rather than selecting each codon independently.",
+    "inputs": "Amino-acid sequence represented for sequence labeling and E. coli training coding sequences.",
+    "outputs": "Codon-box annotations converted into synonymous DNA/CDS designs.",
+    "repository_urls": [
+      "https://github.com/Devil625/Codon_Optimization"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/Devil625/Codon_Optimization"
+      ],
+      "live_evidence": [
+        "https://github.com/Devil625/Codon_Optimization",
+        "https://www.nature.com/articles/s41598-020-74091-z",
+        "https://github.com/Devil625/Codon_Optimization/blob/master/sample_data/CPA.txt"
+      ],
+      "notes": "Devil625/Codon_Optimization is linked by the live Nature article;NCRFpp is its upstream framework,not the paper-specific repo."
+    },
+    "dataset_ids": [
+      "p024-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Full training/dev/test metadata and gene-source version not reconciled.",
+      "Experimental expression SI tables not exhaustively mapped."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/Devil625/Codon_Optimization",
+        "model_ids": [
+          "P024"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/Devil625/Codon_Optimization",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "Apache-2.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/Devil625/Codon_Optimization",
+        "model_ids": [
+          "P024"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/Devil625/Codon_Optimization/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [
+          "sample_data/CPA.txt",
+          "sample_data/cboxtrain.txt",
+          "sample_data/cboxdev.txt",
+          "sample_data/cboxtest.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P025",
+    "name": "CodonBERT",
+    "paper_title": "CodonBERT large language model for mRNA vaccines",
+    "paper_doi": "10.1101/gr.278870.123",
+    "area": "CDS and full mRNA design",
+    "task": "Learn codon representations and predict mRNA properties such as expression and degradation.",
+    "method_summary": "Twelve-block bidirectional transformer pretrained with masked-codon reconstruction and taxonomy-related sequence-pair prediction on over ten million mRNA sequences; adds trainable heads for downstream tasks.",
+    "inputs": "Codon-tokenized coding sequences.",
+    "outputs": "Embeddings or task-specific regression outputs after fine-tuning.",
+    "repository_urls": [
+      "https://github.com/Sanofi-Public/CodonBERT"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/Sanofi-Public/CodonBERT"
+      ],
+      "live_evidence": [
+        "https://github.com/Sanofi-Public/CodonBERT",
+        "https://github.com/Sanofi-Public/CodonBERT/tree/master/benchmarks/CodonBERT/data/fine-tune",
+        "https://github.com/Sanofi-Public/CodonBERT/blob/master/benchmarks/CodonBERT/data/fine-tune/MLOS.csv",
+        "https://github.com/Sanofi-Public/CodonBERT/tree/master/benchmarks/CodonBERT/data/pre-train"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p025-asset-1",
+      "p025-asset-2",
+      "p025-asset-3"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "All seven major downstream task names mapped,but Fungal/E.coli payloads and all Split memberships not verified.",
+      "Resolve CoV-degradation paper-versus-README source citation.",
+      "Supplemental benchmarking variants/ablation task files not exhaustively reconciled."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/Sanofi-Public/CodonBERT",
+        "model_ids": [
+          "P025"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/Sanofi-Public/CodonBERT",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "NOASSERTION",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/Sanofi-Public/CodonBERT",
+        "model_ids": [
+          "P025"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/Sanofi-Public/CodonBERT/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [
+          "//cdn.prod.accelerator.sanofi/llm/CodonBERT.zip",
+          "sample.fasta",
+          "benchmarks/CodonBERT/data/sample.fasta",
+          "train_seqs_id_1.csv.zip",
+          "benchmarks/CodonBERT/data/pre-train/train_seqs_id_1.csv.zip",
+          "train_seqs_id_2.csv.zip",
+          "benchmarks/CodonBERT/data/pre-train/train_seqs_id_2.csv.zip",
+          "train_samples.csv",
+          "benchmarks/CodonBERT/data/pre-train/train_samples.csv",
+          "eval.csv",
+          "benchmarks/CodonBERT/data/pre-train/eval.csv",
+          "benchmarks/CodonBERT/data/fine-tune/MLOS.csv",
+          "mRFP_Expression.csv",
+          "benchmarks/CodonBERT/data/fine-tune/mRFP_Expression.csv",
+          "Fungal_expression.csv",
+          "benchmarks/CodonBERT/data/fine-tune/Fungal_expression.csv",
+          "E.Coli_proteins.csv",
+          "benchmarks/CodonBERT/data/fine-tune/E.Coli_proteins.csv",
+          "Tc-Riboswitches.csv",
+          "benchmarks/CodonBERT/data/fine-tune/Tc-Riboswitches.csv",
+          "mRNA_Stability.csv",
+          "benchmarks/CodonBERT/data/fine-tune/mRNA_Stability.csv",
+          "CoV_Vaccine_Degradation.csv",
+          "benchmarks/CodonBERT/data/fine-tune/CoV_Vaccine_Degradation.csv",
+          "datamodel_mRFP.csv"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P026",
+    "name": "mRNA Expression Wizard / random-forest models",
+    "paper_title": "Revealing determinants of translation efficiency via whole-gene codon randomization and machine learning",
+    "paper_doi": "10.1093/nar/gkad035",
+    "area": "CDS and full mRNA design",
+    "task": "Explain and predict expression differences among synonymous coding sequences.",
+    "method_summary": "Compares several ML approaches and sequence regions; a random forest using only the first eight codons achieves Pearson r=0.762. Analysis implicates start-region structure over whole-CDS CAI.",
+    "inputs": "Sequence features from whole-gene randomized red fluorescent protein variants in E. coli.",
+    "outputs": "Predicted protein production and feature importance.",
+    "repository_urls": [
+      "https://github.com/BTheDragonMaster/mew"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/BTheDragonMaster/mew"
+      ],
+      "live_evidence": [
+        "https://github.com/BTheDragonMaster/mew",
+        "https://zenodo.org/records/7547381",
+        "https://github.com/BTheDragonMaster/mew/blob/master/mew/parsers.py"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p026-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Zenodo is a model/code release,not proof every raw/validated dataset was inspected.",
+      "Need S1/S2 full metadata,independent holdout membership,and proteomics subset reconciliation."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/BTheDragonMaster/mew",
+        "model_ids": [
+          "P026"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/BTheDragonMaster/mew",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "unknown",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/BTheDragonMaster/mew",
+        "model_ids": [
+          "P026"
+        ],
+        "status": "readme_not_located",
+        "error": null,
+        "checked_on": "2026-11-05"
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P027",
+    "name": "Elastic-net regression of uORF activity",
+    "paper_title": "Unraveling the influences of sequence and position on yeast uORF activity using massively parallel reporter systems and machine learning",
+    "paper_doi": "10.7554/eLife.69611",
+    "area": "Translation regulation and dynamics",
+    "task": "Predict translational repression and nonsense-mediated decay effects of yeast uORFs.",
+    "method_summary": "Combines massively parallel reporters with elastic-net feature selection/regression. Compares sequence and position contributions and separates NMD-related from other repression using strain contrast.",
+    "inputs": "uORF sequence, start-codon context, lengths and positions within transcript leaders; wildtype versus UPF1-deletion conditions.",
+    "outputs": "Predicted reporter activity and selected feature effects.",
+    "repository_urls": [],
+    "repository_provenance": {
+      "status": "no author repository verified;publisher data provenance verified",
+      "repository_urls": [],
+      "live_evidence": [
+        "https://elifesciences.org/articles/69611/figures",
+        "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA721222",
+        "https://cdn.elifesciences.org/articles/69611/elife-69611-supp1-v2.xlsx"
+      ],
+      "notes": "No standalone author GitHub found;official publisher supplement and SRA are valid sources."
+    },
+    "dataset_ids": [
+      "p027-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Workbook sheet metadata mapped,but no complete header/row or raw-SRA sample reconciliation.",
+      "Exact ENR train/validation fold IDs and experimental reuse across sheets not checked."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [],
+    "readme_pointer_checks": [],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P028",
+    "name": "RF and SeqNet",
+    "paper_title": "Machine learning-based analysis of the impact of 5′ untranslated region on protein expression",
+    "paper_doi": "10.1093/nar/gkaf861",
+    "area": "5′UTR and translation initiation",
+    "task": "Predict translation/protein expression from 5-prime UTR and reduce redundant experimental libraries.",
+    "method_summary": "Compares feature-based random forests with a CNN-based SeqNet; clusters related sequences to reduce redundancy, and builds a smaller firefly-luciferase library to improve endpoint fidelity.",
+    "inputs": "5-prime UTR sequence, sequence/secondary-structure features; reporter measurements.",
+    "outputs": "TE or luciferase-expression predictions and selected representative sequences.",
+    "repository_urls": [
+      "https://github.com/fightw/5UTR_RFuploadw",
+      "https://github.com/fightw/modules_SeqNN"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/fightw/5UTR_RFuploadw",
+        "https://github.com/fightw/modules_SeqNN"
+      ],
+      "live_evidence": [
+        "https://github.com/fightw/5UTR_RFuploadw",
+        "https://github.com/fightw/modules_SeqNN",
+        "https://figshare.com/articles/dataset/5UTR_SeqNet/28681223",
+        "https://figshare.com/articles/dataset/5UTR_RandomForest/28681190"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p028-asset-1",
+      "p028-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "SupplementaryTableS1 and all source-to-filter-to-cluster-to-ABI subset roles not fully reconciled.",
+      "Actual small release files contain400/328/82rows,not the full reported1376/6721sets.",
+      "Cannot assume cross-cell comparability of TE/TE2 scaling or ABI."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/fightw/5UTR_RFuploadw",
+        "model_ids": [
+          "P028"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/fightw/5UTR_RFuploadw",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "unknown",
+        "error": null
+      },
+      {
+        "url": "https://github.com/fightw/modules_SeqNN",
+        "model_ids": [
+          "P028"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/fightw/modules_SeqNN",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "unknown",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/fightw/5UTR_RFuploadw",
+        "model_ids": [
+          "P028"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/fightw/5UTR_RFuploadw/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      },
+      {
+        "repository": "https://github.com/fightw/modules_SeqNN",
+        "model_ids": [
+          "P028"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/fightw/modules_SeqNN/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P029",
+    "name": "PARADE",
+    "paper_title": "A generative framework for enhanced cell-type specificity in rationally designed mRNAs",
+    "paper_doi": "10.1101/2024.12.31.630783",
+    "area": "Stability, 3′UTR and cell specificity",
+    "task": "Design UTRs with target-cell activity, specificity and stability.",
+    "method_summary": "Predictor learns sequence regulatory activity; generator compares cold-diffusion refinement, a genetic algorithm, random sampling and motif-based design. It optimizes a differential-activity objective and tests both single and combined UTR strategies.",
+    "inputs": "5-prime/3-prime UTR sequences, cell markers, MPRA activity/stability labels.",
+    "outputs": "Predicted cell-specific activity and de novo UTR designs.",
+    "repository_urls": [
+      "https://github.com/autosome-ru/parade"
+    ],
+    "repository_provenance": "Paper and current repository README explicitly identify autosome-ru/parade.",
+    "dataset_ids": [
+      "p029-asset-1",
+      "p029-asset-2",
+      "p029-asset-3",
+      "p029-asset-4"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Complete training measurement tables absent from previously inspected tree.",
+      "Zenodo archive and GEO accession not established.",
+      "Primary-cell/animal source tables and full library-to-split mapping remain unchecked."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/autosome-ru/parade",
+        "model_ids": [
+          "P029"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/autosome-ru/parade",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/autosome-ru/parade",
+        "model_ids": [
+          "P029"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/autosome-ru/parade/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [
+      "parade-stability-assay",
+      "parade-generated-utr-mpra",
+      "parade-natural-utr-mpra"
+    ],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P030",
+    "name": "codonGPT",
+    "paper_title": "codonGPT: reinforcement learning on a generative language model enables scalable mRNA design",
+    "paper_doi": "10.1093/nar/gkaf1345",
+    "area": "CDS and full mRNA design",
+    "task": "Generate protein-preserving CDSs and optimize surrogate expression/stability/composition rewards.",
+    "method_summary": "GPT-2-style codon model trained on 338,417 CDSs; inference-time pre-softmax masking restricts each position to synonyms. REINFORCE adapts a protein-specific policy to multi-objective reward.",
+    "inputs": "Fixed target amino-acid sequence and codon history.",
+    "outputs": "Autoregressively generated synonymous CDS candidates.",
+    "repository_urls": [
+      "https://github.com/NanilTx/codonGPT_pub",
+      "https://huggingface.co/naniltx/codonGPT"
+    ],
+    "repository_provenance": {
+      "status": "author HF verified;paper GitHub and cited Figshare unavailable",
+      "repository_urls": [
+        "https://github.com/NanilTx/codonGPT_pub",
+        "https://huggingface.co/naniltx/codonGPT"
+      ],
+      "live_evidence": [
+        "https://github.com/NanilTx/codonGPT_pub",
+        "https://huggingface.co/naniltx/codonGPT",
+        "https://api.figshare.com/v2/articles/30261136"
+      ],
+      "notes": "HF author model card matches paper;GitHub/Zenodo-like pointers cannot be treated as live data access."
+    },
+    "dataset_ids": [
+      "p030-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Cited GitHub404 and Figshare30261136 API404;HF checkpoint/generation code does not establish full RL/data release.",
+      "No full pretraining or computational-output dataset inventory verified."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/NanilTx/codonGPT_pub",
+        "model_ids": [
+          "P030"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": false,
+        "canonical_url": null,
+        "default_branch": null,
+        "archived": null,
+        "license_spdx": "unknown",
+        "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/repos#get-a-repository\",\"status\":\"404\"}"
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/NanilTx/codonGPT_pub",
+        "model_ids": [
+          "P030"
+        ],
+        "checked_on": "2026-11-05",
+        "status": "repository_unavailable",
+        "error": "404 on live repository metadata check",
+        "data_urls": []
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P031",
+    "name": "mRNABERT",
+    "paper_title": "mRNABERT: advancing mRNA sequence design with a universal language model and comprehensive dataset",
+    "paper_doi": "10.1038/s41467-025-65340-8",
+    "area": "CDS and full mRNA design",
+    "task": "Provide integrated representations for UTR/CDS and full-mRNA prediction/design tasks.",
+    "method_summary": "Twelve-transformer-block masked language model; dual tokenization retains nucleotide resolution in UTRs and codon semantics in CDSs. Cross-modality contrastive learning aligns CDS and protein representations.",
+    "inputs": "Full mRNA with region-aware nucleotide/codon tokenization, plus paired proteins during contrastive training.",
+    "outputs": "Embeddings, RBP-site/property predictions and task-specific design scores.",
+    "repository_urls": [
+      "https://github.com/yyly6/mRNABERT"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/yyly6/mRNABERT"
+      ],
+      "live_evidence": [
+        "https://github.com/yyly6/mRNABERT",
+        "https://zenodo.org/records/12516160",
+        "https://zenodo.org/records/17786045"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p031-asset-1",
+      "p031-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Supplementary task statistics and original-source map not fully checked;seven archives are not seven uniformly labeled independent datasets.",
+      "Need every subtask/version and train/dev/test identity reconciliation,especially generic sequence,label CSVs."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/yyly6/mRNABERT",
+        "model_ids": [
+          "P031"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/yyly6/mRNABERT",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "Apache-2.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/yyly6/mRNABERT",
+        "model_ids": [
+          "P031"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/yyly6/mRNABERT/contents/README.md",
+        "data_urls": [
+          "https://zenodo.org/records/17786045",
+          "https://zenodo.org/records/15051237",
+          "https://huggingface.co/YYLY66/mRNABERT",
+          "https://zenodo.org/records/12516160",
+          "https://www.ncbi.nlm.nih.gov/orffinder",
+          "https://github.com/huggingface/transformers/tree/main/examples/pytorch/language-modeling"
+        ],
+        "referenced_asset_names": [
+          "requirements.txt",
+          "/path/to/mrnabert.tar.gz",
+          "/sample_data/pre.txt",
+          "data_process/pre-train/pre_input.fasta",
+          "sample_data/pre.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P032",
+    "name": "RiboDecode",
+    "paper_title": "Deep generative optimization of mRNA codon sequences for enhanced mRNA translation and therapeutic efficacy",
+    "paper_doi": "10.1038/s41467-025-64894-x",
+    "area": "CDS and full mRNA design",
+    "task": "Predict and optimize translation while considering cellular environment and structure.",
+    "method_summary": "Translation model has two convolutional and five fully connected layers. A learned differentiable MFE predictor supplies stability proxy; activation-maximization gradient ascent changes codon distributions while synonym regularization preserves protein identity.",
+    "inputs": "One-hot CDS, transcript abundance and RNA-seq-derived cellular-expression context.",
+    "outputs": "Translation score, MFE surrogate and synonymous optimized CDS.",
+    "repository_urls": [
+      "https://github.com/wangfanfff/RiboDecode"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/wangfanfff/RiboDecode"
+      ],
+      "live_evidence": [
+        "https://github.com/wangfanfff/RiboDecode",
+        "https://figshare.com/articles/dataset/RiboDecode/28916288/3",
+        "https://github.com/wangfanfff/RiboDecode/blob/main/env_file.csv"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p032-asset-1",
+      "p032-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Processed122MB deposit headers inspected,but every matrix/cell/study source not reconciled.",
+      "MFE pseudo-label pools and full wet-lab SupplementaryData2–10 datasets omitted in first-pass audit.",
+      "Code archive Zenodo17096436 now metadata-verified;not proof package covers every paper dataset."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/wangfanfff/RiboDecode",
+        "model_ids": [
+          "P032"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/wangfanfff/RiboDecode",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "unknown",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/wangfanfff/RiboDecode",
+        "model_ids": [
+          "P032"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/wangfanfff/RiboDecode/contents/readme.md",
+        "data_urls": [
+          "https://drive.google.com/file/d/19Yyl8uUbjQn0TAA4E52ZUGBd_pb_RyW8/view?usp=sharing",
+          "https://drive.google.com/file/d/1BVrQvO85b0HI34cWfCNtim_eG2LXSEuv/view?usp=sharing"
+        ],
+        "referenced_asset_names": [
+          "env_file.csv",
+          "optim_results.txt",
+          "/samples/optim_results.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P033",
+    "name": "RhoFold+",
+    "paper_title": "Accurate RNA 3D structure prediction using a language model-based deep learning approach",
+    "paper_doi": "10.1038/s41592-024-02487-0",
+    "area": "Enabling RNA models and measurements",
+    "task": "Predict RNA tertiary structure; indirect relevance to mRNA design.",
+    "method_summary": "Uses a language model pretrained on approximately 23.7 million RNAs together with deep structural modeling; alignment search and refinement contribute structural information.",
+    "inputs": "Single-chain RNA sequence, RNA-FM representation and alignment information.",
+    "outputs": "Three-dimensional atomic RNA structure and structural confidence/features.",
+    "repository_urls": [
+      "https://github.com/ml4bio/RhoFold"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/ml4bio/RhoFold"
+      ],
+      "live_evidence": [
+        "https://github.com/ml4bio/RhoFold",
+        "https://github.com/ml4bio/RhoFold/tree/main/example/input"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p033-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "All named major corpora recovered,but actual PDB IDs/train/validation/test/family/time partitions and self-distillation membership not reconciled.",
+      "Do not equate inspected FASTA inference examples with a complete training corpus."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/ml4bio/RhoFold",
+        "model_ids": [
+          "P033"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/ml4bio/RhoFold",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "Apache-2.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/ml4bio/RhoFold",
+        "model_ids": [
+          "P033"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/ml4bio/RhoFold/contents/README.md",
+        "data_urls": [
+          "https://drive.google.com/file/d/1To2bjbhQLFx1k8hBOW5q1JFq6ut27XEv/view?usp=sharing",
+          "https://huggingface.co/cuhkaih/rhofold/resolve/main/rhofold_pretrained_params.pt",
+          "https://huggingface.co/datasets/cuhkaih/rhofold",
+          "https://drive.google.com/file/d/1qcETN6QQES7cwdfsTPnnlsa77brmyBrN/view?usp=sharing"
+        ],
+        "referenced_asset_names": [
+          "log.txt",
+          "./example/input/3owzA/3owzA.fasta"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P034",
+    "name": "RfamGen",
+    "paper_title": "Deep generative design of RNA family sequences",
+    "paper_doi": "10.1038/s41592-023-02148-8",
+    "area": "Enabling RNA models and measurements",
+    "task": "Generate functional RNA-family members, especially ribozymes.",
+    "method_summary": "A variational autoencoder incorporates a covariance-model decoder; the CM formalizes alignment and paired structural constraints as a tree-structured probabilistic grammar.",
+    "inputs": "Family multiple sequence alignments and consensus secondary structure.",
+    "outputs": "New family-compatible RNA sequences sampled from latent space.",
+    "repository_urls": [
+      "https://github.com/Shunsuke-1994/rfamgen"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/Shunsuke-1994/rfamgen"
+      ],
+      "live_evidence": [
+        "https://github.com/Shunsuke-1994/rfamgen",
+        "https://github.com/Shunsuke-1994/rfamgen/tree/main/datasets/RF00234",
+        "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1044007"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p034-asset-1",
+      "p034-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Need supplementary complete family/assay inventory and generated-output mapping.",
+      "Public exampleRF00234 does not establish coverage of all paper families.",
+      "Live README bug-fix branch differs from archived v0.1 and historical ELBO results."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/Shunsuke-1994/rfamgen",
+        "model_ids": [
+          "P034"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/Shunsuke-1994/rfamgen",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "NOASSERTION",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/Shunsuke-1994/rfamgen",
+        "model_ids": [
+          "P034"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/Shunsuke-1994/rfamgen/contents/README.md",
+        "data_urls": [
+          "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1044007"
+        ],
+        "referenced_asset_names": [
+          "datasets/RF00234/RF00234.fa",
+          "datasets/RF00234/RF00234_filtered.fa",
+          "_filtered_T2U.fa",
+          "datasets/RF00234/RF00234_unique_seed_removed.fa",
+          "datasets/RF00234/RF00234_unique_seed_removed_notrunc_traceback_onehot_cm.h5",
+          "datasets/RF00234/RF00234_unique_seed_removed_notrunc_traceback_onehot_cm_train.h5",
+          "RF00234_unique_seed_removed_notrunc_traceback_onehot_cm_train.h5",
+          "RF00234_unique_seed_removed_notrunc_traceback_onehot_cm_train_weight_threshold0p1.h5",
+          "RF00234_unique_seed_removed_notrunc_traceback_onehot_cm_valid.h5",
+          "RF00234_unique_seed_removed_notrunc_traceback_onehot_cm_valid_weight_threshold0p1.h5",
+          "./outputs/RF00234/sampled_5seq.fa"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P035",
+    "name": "SPOT-RNA",
+    "paper_title": "RNA secondary structure prediction using an ensemble of two-dimensional deep neural networks and transfer learning",
+    "paper_doi": "10.1038/s41467-019-13395-9",
+    "area": "Enabling RNA models and measurements",
+    "task": "Predict base-pairing including noncanonical and pseudoknot contacts.",
+    "method_summary": "An ensemble of two-dimensional deep networks uses contextual sequence features, pretraining on more than 10,000 bpRNA structures, then transfer learning on fewer than 250 nonredundant high-resolution RNAs.",
+    "inputs": "RNA nucleotide sequence.",
+    "outputs": "Base-pair probabilities and predicted secondary structure.",
+    "repository_urls": [
+      "https://github.com/jaswindersingh2/SPOT-RNA"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/jaswindersingh2/SPOT-RNA"
+      ],
+      "live_evidence": [
+        "https://github.com/jaswindersingh2/SPOT-RNA",
+        "https://github.com/jaswindersingh2/SPOT-RNA#datasets"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p035-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Actual archive manifests/PDB IDs and pair annotations not reconciled.",
+      "Any supplementary additional case-study targets/length filters require archive-to-paper mapping."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/jaswindersingh2/SPOT-RNA",
+        "model_ids": [
+          "P035"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/jaswindersingh2/SPOT-RNA",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "MPL-2.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/jaswindersingh2/SPOT-RNA",
+        "model_ids": [
+          "P035"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/jaswindersingh2/SPOT-RNA/contents/README.md",
+        "data_urls": [
+          "https://developer.nvidia.com/cuda-10.0-download-archive",
+          "https://www.dropbox.com/s/w3kc4iro8ztbf3m/bpRNA_dataset.zip",
+          "https://www.dropbox.com/s/vnq0k9dg7vynu3q/PDB_dataset.zip?dl=0"
+        ],
+        "referenced_asset_names": [
+          "//www.dropbox.com/s/dsrcf460nbjqpxa/SPOT-RNA-models.tar.gz",
+          "SPOT-RNA-models.tar.gz",
+          "requirements.txt",
+          "sample_inputs/single_seq.fasta",
+          "sample_inputs/batch_seq.fasta",
+          "//www.dropbox.com/s/w3kc4iro8ztbf3m/bpRNA_dataset.zip",
+          "//www.dropbox.com/s/vnq0k9dg7vynu3q/PDB_dataset.zip"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P036",
+    "name": "CaLM",
+    "paper_title": "Codon language embeddings provide strong signals for use in protein engineering",
+    "paper_doi": "10.1038/s42256-024-00791-0",
+    "area": "CDS and full mRNA design",
+    "task": "Learn codon embeddings for protein/transcript property prediction.",
+    "method_summary": "Masked-language-model pretraining learns codon sequence context, retaining synonymous information absent from amino-acid-only models; downstream models use those embeddings.",
+    "inputs": "Protein-coding DNA sequences tokenized as codons.",
+    "outputs": "Representations used for abundance, species, melting-point and engineering predictions.",
+    "repository_urls": [
+      "https://github.com/oxpig/CaLM"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/oxpig/CaLM"
+      ],
+      "live_evidence": [
+        "https://github.com/oxpig/CaLM",
+        "https://github.com/oxpig/CaLM/tree/main/data",
+        "https://github.com/oxpig/CaLM/tree/main/data/species"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p036-asset-1",
+      "p036-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "PaperTable1 source studies and every species/task data file not reconciled.",
+      "Full natural corpus/holdout tar manifests and overlap filtering not inspected."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/oxpig/CaLM",
+        "model_ids": [
+          "P036"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/oxpig/CaLM",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "BSD-3-Clause",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/oxpig/CaLM",
+        "model_ids": [
+          "P036"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/oxpig/CaLM/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P037",
+    "name": "Benchmark of eleven genomic language models",
+    "paper_title": "Benchmarking pre-trained genomic language models for RNA sequence-related predictive applications",
+    "paper_doi": "10.1038/s41467-025-66899-y",
+    "area": "Enabling RNA models and measurements",
+    "task": "Determine which pretrained model helps particular RNA prediction tasks.",
+    "method_summary": "Standardizes evaluation of genomic language models versus task-specific alternatives; examines tokenization, pretraining corpus, input length and limited-data regimes.",
+    "inputs": "RNA sequences and labels for ncRNA class, m6A, splice sites and translation efficiency.",
+    "outputs": "Comparative task performance under changing data size, imbalance and context.",
+    "repository_urls": [
+      "https://github.com/ShenLab-Genomics/biombenchmark"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/ShenLab-Genomics/biombenchmark"
+      ],
+      "live_evidence": [
+        "https://github.com/ShenLab-Genomics/biombenchmark",
+        "https://github.com/ShenLab-Genomics/biombenchmark/blob/main/dataset/mrl_dataset.py",
+        "https://zenodo.org/records/17358094"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p037-asset-1",
+      "p037-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "All main Table1 task names now mapped,but per-file schema exceptMRL and every split/ablation membership remain unverified.",
+      "Resolve13-class total/split discrepancy and provenance of extendedm6A contexts."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/ShenLab-Genomics/biombenchmark",
+        "model_ids": [
+          "P037"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/ShenLab-Genomics/biombenchmark",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/ShenLab-Genomics/biombenchmark",
+        "model_ids": [
+          "P037"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/ShenLab-Genomics/biombenchmark/contents/README.md",
+        "data_urls": [
+          "https://proj.cse.cuhk.edu.hk/rnafm/api/download?filename=RNA-FM_pretrained.pth",
+          "https://drive.google.com/file/d/10gJBl24OGQ_aZfxtj09dik0rrM4dOk_R/view?usp=sharing",
+          "https://drive.google.com/file/d/1-Gl9LGjR_dmDfOARrIVvuOmb7w_tJvGA/view?usp=sharing",
+          "https://huggingface.co/LLM-EDA/RNAErnie/tree/main",
+          "https://doi.org/10.5281/zenodo.7995778",
+          "https://huggingface.co/zhihan1996/DNA_bert_3",
+          "https://huggingface.co/zhihan1996/DNABERT-2-117M",
+          "https://codeocean.com/capsule/4214075/tree/v1",
+          "https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-500m-multi-species",
+          "https://drive.google.com/drive/folders/1bNvG5JRnUmADC1PXzeCQqkrUBtYKKaxu?usp=sharing"
+        ],
+        "referenced_asset_names": [
+          "output.txt",
+          "error_output.txt",
+          "tables/m6a101_4_0.1.txt",
+          "analyzer/tables/m6a101_4_0.1_collected_data.csv"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P038",
+    "name": "BiRNA-BERT",
+    "paper_title": "BiRNA-BERT allows efficient RNA language modeling with adaptive tokenization",
+    "paper_doi": "10.1038/s42003-025-08982-0",
+    "area": "Enabling RNA models and measurements",
+    "task": "Represent short or long RNAs with efficient tokenization.",
+    "method_summary": "117M-parameter transformer encoder pretrained on 36 million noncoding RNAs. Dual tokenization trades fine nucleotide resolution against sequence compression for longer contexts.",
+    "inputs": "RNA sequence with adaptive nucleotide-level or byte-pair tokenization.",
+    "outputs": "Embeddings and fine-tuned classification/structural predictions.",
+    "repository_urls": [
+      "https://github.com/buetnlpbio/BiRNA-BERT"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/buetnlpbio/BiRNA-BERT"
+      ],
+      "live_evidence": [
+        "https://github.com/buetnlpbio/BiRNA-BERT",
+        "https://github.com/buetnlpbio/BiRNA-BERT/tree/main/example_code_and_data/torsion-angle/data"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p038-asset-1",
+      "p038-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "All SI-defined dataset variants/species IDs and structural-set definitions still need reconciliation.",
+      "Initial audit sampled structural examples and missed most functional benchmark families."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/buetnlpbio/BiRNA-BERT",
+        "model_ids": [
+          "P038"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/buetnlpbio/BiRNA-BERT",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "unknown",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/buetnlpbio/BiRNA-BERT",
+        "model_ids": [
+          "P038"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/buetnlpbio/BiRNA-BERT/contents/README.md",
+        "data_urls": [
+          "https://huggingface.co/collections/buetnlpbio/birna-bert-66840c2645d8ceb446b6c919",
+          "https://huggingface.co/mosaicml/mosaic-bert-base",
+          "https://huggingface.co/Lancelot53/birnabert-2ep"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P039",
+    "name": "G4mer",
+    "paper_title": "G4mer: An RNA language model for transcriptome-wide identification of G-quadruplexes and disease variants from population-scale genetic data",
+    "paper_doi": "10.1038/s41467-025-65020-7",
+    "area": "Enabling RNA models and measurements",
+    "task": "Predict RNA G-quadruplex formation/subtypes and effects of UTR variants.",
+    "method_summary": "Fine-tunes a self-supervised mRNA BERT representation using experimental rG4-seeker regions and G-rich negatives, then interprets subtype sensitivity and flanking context.",
+    "inputs": "Transcript or variant sequence around candidate G-rich regions.",
+    "outputs": "rG4 probability/subtype and predicted mutational effect.",
+    "repository_urls": [
+      "https://bitbucket.org/biociphers/g4mer/src/main/",
+      "https://huggingface.co/Biociphers/g4mer"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://bitbucket.org/biociphers/g4mer/src/main/",
+        "https://huggingface.co/Biociphers/g4mer"
+      ],
+      "live_evidence": [
+        "https://bitbucket.org/biociphers/g4mer/src/main/",
+        "https://huggingface.co/Biociphers/g4mer",
+        "https://bitbucket.org/biociphers/g4mer/src/main/data/"
+      ],
+      "notes": "Bitbucket repo is explicitly cited by paper;unrelated GitHub G4mer names were rejected."
+    },
+    "dataset_ids": [
+      "p039-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Data tree metadata is not fullbinary/multiclass fold coverage.",
+      "Public variant resources and controlled PMBB access have not been individually audited.",
+      "Full selected-variant assay/source-table mapping missing;HF gated license not accepted."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [],
+    "readme_pointer_checks": [],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P040",
+    "name": "ERNIE-RNA",
+    "paper_title": "ERNIE-RNA: An RNA Language Model with Structure-enhanced Representations",
+    "paper_doi": "10.1038/s41467-025-64972-0",
+    "area": "Enabling RNA models and measurements",
+    "task": "Learn structural and functional RNA representations.",
+    "method_summary": "Modified BERT integrates base-pairing restrictions/structural inductive bias during language-model pretraining rather than learning sequence context alone.",
+    "inputs": "RNA sequence with base-pairing priors in attention.",
+    "outputs": "Attention/embeddings and fine-tuned RNA property predictions.",
+    "repository_urls": [
+      "https://github.com/Bruce-ywj/ERNIE-RNA"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/Bruce-ywj/ERNIE-RNA"
+      ],
+      "live_evidence": [
+        "https://github.com/Bruce-ywj/ERNIE-RNA",
+        "https://github.com/Bruce-ywj/ERNIE-RNA/blob/main/predict_MRL.py"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p040-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Need full per-task archive and SI partition reconciliation,including RNA3DBcomponent membership.",
+      "Initial audit coveredMRLloader but not all independent structural/binding/splicing/APA datasets."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/Bruce-ywj/ERNIE-RNA",
+        "model_ids": [
+          "P040"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/Bruce-ywj/ERNIE-RNA",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/Bruce-ywj/ERNIE-RNA",
+        "model_ids": [
+          "P040"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/Bruce-ywj/ERNIE-RNA/contents/README.md",
+        "data_urls": [
+          "https://drive.google.com/drive/folders/10Yz-sdezhmazzVtrtdBGdzzqK1Z6f-Xv"
+        ],
+        "referenced_asset_names": [
+          "./data/test_seqs.txt",
+          "./data/ss_prediction/bpRNA-1m_testseqs.fasta",
+          "./data/ss_prediction/rna3db_testseqs.fasta",
+          "./data/ss_prediction/bpRNA-new_testseqs.fasta",
+          "./results/ernie_rna_3d_clossness/example.fasta",
+          "./data/MRL_data/seqs.fasta"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P041",
+    "name": "PAL-AI",
+    "paper_title": "PAL-AI reveals genetic determinants that control poly(A)-tail length during oocyte maturation, with relevance to human fertility",
+    "paper_doi": "10.1038/s41467-025-62171-5",
+    "area": "Stability, 3′UTR and cell specificity",
+    "task": "Predict poly(A)-tail length changes during oocyte maturation and variant effects.",
+    "method_summary": "Integrates convolutional and recurrent components, a simpler architecture related to Saluki. Learns CPE/PAS motifs and context; compares with a linear motif-based model.",
+    "inputs": "3-prime UTR sequence, particularly regulatory elements near its end.",
+    "outputs": "Predicted maturation-dependent tail-length change.",
+    "repository_urls": [
+      "https://github.com/coffeebond/PAL-AI"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/coffeebond/PAL-AI"
+      ],
+      "live_evidence": [
+        "https://github.com/coffeebond/PAL-AI",
+        "https://github.com/coffeebond/PAL-AI/blob/main/Data/HS_oo_MII_vs_GV_tail_length_change.txt"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p041-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "All explicitly listed main data accessions mapped,but sample-to-role and all SI5/source-table memberships not reconciled.",
+      "Raw reporter intensity data are request-only;AllofUs needs ControlledTier;not every paper dataset is public."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/coffeebond/PAL-AI",
+        "model_ids": [
+          "P041"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/coffeebond/PAL-AI",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "unknown",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/coffeebond/PAL-AI",
+        "model_ids": [
+          "P041"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/coffeebond/PAL-AI/contents/README.html",
+        "data_urls": [],
+        "referenced_asset_names": [
+          "PAL_AI_environment.txt",
+          "Data/XL_oo_pp_7h_tail_length_change.txt",
+          "Data/XL_utr3.fa",
+          "Data/XL_cds.fa",
+          "Data/Datasets_XL_HS_MM_wCDS.txt",
+          "Data/XL_F044_utr3.fa",
+          "Data/XL_F044_cds.fa",
+          "Data/Datasets_F044_wCDS.txt",
+          "HS_cds.fa",
+          "_log.txt",
+          "Data_summary.xlsx"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P042",
+    "name": "RiNALMo",
+    "paper_title": "RiNALMo: general-purpose RNA language models can generalize well on structure prediction tasks",
+    "paper_doi": "10.1038/s41467-025-60872-5",
+    "area": "Enabling RNA models and measurements",
+    "task": "Learn general RNA representations and improve structure generalization.",
+    "method_summary": "650M-parameter language model pretrained on 36 million noncoding RNAs using masked-token learning; downstream fine-tuning learns structural heads.",
+    "inputs": "RNA nucleotide sequence.",
+    "outputs": "Embeddings and task-specific structural/property predictions.",
+    "repository_urls": [
+      "https://github.com/lbcb-sci/RiNALMo"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/lbcb-sci/RiNALMo"
+      ],
+      "live_evidence": [
+        "https://github.com/lbcb-sci/RiNALMo",
+        "https://github.com/lbcb-sci/RiNALMo/tree/main/rinalmo/data/downstream"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p042-asset-1",
+      "p042-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Major corpora mapped but all exact source-version and train/test IDs not reconciled.",
+      "Actual three-context functional tables and structural benchmark payloads not checked."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/lbcb-sci/RiNALMo",
+        "model_ids": [
+          "P042"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/lbcb-sci/RiNALMo",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "Apache-2.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/lbcb-sci/RiNALMo",
+        "model_ids": [
+          "P042"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/lbcb-sci/RiNALMo/contents/README.md",
+        "data_urls": [
+          "https://zenodo.org/records/15043668",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_pretrained.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_mega_pretrained.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_micro_pretrained.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-16s_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-23s_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-5s_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-srp_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-grp1_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-telomerase_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-tmRNA_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-tRNA_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_archiveII-RNaseP_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_ss_bprna_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_splice_acceptor_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_splice_donor_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_mrl_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_ncrna_class_0_noise_ft.pt",
+          "https://zenodo.org/records/15043668/files/rinalmo_giga_ncrna_class_200_noise_ft.pt"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P043",
+    "name": "BPfold",
+    "paper_title": "Deep generalizable prediction of RNA secondary structure via base pair motif energy",
+    "paper_doi": "10.1038/s41467-025-60048-1",
+    "area": "Enabling RNA models and measurements",
+    "task": "Predict secondary structure with better generalization to unseen RNA families.",
+    "method_summary": "Builds an energy library for local base-pair motifs from de novo structural modeling; transformer blocks combine sequence and energy representations, followed by physical-constraint refinement.",
+    "inputs": "RNA sequence and base-pair motif-energy maps.",
+    "outputs": "Base-contact map refined into a secondary structure.",
+    "repository_urls": [
+      "https://github.com/heqin-zhu/BPfold"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/heqin-zhu/BPfold"
+      ],
+      "live_evidence": [
+        "https://github.com/heqin-zhu/BPfold",
+        "https://github.com/heqin-zhu/BPfold/blob/main/src/BPfold/dataset/RNAseq.py"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p043-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Exact energy-library version,alltraining memberships and source-data benchmark names require SI/config reconciliation.",
+      "Only loader/example FASTA and READMEcounts inspected previously."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/heqin-zhu/BPfold",
+        "model_ids": [
+          "P043"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/heqin-zhu/BPfold",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/heqin-zhu/BPfold",
+        "model_ids": [
+          "P043"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/heqin-zhu/BPfold/contents/README.md",
+        "data_urls": [
+          "https://github.com/heqin-zhu/BPfold/releases/latest/download/model_predict.tar.gz",
+          "https://github.com/heqin-zhu/BPfold/releases/latest/download/BPfold_data.tar.gz",
+          "https://github.com/heqin-zhu/BPfold/releases/download/v0.2/BPfold_test_results.tar.gz",
+          "https://github.com/heqin-zhu/BPfold/releases/download/v0.2/model_reproduce.tar.gz"
+        ],
+        "referenced_asset_names": [
+          "model_predict.tar.gz",
+          "//github.com/heqin-zhu/BPfold/releases/latest/download/model_predict.tar.gz",
+          "BPfold_data.tar.gz",
+          "//github.com/heqin-zhu/BPfold/releases/latest/download/BPfold_data.tar.gz",
+          "examples/examples.fasta",
+          "//github.com/heqin-zhu/BPfold/releases/download/v0.2/BPfold_test_results.tar.gz",
+          "BPfold_test_results.tar.gz",
+          "BPfold_reproduce.tar.gz",
+          "//github.com/heqin-zhu/BPfold/releases/download/v0.2/model_reproduce.tar.gz",
+          "model_reproduce.tar.gz"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P044",
+    "name": "RNAmigos2",
+    "paper_title": "RNAmigos2: accelerated structure-based RNA virtual screening with deep graph learning",
+    "paper_doi": "10.1038/s41467-025-57852-0",
+    "area": "Enabling RNA models and measurements",
+    "task": "Rank small molecules for binding RNA pockets.",
+    "method_summary": "Deep graph learning combines structural RNA representations, docking-derived synthetic data and experimental binding information to accelerate screening.",
+    "inputs": "Coarse-grained 3D RNA binding-site graph and ligand descriptors.",
+    "outputs": "Virtual-screening/binding ranking.",
+    "repository_urls": [
+      "https://github.com/cgoliver/rnamigos2"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/cgoliver/rnamigos2"
+      ],
+      "live_evidence": [
+        "https://github.com/cgoliver/rnamigos2",
+        "https://github.com/cgoliver/rnamigos2/blob/master/rnamigos/learning/dataset.py"
+      ],
+      "notes": "Author code repo public;current data archive unavailable. Latest secondpass_P044_data.json records410response."
+    },
+    "dataset_ids": [
+      "p044-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Paper data deposit Zenodo14803961 now HTTP410:record deleted;earlier public-data implication corrected.",
+      "Need alternate release and complete site/scaffold split manifests,decoy sets,docking targets and experimental outcomes."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/cgoliver/rnamigos2",
+        "model_ids": [
+          "P044"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/cgoliver/rnamigos2",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/cgoliver/rnamigos2",
+        "model_ids": [
+          "P044"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/cgoliver/rnamigos2/contents/README.md",
+        "data_urls": [
+          "https://download.pytorch.org/whl/cpu",
+          "https://data.dgl.ai/wheels/torch-2.2/repo.html"
+        ],
+        "referenced_asset_names": [
+          "requirements.txt",
+          "sample_files/test_smiles.txt",
+          "scores.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P045",
+    "name": "Ninetails",
+    "paper_title": "Direct profiling of non-adenosines in poly(A) tails of endogenous and therapeutic mRNAs with Ninetails",
+    "paper_doi": "10.1038/s41467-025-57787-6",
+    "area": "Enabling RNA models and measurements",
+    "task": "Detect and quantify non-adenosine residues in poly(A) tails.",
+    "method_summary": "Converts signal chunks to Gramian angular images and classifies them with a small VGG-like CNN. Synthetic decorated tails provide known labels, followed by biological and therapeutic-mRNA applications.",
+    "inputs": "Nanopore direct-RNA-sequencing current signals from tail regions.",
+    "outputs": "A/C/G/U signal-class assignments and tail-composition estimates.",
+    "repository_urls": [
+      "https://github.com/LRB-IIMCB/ninetails"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/LRB-IIMCB/ninetails"
+      ],
+      "live_evidence": [
+        "https://github.com/LRB-IIMCB/ninetails",
+        "https://github.com/LRB-IIMCB/ninetails/tree/main/inst/extdata/test_data"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p045-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Need SI1run-by-run roles and exact synthetic-control train/validation/test grouping.",
+      "All ENA/SRA/PacBio projects and orthogonal output comparisons not fully mapped.",
+      "First-pass TSVexamples were predictions,not the fullground-truth training dataset."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/LRB-IIMCB/ninetails",
+        "model_ids": [
+          "P045"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/LRB-IIMCB/ninetails",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "GPL-3.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/LRB-IIMCB/ninetails",
+        "model_ids": [
+          "P045"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/LRB-IIMCB/ninetails/contents/README.md",
+        "data_urls": [
+          "https://zenodo.org/badge/DOI/10.5281/zenodo.13309819.svg",
+          "https://doi.org/10.5281/zenodo.13309819"
+        ],
+        "referenced_asset_names": [
+          "path/to/dorado_alignment_summary.txt",
+          "path/to/dorado_summary.txt",
+          "nanopolish_output.tsv",
+          "sequencing_summary.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P046",
+    "name": "RiboTIE",
+    "paper_title": "Deep learning to decode sites of RNA translation in normal and cancerous tissues",
+    "paper_doi": "10.1038/s41467-025-56543-0",
+    "area": "Translation regulation and dynamics",
+    "task": "Detect translated ORFs from ribosome profiling.",
+    "method_summary": "Transformer models variable-length count profiles, with pretrained models and adaptation across experiments, avoiding reliance only on manually chosen periodicity summaries.",
+    "inputs": "Mapped ribosome-footprint counts along transcripts.",
+    "outputs": "Translation initiation/translated ORF calls.",
+    "repository_urls": [
+      "https://github.com/TRISTAN-ORF/RiboTIE",
+      "https://github.com/TRISTAN-ORF/RiboTIE_article"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/TRISTAN-ORF/RiboTIE",
+        "https://github.com/TRISTAN-ORF/RiboTIE_article"
+      ],
+      "live_evidence": [
+        "https://github.com/TRISTAN-ORF/RiboTIE",
+        "https://github.com/TRISTAN-ORF/RiboTIE_article",
+        "https://github.com/TRISTAN-ORF/TRISTAN"
+      ],
+      "notes": "Paper repoRiboTIE archived and directs toTRISTAN;toolarchive10689717 verified as jdcla/transcript_transformer."
+    },
+    "dataset_ids": [
+      "p046-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "All explicit p9accessions enumerated;not all cohort/protocolmetadata,labelconstruction and splitmemberships verified.",
+      "Controlledhuman cohort access not obtained;not allpaperdata publicly inspectable."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/TRISTAN-ORF/RiboTIE",
+        "model_ids": [
+          "P046"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/TRISTAN-ORF/RiboTIE",
+        "default_branch": "main",
+        "archived": true,
+        "license_spdx": "MIT",
+        "error": null
+      },
+      {
+        "url": "https://github.com/TRISTAN-ORF/RiboTIE_article",
+        "model_ids": [
+          "P046"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/TRISTAN-ORF/RiboTIE_article",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/TRISTAN-ORF/RiboTIE",
+        "model_ids": [
+          "P046"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/TRISTAN-ORF/RiboTIE/contents/README.md",
+        "data_urls": [
+          "https://zenodo.org/badge/DOI/10.5281/zenodo.8059764.svg",
+          "https://doi.org/10.5281/zenodo.8059764"
+        ],
+        "referenced_asset_names": [
+          "path/to/fa_file.fa",
+          "my_experiment.h5",
+          "GRCh38v110_snippet.h5",
+          ".unfiltered.csv"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      },
+      {
+        "repository": "https://github.com/TRISTAN-ORF/RiboTIE_article",
+        "model_ids": [
+          "P046"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/TRISTAN-ORF/RiboTIE_article/contents/README.md",
+        "data_urls": [
+          "https://zenodo.org/badge/DOI/10.5281/zenodo.8059764.svg",
+          "https://doi.org/10.5281/zenodo.8059764",
+          "https://zenodo.org/record/8059764"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P047",
+    "name": "NuFold",
+    "paper_title": "NuFold: end-to-end approach for RNA tertiary structure prediction with flexible nucleobase center representation",
+    "paper_doi": "10.1038/s41467-025-56261-7",
+    "area": "Enabling RNA models and measurements",
+    "task": "Predict RNA tertiary structure from sequence.",
+    "method_summary": "End-to-end neural structure prediction uses a flexible geometry representation, alignments including metagenomic information, and repeated recycling/refinement.",
+    "inputs": "RNA sequence plus constructed sequence alignments.",
+    "outputs": "Three-dimensional RNA conformation with flexible nucleobase-center representation.",
+    "repository_urls": [
+      "https://github.com/kiharalab/NuFold"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/kiharalab/NuFold"
+      ],
+      "live_evidence": [
+        "https://github.com/kiharalab/NuFold"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p047-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "All named database sources mapped;exactPDBtraining/censoredtest/selfdistillation memberships and fullbenchmarktargetlists not verified.",
+      "ArchiveZenodo14498624 is code,not necessarily fulltrainingdatabase."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/kiharalab/NuFold",
+        "model_ids": [
+          "P047"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/kiharalab/NuFold",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "GPL-3.0",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/kiharalab/NuFold",
+        "model_ids": [
+          "P047"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/kiharalab/NuFold/contents/README.md",
+        "data_urls": [
+          "https://download.pytorch.org/whl/cu117",
+          "https://github.com/satoken/ipknot/releases/download/v1.1.0/ipknot-1.1.0-x86_64-linux.zip"
+        ],
+        "referenced_asset_names": [
+          "//github.com/satoken/ipknot/releases/download/v1.1.0/ipknot-1.1.0-x86_64-linux.zip",
+          "ipknot-1.1.0-x86_64-linux.zip",
+          "2DER_C.fasta",
+          "test_input/2DER_C/2DER_C.fasta"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P048",
+    "name": "Biophysical feature models plus LightGBM",
+    "paper_title": "Predicting synthetic mRNA stability using massively parallel kinetic measurements, biophysical modeling, and machine learning",
+    "paper_doi": "10.1038/s41467-024-54059-7",
+    "area": "Stability, 3′UTR and cell specificity",
+    "task": "Predict steady-state abundance and kinetic decay of synthetic bacterial mRNAs.",
+    "method_summary": "Uses learn-by-design measurements and mechanistic isoform features, then trains LightGBM models for steady state and multiple kinetic timepoints; important variables include ribosome protection and RNase-related access.",
+    "inputs": "Sequence-derived transcription/translation/structure/RppH features and predicted isoforms.",
+    "outputs": "RNA abundance over time and decay-rate estimates.",
+    "repository_urls": [
+      "https://github.com/hsalis/SalisLabCode/tree/master/mRNA_Stability_Calculator"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/hsalis/SalisLabCode/tree/master/mRNA_Stability_Calculator"
+      ],
+      "live_evidence": [
+        "https://github.com/hsalis/SalisLabCode/tree/master/mRNA_Stability_Calculator",
+        "https://github.com/hsalis/SalisLabCode/blob/master/mRNA_Stability_Calculator/ModelTrainingTesting.py"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p048-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Need completeSI1/SI2schema,rawsamplemetadata,filtereddesigncounts andtrain/test membership reconciliation.",
+      "Feature archives are not proof all62120designs survivedintoeverymodel."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/hsalis/SalisLabCode",
+        "model_ids": [
+          "P048"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/hsalis/SalisLabCode",
+        "default_branch": "master",
+        "archived": false,
+        "license_spdx": "unknown",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/hsalis/SalisLabCode",
+        "model_ids": [
+          "P048"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/hsalis/SalisLabCode/contents/README.md",
+        "data_urls": [],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P049",
+    "name": "Riboformer",
+    "paper_title": "Riboformer: a deep learning framework for predicting context-dependent translation dynamics",
+    "paper_doi": "10.1038/s41467-024-46241-8",
+    "area": "Translation regulation and dynamics",
+    "task": "Predict codon-resolved ribosome density and identify sequence-dependent stalling.",
+    "method_summary": "Transformer captures contextual codon dependencies; an unbiased training set supports artifact correction, while in-silico mutagenesis identifies stalling motifs across biological states.",
+    "inputs": "Codon context and ribosome-profiling training data.",
+    "outputs": "Predicted ribosome-density profiles and inferred experimental-bias corrections.",
+    "repository_urls": [
+      "https://github.com/lingxusb/Riboformer"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/lingxusb/Riboformer"
+      ],
+      "live_evidence": [
+        "https://github.com/lingxusb/Riboformer",
+        "https://github.com/lingxusb/Riboformer/tree/main/datasets"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p049-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "All seven p8GEOseries enumerated;not everyGSM/run/protocolandtrain/testrole verified.",
+      "Resolve paperGSE98664versusrepofolderGSE152664andextraGSE165592before claiming dataset-complete."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/lingxusb/Riboformer",
+        "model_ids": [
+          "P049"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/lingxusb/Riboformer",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/lingxusb/Riboformer",
+        "model_ids": [
+          "P049"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/lingxusb/Riboformer/contents/README.md",
+        "data_urls": [
+          "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119104",
+          "https://www.ncbi.nlm.nih.gov/nuccore/49175990",
+          "https://drive.google.com/file/d/1B5RV_74uPLYjpakOdUmH03_NMP0hQXrB/view?usp=sharing",
+          "https://drive.google.com/file/d/1F8mwXFDC9ufXTsuWQEP6g_PGHD23cGjV/view?usp=sharing",
+          "https://drive.google.com/file/d/1XXmyePpJDK5RkbrF1tRkVu8EFFiy-rOd/view?usp=sharing"
+        ],
+        "referenced_asset_names": [
+          "genome_sequence.fasta",
+          "model_prediction.txt",
+          "zc.txt",
+          "pause_indices.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P050",
+    "name": "mRNAid",
+    "paper_title": "mRNAid, an open-source platform for therapeutic mRNA design and optimization strategies",
+    "paper_doi": "10.1093/nargab/lqae028",
+    "area": "CDS and full mRNA design",
+    "task": "Design and visualize mRNAs satisfying sequence/structure objectives.",
+    "method_summary": "Builds on DNA Chisel; hard constraints must hold and soft objectives are weighted for optimization. It integrates configurable design rules rather than learning one new AI predictor.",
+    "inputs": "Protein/CDS and user-selected codon, composition, motif and structure requirements.",
+    "outputs": "Constraint-satisfying synonymous sequences and property reports.",
+    "repository_urls": [
+      "https://github.com/MSDLLCpapers/mRNAid"
+    ],
+    "repository_provenance": {
+      "status": "paper-linked author source; live source checked in preceding audit",
+      "repository_urls": [
+        "https://github.com/MSDLLCpapers/mRNAid"
+      ],
+      "live_evidence": [
+        "https://github.com/MSDLLCpapers/mRNAid",
+        "https://github.com/MSDLLCpapers/mRNAid/tree/main/backend/common/objectives/data"
+      ],
+      "notes": ""
+    },
+    "dataset_ids": [
+      "p050-asset-1"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Prior audit coveredreferenceJSONonly;allreporter/spike/modification/cap/UTRexperimentalSourceData stillneedtable/replicate reconciliation.",
+      "No trainedAI dataset is required bytool,but that doesnotmean papercontainsnoexperimental datasets."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/MSDLLCpapers/mRNAid",
+        "model_ids": [
+          "P050"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/MSDLLCpapers/mRNAid",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "NOASSERTION",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/MSDLLCpapers/mRNAid",
+        "model_ids": [
+          "P050"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/MSDLLCpapers/mRNAid/contents/README.md",
+        "data_urls": [
+          "https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html",
+          "https://nodejs.org/en/download/"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P052",
+    "name": "OpenVaccine / Nullrecurrent, DegScore, DegScore-XGB",
+    "paper_title": "Deep learning models for predicting RNA degradation via dual crowdsourcing",
+    "paper_doi": "10.1038/s42256-022-00571-8",
+    "area": "Stability, 3′UTR and cell specificity",
+    "task": "Predict nucleotide hydrolysis to support stable mRNA design.",
+    "method_summary": "Crowdsourced Eterna sequences and Kaggle model development. Winning architecture combines structure/graph-distance encodings, multihead attention and convolution; top approaches use pseudo-labels/ensembles. Simple sequence-window DegScore regression and boosted-tree versions are transparent baselines.",
+    "inputs": "RNA sequence plus one-/two-dimensional secondary-structure features.",
+    "outputs": "Per-linkage degradation/reactivity predictions and aggregate whole-RNA rate proxies.",
+    "repository_urls": [
+      "https://github.com/eternagame/KaggleOpenVaccine",
+      "https://github.com/eternagame/DegScore"
+    ],
+    "repository_provenance": "Paper explicitly links eternagame/KaggleOpenVaccine and eternagame/DegScore. Current main repository README rechecked.",
+    "dataset_ids": [
+      "p052-asset-1",
+      "p052-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "All9 raw RMDB accessions not fetched.",
+      "Actual full challenge JSON files, error masks, private split release and every team pseudo-label asset not inspected.",
+      "Previously sampled233-mRNA CSV does not certify every validation measurement or raw assay."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/eternagame/DegScore",
+        "model_ids": [
+          "P003",
+          "P052"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/eternagame/DegScore",
+        "default_branch": "master",
+        "archived": true,
+        "license_spdx": "MIT",
+        "error": null
+      },
+      {
+        "url": "https://github.com/eternagame/KaggleOpenVaccine",
+        "model_ids": [
+          "P052"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/eternagame/KaggleOpenVaccine",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/eternagame/DegScore",
+        "model_ids": [
+          "P003",
+          "P052"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/eternagame/DegScore/contents/README.md",
+        "data_urls": [
+          "https://doi.org/10.5281/zenodo.7130659",
+          "https://zenodo.org/badge/280538188.svg",
+          "https://zenodo.org/badge/latestdoi/280538188",
+          "https://www.kaggle.com/c/stanford-covid-vaccine"
+        ],
+        "referenced_asset_names": [],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      },
+      {
+        "repository": "https://github.com/eternagame/KaggleOpenVaccine",
+        "model_ids": [
+          "P052"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/eternagame/KaggleOpenVaccine/contents/README.md",
+        "data_urls": [
+          "https://www.kaggle.com/c/stanford-covid-vaccine",
+          "https://www.kaggle.com/c/stanford-covid-vaccine/overview",
+          "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189620|",
+          "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189709|",
+          "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189574|",
+          "https://www.kaggle.com/group16/covid-19-mrna-4th-place-solution",
+          "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189691|",
+          "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189241|",
+          "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189564|",
+          "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/190314|",
+          "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189845|",
+          "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189571|",
+          "https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189585|"
+        ],
+        "referenced_asset_names": [
+          "Kaggle_RYOS_trainset_prediction_output_Sep2021.txt",
+          "all_predictions_233x.csv",
+          "233_sequences.txt",
+          "233x_nullrecurrent_output_Oct2021_deg_Mg_50C.txt",
+          "requirements.txt",
+          "example.txt",
+          "predict.txt"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  },
+  {
+    "id": "P093",
+    "name": "3UTRBERT",
+    "paper_title": "Deciphering 3′UTR Mediated Gene Regulation Using Interpretable Deep Representation Learning",
+    "paper_doi": "10.1002/advs.202407013",
+    "area": "Stability, 3′UTR and cell specificity",
+    "task": "Predict RBP binding, m6A sites, and mRNA subcellular localization.",
+    "method_summary": "Masked-language pretraining of a 12-layer BERT encoder on human 3′UTRs; contiguous k-mer masking prevents trivial overlap leakage. Fine-tune short-window classifiers or freeze embeddings for longer localization inputs. Attention-derived candidate motifs are converted to PWMs and compared with known motifs.",
+    "inputs": "Human 3′UTR sequence windows, represented as overlapping k-mers.",
+    "outputs": "Binding/modification classifications or localization labels; not a half-life prediction or optimized therapeutic sequence.",
+    "repository_urls": [
+      "https://github.com/yangyn533/3UTRBERT"
+    ],
+    "repository_provenance": "Official yangyn533/3UTRBERT is linked by author data deposit and rechecked README; external MultiMolecule implementation is explicitly unofficial.",
+    "dataset_ids": [
+      "p093-asset-1",
+      "p093-asset-2"
+    ],
+    "paper_inventory_complete": false,
+    "all_dataset_files_inspected": false,
+    "remaining_gaps": [
+      "Figshare RAR archive remains metadata-only, not a full task-table inspection.",
+      "All31 CLIP experiment identities,22 eCLIP RBPs and nine cell-line assets not individually mapped.",
+      "Supporting tables, localization labels and all supplementary computational validation assets not fully reconciled."
+    ],
+    "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
+    "checked_on": "2026-11-04",
+    "repository_live_checks": [
+      {
+        "url": "https://github.com/yangyn533/3UTRBERT",
+        "model_ids": [
+          "P093"
+        ],
+        "checked_on": "2026-11-04",
+        "check": "public repository metadata; not every file",
+        "accessible": true,
+        "canonical_url": "https://github.com/yangyn533/3UTRBERT",
+        "default_branch": "main",
+        "archived": false,
+        "license_spdx": "MIT",
+        "error": null
+      }
+    ],
+    "readme_pointer_checks": [
+      {
+        "repository": "https://github.com/yangyn533/3UTRBERT",
+        "model_ids": [
+          "P093"
+        ],
+        "status": "readme_data_pointers_scanned",
+        "checked_on": "2026-11-05",
+        "source_url": "https://api.github.com/repos/yangyn533/3UTRBERT/contents/README.md",
+        "data_urls": [
+          "https://doi.org/10.6084/m9.figshare.26082916.v1",
+          "https://figshare.com/articles/software/Pre-trained_3mer_model/22847354",
+          "https://figshare.com/articles/software/Pre-trained_4mer_model/22851119",
+          "https://figshare.com/articles/software/Pre-trained_5mer_model/22851191",
+          "https://figshare.com/articles/software/Pre-trained_6mer_model/22851272"
+        ],
+        "referenced_asset_names": [
+          "requirements.txt",
+          "train.tsv",
+          "dev.tsv",
+          "test.tsv",
+          "pred_results.npy",
+          "pred_results_scores.npy",
+          "ORIGINAL_SEQ_PATH/test.tsv",
+          "PREDICTION_PATH/original_pred/pred_results.npy",
+          "MUTATE_SEQ_PATH/test.tsv",
+          "PREDICTION_PATH/mutate_pred/pred_results.npy",
+          "seq_to_extract.fasta"
+        ],
+        "error": null,
+        "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
+      }
+    ],
+    "curated_resource_ids": [],
+    "complete_dataset_audit": false
+  }
+]

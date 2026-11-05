@@ -1,0 +1,2594 @@
+[
+  {
+    "id": "gtrnadb",
+    "name": "GtRNAdb",
+    "kind": "reference",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Genome-based tRNA gene predictions and assembly-specific annotations; a reference for tRNA mapping, not a tissue-expression atlas.",
+    "source_urls": [
+      "https://gtrnadb.ucsc.edu/",
+      "https://doi.org/10.1093/nar/gkv1309"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkv1309"
+    ],
+    "accessions": [],
+    "organisms": [
+      "multiple taxa"
+    ],
+    "biological_context": "Genome assemblies across taxa; no sample-specific tissue or cell-state expression.",
+    "assays": [
+      "tRNAscan-SE genomic prediction"
+    ],
+    "observation_unit": "Predicted tRNA gene locus",
+    "labels": [
+      {
+        "name": "gene copy count",
+        "meaning": "Number of predicted tRNA loci per assembly; not RNA abundance",
+        "label_type": "computed",
+        "unit": "loci",
+        "resolution": "unknown"
+      },
+      {
+        "name": "isotype / anticodon",
+        "meaning": "Predicted tRNA gene identity annotation",
+        "label_type": "annotation",
+        "unit": "category",
+        "resolution": "interval"
+      },
+      {
+        "name": "tRNAscan-SE confidence score",
+        "meaning": "Computed confidence score for the predicted gene",
+        "label_type": "computed",
+        "unit": "source score",
+        "resolution": "interval"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Release 22 (September 2024) displayed on homepage; no expression observations counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://gtrnadb.ucsc.edu/",
+          "supports": "Data Release 22 (September 2024), genome-based predictions and tRNAscan-SE resource scope"
+        },
+        {
+          "url": "https://doi.org/10.1093/nar/gkv1309",
+          "supports": "Genome-specific tRNA gene lists, isotype/anticodon annotations and scores; no tissue abundance endpoint"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No release download or gene table was inspected."
+      ]
+    },
+    "ml_tasks": [
+      "reference annotation and identifier reconciliation"
+    ],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Bind locus IDs to genome assembly and GtRNAdb release. Identical mature transcripts can arise from multiple loci.",
+      "Gene copy count and tRAP activity predictions cannot replace measured mature tRNA abundance."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "trnadb",
+    "name": "tRNAdb",
+    "kind": "reference",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Reference compilation with separate genomic DNA and directly analyzed RNA entries, including known nucleoside modifications.",
+    "source_urls": [
+      "https://doi.org/10.1093/nar/gkn772",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2686557/",
+      "https://trnadb.bioinf.uni-leipzig.de/docs/api/"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkn772"
+    ],
+    "accessions": [],
+    "organisms": [
+      "multiple taxa"
+    ],
+    "biological_context": "Taxonomic and organellar references; no quantitative tissue-distribution labels established.",
+    "assays": [
+      "literature curation",
+      "direct RNA characterization in source publications"
+    ],
+    "observation_unit": "Reference gene or characterized tRNA entry",
+    "labels": [
+      {
+        "name": "DNA versus RNA section",
+        "meaning": "Distinguishes gene-derived entries from directly analyzed tRNA",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "modified residue / position",
+        "meaning": "Literature-supported modification annotation",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Historical publication, not a current database-size audit",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unknown",
+      "data_urls": [],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2686557/",
+          "supports": "Separate genomic-DNA and directly analyzed-RNA sections, structural annotation and known nucleoside modifications in the 2009 reference"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Current portal/API visits timed out; current export availability and license were not established."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Genomic genes, mature RNA references and modification annotations are distinct units.",
+      "Reference availability establishes neither expression level nor cell specificity."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb",
+      "modomics"
+    ],
+    "priority": "context",
+    "status": "curated"
+  },
+  {
+    "id": "trnamod-reference-derived",
+    "name": "tRNAmod: MODOMICS-derived uridine-modification reference and predictor",
+    "kind": "derived_resource",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Prediction resource trained from MODOMICS annotations; retained to document its reference relationship, not as a measured cellular tRNA distribution.",
+    "source_urls": [
+      "https://webs.iiitd.edu.in/raghava/trnamod/index.html",
+      "https://webs.iiitd.edu.in/raghava/trnamod/help.html",
+      "https://doi.org/10.1186/1471-2105-15-326"
+    ],
+    "paper_doi": [
+      "10.1186/1471-2105-15-326"
+    ],
+    "accessions": [],
+    "organisms": [
+      "multiple taxa"
+    ],
+    "biological_context": "Kingdom-level reference-derived predictions; no tissue or cell-state abundance labels.",
+    "assays": [
+      "SVM-based prediction from curated modification references"
+    ],
+    "observation_unit": "Predicted uridine position in a reference tRNA",
+    "labels": [
+      {
+        "name": "uridine modification class",
+        "meaning": "Predicted pseudouridine, dihydrouridine, methyluridine or other uridine modification",
+        "label_type": "prediction",
+        "unit": "unknown",
+        "resolution": "position"
+      },
+      {
+        "name": "probability score",
+        "meaning": "Server confidence category; not an experimental probability calibration",
+        "label_type": "prediction",
+        "unit": "0-9 server score",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://webs.iiitd.edu.in/raghava/trnamod/index.html",
+          "supports": "tRNAmod predicts modifications using annotations obtained from MODOMICS"
+        },
+        {
+          "url": "https://webs.iiitd.edu.in/raghava/trnamod/help.html",
+          "supports": "Prediction categories and source-defined 0-9 confidence score"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Training downloads and split membership were not inspected; no model was run."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Overlaps underlying MODOMICS annotations; do not count as independent modification evidence.",
+      "Absence of an annotated modification is not a verified unmodified negative."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "modomics"
+    ],
+    "priority": "context",
+    "status": "curated"
+  },
+  {
+    "id": "tric",
+    "name": "tRic: tRNA in Cancer",
+    "kind": "derived_resource",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Relative tRNA-expression estimates computed from TCGA miRNA sequencing across cancer types.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7567503/",
+      "https://hanlaboratory.com/tRic/"
+    ],
+    "paper_doi": [
+      "10.1080/15476286.2019.1657744"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Human TCGA tumors and comparison tissues across 31 cancer types.",
+    "assays": [
+      "reanalysis of TCGA miRNA-seq"
+    ],
+    "observation_unit": "tRNA estimate by TCGA sample",
+    "labels": [
+      {
+        "name": "relative tRNA expression",
+        "meaning": "Mapped-read estimate aggregated at gene, codon and amino-acid levels; not dedicated mature-tRNA quantification",
+        "label_type": "computed",
+        "unit": "source normalized relative expression",
+        "resolution": "transcript"
+      },
+      {
+        "name": "clinical association",
+        "meaning": "Source statistical associations with clinical annotations",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "31 cancer types reported; portal matrix dimensions not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unknown",
+      "data_urls": [
+        "https://hanlaboratory.com/tRic/"
+      ],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7567503/",
+          "supports": "Relative tRNA estimates from TCGA miRNA-seq across 31 cancer types, with gene/codon/amino-acid aggregation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Portal landing page rendered limited content; downloadable matrices, normalization columns and current availability were not inspected."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Multi-cancer context associations from indirect estimates; not validated cell-resolved mature tRNA abundance."
+    },
+    "integration_caveats": [
+      "Conventional miRNA libraries can mix fragments and incomplete mature-tRNA coverage; retain estimation provenance.",
+      "TCGA measurements overlap other TCGA-derived resources including DBtRend."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "dbtrend",
+      "gtrnadb"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "dbtrend",
+    "name": "DBtRend",
+    "kind": "derived_resource",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "tRNA estimates from human small-RNA and miRNA sequencing projects, with source sample annotations and differential analyses.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8535304/",
+      "https://trend.pmrc.re.kr/"
+    ],
+    "paper_doi": [
+      "10.3390/genes12101576"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "GEO biological conditions and TCGA cancers; source tissue, cell, disease and subtype labels retained.",
+    "assays": [
+      "reanalysis of small RNA-seq / miRNA-seq"
+    ],
+    "observation_unit": "Pipeline-defined tRNA entity by source sample",
+    "labels": [
+      {
+        "name": "individual / isodecoder / isoacceptor expression",
+        "meaning": "Processed normalized mapped-read estimates",
+        "label_type": "computed",
+        "unit": "log2 CPM; individual-tRNA RPKM/TPM",
+        "resolution": "transcript"
+      },
+      {
+        "name": "DEtRNA statistics",
+        "meaning": "Source contrast outputs: logFC, logCPM, F, PValue, FDR, Sig",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 14986,
+      "unit": "samples in 2021 paper",
+      "basis": "Historical paper reports 183 projects and 14,986 samples; current matrices not counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unknown",
+      "data_urls": [
+        "https://trend.pmrc.re.kr/"
+      ],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8535304/",
+          "supports": "2021 snapshot size; small-RNA/miRNA sources, hg38 pipeline, CPM/RPKM/TPM and DE statistic definitions; explicit fragment ambiguity"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Live portal files not inspected; scale is the publication snapshot."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Multi-context estimates; assay bias and fragment ambiguity constrain biological specificity."
+    },
+    "integration_caveats": [
+      "Authors explicitly report difficulty separating mature tRNAs from tRNA fragments.",
+      "hg38 predicted reference and pipeline-defined groupings; batch correction and units must be preserved.",
+      "TCGA entries overlap tRic; projects are not independent new experiments."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "tric",
+      "gtrnadb"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "dm-trnaseq-gse66550",
+    "name": "DM-tRNA-seq method study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Original dedicated tRNA-sequencing study comparing demethylase-treated and untreated human material.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE66550&targ=self&form=text&view=quick",
+      "https://www.nature.com/articles/nmeth.3478"
+    ],
+    "paper_doi": [
+      "10.1038/nmeth.3478"
+    ],
+    "accessions": [
+      "GSE66550"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "HEK293T; tRNA versus total-RNA input and assay-treatment comparisons.",
+    "assays": [
+      "DMTRT-tRNA-seq / DM-tRNA-seq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "raw read count",
+        "meaning": "Mapped tRNA read count in source processed files",
+        "label_type": "computed",
+        "unit": "reads",
+        "resolution": "transcript"
+      },
+      {
+        "name": "demethylase condition",
+        "meaning": "Assay-treatment label, not a biological cell state",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": 8,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE66nnn/GSE66550/suppl/GSE66550_GEO_Processing.txt.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE66nnn/GSE66550/suppl/GSE66550_RAW.tar"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE66550&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://www.nature.com/articles/nmeth.3478",
+          "supports": "Assay and biological measurement interpretation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "GSE66550 is a method-development dataset, not a multi-tissue atlas."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Selected sample declares hg19 and tab-delimited gene-ID/raw-count files.",
+      "Demethylation changes recoverability; treated and untreated counts are not interchangeable. Identical mature sequences cannot resolve genomic origin."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "mim-trnaseq-gse152621",
+    "name": "mim-tRNAseq method study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated mature-tRNA profiling with separate abundance, modification-signature and charging applications.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152621&targ=self&form=text&view=quick",
+      "https://doi.org/10.1016/j.molcel.2021.01.028"
+    ],
+    "paper_doi": [
+      "10.1016/j.molcel.2021.01.028"
+    ],
+    "accessions": [
+      "GSE152621"
+    ],
+    "organisms": [
+      "Schizosaccharomyces pombe",
+      "Saccharomyces cerevisiae",
+      "Drosophila melanogaster",
+      "Homo sapiens"
+    ],
+    "biological_context": "Human HEK293T/K562, budding and fission yeast, and Drosophila cells; method conditions and charging subsets.",
+    "assays": [
+      "mim-tRNAseq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "isodecoder / anticodon counts",
+        "meaning": "Processed mature-tRNA abundance counts",
+        "label_type": "computed",
+        "unit": "mapped reads",
+        "resolution": "transcript"
+      },
+      {
+        "name": "misincorporation signature",
+        "meaning": "RT-derived modification-associated signal; chemistry not necessarily identified",
+        "label_type": "computed",
+        "unit": "fraction",
+        "resolution": "position"
+      },
+      {
+        "name": "charging fraction",
+        "meaning": "Only dedicated charging comparisons; do not assign to every library",
+        "label_type": "computed",
+        "unit": "fraction",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 29,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Dmel_anticodon_counts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Dmel_isodecoder_counts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Hsap_anticodon_counts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Hsap_isodecoder_counts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Scer_anticodon_counts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Scer_isodecoder_counts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Spom_anticodon_counts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Spom_isodecoder_counts.csv.gz"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152621&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.molcel.2021.01.028",
+          "supports": "Assay and biological measurement interpretation"
+        },
+        {
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Dmel_isodecoder_counts.csv.gz",
+          "supports": "Inspected CSV header confirms named sample columns; no measurement rows inspected"
+        }
+      ],
+      "files_inspected": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152621/suppl/GSE152621_Dmel_isodecoder_counts.csv.gz (CSV header only)"
+      ],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "Only Drosophila isodecoder CSV header inspected; human and charging tables not inspected."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Selected sample lists S288c, 972h, dm6 and hg19 builds.",
+      "Source clustering and Single_isodecoder flag matter; ambiguous near-identical tRNAs may not resolve individual loci.",
+      "RT signatures are assay-dependent and distinct from modification stoichiometry."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb",
+      "modomics"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "hydro-trnaseq-gse95683",
+    "name": "hydro-tRNAseq and SSB/La PAR-CLIP atlas",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated hydrolysis-based tRNA profiling paired with precursor-binding information.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95683&targ=self&form=text&view=quick",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5564215/"
+    ],
+    "paper_doi": [
+      "10.1016/j.celrep.2017.07.029"
+    ],
+    "accessions": [
+      "GSE95683"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "HEK293 cells; four hydro-tRNAseq and two SSB/La PAR-CLIP samples in the source design.",
+    "assays": [
+      "hydro-tRNAseq",
+      "SSB/La PAR-CLIP"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "mature / precursor abundance",
+        "meaning": "Source transcript counts or expression estimates; processing classes must remain separate",
+        "label_type": "computed",
+        "unit": "source-specific",
+        "resolution": "transcript"
+      },
+      {
+        "name": "processing and modification sites",
+        "meaning": "Source sequence/RT-based annotation",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": 6,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE95nnn/GSE95683/suppl/GSE95683_RAW.tar"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95683&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5564215/",
+          "supports": "Assay and biological measurement interpretation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "Exact processed table schema and reference version not inspected."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Hydrolysis generates technical fragments; these are not automatically endogenous tRNA-derived fragments.",
+      "PAR-CLIP binding and pre-tRNA transcription are not equivalent to mature total tRNA abundance. Reference curation is study-specific."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "quantm-trnaseq-gse141436",
+    "name": "QuantM-tRNA-seq tissue study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated mature-tRNA profiling with tissue-dependent isodecoder and anticodon measurements.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141436&targ=self&form=text&view=quick",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7428014/"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-020-17879-x"
+    ],
+    "accessions": [
+      "GSE141436"
+    ],
+    "organisms": [
+      "Homo sapiens",
+      "Mus musculus"
+    ],
+    "biological_context": "Mouse cortex, cerebellum, medulla oblongata, spinal cord, heart, liver and tibialis; human-cell method comparisons.",
+    "assays": [
+      "QuantM-tRNA-seq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "isodecoder / anticodon raw counts",
+        "meaning": "Mapped read counts; source downstream analyses also use RPM",
+        "label_type": "computed",
+        "unit": "reads",
+        "resolution": "transcript"
+      },
+      {
+        "name": "variant / truncation fraction",
+        "meaning": "Modification-associated RT signal, not a definitive chemical identity",
+        "label_type": "computed",
+        "unit": "fraction",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": 29,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_293FlpIn_DM_isodecoder_raw_counts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_293FlpIn_isodecoder_raw_counts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_Mouse_tissue_anticodon_raw_counts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_Mouse_tissue_isodecoder_raw_counts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_Mouse_tissue_variant_counts.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_Mouse_tissue_variant_counts_DM.csv.gz"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141436&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7428014/",
+          "supports": "Assay and biological measurement interpretation"
+        },
+        {
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_293FlpIn_DM_isodecoder_raw_counts.csv.gz",
+          "supports": "Inspected CSV header confirms named sample columns; no measurement rows inspected"
+        },
+        {
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_Mouse_tissue_isodecoder_raw_counts.csv.gz",
+          "supports": "Inspected CSV header confirms named sample columns; no measurement rows inspected"
+        }
+      ],
+      "files_inspected": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_293FlpIn_DM_isodecoder_raw_counts.csv.gz (CSV header only)",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141436/suppl/GSE141436_Mouse_tissue_isodecoder_raw_counts.csv.gz (CSV header only)"
+      ],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "Tissue matrix header confirms seven tissue labels with three columns each; measurement rows were not examined."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "GtRNAdb Release 18; human hg38 and mouse mm10; identical reference sequences collapsed.",
+      "Stable anticodon pools can coexist with tissue-dependent isodecoder composition. RT and short-read mapping affect recovery."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb",
+      "modomics"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "yamat-seq-srp096584",
+    "name": "YAMAT-seq breast-cell method study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated mature-tRNA sequencing targeting terminal CCA-containing molecules.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5605243/",
+      "https://www.ncbi.nlm.nih.gov/sra/?term=SRP096584"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkx005"
+    ],
+    "accessions": [
+      "SRP096584"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Human MCF-7, SK-BR-3 and BT-20 breast-cancer cell lines; technical triplicates.",
+    "assays": [
+      "YAMAT-seq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "mature tRNA read abundance",
+        "meaning": "Source counts/relative abundance after mature-CCA and length filters",
+        "label_type": "computed",
+        "unit": "reads or source relative abundance",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 9,
+      "unit": "technical libraries described in paper",
+      "basis": "Three cell lines with technical triplicates, not nine independent biological samples",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/sra/?term=SRP096584"
+      ],
+      "formats": [
+        "SRA raw reads; not downloaded"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5605243/",
+          "supports": "Resource description and source-defined measurement or annotation scope"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/sra/?term=SRP096584",
+          "supports": "Resource description and source-defined measurement or annotation scope"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "SRA run manifest and processed count tables were not inspected."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Direct comparison among three cell lines; tissue or patient generalization is untested."
+    },
+    "integration_caveats": [
+      "Reference uses GRCh37 GtRNAdb nuclear tRNAs plus tRNAdb mitochondrial tRNAs; nonunique mapping permitted.",
+      "Mature-end selection and RT bias can exclude fragments or heavily modified tRNAs; no charging label."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb",
+      "trnadb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "trna-hyseq-gse134987",
+    "name": "tRNA-HySeq yeast PAF1/Rtf1 study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated hydrolysis-based tRNA-pool profiling in transcription-complex mutants.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134987&targ=self&form=text&view=quick",
+      "https://www.nature.com/articles/s41598-019-49316-5"
+    ],
+    "paper_doi": [
+      "10.1038/s41598-019-49316-5"
+    ],
+    "accessions": [
+      "GSE134987"
+    ],
+    "organisms": [
+      "Saccharomyces cerevisiae"
+    ],
+    "biological_context": "Log-phase wild-type, paf1 deletion and rtf1 deletion Saccharomyces cerevisiae.",
+    "assays": [
+      "tRNA-HySeq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "tRNA pool read count",
+        "meaning": "Source processed tRNA counts; exact normalization not established",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "genotype",
+        "meaning": "WT, paf1 deletion or rtf1 deletion",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": 6,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE134nnn/GSE134987/suppl/GSE134987_RAW.tar"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134987&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41598-019-49316-5",
+          "supports": "Assay and biological measurement interpretation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Six sample records represent two replicates per genotype.",
+      "Hydrolysis-derived read fragments and endogenous tRNA fragments are different entities. Reference release and table schema require follow-up."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "all-trnaseq-gse186736",
+    "name": "ALL-tRNAseq tissue and cell-line study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated assay retains full-length and fragmented tRNA signals to profile abundance together with sample integrity.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186736&targ=self&form=text&view=quick",
+      "https://doi.org/10.1101/gad.350233.122"
+    ],
+    "paper_doi": [
+      "10.1101/gad.350233.122"
+    ],
+    "accessions": [
+      "GSE186736"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Human clinical glioblastoma and diffuse large B-cell lymphoma tissues, comparison tissues, cell lines and hESC differentiation examples.",
+    "assays": [
+      "ALL-tRNAseq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "anticodon RPM: all tRNA",
+        "meaning": "Relative abundance including tRNA-derived fragments",
+        "label_type": "computed",
+        "unit": "RPM",
+        "resolution": "transcript"
+      },
+      {
+        "name": "anticodon RPM: full-length tRNA",
+        "meaning": "Separate abundance table restricted to full-length species",
+        "label_type": "computed",
+        "unit": "RPM",
+        "resolution": "transcript"
+      },
+      {
+        "name": "read length",
+        "meaning": "Integrity/fragmentation-associated distribution, not abundance alone",
+        "label_type": "computed",
+        "unit": "nucleotides",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": 58,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tRNA_readlength_cell-lines.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tissues_anticodon_RPM_all_tRNA.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tissues_anticodon_RPM_full-length_tRNA.csv.gz"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186736&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://doi.org/10.1101/gad.350233.122",
+          "supports": "Assay and biological measurement interpretation"
+        },
+        {
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tRNA_readlength_cell-lines.csv.gz",
+          "supports": "Inspected CSV header confirms named sample columns; no measurement rows inspected"
+        },
+        {
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tissues_anticodon_RPM_all_tRNA.csv.gz",
+          "supports": "Inspected CSV header confirms named sample columns; no measurement rows inspected"
+        },
+        {
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tissues_anticodon_RPM_full-length_tRNA.csv.gz",
+          "supports": "Inspected CSV header confirms named sample columns; no measurement rows inspected"
+        }
+      ],
+      "files_inspected": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tRNA_readlength_cell-lines.csv.gz (CSV header only)",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tissues_anticodon_RPM_all_tRNA.csv.gz (CSV header only)",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE186nnn/GSE186736/suppl/GSE186736_tissues_anticodon_RPM_full-length_tRNA.csv.gz (CSV header only)"
+      ],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "Header discrepancy preserved: one all-tRNA column is GBM_55 while full-length table uses GBM_VU55; sample equivalence was not established."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "All-tRNA and full-length tables use distinct definitions; do not merge their values.",
+      "GtRNAdb hg38 nuclear references and mitochondrial references; assay handling and clinical RNA quality affect fragmentation."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "human-differentiation-gse227927",
+    "name": "Selective gene expression maintains human tRNA anticodon pools during differentiation",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated human differentiation tRNA subseries; the broader study also has distinct ChIP, ATAC, RNA and ribosome-profiling subseries.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227927&targ=self&form=text&view=quick",
+      "https://www.nature.com/articles/s41556-023-01317-3"
+    ],
+    "paper_doi": [
+      "10.1038/s41556-023-01317-3"
+    ],
+    "accessions": [
+      "GSE227927"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "WT hiPSC, neural progenitor cells, mature neurons and cardiomyocytes; two transcript-count columns per state.",
+    "assays": [
+      "mim-tRNAseq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "Unique tRNA transcript counts",
+        "meaning": "Source count matrix indexed by unique tRNA rather than guaranteed unique gene locus",
+        "label_type": "computed",
+        "unit": "reads",
+        "resolution": "transcript"
+      },
+      {
+        "name": "differentiation state",
+        "meaning": "hiPSC, NPC, neurons, CM",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": 8,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227927/suppl/GSE227927_mimtRNAseq_transcriptCounts.csv.gz"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227927&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41556-023-01317-3",
+          "supports": "Assay and biological measurement interpretation"
+        },
+        {
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227927/suppl/GSE227927_mimtRNAseq_transcriptCounts.csv.gz",
+          "supports": "Inspected CSV header confirms named sample columns; no measurement rows inspected"
+        }
+      ],
+      "files_inspected": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227927/suppl/GSE227927_mimtRNAseq_transcriptCounts.csv.gz (CSV header only)"
+      ],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "Header verifies WT_k_hiPSC/NPC/neurons/CM rep1/rep2. Exact mapping-reference release not independently inspected."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "GSE227927 is the tRNA subseries of GSE227928; do not add counts across assay subseries as independent subjects.",
+      "Near-identical transcripts differing at modification-sensitive sites may remain unresolved. Transcript shifts must not be equated with anticodon-pool shifts."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "oligodendrocyte-quantm-gse182808",
+    "name": "Oligodendrocyte differentiation QuantM-seq study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated tRNA subseries of a paired tRNA, mRNA-decay and ribosome-profiling study.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182808&targ=self&form=text&view=quick",
+      "https://www.nature.com/articles/s41467-022-32766-3"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-022-32766-3"
+    ],
+    "accessions": [
+      "GSE182808"
+    ],
+    "organisms": [
+      "Mus musculus"
+    ],
+    "biological_context": "Mouse epiblast-derived oligodendrocyte progenitors (OPC), oligodendrocytes (OL) and astrocytes.",
+    "assays": [
+      "QuantM-seq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "isodecoder / anticodon RPM",
+        "meaning": "Relative cytosolic tRNA abundance",
+        "label_type": "computed",
+        "unit": "RPM",
+        "resolution": "transcript"
+      },
+      {
+        "name": "differential statistics",
+        "meaning": "OPC-versus-OL DESeq2 contrast outputs",
+        "label_type": "computed",
+        "unit": "log difference and p-value",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 7,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182808/suppl/GSE182808_OPC_OL_astro_anticodon_RPM.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182808/suppl/GSE182808_OPC_OL_astro_gene_cyto_RPM.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182808/suppl/GSE182808_OPC_OL_tRNA_anticodon_diff_DESeq2.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182808/suppl/GSE182808_OPC_OL_tRNA_gene_diff_DESeq2.csv.gz"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE182808&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-022-32766-3",
+          "supports": "Assay and biological measurement interpretation"
+        },
+        {
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182808/suppl/GSE182808_OPC_OL_astro_anticodon_RPM.csv.gz",
+          "supports": "Inspected CSV header confirms named sample columns; no measurement rows inspected"
+        }
+      ],
+      "files_inspected": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE182nnn/GSE182808/suppl/GSE182808_OPC_OL_astro_anticodon_RPM.csv.gz (CSV header only)"
+      ],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "Header confirms OPC_1-3, OL_1-2 and Astrocyte_1-2; no modification-table rows inspected."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "mm10 reference; seven tRNA libraries, distinct from GSE182811 SuperSeries total.",
+      "GSE182809 decay, GSE182810 ribosome profiling and GSE198271 yeast controls are different assay/organism subsets; do not pool as mouse tRNA samples."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "tcell-activation-gse165537",
+    "name": "T-cell activation tRNA study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated mouse T-cell tRNA subseries with paired mRNA/ribosome measurements in a separate subseries.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165537&targ=self&form=text&view=quick",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594584/"
+    ],
+    "paper_doi": [],
+    "accessions": [
+      "GSE165537"
+    ],
+    "organisms": [
+      "Mus musculus"
+    ],
+    "biological_context": "Naive CD4 T cells and 20-, 48- and 72-hour activation; later CD62L-high/low states and assay demethylase subsets.",
+    "assays": [
+      "DM-tRNA-seq adapted tRNA sequencing",
+      "LC/MS in paired paper experiments"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "cytosolic tRNA / anticodon RPM",
+        "meaning": "Source relative read abundance",
+        "label_type": "computed",
+        "unit": "RPM",
+        "resolution": "transcript"
+      },
+      {
+        "name": "activation and sorting state",
+        "meaning": "Timepoint, naive status and later high/low group labels",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "sample"
+      },
+      {
+        "name": "RT / modification signal",
+        "meaning": "Assay-dependent modification evidence; not synonymous with abundance",
+        "label_type": "computed",
+        "unit": "source-specific",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": 30,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165537/suppl/GSE165537_set1_cytosolictRNAReads_RPM.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165537/suppl/GSE165537_set1_cytosolictRNA_byAntiCodon_RPM.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165537/suppl/GSE165537_set2_cytosolictRNAReads_RPM.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165537/suppl/GSE165537_set2_cytosolictRNA_byAntiCodon_RPM.csv.gz"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165537&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594584/",
+          "supports": "Assay and biological measurement interpretation"
+        },
+        {
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165537/suppl/GSE165537_set1_cytosolictRNAReads_RPM.csv.gz",
+          "supports": "Inspected CSV header confirms named sample columns; no measurement rows inspected"
+        }
+      ],
+      "files_inspected": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165537/suppl/GSE165537_set1_cytosolictRNAReads_RPM.csv.gz (CSV header only)"
+      ],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "Processed header includes hi/lo columns; linkage to CD62L labels comes from the paper, not the abbreviated column strings alone."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Selected sample declares mm10. Multi-mapping reads use source allocation; gene-level values are not unambiguous locus measurements.",
+      "Modification changes can alter RT recovery; preserve demethylase and sorting labels. GSE165536 is RNA/Ribo-seq, not this tRNA matrix."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb",
+      "modomics"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "trna-proliferation-gse163609",
+    "name": "tRNA-pool proliferation and cell-cycle-arrest study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated tRNA profiling within a study of tRNA-family dependence during cellular growth and arrest.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163609&targ=self&form=text&view=quick",
+      "https://elifesciences.org/articles/58461"
+    ],
+    "paper_doi": [
+      "10.7554/eLife.58461"
+    ],
+    "accessions": [
+      "GSE163609"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Induced HeLa iCas9 control and tRNA-family perturbation backgrounds over time.",
+    "assays": [
+      "tRNA-seq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "mature-tRNA abundance",
+        "meaning": "Source relative expression/count matrix; normalization requires file-level follow-up",
+        "label_type": "computed",
+        "unit": "unknown",
+        "resolution": "transcript"
+      },
+      {
+        "name": "indel signal",
+        "meaning": "Separate mutation-associated matrix; not a tRNA-abundance label",
+        "label_type": "computed",
+        "unit": "source-specific",
+        "resolution": "transcript"
+      },
+      {
+        "name": "condition",
+        "meaning": "Perturbation identity and collection day",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": 40,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163609/suppl/GSE163609_maturetRNA_Indel_tRNAtargetedHeLa_rep1.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163609/suppl/GSE163609_maturetRNA_Indel_tRNAtargetedHeLa_rep2.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163609/suppl/GSE163609_maturetRNA_tRNAtargetedHeLa_rep1.csv.gz",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE163nnn/GSE163609/suppl/GSE163609_maturetRNA_tRNAtargetedHeLa_rep2.csv.gz"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163609&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://elifesciences.org/articles/58461",
+          "supports": "Assay and biological measurement interpretation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "No perturbation sequences, implementation details or processed measurement rows were retrieved. Exact tRNA reference and normalization not established."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "GSE163609 is tRNA-seq within GSE163611; cellular-growth/arrest phenotypes are distinct endpoints.",
+      "Perturbed cell populations do not establish normal tissue distributions. Preserve condition, time and replicate keys."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "breast-cancer-trna-gse77401",
+    "name": "Breast-cancer tRNA profiling and metastatic-state study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Paper measures mature-tRNA families by a dedicated hybridization/probe-ligation readout and links them with translation context.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77401&targ=self&form=text&view=quick",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4915377/"
+    ],
+    "paper_doi": [
+      "10.1016/j.cell.2016.05.046"
+    ],
+    "accessions": [
+      "GSE77401"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "MCF10A, MDA-MB-231 and CN34 parental cancer cells, and metastatic derivative lines.",
+    "assays": [
+      "tRNA-specific hybridization / probe-ligation profiling",
+      "paired ribosome occupancy and transcript profiling"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "tRNA-family abundance",
+        "meaning": "Relative probe-based abundance across cell contexts",
+        "label_type": "computed",
+        "unit": "source relative abundance",
+        "resolution": "transcript"
+      },
+      {
+        "name": "ribosome occupancy / mRNA stability",
+        "meaning": "Separate paired-study endpoints, not direct tRNA abundance",
+        "label_type": "computed",
+        "unit": "source-specific",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 66,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE77nnn/GSE77401/suppl/GSE77401_RAW.tar"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77401&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4915377/",
+          "supports": "Assay and biological measurement interpretation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "Dedicated tRNA abundance matrix location/schema was not established in GEO subseries; paper supports the assay. Raw umbrella archive was not inspected."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Probe families do not generally resolve individual isodecoder loci.",
+      "GSE77401 is an umbrella series containing mRNA/microarray and ribosome subseries; 66 records are not 66 mature-tRNA libraries."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "hydro-smallrna-comparison-gse137834",
+    "name": "Five-cell-line hydro-tRNAseq / small-RNA-seq comparison",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Matched assay comparison testing tRNA estimates from ordinary small-RNA sequencing against a dedicated hydrolysis assay.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137834&targ=self&form=text&view=quick",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7061310/"
+    ],
+    "paper_doi": [],
+    "accessions": [
+      "GSE137834"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "HEK293, HCT116, HeLa, MDA-MB-231 and BJ fibroblasts.",
+    "assays": [
+      "hydro-tRNAseq",
+      "ordinary small RNA-seq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "RPM matrix",
+        "meaning": "Source tRNA estimates for both methods; retain assay suffix",
+        "label_type": "computed",
+        "unit": "RPM",
+        "resolution": "transcript"
+      },
+      {
+        "name": "assay / cell line / replicate",
+        "meaning": "Explicitly encoded sample-column labels",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": 30,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE137nnn/GSE137834/suppl/GSE137834_rpm_matrix.csv.gz"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137834&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7061310/",
+          "supports": "Assay and biological measurement interpretation"
+        },
+        {
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE137nnn/GSE137834/suppl/GSE137834_rpm_matrix.csv.gz",
+          "supports": "Inspected CSV header confirms named sample columns; no measurement rows inspected"
+        }
+      ],
+      "files_inspected": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE137nnn/GSE137834/suppl/GSE137834_rpm_matrix.csv.gz (CSV header only)"
+      ],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "CSV header verifies 30 assay-labelled columns; exact mapping reference/version was not rechecked."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Paired assay agreement in these cell lines does not eliminate fragment and modification biases in all small-RNA studies.",
+      "Hydrolysis fragments and naturally occurring tRNA fragments must remain distinguished."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "ecdysone-smallrna-gse69934",
+    "name": "Drosophila ecdysone-response small-RNA study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "tRNA estimates from size-enriched small-RNA libraries in a paired transcript/protein study.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69934&targ=self&form=text&view=quick",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4574756/"
+    ],
+    "paper_doi": [
+      "10.1261/rna.052126.115"
+    ],
+    "accessions": [
+      "GSE69934"
+    ],
+    "organisms": [
+      "Drosophila melanogaster"
+    ],
+    "biological_context": "Drosophila Kc167 cells; ecdysone response and a separately labelled heat-shock component in the deposited series.",
+    "assays": [
+      "ordinary small RNA-seq",
+      "paired transcriptomics / proteomics in paper"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "tRNA abundance estimate",
+        "meaning": "Relative reads at annotated tRNA loci; may include precursor or fragment signal",
+        "label_type": "computed",
+        "unit": "source normalized counts",
+        "resolution": "transcript"
+      },
+      {
+        "name": "tRNA fold change",
+        "meaning": "Source condition contrast",
+        "label_type": "computed",
+        "unit": "fold change",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 16,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE69nnn/GSE69934/suppl/GSE69934_RAW.tar"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69934&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4574756/",
+          "supports": "Assay and biological measurement interpretation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "Series contains more conditions than the ecdysone paper comparison; no processed matrix was inspected."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Dm6 release-6 annotations; paper states missing tRNA-type annotations limit coverage.",
+      "Multimappers are randomly assigned and regions extend beyond tRNA bodies; not a dedicated mature-total-tRNA assay."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "msr-stress-gse198441",
+    "name": "MSR-seq stress and polysome-associated tRNA study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA",
+      "mRNA"
+    ],
+    "description": "Specialized multiplex small-RNA assay with tRNA abundance and modification signals, alongside separate mRNA libraries.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198441&targ=self&form=text&view=quick",
+      "https://www.nature.com/articles/s41467-022-30261-3"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-022-30261-3"
+    ],
+    "accessions": [
+      "GSE198441"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Human HEK293T total and polysome-associated RNA under control, heat, peroxide and arsenite stresses; MCF7 modification controls.",
+    "assays": [
+      "MSR-seq",
+      "paired mRNA-seq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "tRNA abundance",
+        "meaning": "Mapped tRNA counts/relative abundance by cellular fraction",
+        "label_type": "computed",
+        "unit": "source-specific",
+        "resolution": "transcript"
+      },
+      {
+        "name": "RT stop / mismatch fractions",
+        "meaning": "Modification-associated signals, assay-treatment dependent",
+        "label_type": "computed",
+        "unit": "fraction",
+        "resolution": "position"
+      },
+      {
+        "name": "fraction / stress / RT condition",
+        "meaning": "Separate total versus polysome and assay labels",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": 64,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198441/suppl/GSE198441_RAW.tar"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198441&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-022-30261-3",
+          "supports": "Assay and biological measurement interpretation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "Large processed TSV archive was not downloaded; per-position schema and charging outputs not verified."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "64 series records include assay optimization and mRNA samples; not 64 comparable tRNA biological samples.",
+      "Source sample lists hg19/hg38 usage; total, fragment and polysome-associated tRNA populations are distinct."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb",
+      "modomics"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "charged-trnaseq-gse97259",
+    "name": "Charged tRNA-seq aminoacylation study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated charged-fraction sequencing, derived from the DM-tRNA-seq assay family.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97259&targ=self&form=text&view=quick",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5737633/"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkx514"
+    ],
+    "accessions": [
+      "GSE97259"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "HEK293T; three biological replicates each represented with and without demethylase treatment.",
+    "assays": [
+      "Charged DM-tRNA-seq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "charging fraction",
+        "meaning": "Fraction of source end-state read counts attributed to charged tRNA; separate from total abundance",
+        "label_type": "computed",
+        "unit": "fraction",
+        "resolution": "transcript"
+      },
+      {
+        "name": "demethylase treatment",
+        "meaning": "Assay condition affecting recoverability",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": 6,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE97nnn/GSE97259/suppl/GSE97259_Aggregate_Ratios.xlsx",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE97nnn/GSE97259/suppl/GSE97259_RAW.tar"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97259&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5737633/",
+          "supports": "Assay and biological measurement interpretation"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "Aggregate-ratio workbook schema and measurement cells were not inspected."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "GEO lists Aggregate_Ratios.xlsx and per-sample processed files.",
+      "Charging depends on preservation and assay end-state definitions; a high total count does not imply high charged fraction."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "dm-trnaseq-gse66550"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "prostate-charge-gse196251",
+    "name": "Prostate-cell GCN2 CHARGE-seq study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated tRNA-charging measurements in a prostate-cancer treatment context.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196251&targ=self&form=text&view=quick",
+      "https://elifesciences.org/articles/81083"
+    ],
+    "paper_doi": [
+      "10.7554/eLife.81083"
+    ],
+    "accessions": [
+      "GSE196251"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "LNCaP WT cells: DMSO, GCN2iB and GCN2iB plus essential amino acids; four samples per group.",
+    "assays": [
+      "CHARGE-seq"
+    ],
+    "observation_unit": "tRNA entity by source sample or condition",
+    "labels": [
+      {
+        "name": "unnormalized end-state read counts",
+        "meaning": "Input counts for charge estimation; not itself a validated charged fraction",
+        "label_type": "computed",
+        "unit": "reads",
+        "resolution": "transcript"
+      },
+      {
+        "name": "charged fraction",
+        "meaning": "Derived charged-to-total tRNA endpoint described by the paper",
+        "label_type": "computed",
+        "unit": "fraction",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": 12,
+      "unit": "GEO sample records",
+      "basis": "Counted Series_sample_id entries in GEO text metadata; not independent donor counts or all tRNA-only libraries",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE196nnn/GSE196251/suppl/GSE196251_LNCaP_WT_CHARGEseq_readcounts_unnormalized.csv.gz"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "source processed files; see exact extensions in data_urls"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196251&targ=self&form=text&view=quick",
+          "supports": "Series identity, organism, public status, sample-record count, linked processed files and study relationships"
+        },
+        {
+          "url": "https://elifesciences.org/articles/81083",
+          "supports": "Assay and biological measurement interpretation"
+        },
+        {
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE196nnn/GSE196251/suppl/GSE196251_LNCaP_WT_CHARGEseq_readcounts_unnormalized.csv.gz",
+          "supports": "Inspected CSV header confirms named sample columns; no measurement rows inspected"
+        }
+      ],
+      "files_inspected": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE196nnn/GSE196251/suppl/GSE196251_LNCaP_WT_CHARGEseq_readcounts_unnormalized.csv.gz (CSV header only)"
+      ],
+      "limitations": [
+        "Selected metadata and listed headers only; raw reads and processed measurement rows were not inspected.",
+        "No numeric charge values or secondary header rows were inspected."
+      ]
+    },
+    "ml_tasks": [
+      "context-aware measurement comparison after assay-specific validation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Treatment-specific charging changes are distinct from total tRNA-abundance changes.",
+      "CSV uses grouped multirow headers; only its first grouping line was inspected, so subordinate columns remain unresolved."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "charged-trnaseq-gse97259"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "charge-trnaseq-zenodo10778311",
+    "name": "Charge tRNA-Seq validation and aminoacylation-decay study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Dedicated aminoacylation assay validation with baseline charging and ex-vivo aminoacylation half-life measurements.",
+    "source_urls": [
+      "https://elifesciences.org/articles/91554",
+      "https://zenodo.org/api/records/10778311",
+      "https://doi.org/10.5281/zenodo.8200906"
+    ],
+    "paper_doi": [
+      "10.7554/eLife.91554.3"
+    ],
+    "accessions": [
+      "Zenodo:10778311",
+      "Zenodo:8200906"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Human H1299 baseline samples and purified-RNA decay time course; assay calibration controls.",
+    "assays": [
+      "charge tRNA-Seq"
+    ],
+    "observation_unit": "tRNA transcript charge by sample/timepoint",
+    "labels": [
+      {
+        "name": "charge",
+        "meaning": "Source charged fraction or percentage",
+        "label_type": "computed",
+        "unit": "fraction / percent",
+        "resolution": "transcript"
+      },
+      {
+        "name": "aminoacylation half-life",
+        "meaning": "Fit to charge decay in purified RNA; not cellular tRNA turnover",
+        "label_type": "computed",
+        "unit": "source time units",
+        "resolution": "transcript"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "No sample-level manifest counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://zenodo.org/records/10778311"
+      ],
+      "formats": [
+        "split tar.gz archive listed; not downloaded"
+      ],
+      "license": "CC-BY-4.0 (Zenodo record metadata)",
+      "redistribution": "Permitted under CC-BY-4.0 subject to attribution and source terms"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://elifesciences.org/articles/91554",
+          "supports": "H1299 context, charging and purified-RNA decay endpoints; source reference uses deduplicated hg38 GtRNAdb plus mitochondrial/control entries"
+        },
+        {
+          "url": "https://zenodo.org/api/records/10778311",
+          "supports": "Repository title, version DOI, open access and CC-BY-4.0 metadata; split archive file listing"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Only Zenodo metadata inspected; archive parts and processed table schemas were not downloaded.",
+        "Cited identifier 8200906 resolves to version DOI 10778311 in repository metadata; preserve version."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Evidence applies only to the recorded biological contexts."
+    },
+    "integration_caveats": [
+      "Polymerase and reference masking affect relative-expression recovery; charge validation does not establish absolute abundance accuracy.",
+      "Ex-vivo charge decay is not in-vivo cell-state regulation."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "charged-trnaseq-gse97259",
+      "gtrnadb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "brain-trna-poliii-ribotag-study",
+    "name": "Brain cell-type Pol III atlas and RiboTag translatome study",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA",
+      "mRNA"
+    ],
+    "description": "Cell-type tRNA transcription-occupancy atlas paired with RiboTag-associated mRNA sequencing; mature tRNA levels are inferred from Pol III occupancy rather than directly sequenced.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11065635/",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250090&targ=self&form=text&view=quick",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239759&targ=self&form=text&view=quick"
+    ],
+    "paper_doi": [
+      "10.1016/j.neuron.2024.01.028"
+    ],
+    "accessions": [
+      "GSE250090",
+      "GSE239759"
+    ],
+    "organisms": [
+      "Mus musculus"
+    ],
+    "biological_context": "Mouse: 11 nervous-system cell types for Pol III ChIP; six RiboTag cell populations: cerebellar and dentate granule cells, layer V cortical neurons, inhibitory interneurons, astrocytes and microglia.",
+    "assays": [
+      "conditional epitope-tagged Pol III ChIP-seq",
+      "RiboTag-associated mRNA-seq"
+    ],
+    "observation_unit": "Pol III genomic occupancy or RiboTag-associated mRNA by population",
+    "labels": [
+      {
+        "name": "Pol III occupancy",
+        "meaning": "Gene-locus transcription proxy; not measured mature total tRNA abundance",
+        "label_type": "computed",
+        "unit": "source enrichment/normalized signal",
+        "resolution": "interval"
+      },
+      {
+        "name": "RiboTag translatome counts",
+        "meaning": "Ribosome-associated mRNA expression; not tRNA abundance",
+        "label_type": "computed",
+        "unit": "source expression counts",
+        "resolution": "transcript"
+      },
+      {
+        "name": "cell type",
+        "meaning": "Source Cre-defined cell population",
+        "label_type": "annotation",
+        "unit": "unknown",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "GSE250090 has 41 GEO records including inputs; GSE239759 has 22 sequencing records for 18 biological samples plus four repeat-sequenced samples",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250090&targ=self&form=text&view=quick",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239759&targ=self&form=text&view=quick"
+      ],
+      "formats": [
+        "GEO SOFT metadata",
+        "TAR of processed files listed; not inspected"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250090&targ=self&form=text&view=quick",
+          "supports": "41 ChIP/input records, 11 CNS cell types and whole-tissue controls; design labels"
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239759&targ=self&form=text&view=quick",
+          "supports": "Six cell populations, three biological replicates each, four repeat sequencings; 22 listed records"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11065635/",
+          "supports": "Paired assay interpretation and cell-specific tRNA-transcription atlas"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No processed count/enrichment table inspected."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Direct cell-population comparison of occupancy and translatome, with indirect tRNA abundance inference."
+    },
+    "integration_caveats": [
+      "GSE239759 alone is RiboTag mRNA, not a dedicated tRNA assay.",
+      "Selected samples declare mm10 for ChIP and Gencode M24 transcripts for RiboTag. Occupancy cannot measure mature abundance or charging."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "gtrnadb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "gtex-dedicated-trna-atlas-project",
+    "name": "GTEx biobank Transfer RNA Expression and Modification Atlas project",
+    "kind": "study",
+    "topics": [
+      "trna_distribution",
+      "translation_context"
+    ],
+    "rna_scope": [
+      "tRNA"
+    ],
+    "description": "Official biobank project description proposes dedicated full-length tRNA and tRNA-derived-small-RNA profiling; a released dataset was not established.",
+    "source_urls": [
+      "https://www.gtexportal.org/home/biobank"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Planned normal human multi-tissue project using GTEx biospecimens; approximately 20 tissues is a project aim, not a verified released scale.",
+    "assays": [
+      "planned dedicated full-length tRNA and tRNA-derived small-RNA sequencing"
+    ],
+    "observation_unit": "Proposed project, not a verified observation table",
+    "labels": [
+      {
+        "name": "release status",
+        "meaning": "No public dedicated-tRNA accession or processed matrix verified in this curation",
+        "label_type": "unknown",
+        "unit": "unknown",
+        "resolution": "unknown"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "Proposal description only; no released observations counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unknown",
+      "data_urls": [],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.gtexportal.org/home/biobank",
+          "supports": "Resource description and source-defined measurement or annotation scope"
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Bounded search found the official project description but did not establish a public release; absence of a release is not proven."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "unknown",
+      "notes": "Multi-tissue specificity is intended; direct released evidence not verified."
+    },
+    "integration_caveats": [
+      "Ordinary GTEx mRNA RNA-seq and tRNA-synthetase mRNA levels are not direct mature-tRNA abundance.",
+      "Do not treat project aims as dataset availability or assign GTEx gene-expression dimensions to tRNA data."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "context",
+    "status": "candidate"
+  }
+]

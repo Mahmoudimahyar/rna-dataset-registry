@@ -1,0 +1,732 @@
+[
+  {
+    "url": "https://github.com/RainaBio/GEMORNA",
+    "model_ids": [
+      "P001"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/RainaBio/GEMORNA",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "NOASSERTION",
+    "error": null
+  },
+  {
+    "url": "https://github.com/pjsample/human_5utr_modeling",
+    "model_ids": [
+      "P002",
+      "P006"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/pjsample/human_5utr_modeling",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "GPL-3.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/eternagame/DegScore",
+    "model_ids": [
+      "P003",
+      "P052"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/eternagame/DegScore",
+    "default_branch": "master",
+    "archived": true,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/Durixas/iDRO",
+    "model_ids": [
+      "P004"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/Durixas/iDRO",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "Apache-2.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/LinearDesignSoftware/LinearDesign",
+    "model_ids": [
+      "P005"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/LinearDesignSoftware/LinearDesign",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "NOASSERTION",
+    "error": null
+  },
+  {
+    "url": "https://github.com/castillohair/paper-5utr-design",
+    "model_ids": [
+      "P006"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/castillohair/paper-5utr-design",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "BSD-3-Clause",
+    "error": null
+  },
+  {
+    "url": "https://github.com/johli/seqprop",
+    "model_ids": [
+      "P006"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/johli/seqprop",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/johli/genesis",
+    "model_ids": [
+      "P006"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/johli/genesis",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/deepomicslab/Smart5UTR",
+    "model_ids": [
+      "P007"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/deepomicslab/Smart5UTR",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "GPL-3.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/Sanofi-Public/mRNA-LM",
+    "model_ids": [
+      "P008"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/Sanofi-Public/mRNA-LM",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "NOASSERTION",
+    "error": null
+  },
+  {
+    "url": "https://github.com/CenikLab/coTE_paper",
+    "model_ids": [
+      "P009"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/CenikLab/coTE_paper",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "unknown",
+    "error": null
+  },
+  {
+    "url": "https://github.com/CenikLab/TE_model",
+    "model_ids": [
+      "P009"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/CenikLab/TE_model",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "GPL-3.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/Sanofi-Public/RiboNN",
+    "model_ids": [
+      "P010"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/Sanofi-Public/RiboNN",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "NOASSERTION",
+    "error": null
+  },
+  {
+    "url": "https://github.com/CenikLab/TE_classic_ML",
+    "model_ids": [
+      "P010"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/CenikLab/TE_classic_ML",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "GPL-3.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/AlexGreenLab/GARDN-SANDSTORM",
+    "model_ids": [
+      "P012"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/AlexGreenLab/GARDN-SANDSTORM",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "NOASSERTION",
+    "error": null
+  },
+  {
+    "url": "https://github.com/HudenJear/RPLoss",
+    "model_ids": [
+      "P013"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/HudenJear/RPLoss",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/BaseUQ/mRNArchitect-paper-jon",
+    "model_ids": [
+      "P014"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/BaseUQ/mRNArchitect-paper-jon",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "unknown",
+    "error": null
+  },
+  {
+    "url": "https://github.com/base-facility/mrnarchitect_codon_tables",
+    "model_ids": [
+      "P014"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/base-facility/mrnarchitect_codon_tables",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "unknown",
+    "error": null
+  },
+  {
+    "url": "https://github.com/a96123155/UTR-LM",
+    "model_ids": [
+      "P018"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/a96123155/UTR-LM",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "GPL-3.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/pansaichao/UTR_Insight",
+    "model_ids": [
+      "P019"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/pansaichao/UTR_Insight",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "unknown",
+    "error": null
+  },
+  {
+    "url": "https://github.com/honggen-zhang/mRNA2vec",
+    "model_ids": [
+      "P020"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/honggen-zhang/mRNA2vec",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "unknown",
+    "error": null
+  },
+  {
+    "url": "https://github.com/Shujun-He/RNAdegformer",
+    "model_ids": [
+      "P021"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/Shujun-He/RNAdegformer",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/rabanilab/UTR-Seq",
+    "model_ids": [
+      "P022"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/rabanilab/UTR-Seq",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/Devil625/Codon_Optimization",
+    "model_ids": [
+      "P024"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/Devil625/Codon_Optimization",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "Apache-2.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/Sanofi-Public/CodonBERT",
+    "model_ids": [
+      "P025"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/Sanofi-Public/CodonBERT",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "NOASSERTION",
+    "error": null
+  },
+  {
+    "url": "https://github.com/BTheDragonMaster/mew",
+    "model_ids": [
+      "P026"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/BTheDragonMaster/mew",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "unknown",
+    "error": null
+  },
+  {
+    "url": "https://github.com/fightw/5UTR_RFuploadw",
+    "model_ids": [
+      "P028"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/fightw/5UTR_RFuploadw",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "unknown",
+    "error": null
+  },
+  {
+    "url": "https://github.com/fightw/modules_SeqNN",
+    "model_ids": [
+      "P028"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/fightw/modules_SeqNN",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "unknown",
+    "error": null
+  },
+  {
+    "url": "https://github.com/autosome-ru/parade",
+    "model_ids": [
+      "P029"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/autosome-ru/parade",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/NanilTx/codonGPT_pub",
+    "model_ids": [
+      "P030"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": false,
+    "canonical_url": null,
+    "default_branch": null,
+    "archived": null,
+    "license_spdx": "unknown",
+    "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/repos#get-a-repository\",\"status\":\"404\"}"
+  },
+  {
+    "url": "https://github.com/yyly6/mRNABERT",
+    "model_ids": [
+      "P031"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/yyly6/mRNABERT",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "Apache-2.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/wangfanfff/RiboDecode",
+    "model_ids": [
+      "P032"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/wangfanfff/RiboDecode",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "unknown",
+    "error": null
+  },
+  {
+    "url": "https://github.com/ml4bio/RhoFold",
+    "model_ids": [
+      "P033"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/ml4bio/RhoFold",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "Apache-2.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/Shunsuke-1994/rfamgen",
+    "model_ids": [
+      "P034"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/Shunsuke-1994/rfamgen",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "NOASSERTION",
+    "error": null
+  },
+  {
+    "url": "https://github.com/jaswindersingh2/SPOT-RNA",
+    "model_ids": [
+      "P035"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/jaswindersingh2/SPOT-RNA",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "MPL-2.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/oxpig/CaLM",
+    "model_ids": [
+      "P036"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/oxpig/CaLM",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "BSD-3-Clause",
+    "error": null
+  },
+  {
+    "url": "https://github.com/ShenLab-Genomics/biombenchmark",
+    "model_ids": [
+      "P037"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/ShenLab-Genomics/biombenchmark",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/buetnlpbio/BiRNA-BERT",
+    "model_ids": [
+      "P038"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/buetnlpbio/BiRNA-BERT",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "unknown",
+    "error": null
+  },
+  {
+    "url": "https://github.com/Bruce-ywj/ERNIE-RNA",
+    "model_ids": [
+      "P040"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/Bruce-ywj/ERNIE-RNA",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/coffeebond/PAL-AI",
+    "model_ids": [
+      "P041"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/coffeebond/PAL-AI",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "unknown",
+    "error": null
+  },
+  {
+    "url": "https://github.com/lbcb-sci/RiNALMo",
+    "model_ids": [
+      "P042"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/lbcb-sci/RiNALMo",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "Apache-2.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/heqin-zhu/BPfold",
+    "model_ids": [
+      "P043"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/heqin-zhu/BPfold",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/cgoliver/rnamigos2",
+    "model_ids": [
+      "P044"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/cgoliver/rnamigos2",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/LRB-IIMCB/ninetails",
+    "model_ids": [
+      "P045"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/LRB-IIMCB/ninetails",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "GPL-3.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/TRISTAN-ORF/RiboTIE",
+    "model_ids": [
+      "P046"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/TRISTAN-ORF/RiboTIE",
+    "default_branch": "main",
+    "archived": true,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/TRISTAN-ORF/RiboTIE_article",
+    "model_ids": [
+      "P046"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/TRISTAN-ORF/RiboTIE_article",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/kiharalab/NuFold",
+    "model_ids": [
+      "P047"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/kiharalab/NuFold",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "GPL-3.0",
+    "error": null
+  },
+  {
+    "url": "https://github.com/hsalis/SalisLabCode",
+    "model_ids": [
+      "P048"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/hsalis/SalisLabCode",
+    "default_branch": "master",
+    "archived": false,
+    "license_spdx": "unknown",
+    "error": null
+  },
+  {
+    "url": "https://github.com/lingxusb/Riboformer",
+    "model_ids": [
+      "P049"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/lingxusb/Riboformer",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/MSDLLCpapers/mRNAid",
+    "model_ids": [
+      "P050"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/MSDLLCpapers/mRNAid",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "NOASSERTION",
+    "error": null
+  },
+  {
+    "url": "https://github.com/eternagame/KaggleOpenVaccine",
+    "model_ids": [
+      "P052"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/eternagame/KaggleOpenVaccine",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  },
+  {
+    "url": "https://github.com/yangyn533/3UTRBERT",
+    "model_ids": [
+      "P093"
+    ],
+    "checked_on": "2026-11-04",
+    "check": "public repository metadata; not every file",
+    "accessible": true,
+    "canonical_url": "https://github.com/yangyn533/3UTRBERT",
+    "default_branch": "main",
+    "archived": false,
+    "license_spdx": "MIT",
+    "error": null
+  }
+]

@@ -1,0 +1,518 @@
+{
+  "curation_scope": "Public RNA chemical-modification metadata registry; no sequence values, model execution or experimental protocols.",
+  "checked_on_range": [
+    "2026-11-04",
+    "2026-11-05"
+  ],
+  "record_count": 30,
+  "curated_record_count": 30,
+  "distinct_evidence_url_count": 68,
+  "count_caveat": "Evidence URLs and registry records are not counts of independent studies or additive biological observations.",
+  "verification_counts": {
+    "metadata": 20,
+    "paper": 9,
+    "schema": 1
+  },
+  "material_findings": [
+    "GSE90963 is simultaneous RBS-Seq of m5C, pseudouridine and m1A, not Nm-seq.",
+    "GSE225614 is mixed DNA/RNA UBS-seq; only its RNA subset belongs in RNA modification integration.",
+    "GSE240569 is pluripotent-cell/cardiomyocyte RNA bisulfite profiling with expression companions.",
+    "GSE212210 is PRAISE pseudouridine mapping with source IVT and enzyme-perturbation controls.",
+    "Nm-Mut-seq cannot detect Um; that absence is an assay blind spot.",
+    "Nm-seq has a correction addressing adaptor-related artifacts; file versions remain unverified.",
+    "Latest MODOMICS imports filtered long-RNA annotations; displayed unannotated bases are not validated unmodified negatives.",
+    "Sample2019 chemistry classes were confirmed in live sample metadata; MRL is distinct from direct protein abundance and decay.",
+    "No independently verified source release named m6AVar2 was identified; m6AVar and RMVar 2.0 are recorded under verified names.",
+    "RNA004 PRJEB91026 is a modification benchmark; PRJEB90280 is SeqTagger demultiplexing training data."
+  ],
+  "boundaries": [
+    "No biological data table rows, reference sequences, sequencing reads, raw signals, model weights or source PDFs were downloaded to the registry.",
+    "GEO SOFT and ENA XML inspections were limited to selected public metadata fields.",
+    "No data-export license was inferred from an article or code license; NanoBaseLib's author-stated processed-data license is separately documented.",
+    "Legacy/current endpoint failures are retained in each record rather than treated as confirmed file availability."
+  ],
+  "records": [
+    {
+      "id": "modomics",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12807697/",
+          "supports": "2025 update describes chemistry, evidence framework, Sci-ModoM-derived long-RNA annotations and research access."
+        },
+        {
+          "url": "https://genesilico.pl/modomics/download",
+          "supports": "Current download page lists chemistry, ontology and modified-position exports."
+        }
+      ]
+    },
+    {
+      "id": "rmbase-v3",
+      "verification_level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://academic.oup.com/nar/article/52/D1/D273/7416807",
+          "supports": "Original v3 paper describes multi-species integration and distinguishes approximate 200-nt m6A maps from single-nucleotide annotations."
+        },
+        {
+          "url": "https://bioinformaticsscience.cn/rmbase/download.php",
+          "supports": "Indexed primary download documentation describes downloadable modification records and linked annotations."
+        }
+      ]
+    },
+    {
+      "id": "m6a-atlas-v2",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://academic.oup.com/nar/article/52/D1/D194/7243455",
+          "supports": "Original v2 study describes integrated high-resolution and MeRIP data."
+        },
+        {
+          "url": "https://rnamd.org/m6a/help.php",
+          "supports": "Current help separates sites, enriched regions, quantitative contexts, single-cell modules and CSV differential-region export."
+        }
+      ]
+    },
+    {
+      "id": "m6a2target",
+      "verification_level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32392583/",
+          "supports": "Original paper explicitly defines validated versus potential target modules and gives the resource endpoint."
+        },
+        {
+          "url": "https://doi.org/10.1093/bib/bbaa055",
+          "supports": "Original publication identity and target-association scope."
+        }
+      ]
+    },
+    {
+      "id": "rm2target",
+      "verification_level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1093/nar/gkac945",
+          "supports": "Original paper describes expansion to regulators of nine modification classes, including Nm and A-to-I editing."
+        }
+      ]
+    },
+    {
+      "id": "m6avar",
+      "verification_level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5753261/",
+          "supports": "Original paper defines assay-based confidence strata and transcriptome-wide random-forest predictions."
+        }
+      ]
+    },
+    {
+      "id": "rmvar-v2",
+      "verification_level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1093/nar/gkae924",
+          "supports": "Original 2.0 paper defines four evidence levels and derivation of potential modification gain/loss variants."
+        },
+        {
+          "url": "https://rmvar.renlab.cn/",
+          "supports": "Endpoint responds but returned no readable static content in this inspection."
+        }
+      ]
+    },
+    {
+      "id": "m5c-atlas",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8728298/",
+          "supports": "Original paper describes integrated assays, quantitative conditions and conversion/structure limitations."
+        },
+        {
+          "url": "https://rnamd.org/m5c-atlas/help.html",
+          "supports": "Primary help defines candidate sites and metadata export."
+        },
+        {
+          "url": "https://rnamd.org/m5c-atlas/download.html",
+          "supports": "Download page separately lists sites, assays, contexts and reference assemblies."
+        }
+      ]
+    },
+    {
+      "id": "m7ghub-v2",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.rnamd.org/m7GHub2/",
+          "supports": "Primary homepage identifies release and separate source/prediction modules."
+        },
+        {
+          "url": "https://www.rnamd.org/m7GHub2/help.html",
+          "supports": "Help identifies ONT annotations as putative and separates variant predictions."
+        },
+        {
+          "url": "https://www.rnamd.org/m7GHub2/download.html",
+          "supports": "Download page separates base-resolution, region and nanopore exports."
+        }
+      ]
+    },
+    {
+      "id": "rediportal",
+      "verification_level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701558/",
+          "supports": "Original update describes GTEx/TCGA contexts, site and sample tables, editing indices and mouse coverage."
+        }
+      ]
+    },
+    {
+      "id": "radar-editing",
+      "verification_level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3965033/",
+          "supports": "Original paper describes human, mouse and fly sites with tissue-specific editing levels."
+        }
+      ]
+    },
+    {
+      "id": "darned-editing",
+      "verification_level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://academic.oup.com/bioinformatics/article/26/14/1772/178844",
+          "supports": "Original paper defines the human resource, genomic mapping and tissue/region query fields."
+        }
+      ]
+    },
+    {
+      "id": "directrmdb",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9825532/",
+          "supports": "Original paper describes isoform distribution, expression estimates and tool/sample evidence, and warns of false-positive sites."
+        },
+        {
+          "url": "https://www.rnamd.org/directRMDB/",
+          "supports": "Current landing page was accessible; no data table/file was opened."
+        }
+      ]
+    },
+    {
+      "id": "sci-modom",
+      "verification_level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://scimodom.dieterichlab.org/",
+          "supports": "Primary page documents quantitative datasets and free browsing without login."
+        },
+        {
+          "url": "https://academic.oup.com/nar/article/53/D1/D310/7875981",
+          "supports": "Original paper describes source-linked data integration and scope."
+        },
+        {
+          "url": "https://dieterich-lab.github.io/scimodom/bedrmod.html",
+          "supports": "Schema documentation specifies headers, coverage/frequency and 0-based half-open coordinates."
+        }
+      ]
+    },
+    {
+      "id": "rmpore",
+      "verification_level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://academic.oup.com/nar/article/54/D1/D291/8315799",
+          "supports": "Original paper documents multi-species DRS integration, tool-specific thresholds and confidence classes."
+        },
+        {
+          "url": "https://rmpore.renlab.cn/",
+          "supports": "Current endpoint responded without readable static table content."
+        }
+      ]
+    },
+    {
+      "id": "pseudo-seq-gse58200",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58200&targ=self&form=text&view=full",
+          "supports": "Live SOFT metadata establishes title, Pseudo-seq scope, organisms, design, sample count and listed supplementary files."
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE58200",
+          "supports": "Primary accession identifies endogenous yeast/HeLa pseudouridine mapping and treatment-dependent RT-stop logic."
+        }
+      ]
+    },
+    {
+      "id": "praise-gse212210",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212210&targ=self&form=text&view=full",
+          "supports": "Live series metadata describes HEK293T fractions, IVT negative control, enzyme perturbations and sample list."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41589-023-01304-7",
+          "supports": "Original article defines quantitative pseudouridine profiling and confirms accession GSE212210."
+        }
+      ]
+    },
+    {
+      "id": "rbs-seq-gse90963",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90963&targ=self&form=text&view=full",
+          "supports": "Live GEO metadata identifies simultaneous m5C/Ψ/m1A RBS-Seq, HeLa design, sample count and named candidate XLSX files."
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90963",
+          "supports": "Primary series reports substantial disagreement with earlier m5C/m1A maps, including little substantial m1A in mRNA."
+        }
+      ]
+    },
+    {
+      "id": "hpsc-m5c-gse240569",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE240569&targ=self&form=text&view=full",
+          "supports": "Live series metadata establishes source/derivative comparison, title, sample list and m5C/expression supplementary filenames."
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8541012",
+          "supports": "Sample metadata describes hg38 reference and source supplementary-file roles."
+        }
+      ]
+    },
+    {
+      "id": "ubs-seq-gse225614",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225614&targ=self&form=text&view=full",
+          "supports": "Live series metadata confirms mixed DNA/RNA title and RNA-specific HeLa/HEK293T site tables."
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225614",
+          "supports": "Primary accession lists RNA poly(A)+ contexts and NSUN2/NSUN6 perturbations separately from DNA samples."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41587-023-02034-w.pdf",
+          "supports": "Original article establishes RNA/DNA m5C assay scope and accession linkage."
+        }
+      ]
+    },
+    {
+      "id": "nm-seq-gse90164",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90164&targ=self&form=text&view=full",
+          "supports": "Live GEO metadata identifies Nm-seq and listed HeLa/HEK coordinate-file names."
+        },
+        {
+          "url": "https://www.nature.com/articles/nmeth.4294",
+          "supports": "Primary article includes change history addressing adaptor/mispriming concerns."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6994179/",
+          "supports": "Published correction documents revised Nm-seq data deposited in the same accession."
+        }
+      ]
+    },
+    {
+      "id": "nm-mut-seq-gse174518",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174518&targ=self&form=text&view=full",
+          "supports": "Live series metadata explicitly states Am/Cm/Gm detection, Um non-detection, calibration and perturbation subsets."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10474006/",
+          "supports": "Original study describes base-resolution quantitative Nm mapping and GEO linkage."
+        }
+      ]
+    },
+    {
+      "id": "m1a-safra-gse97419",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97419&targ=self&form=text&view=full",
+          "supports": "Live series metadata gives HEK293 profiling contrasts and semi-quantitative map scope."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29072297/",
+          "supports": "Original paper reports limited low-stoichiometry cytosolic m1A and a tissue/development-regulated mitochondrial ND5 site."
+        }
+      ]
+    },
+    {
+      "id": "ac4c-arango-gse102113",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102113&targ=self&form=text&view=full",
+          "supports": "Live GEO metadata confirms RIP, RNA-seq, Ribo-seq and BRIC-seq components."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6295233/",
+          "supports": "Original article distinguishes ac4C enrichment, transcript half-life, ribosome-density efficiency and targeted reporters."
+        }
+      ]
+    },
+    {
+      "id": "sample2019-chemistry-reporters",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002&targ=self&form=text&view=full",
+          "supports": "Live series metadata names three RNA chemistries and distinct library subsets."
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114002&targ=gsm&form=text&view=full",
+          "supports": "Live sample metadata confirms paired eGFP unmodified/pseudo/m1pseudo CSV files."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7100133/",
+          "supports": "Original paper defines MRL, HEK293T context and chemistry-specific reporter measurements."
+        },
+        {
+          "url": "https://github.com/pjsample/human_5utr_modeling",
+          "supports": "Author README links processed CSVs to GEO; repository code license is separate from data reuse rights."
+        }
+      ]
+    },
+    {
+      "id": "tandemmod-ivet-gse227087",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-05",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11094168/",
+          "supports": "Original paper distinguishes IVET labels, in-vivo validation, predictions and new data under GSE227087."
+        },
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227087&targ=self&form=text&view=full",
+          "supports": "Live metadata confirms title, eight samples and listed archives."
+        },
+        {
+          "url": "https://github.com/yulab2021/TandemMod",
+          "supports": "Author repository documents separate training/prediction modes and data-related assets; no model was executed."
+        }
+      ]
+    },
+    {
+      "id": "nanobaselib",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-05",
+      "evidence": [
+        {
+          "url": "https://nanobaselib.github.io/",
+          "supports": "Current author page describes tasks, mixed DNA/RNA scope and separate dataset/code licenses."
+        },
+        {
+          "url": "https://zenodo.org/records/10889896",
+          "supports": "Zenodo metadata establishes versioned dataset identity and available archive names without downloading them."
+        },
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2024/file/8bce223b376f52fb86a148097eebb10d-Supplemental-Datasets_and_Benchmarks_Track.pdf",
+          "supports": "Author checklist states processed dataset CC BY licensing and repository/benchmark documentation."
+        }
+      ]
+    },
+    {
+      "id": "nanoconsensus-rrna-benchmark",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-05",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11607429/",
+          "supports": "Original paper documents benchmark assumptions, lower-resolution differential regions and limitations in direction/quantification."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB42568",
+          "supports": "Live ENA project title verifies single-control-strain study provenance."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB48806",
+          "supports": "Live ENA project title verifies antibiotic-exposure subset."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB37798",
+          "supports": "Live ENA project title verifies reused yeast total-RNA modification data."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-024-54368-x",
+          "supports": "Primary article notes a 2025 author correction and separates generated versus reused accession families."
+        }
+      ]
+    },
+    {
+      "id": "rmap-challenge",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-05",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11993749/",
+          "supports": "Original challenge paper documents three chemistries, target frequencies, pseudouridine split and source accession."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB84053",
+          "supports": "Live ENA project title independently confirms RMaP challenge provenance."
+        }
+      ]
+    },
+    {
+      "id": "dorado-rna004-modification-benchmark",
+      "verification_level": "metadata",
+      "checked_on": "2026-11-05",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13273306/",
+          "supports": "Original 2026 article documents RNA004, synthetic/native controls, cross-reactivity and caller-specific stoichiometry bias."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB91026",
+          "supports": "Live project metadata independently verifies modification-aware basecalling benchmark identity."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/browser/api/xml/PRJEB90280",
+          "supports": "Live project metadata independently identifies b96_RNA004 SeqTagger training data as a distinct subset."
+        }
+      ]
+    }
+  ]
+}

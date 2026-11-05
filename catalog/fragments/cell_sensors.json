@@ -1,0 +1,2916 @@
+[
+  {
+    "id": "toehold-flowseq-gse149225",
+    "name": "Angenent-Mari toehold Flow-seq library (GSE149225)",
+    "kind": "study",
+    "topics": [
+      "rna_sensors",
+      "toehold_switch",
+      "bacterial_translation"
+    ],
+    "rna_scope": [
+      "synthetic RNA"
+    ],
+    "description": "Bacterial trigger-responsive reporter library. GEO, CL_RNA_SynthBio and SANDSTORM reuse belong to this source family.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149225",
+      "https://www.nature.com/articles/s41467-020-18677-1",
+      "https://github.com/lrsoenksen/CL_RNA_SynthBio"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-020-18677-1"
+    ],
+    "accessions": [
+      "GSE149225",
+      "PRJNA627694",
+      "SRP258130"
+    ],
+    "organisms": [
+      "synthetic construct"
+    ],
+    "biological_context": "Bacterial in vivo reporter assay. ON and OFF indicate trigger states; viral/human trigger provenance is not assay cell species.",
+    "assays": [
+      "Flow-seq",
+      "fluorescence sorting and sequencing"
+    ],
+    "observation_unit": "Switch configuration with ON/OFF gate-count measurements",
+    "labels": [
+      {
+        "name": "ON; OFF",
+        "meaning": "Source-normalized reporter activity with and without trigger",
+        "label_type": "measured",
+        "unit": "source-normalized fluorescence",
+        "resolution": "construct"
+      },
+      {
+        "name": "ON_OFF",
+        "meaning": "Ratio of measured ON and OFF activity",
+        "label_type": "computed",
+        "unit": "fold ratio",
+        "resolution": "construct"
+      },
+      {
+        "name": "QC_ON; QC_OFF; QC_ON_OFF",
+        "meaning": "Endpoint-specific source quality strata",
+        "label_type": "annotation",
+        "unit": "ordinal QC level",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": 91534,
+      "unit": "switches with QC_ON_OFF >= 2",
+      "basis": "Independently counted non-sequence QC columns of the 244000-row processed CSV; matches final QC2 set",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149225/suppl/GSE149225_toehold_processed_datafile.csv.gz"
+      ],
+      "formats": [
+        "CSV.gz",
+        "SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "file_sample",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149225&targ=self&form=text&view=full",
+          "supports": "GEO identity, public status, processed file and related accessions."
+        },
+        {
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149225/suppl/GSE149225_toehold_processed_datafile.csv.gz",
+          "supports": "Header and aggregate QC columns: 244000 total rows; 91534 at ratio QC >= 2."
+        },
+        {
+          "url": "https://www.collinslab.mit.edu/s/naturecommunications_nico-44zm.pdf",
+          "supports": "Paper chooses QC2 threshold and discusses lower-QC sorting artifacts."
+        }
+      ],
+      "files_inspected": [
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149225/suppl/GSE149225_toehold_processed_datafile.csv.gz (header and aggregate QC columns only)"
+      ],
+      "limitations": [
+        "Nucleotide fields and individual activity values were not retained or validated.",
+        "Separate ON/OFF endpoint QC and missingness must be preserved.",
+        "Full processing and absolute fluorescence calibration not reproduced."
+      ]
+    },
+    "ml_tasks": [
+      "trigger-dependent activity prediction",
+      "QC-aware benchmark"
+    ],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "Bacterial ON/OFF molecular states are not mammalian cell types."
+    },
+    "integration_caveats": [
+      "Keep related triggers, tiled regions and matched ON/OFF configurations in the same split.",
+      "Lower-QC gate-boundary artifacts and source-normalized scale remain relevant.",
+      "Do not double-count CL_RNA_SynthBio or SANDSTORM reuse."
+    ],
+    "related_model_ids": [
+      "P012"
+    ],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "eukaryotic-toeholds-zhao2021",
+    "name": "eToeholds: RNA-responsive elements for eukaryotic translational control",
+    "kind": "study",
+    "topics": [
+      "rna_sensors",
+      "eukaryotic_toehold",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "synthetic RNA"
+    ],
+    "description": "Eukaryotic RNA-triggered reporter study with selected cell-state and cell-line comparisons; original measurements are request-based.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41587-021-01068-2"
+    ],
+    "paper_doi": [
+      "10.1038/s41587-021-01068-2"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens",
+      "Mus musculus"
+    ],
+    "biological_context": "Includes HeLa, B16-F10, D1 and HEK293T comparisons and heat-response sensing; intracellular expression used DNA constructs.",
+    "assays": [
+      "flow cytometry",
+      "luminescent reporter assay"
+    ],
+    "observation_unit": "Construct by condition",
+    "labels": [
+      {
+        "name": "reporter fluorescence or luminescence",
+        "meaning": "Protein response to target RNA",
+        "label_type": "measured",
+        "unit": "assay-dependent relative signal",
+        "resolution": "construct"
+      },
+      {
+        "name": "fold activation",
+        "meaning": "Triggered signal relative to source control",
+        "label_type": "computed",
+        "unit": "fold ratio",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "mixed",
+      "data_urls": [
+        "https://www.nature.com/articles/s41587-021-01068-2"
+      ],
+      "formats": [
+        "article",
+        "supplementary information"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.nature.com/articles/s41587-021-01068-2",
+          "supports": "Primary source supports resource or study identity and the described context."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Original data are available upon reasonable author request; no training-table accession established.",
+        "Supplementary numerical table schema not inspected."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "Selected cross-context tests support RNA-responsive expression; broad cell selectivity is unestablished."
+    },
+    "integration_caveats": [
+      "DNA-mediated intracellular expression does not establish synthetic-mRNA delivery performance.",
+      "Retain reporter, trigger abundance, control and cell context."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "green2014-toehold-study"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "green2014-toehold-study",
+    "name": "Original toehold-switch characterization (Green et al., 2014)",
+    "kind": "study",
+    "topics": [
+      "rna_sensors",
+      "toehold_switch",
+      "bacterial_translation"
+    ],
+    "rna_scope": [
+      "synthetic RNA"
+    ],
+    "description": "Foundational prokaryotic reporter activation and orthogonality study; a mechanistic reference rather than a mammalian specificity table.",
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/25417166/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4265554/"
+    ],
+    "paper_doi": [
+      "10.1016/j.cell.2014.10.002"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Prokaryotic cells; cognate and noncognate trigger comparisons. Strain-level table not inspected.",
+    "assays": [
+      "fluorescent reporter assay"
+    ],
+    "observation_unit": "Switch-trigger pair in a condition",
+    "labels": [
+      {
+        "name": "ON/OFF dynamic range",
+        "meaning": "Reporter activation relative to untriggered control",
+        "label_type": "computed",
+        "unit": "fold ratio",
+        "resolution": "construct"
+      },
+      {
+        "name": "orthogonality/crosstalk",
+        "meaning": "Response to noncognate triggers",
+        "label_type": "measured",
+        "unit": "source reporter ratio",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unknown",
+      "data_urls": [],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25417166/",
+          "supports": "Primary source supports resource or study identity and the described context."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4265554/",
+          "supports": "Primary source supports resource or study identity and the described context."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Primary abstract and figure descriptions checked; supplementary table schema and data-reuse license not verified."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "RNA recognition in a bacterial context."
+    },
+    "integration_caveats": [
+      "Group cognate/cross-trigger records by switch family.",
+      "Not direct mammalian cell-specificity evidence."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "context",
+    "status": "curated"
+  },
+  {
+    "id": "ribocentre-switch",
+    "name": "Ribocentre-switch",
+    "kind": "database",
+    "topics": [
+      "riboswitch",
+      "natural_rna_regulation",
+      "structural_reference"
+    ],
+    "rna_scope": [
+      "riboswitch"
+    ],
+    "description": "Literature-curated natural riboswitch classes, structures, ligand associations and applications, linked to Rfam families.",
+    "source_urls": [
+      "https://riboswitch.ribocentre.org/",
+      "https://doi.org/10.1093/nar/gkad891"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkad891"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Natural ligand-responsive RNAs, predominantly prokaryotic; organism and evidence vary by entry.",
+    "assays": [
+      "literature curation",
+      "structure annotation"
+    ],
+    "observation_unit": "Riboswitch class or linked structure/reference",
+    "labels": [
+      {
+        "name": "ligand; regulatory mechanism",
+        "meaning": "Curated class-level assignments",
+        "label_type": "annotation",
+        "unit": "categorical",
+        "resolution": "unknown"
+      },
+      {
+        "name": "apparent KD",
+        "meaning": "Literature ligand affinity where present",
+        "label_type": "measured",
+        "unit": "entry-dependent concentration",
+        "resolution": "unknown"
+      }
+    ],
+    "scale": {
+      "value": 89591,
+      "unit": "sequences reported in 2023 paper",
+      "basis": "Published snapshot, not a current independently counted release",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://riboswitch.ribocentre.org/riboswitches/",
+        "https://riboswitch.ribocentre.org/helps/"
+      ],
+      "formats": [
+        "HTML",
+        "table downloads"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://riboswitch.ribocentre.org/",
+          "supports": "Primary source supports resource or study identity and the described context."
+        },
+        {
+          "url": "https://doi.org/10.1093/nar/gkad891",
+          "supports": "Primary source supports resource or study identity and the described context."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "No bulk sequence download inspected; paper count is not a live total.",
+        "Public access does not establish redistribution rights."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Natural ligand/function annotations do not measure mammalian cell selectivity."
+    },
+    "integration_caveats": [
+      "Classes, structures, sequences and references are different units.",
+      "Rfam-derived entries overlap other resources; never sum their counts.",
+      "Affinity units and assay conditions vary; missing values remain missing."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rfam-riboswitch-families",
+      "ribod",
+      "tbdb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "rfam-riboswitch-families",
+    "name": "Rfam riboswitch-family reference subset",
+    "kind": "reference",
+    "topics": [
+      "riboswitch",
+      "rna_family_annotation",
+      "structural_reference"
+    ],
+    "rna_scope": [
+      "riboswitch"
+    ],
+    "description": "Family alignments and covariance-model annotations searchable as riboswitches; a reference rather than a reporter-activity dataset.",
+    "source_urls": [
+      "https://rfam.org/downloads",
+      "https://docs.rfam.org/en/latest/searching-rfam.html",
+      "https://docs.rfam.org/en/latest/api.html"
+    ],
+    "paper_doi": [],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Taxonomically varied natural families; genome hits depend on family and release.",
+    "assays": [
+      "comparative sequence annotation"
+    ],
+    "observation_unit": "Family alignment or genomic family hit",
+    "labels": [
+      {
+        "name": "family accession; consensus structure",
+        "meaning": "Family identity and alignment annotation",
+        "label_type": "annotation",
+        "unit": "categorical",
+        "resolution": "unknown"
+      },
+      {
+        "name": "score; E-value",
+        "meaning": "Covariance-model hit support",
+        "label_type": "computed",
+        "unit": "source score / E-value",
+        "resolution": "interval"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ftp.ebi.ac.uk/pub/databases/Rfam/",
+        "https://www.ebi.ac.uk/ebisearch/ws/rest/rfam?query=riboswitch&format=json&fields=num_seed,description"
+      ],
+      "formats": [
+        "Stockholm",
+        "covariance models",
+        "genome-hit tables",
+        "JSON/XML"
+      ],
+      "license": "CC0 (Rfam downloads page)",
+      "redistribution": "Rfam data stated CC0; retain release and provenance"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://rfam.org/downloads",
+          "supports": "Primary source supports resource or study identity and the described context."
+        },
+        {
+          "url": "https://docs.rfam.org/en/latest/searching-rfam.html",
+          "supports": "Primary source supports resource or study identity and the described context."
+        },
+        {
+          "url": "https://docs.rfam.org/en/latest/api.html",
+          "supports": "Primary source supports resource or study identity and the described context."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Release page observed 15.1; subset not enumerated or downloaded.",
+        "Family membership is not measured switching activity."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "No cellular reporter response labels."
+    },
+    "integration_caveats": [
+      "Pin a versioned release.",
+      "Seed/full hits and Ribocentre/RiboD overlap are not independent.",
+      "Use family/phylogenetic splits for generalization."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "ribocentre-switch",
+      "ribod",
+      "tbdb"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "ribod",
+    "name": "RiboD prokaryotic riboswitch database",
+    "kind": "database",
+    "topics": [
+      "riboswitch",
+      "genomic_annotation"
+    ],
+    "rna_scope": [
+      "riboswitch"
+    ],
+    "description": "Predicted riboswitches and associated genes/operons; FAQ describes Rfam covariance-model and profile-HMM prediction.",
+    "source_urls": [
+      "https://ribod.iiserkol.ac.in/faq.html",
+      "https://academic.oup.com/bioinformatics/article/35/18/3541/5307751"
+    ],
+    "paper_doi": [
+      "10.1093/bioinformatics/btz093"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Bacterial/archaeal genomes; website describes 1777 genomes and 31 classes.",
+    "assays": [
+      "computational genome annotation"
+    ],
+    "observation_unit": "Predicted genomic riboswitch with associated gene",
+    "labels": [
+      {
+        "name": "class; regulated gene",
+        "meaning": "Predicted locus/class and neighboring gene annotation",
+        "label_type": "prediction",
+        "unit": "categorical",
+        "resolution": "interval"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://ribod.iiserkol.ac.in/index.html"
+      ],
+      "formats": [
+        "HTML",
+        "Excel query export"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://ribod.iiserkol.ac.in/faq.html",
+          "supports": "Primary source supports resource or study identity and the described context."
+        },
+        {
+          "url": "https://academic.oup.com/bioinformatics/article/35/18/3541/5307751",
+          "supports": "Primary source supports resource or study identity and the described context."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Export file and live total not independently inspected.",
+        "Second predictor agreement is not experimental validation."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Prokaryotic annotation, not a mammalian expression assay."
+    },
+    "integration_caveats": [
+      "Do not treat predicted regulation as measured activity.",
+      "Rfam/genome homology creates cross-resource leakage."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "rfam-riboswitch-families",
+      "ribocentre-switch"
+    ],
+    "priority": "context",
+    "status": "curated"
+  },
+  {
+    "id": "tbdb",
+    "name": "T-box Riboswitch Annotation Database (TBDB)",
+    "kind": "database",
+    "topics": [
+      "riboswitch",
+      "trna_binding",
+      "structural_reference"
+    ],
+    "rna_scope": [
+      "T-box riboswitch",
+      "tRNA"
+    ],
+    "description": "Structurally annotated T-box riboswitch:tRNA pairs with predicted binding partners and downstream targets.",
+    "source_urls": [
+      "https://doi.org/10.1093/nar/gkaa721",
+      "https://tbdb.io",
+      "https://github.com/mpiersonsmela/tbox/"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkaa721"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Bacterial species, predominantly gram-positive organisms.",
+    "assays": [
+      "comparative annotation",
+      "secondary-structure prediction"
+    ],
+    "observation_unit": "T-box entry with assigned tRNA partner",
+    "labels": [
+      {
+        "name": "specifier; cognate tRNA; target gene",
+        "meaning": "Predicted binding specificity and target",
+        "label_type": "prediction",
+        "unit": "categorical",
+        "resolution": "unknown"
+      }
+    ],
+    "scale": {
+      "value": 23535,
+      "unit": "entries reported in paper",
+      "basis": "Published 2020 snapshot, not recounted live",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://tbdb.io/download/tbdb.csv"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1093/nar/gkaa721",
+          "supports": "Primary source supports resource or study identity and the described context."
+        },
+        {
+          "url": "https://tbdb.io",
+          "supports": "Primary source supports resource or study identity and the described context."
+        },
+        {
+          "url": "https://github.com/mpiersonsmela/tbox/",
+          "supports": "Primary source supports resource or study identity and the described context."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "CSV URL declared by paper but not fetched.",
+        "Predicted pairing is not a measured affinity or response label; data license unestablished."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Natural prokaryotic annotation."
+    },
+    "integration_caveats": [
+      "Split homologous families and organisms.",
+      "Assigned partners are not uniformly experimental positives."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "ribocentre-switch",
+      "rfam-riboswitch-families"
+    ],
+    "priority": "context",
+    "status": "curated"
+  },
+  {
+    "id": "gardn-sandstorm-release",
+    "name": "GARDN-SANDSTORM release and source-data map",
+    "kind": "model_release",
+    "topics": [
+      "rna_models",
+      "rna_sensors",
+      "source_provenance"
+    ],
+    "rna_scope": [
+      "synthetic RNA",
+      "mRNA"
+    ],
+    "description": "Code/model release reuses four upstream assay families and adds validation. Zenodo is a repository archive, not an independent biological dataset.",
+    "source_urls": [
+      "https://github.com/AlexGreenLab/GARDN-SANDSTORM",
+      "https://www.nature.com/articles/s41467-025-59389-8",
+      "https://zenodo.org/records/15058435"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-025-59389-8"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Mixed bacterial translation, human UTR translation, cell-free diagnostic and aptamer-sensor contexts.",
+    "assays": [
+      "upstream measured assays",
+      "computational benchmark"
+    ],
+    "observation_unit": "Source task dataset or validation record",
+    "labels": [
+      {
+        "name": "source-specific endpoints",
+        "meaning": "ON/OFF, ribosome load, RBS activity and Cas13 diagnostic activity stay distinct",
+        "label_type": "annotation",
+        "unit": "not comparable",
+        "resolution": "unknown"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "mixed",
+      "data_urls": [
+        "https://github.com/AlexGreenLab/GARDN-SANDSTORM/tree/main/data",
+        "https://github.com/AlexGreenLab/GARDN-SANDSTORM/tree/main/aptamer/data"
+      ],
+      "formats": [
+        "CSV",
+        "XLSX",
+        "NPY",
+        "notebooks",
+        "Git LFS"
+      ],
+      "license": "Custom Academic Open Source License for software; source data terms vary",
+      "redistribution": "Software academic/noncommercial use subject to LICENSE.txt; data rights require source-specific review"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://github.com/AlexGreenLab/GARDN-SANDSTORM/blob/main/README.txt",
+          "supports": "Release task map and Zenodo archive link."
+        },
+        {
+          "url": "https://github.com/AlexGreenLab/GARDN-SANDSTORM/blob/main/data/toehold_data/expected_data.txt",
+          "supports": "Upstream toehold file points to Angenent-Mari and CL_RNA_SynthBio."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-025-59389-8",
+          "supports": "New experimental versus upstream reused data."
+        },
+        {
+          "url": "https://github.com/AlexGreenLab/GARDN-SANDSTORM/blob/main/LICENSE.txt",
+          "supports": "Academic/noncommercial software license."
+        }
+      ],
+      "files_inspected": [
+        "https://github.com/AlexGreenLab/GARDN-SANDSTORM/blob/main/README.txt",
+        "https://github.com/AlexGreenLab/GARDN-SANDSTORM/blob/main/data/toehold_data/expected_data.txt",
+        "https://github.com/AlexGreenLab/GARDN-SANDSTORM/blob/main/LICENSE.txt"
+      ],
+      "limitations": [
+        "No model execution or weight download performed.",
+        "Sequence-derived compatibility arrays are not measured structure."
+      ]
+    },
+    "ml_tasks": [
+      "source-aware benchmark comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Native tasks are not a matched mammalian selectivity panel."
+    },
+    "integration_caveats": [
+      "Do not count upstream reuse as new observations.",
+      "Separate predictions/generated examples from wet-lab labels.",
+      "Keep bacterial, mammalian, aptamer and diagnostic endpoints separate."
+    ],
+    "related_model_ids": [
+      "P012"
+    ],
+    "related_resource_ids": [
+      "toehold-flowseq-gse149225",
+      "sample2019-chemistry-reporters",
+      "sapiens-uaspire-rbs",
+      "adapt-cas13-activity",
+      "gardn-aptaswitch-screen",
+      "gardn-aptaswitch-validation",
+      "gardn-toehold-validation",
+      "gardn-predicted-utr-traces"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "gardn-aptaswitch-screen",
+    "name": "GARDN-SANDSTORM 384-member aptaswitch screen",
+    "kind": "study",
+    "topics": [
+      "rna_sensors",
+      "aptaswitch",
+      "fluorescent_aptamer"
+    ],
+    "rna_scope": [
+      "aptamer",
+      "synthetic RNA"
+    ],
+    "description": "New measured aptamer-sensor screen; fluorescence is distinct from protein translation.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41467-025-59389-8",
+      "https://github.com/AlexGreenLab/GARDN-SANDSTORM/blob/main/aptamer/data/aptaswitch_data.xlsx"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-025-59389-8"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Cell-free aptamer fluorescence, target present versus absent; no cell panel.",
+    "assays": [
+      "fluorescent aptamer assay"
+    ],
+    "observation_unit": "Aptaswitch/target with dilution and control fields",
+    "labels": [
+      {
+        "name": "ON_1/2/4; OFF_1/2/4",
+        "meaning": "Measured fluorescence at source dilution labels",
+        "label_type": "measured",
+        "unit": "source fluorescence units",
+        "resolution": "construct"
+      },
+      {
+        "name": "ADJ_ON; ADJ_OFF; ADJ_ON_OFF",
+        "meaning": "Adjusted outputs and ratio",
+        "label_type": "computed",
+        "unit": "source-normalized output / fold ratio",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": 384,
+      "unit": "aptaswitches",
+      "basis": "Paper reports 384; high_throughput sheet has 385 declared rows including header",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/aptaswitch_data.xlsx"
+      ],
+      "formats": [
+        "XLSX"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "file_sample",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/aptaswitch_data.xlsx",
+          "supports": "high_throughput sheet dimensions and output schema."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-025-59389-8",
+          "supports": "Screen identity; fluorescent aptamer rather than translation endpoint."
+        }
+      ],
+      "files_inspected": [
+        "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/aptaswitch_data.xlsx (sheet names, dimensions, header only)"
+      ],
+      "limitations": [
+        "Values/formulas not audited.",
+        "Sheet name high_throughput does not override paper's manual low-throughput characterization description.",
+        "Exact concentration units and adjustments not independently established."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "Cell-free target-responsive signal."
+    },
+    "integration_caveats": [
+      "Hairpin templates overlap toehold source data; these fluorescence measurements are new.",
+      "Keep target/template families together across splits and retain controls."
+    ],
+    "related_model_ids": [
+      "P012"
+    ],
+    "related_resource_ids": [
+      "gardn-sandstorm-release",
+      "toehold-flowseq-gse149225",
+      "gardn-aptaswitch-validation"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "gardn-aptaswitch-validation",
+    "name": "GARDN-generated aptaswitch validation",
+    "kind": "study",
+    "topics": [
+      "rna_sensors",
+      "aptaswitch",
+      "generated_sequence_validation"
+    ],
+    "rna_scope": [
+      "aptamer",
+      "synthetic RNA"
+    ],
+    "description": "Measured generated-sensor table, distinct from the 384-member screen and from predictor scores.",
+    "source_urls": [
+      "https://github.com/AlexGreenLab/GARDN-SANDSTORM/blob/main/aptamer/data/processed_gardn_data_6_28.csv",
+      "https://www.nature.com/articles/s41467-025-59389-8"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-025-59389-8"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Cell-free fluorescence; no cell-type label.",
+    "assays": [
+      "fluorescent aptamer assay"
+    ],
+    "observation_unit": "Named generated aptaswitch with target/control measurements",
+    "labels": [
+      {
+        "name": "ON_1/2/4; OFF_1/2/4",
+        "meaning": "Measured target-present/absent outputs",
+        "label_type": "measured",
+        "unit": "source fluorescence units",
+        "resolution": "construct"
+      },
+      {
+        "name": "ADJ_ON; ADJ_OFF; ADJ_ON_OFF",
+        "meaning": "Adjusted fluorescence and ratio",
+        "label_type": "computed",
+        "unit": "source-normalized output / fold ratio",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/processed_gardn_data_6_28.csv",
+        "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/aptaswitch_data.xlsx"
+      ],
+      "formats": [
+        "CSV",
+        "XLSX"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "file_sample",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/processed_gardn_data_6_28.csv",
+          "supports": "Header has identity, concentration, raw and adjusted-output fields."
+        },
+        {
+          "url": "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/aptaswitch_data.xlsx",
+          "supports": "Separate forward_designed sheet exists."
+        }
+      ],
+      "files_inspected": [
+        "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/processed_gardn_data_6_28.csv (header only)",
+        "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/aptaswitch_data.xlsx (forward_designed header and dimensions only)"
+      ],
+      "limitations": [
+        "Full cardinality and adjustments not validated.",
+        "Not assumed identical to all screen measurements."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "No mammalian selectivity panel."
+    },
+    "integration_caveats": [
+      "Separate validation from screen/train rows.",
+      "Shared templates/controls create split leakage."
+    ],
+    "related_model_ids": [
+      "P012"
+    ],
+    "related_resource_ids": [
+      "gardn-aptaswitch-screen",
+      "gardn-sandstorm-release"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "gardn-toehold-validation",
+    "name": "GARDN-generated toehold reporter validation",
+    "kind": "study",
+    "topics": [
+      "rna_sensors",
+      "toehold_switch",
+      "generated_sequence_validation"
+    ],
+    "rna_scope": [
+      "synthetic RNA"
+    ],
+    "description": "New measured reporter table with construct identifiers and replicate ON/OFF outputs.",
+    "source_urls": [
+      "https://github.com/AlexGreenLab/GARDN-SANDSTORM/blob/main/data/GARDN_toehold_processed_data.csv",
+      "https://www.nature.com/articles/s41467-025-59389-8"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-025-59389-8"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Toehold reporter validation; header alone provides no cell metadata.",
+    "assays": [
+      "reporter fluorescence assay"
+    ],
+    "observation_unit": "Construct by condition",
+    "labels": [
+      {
+        "name": "ON; OFF",
+        "meaning": "Trigger-present/absent reporter readings",
+        "label_type": "measured",
+        "unit": "source fluorescence units",
+        "resolution": "construct"
+      },
+      {
+        "name": "Avg. ON; Avg. OFF; ON/OFF Ratio",
+        "meaning": "Source means and response ratio",
+        "label_type": "computed",
+        "unit": "fluorescence / fold ratio",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/data/GARDN_toehold_processed_data.csv"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "file_sample",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/data/GARDN_toehold_processed_data.csv",
+          "supports": "Live header with Name, ON/OFF, means and ratio."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-025-59389-8",
+          "supports": "Experimental validation distinct from predicted scores."
+        }
+      ],
+      "files_inspected": [
+        "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/data/GARDN_toehold_processed_data.csv (header only)"
+      ],
+      "limitations": [
+        "Sequence/context joins require separate source tables.",
+        "Blank replicate header cells mean this is not automatically a tidy schema."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "Molecular ON/OFF, not cell selectivity."
+    },
+    "integration_caveats": [
+      "Keep constructs and related design groups together in splits.",
+      "Predicted scores cannot replace measured readings."
+    ],
+    "related_model_ids": [
+      "P012"
+    ],
+    "related_resource_ids": [
+      "gardn-sandstorm-release",
+      "toehold-flowseq-gse149225"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "gardn-predicted-utr-traces",
+    "name": "GARDN in-silico UTR score traces",
+    "kind": "derived_resource",
+    "topics": [
+      "prediction_outputs",
+      "source_provenance"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Before/after computational score table; the path's experiments name does not establish wet-lab measurement.",
+    "source_urls": [
+      "https://github.com/AlexGreenLab/GARDN-SANDSTORM/blob/main/data/sequence_experiments/UTR_big_sequence_experiments.csv"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-025-59389-8"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "In-silico output; no measured cellular response.",
+    "assays": [
+      "computational scoring"
+    ],
+    "observation_unit": "Before/after score pair",
+    "labels": [
+      {
+        "name": "Pre_Optimized_Value; Post_Optimized_Value; Target_Value; Delta",
+        "meaning": "Predictor scores and differences",
+        "label_type": "prediction",
+        "unit": "predictor scale",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/data/sequence_experiments/UTR_big_sequence_experiments.csv"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "file_sample",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://github.com/AlexGreenLab/GARDN-SANDSTORM/blob/main/data/sequence_experiments/UTR_big_sequence_experiments.csv",
+          "supports": "Primary source supports resource or study identity and the described context."
+        }
+      ],
+      "files_inspected": [
+        "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/data/sequence_experiments/UTR_big_sequence_experiments.csv (header only)"
+      ],
+      "limitations": [
+        "No model execution or independent prediction validation performed."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "No selectivity measurement."
+    },
+    "integration_caveats": [
+      "Exclude prediction-only rows from measured activity labels.",
+      "Shared model/training data creates circular evaluation risk."
+    ],
+    "related_model_ids": [
+      "P012"
+    ],
+    "related_resource_ids": [
+      "gardn-sandstorm-release",
+      "sample2019-chemistry-reporters"
+    ],
+    "priority": "context",
+    "status": "curated"
+  },
+  {
+    "id": "sapiens-uaspire-rbs",
+    "name": "uASPIre/SAPIENs bacterial RBS data",
+    "kind": "study",
+    "topics": [
+      "bacterial_translation",
+      "source_provenance"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "RBS strength data from DNA-based phenotypic recording; upstream benchmark reused by SANDSTORM.",
+    "source_urls": [
+      "https://github.com/BorgwardtLab/SAPIENs",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7363850/"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-020-17222-4"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Bacterial expression assay; no mammalian cell panel.",
+    "assays": [
+      "uASPIre DNA-based phenotypic recording"
+    ],
+    "observation_unit": "RBS variant with source activity target",
+    "labels": [
+      {
+        "name": "RBS strength / IFP0-480 min",
+        "meaning": "Activity target from integrated DNA flipping profile",
+        "label_type": "computed",
+        "unit": "source-defined activity scale",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://github.com/BorgwardtLab/SAPIENs/tree/main/data"
+      ],
+      "formats": [
+        "NPY",
+        "figure source data"
+      ],
+      "license": "CC BY-NC-ND 4.0 for data directory; code has separate terms",
+      "redistribution": "Noncommercial unadapted data sharing with attribution; assess derivatives separately"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://github.com/BorgwardtLab/SAPIENs",
+          "supports": "Train/validation/test arrays; documented Split0."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/BorgwardtLab/SAPIENs/main/data/LICENSE.md",
+          "supports": "Data-specific CC BY-NC-ND 4.0."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7363850/",
+          "supports": "Measured assay identity and activity endpoint."
+        }
+      ],
+      "files_inspected": [
+        "https://raw.githubusercontent.com/BorgwardtLab/SAPIENs/main/data/Readme.md",
+        "https://raw.githubusercontent.com/BorgwardtLab/SAPIENs/main/data/LICENSE.md"
+      ],
+      "limitations": [
+        "Binary arrays not inspected/count-validated.",
+        "Exact target transform requires source ML annex.",
+        "Paper's raw-sample list repeats an identifier; not silently repaired."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Bacterial RBS output is not human cap-dependent translation."
+    },
+    "integration_caveats": [
+      "Preserve Split0 and sample-subset identities.",
+      "SANDSTORM reuse is not independent data."
+    ],
+    "related_model_ids": [
+      "P012"
+    ],
+    "related_resource_ids": [
+      "gardn-sandstorm-release"
+    ],
+    "priority": "context",
+    "status": "curated"
+  },
+  {
+    "id": "adapt-cas13-activity",
+    "name": "ADAPT Cas13a guide-target diagnostic activity",
+    "kind": "study",
+    "topics": [
+      "rna_diagnostics",
+      "cas13_activity",
+      "source_provenance"
+    ],
+    "rna_scope": [
+      "target RNA",
+      "guide RNA"
+    ],
+    "description": "Measured diagnostic activity with curated, resampled-replicate and median data versions; upstream SANDSTORM benchmark.",
+    "source_urls": [
+      "https://github.com/broadinstitute/adapt-seq-design",
+      "https://www.nature.com/articles/s41587-022-01213-5"
+    ],
+    "paper_doi": [
+      "10.1038/s41587-022-01213-5"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Cell-free cleavage assay; not intracellular translation or delivery.",
+    "assays": [
+      "Cas13a collateral-cleavage kinetics"
+    ],
+    "observation_unit": "Guide-target pair with replicate readings",
+    "labels": [
+      {
+        "name": "out_logk_measurements",
+        "meaning": "Source-transformed replicate kinetic activity measurements",
+        "label_type": "measured",
+        "unit": "source log(k) scale",
+        "resolution": "construct"
+      },
+      {
+        "name": "out_logk_median; out_logk_stdev",
+        "meaning": "Source replicate summary statistics",
+        "label_type": "computed",
+        "unit": "source log(k) scale",
+        "resolution": "construct"
+      },
+      {
+        "name": "type",
+        "meaning": "Experimental/control category",
+        "label_type": "annotation",
+        "unit": "categorical",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://github.com/broadinstitute/adapt-seq-design/tree/main/data/CCF-curated"
+      ],
+      "formats": [
+        "TSV",
+        "TSV.gz"
+      ],
+      "license": "MIT repository license; reused external data retain their terms",
+      "redistribution": "MIT observed at repository level; external-source conditions still apply"
+    },
+    "verification": {
+      "level": "file_sample",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://raw.githubusercontent.com/broadinstitute/adapt-seq-design/main/data/CCF-curated/CCF_merged_pairs_annotated.curated.tsv",
+          "supports": "Kinetic fields, replicate counts and pair/context header."
+        },
+        {
+          "url": "https://github.com/broadinstitute/adapt-seq-design/blob/main/data/README.md",
+          "supports": "Full/resampled variants; Cas9 playground not used in paper."
+        }
+      ],
+      "files_inspected": [
+        "https://raw.githubusercontent.com/broadinstitute/adapt-seq-design/main/data/CCF-curated/CCF_merged_pairs_annotated.curated.tsv (header only)",
+        "https://github.com/broadinstitute/adapt-seq-design/blob/main/data/README.md"
+      ],
+      "limitations": [
+        "Exact log base/normalization not established.",
+        "No sequence strings or individual values retained."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "none",
+      "notes": "Diagnostic activity is not cell-selective expression."
+    },
+    "integration_caveats": [
+      "All resampled replicates and related targets belong in one split.",
+      "Separate controls/predictions from measured experimental rows.",
+      "Predicted assay designs are not independent wet-lab observations."
+    ],
+    "related_model_ids": [
+      "P012"
+    ],
+    "related_resource_ids": [
+      "gardn-sandstorm-release"
+    ],
+    "priority": "context",
+    "status": "curated"
+  },
+  {
+    "id": "cellreadr-2022",
+    "name": "CellREADR original study",
+    "kind": "study",
+    "topics": [
+      "rna_sensors",
+      "adar_sensing",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "synthetic RNA"
+    ],
+    "description": "ADAR-dependent RNA sensing study. Reporter output, editing measurements and sequencing specificity data are separate endpoints.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41586-022-05280-1",
+      "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA856413"
+    ],
+    "paper_doi": [
+      "10.1038/s41586-022-05280-1"
+    ],
+    "accessions": [
+      "PRJNA856413"
+    ],
+    "organisms": [
+      "Homo sapiens",
+      "Mus musculus",
+      "Rattus norvegicus"
+    ],
+    "biological_context": "Human cell assays; mouse/rat brain and ex vivo human brain; targeted neuronal populations.",
+    "assays": [
+      "reporter fluorescence",
+      "RNA editing quantification",
+      "RNA-seq"
+    ],
+    "observation_unit": "Sensor/target/context condition; sequencing has a separate sample unit",
+    "labels": [
+      {
+        "name": "reporter output",
+        "meaning": "Protein reporter response to target RNA",
+        "label_type": "measured",
+        "unit": "source relative fluorescence",
+        "resolution": "construct"
+      },
+      {
+        "name": "fold response",
+        "meaning": "Source reporter signal relative to a matched control",
+        "label_type": "computed",
+        "unit": "fold ratio",
+        "resolution": "construct"
+      },
+      {
+        "name": "editing fraction",
+        "meaning": "A-to-I editing readout",
+        "label_type": "measured",
+        "unit": "fraction or percent; retain source scale",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "mixed",
+      "data_urls": [
+        "https://www.nature.com/articles/s41586-022-05280-1",
+        "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA856413"
+      ],
+      "formats": [
+        "source data",
+        "supplementary information",
+        "SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.nature.com/articles/s41586-022-05280-1",
+          "supports": "Sensing context and available source material; original-data statement."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA856413&result=read_run&fields=study_accession,run_accession,scientific_name,sample_title,library_strategy&format=tsv",
+          "supports": "Live archive metadata checked; run presence/absence and strategies recorded in public evidence."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "ENA returned six human RNA-seq runs; numerical reporter tables not inspected.",
+        "Archive does not represent all imaging, targeting or physiology measurements.",
+        "Future Addgene statement in original paper is not a current reagent-availability verification."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "RNA-dependent intracellular expression in selected contexts; delivery and broad selectivity need separate evidence."
+    },
+    "integration_caveats": [
+      "Preserve trigger, ADAR context, normalization and negative control.",
+      "Group related sensors and target regions across splits.",
+      "Intracellular expression does not establish delivery efficiency.",
+      "Sequencing archive is not automatically a sensor-response training table."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "eukaryotic-toeholds-zhao2021"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "radar-2022",
+    "name": "RADAR modular programmable RNA sensing",
+    "kind": "study",
+    "topics": [
+      "rna_sensors",
+      "adar_sensing",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "synthetic RNA"
+    ],
+    "description": "ADAR-dependent RNA sensing study. Reporter output, editing measurements and sequencing specificity data are separate endpoints.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41587-022-01493-x",
+      "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA874842",
+      "https://github.com/kristjaneerik/radar-rna-sensing"
+    ],
+    "paper_doi": [
+      "10.1038/s41587-022-01493-x"
+    ],
+    "accessions": [
+      "PRJNA874842"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Mammalian cell-line sensing of endogenous/altered transcript identity or abundance; plant experiments are separate contexts.",
+    "assays": [
+      "reporter fluorescence",
+      "RNA editing quantification",
+      "amplicon sequencing"
+    ],
+    "observation_unit": "Sensor/target/context condition; sequencing has a separate sample unit",
+    "labels": [
+      {
+        "name": "reporter output",
+        "meaning": "Protein reporter response to target RNA",
+        "label_type": "measured",
+        "unit": "source relative fluorescence",
+        "resolution": "construct"
+      },
+      {
+        "name": "fold response",
+        "meaning": "Source reporter signal relative to a matched control",
+        "label_type": "computed",
+        "unit": "fold ratio",
+        "resolution": "construct"
+      },
+      {
+        "name": "editing fraction",
+        "meaning": "A-to-I editing readout",
+        "label_type": "measured",
+        "unit": "fraction or percent; retain source scale",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "mixed",
+      "data_urls": [
+        "https://www.nature.com/articles/s41587-022-01493-x",
+        "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA874842"
+      ],
+      "formats": [
+        "source data",
+        "supplementary information",
+        "SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.nature.com/articles/s41587-022-01493-x",
+          "supports": "Sensing context and available source material; original-data statement."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA874842&result=read_run&fields=study_accession,run_accession,scientific_name,sample_title,library_strategy&format=tsv",
+          "supports": "Live archive metadata checked; run presence/absence and strategies recorded in public evidence."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "ENA returned 42 human AMPLICON runs, not a full sensor reporter table.",
+        "Paper states raw flow cytometry is available upon request.",
+        "November 2022 author correction must be retained; code access does not imply FCS release."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "RNA-dependent intracellular expression in selected contexts; delivery and broad selectivity need separate evidence."
+    },
+    "integration_caveats": [
+      "Preserve trigger, ADAR context, normalization and negative control.",
+      "Group related sensors and target regions across splits.",
+      "Intracellular expression does not establish delivery efficiency.",
+      "Sequencing archive is not automatically a sensor-response training table."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "eukaryotic-toeholds-zhao2021"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "radars-2022",
+    "name": "RADARS reprogrammable ADAR sensors",
+    "kind": "study",
+    "topics": [
+      "rna_sensors",
+      "adar_sensing",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "synthetic RNA"
+    ],
+    "description": "ADAR-dependent RNA sensing study. Reporter output, editing measurements and sequencing specificity data are separate endpoints.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41587-022-01534-5",
+      "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA883765",
+      "https://github.com/abugoot-lab/RADARS"
+    ],
+    "paper_doi": [
+      "10.1038/s41587-022-01534-5"
+    ],
+    "accessions": [
+      "PRJNA883765"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Mammalian endogenous transcript sensing; multi-input and specificity contexts vary by experiment.",
+    "assays": [
+      "reporter fluorescence",
+      "RNA editing quantification",
+      "RNA sequencing"
+    ],
+    "observation_unit": "Sensor/target/context condition; sequencing has a separate sample unit",
+    "labels": [
+      {
+        "name": "reporter output",
+        "meaning": "Protein reporter response to target RNA",
+        "label_type": "measured",
+        "unit": "source relative fluorescence",
+        "resolution": "construct"
+      },
+      {
+        "name": "fold response",
+        "meaning": "Source reporter signal relative to a matched control",
+        "label_type": "computed",
+        "unit": "fold ratio",
+        "resolution": "construct"
+      },
+      {
+        "name": "editing fraction",
+        "meaning": "A-to-I editing readout",
+        "label_type": "measured",
+        "unit": "fraction or percent; retain source scale",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "mixed",
+      "data_urls": [
+        "https://www.nature.com/articles/s41587-022-01534-5",
+        "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA883765"
+      ],
+      "formats": [
+        "source data",
+        "supplementary information",
+        "SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.nature.com/articles/s41587-022-01534-5",
+          "supports": "Sensing context and available source material; original-data statement."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA883765&result=read_run&fields=study_accession,run_accession,scientific_name,sample_title,library_strategy&format=tsv",
+          "supports": "Live archive metadata checked; run presence/absence and strategies recorded in public evidence."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Paper prospectively declares PRJNA883765; live ENA query returned zero runs. Public read release remains unconfirmed.",
+        "Paper/supplement results available; original measurements are request-based. Table/FCS schema not inspected.",
+        "Distinct from Kaseniit RADAR and the unrelated RADAR RNA-editing database."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "RNA-dependent intracellular expression in selected contexts; delivery and broad selectivity need separate evidence."
+    },
+    "integration_caveats": [
+      "Preserve trigger, ADAR context, normalization and negative control.",
+      "Group related sensors and target regions across splits.",
+      "Intracellular expression does not establish delivery efficiency.",
+      "Sequencing archive is not automatically a sensor-response training table."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "eukaryotic-toeholds-zhao2021"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "dart-vadar-2023",
+    "name": "DART VADAR autocatalytic RNA sensing",
+    "kind": "study",
+    "topics": [
+      "rna_sensors",
+      "adar_sensing",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "mRNA",
+      "synthetic RNA"
+    ],
+    "description": "ADAR-dependent RNA sensing study. Reporter output, editing measurements and sequencing specificity data are separate endpoints.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41467-023-36851-z",
+      "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA932010",
+      "https://github.com/joncchen/dart_vadar"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-023-36851-z"
+    ],
+    "accessions": [
+      "PRJNA932010"
+    ],
+    "organisms": [
+      "Homo sapiens",
+      "Mus musculus"
+    ],
+    "biological_context": "Human reporter assays and mouse C2C12 differentiation-state sensing; keep contexts separate.",
+    "assays": [
+      "reporter fluorescence",
+      "RNA editing quantification",
+      "amplicon sequencing",
+      "RNA-seq"
+    ],
+    "observation_unit": "Sensor/target/context condition; sequencing has a separate sample unit",
+    "labels": [
+      {
+        "name": "reporter output",
+        "meaning": "Protein reporter response to target RNA",
+        "label_type": "measured",
+        "unit": "source relative fluorescence",
+        "resolution": "construct"
+      },
+      {
+        "name": "fold response",
+        "meaning": "Source reporter signal relative to a matched control",
+        "label_type": "computed",
+        "unit": "fold ratio",
+        "resolution": "construct"
+      },
+      {
+        "name": "editing fraction",
+        "meaning": "A-to-I editing readout",
+        "label_type": "measured",
+        "unit": "fraction or percent; retain source scale",
+        "resolution": "position"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "mixed",
+      "data_urls": [
+        "https://www.nature.com/articles/s41467-023-36851-z",
+        "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA932010"
+      ],
+      "formats": [
+        "source data",
+        "supplementary information",
+        "SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-023-36851-z",
+          "supports": "Sensing context and available source material; original-data statement."
+        },
+        {
+          "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA932010&result=read_run&fields=study_accession,run_accession,scientific_name,sample_title,library_strategy&format=tsv",
+          "supports": "Live archive metadata checked; run presence/absence and strategies recorded in public evidence."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "ENA returned 48 human runs with AMPLICON and RNA-Seq strategies.",
+        "Paper supplies fold changes, editing rates and RT-qPCR calculations; raw FCS and some scripts are request-based.",
+        "DART VADAR is one named study/system, not separate DART and VADAR datasets."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "RNA-dependent intracellular expression in selected contexts; delivery and broad selectivity need separate evidence."
+    },
+    "integration_caveats": [
+      "Preserve trigger, ADAR context, normalization and negative control.",
+      "Group related sensors and target regions across splits.",
+      "Intracellular expression does not establish delivery efficiency.",
+      "Sequencing archive is not automatically a sensor-response training table."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "eukaryotic-toeholds-zhao2021"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "synthetic-mirna-switches-2015",
+    "name": "Synthetic miRNA switches for cell-population detection and purification",
+    "kind": "study",
+    "topics": [
+      "mirna_regulation",
+      "cell_selective_expression"
+    ],
+    "rna_scope": [
+      "synthetic mRNA"
+    ],
+    "description": "Primary miRNA-responsive synthetic-mRNA study across differentiated human populations.",
+    "source_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S1934590915001630"
+    ],
+    "paper_doi": [
+      "10.1016/j.stem.2015.04.005"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Human PSC-derived cardiomyocytes, endothelial cells, hepatocytes and insulin-producing cells.",
+    "assays": [
+      "fluorescent reporter flow cytometry",
+      "cell-population purity assessment"
+    ],
+    "observation_unit": "Reporter/cell-population comparison",
+    "labels": [
+      {
+        "name": "reporter response",
+        "meaning": "Expression conditioned on endogenous miRNA activity",
+        "label_type": "measured",
+        "unit": "source-normalized fluorescence",
+        "resolution": "construct"
+      },
+      {
+        "name": "population purity",
+        "meaning": "Fraction positive for source cell-identity marker",
+        "label_type": "measured",
+        "unit": "percent",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unknown",
+      "data_urls": [],
+      "formats": [],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S1934590915001630",
+          "supports": "Primary source supports resource or study identity and the described context."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Paper abstract and assay/result identity verified; no bulk table, accession or raw-data license established.",
+        "Purity and reporter intensity are separate endpoints."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Selected differentiated populations tested; broad tissue selectivity and delivery not established."
+    },
+    "integration_caveats": [
+      "Activity of endogenous miRNA is distinct from miRNA abundance.",
+      "Retain input population, marker, gating and controls."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "mir302-switch-2016",
+    "name": "miR-302 switch in human pluripotency states",
+    "kind": "study",
+    "topics": [
+      "mirna_regulation",
+      "cell_state_sensing"
+    ],
+    "rna_scope": [
+      "synthetic mRNA"
+    ],
+    "description": "MiRNA-dependent reporter discrimination across pluripotent and differentiated human states.",
+    "source_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/27608814/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5016789/"
+    ],
+    "paper_doi": [
+      "10.1038/srep32532"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Human iPSCs, differentiation and mixtures; HeLa and fibroblast controls in source figures.",
+    "assays": [
+      "flow cytometry",
+      "miRNA quantification"
+    ],
+    "observation_unit": "Construct by condition",
+    "labels": [
+      {
+        "name": "reporter fluorescence",
+        "meaning": "Response to endogenous miRNA activity",
+        "label_type": "measured",
+        "unit": "relative fluorescence",
+        "resolution": "construct"
+      },
+      {
+        "name": "classified population fraction",
+        "meaning": "Source assay fraction of classified cells",
+        "label_type": "measured",
+        "unit": "percent",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5016789/"
+      ],
+      "formats": [
+        "article",
+        "supplementary information"
+      ],
+      "license": "Article CC BY 4.0; separate raw-data terms unestablished",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27608814/",
+          "supports": "Primary source supports resource or study identity and the described context."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5016789/",
+          "supports": "Primary source supports resource or study identity and the described context."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Article metadata/license inspected; supplementary numerical schema and raw FCS not inspected."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Pluripotency-state discrimination; no general tissue-specificity inference."
+    },
+    "integration_caveats": [
+      "Retain spike-in prevalence and differentiation state.",
+      "Expression annotation cannot substitute for measured switch response."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "synthetic-mirna-switches-2015"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "rna-logic-matsuura2018",
+    "name": "Synthetic RNA-based logic computation in mammalian cells",
+    "kind": "study",
+    "topics": [
+      "mirna_regulation",
+      "rna_logic",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "synthetic mRNA"
+    ],
+    "description": "RNA-delivered miRNA/protein-responsive reporter logic; original relevant data are request-based.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41467-018-07181-2"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-018-07181-2"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Mammalian cell-line experiments including 293FT; input conditions differ by gate.",
+    "assays": [
+      "flow cytometry",
+      "reporter expression"
+    ],
+    "observation_unit": "Construct by condition",
+    "labels": [
+      {
+        "name": "ON/OFF fold change",
+        "meaning": "Reporter range under source input states",
+        "label_type": "computed",
+        "unit": "fold ratio",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "request",
+      "data_urls": [
+        "https://www.nature.com/articles/s41467-018-07181-2"
+      ],
+      "formats": [
+        "article",
+        "supplementary information"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-018-07181-2",
+          "supports": "Primary source supports resource or study identity and the described context."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Author request is the declared raw-data route.",
+        "2019 correction changes a reported value to 4.6; do not reuse original erroneous value.",
+        "No raw FCS inspected."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "Input logic does not automatically establish natural cell selectivity."
+    },
+    "integration_caveats": [
+      "Retain gate, perturbation and correction version.",
+      "Keep protein-responsive and miRNA-responsive input conditions distinct."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "synthetic-mirna-switches-2015"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "modified-mrna-switches-2020",
+    "name": "Modified-base effects on synthetic mRNA switches",
+    "kind": "study",
+    "topics": [
+      "mirna_regulation",
+      "chemical_modification",
+      "cell_context"
+    ],
+    "rna_scope": [
+      "synthetic mRNA"
+    ],
+    "description": "Measured chemistry comparison in miRNA- and protein-responsive reporter switches.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7102939/"
+    ],
+    "paper_doi": [
+      "10.1093/nar/gkaa070"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "293FT and selected heterogeneous/differentiating human contexts; mimics, endogenous miRNA and protein inputs differ.",
+    "assays": [
+      "flow cytometry",
+      "reporter fluorescence"
+    ],
+    "observation_unit": "Switch/chemistry/input/context condition",
+    "labels": [
+      {
+        "name": "reporter fold change",
+        "meaning": "Source ON versus OFF response ratio",
+        "label_type": "computed",
+        "unit": "fold ratio",
+        "resolution": "construct"
+      },
+      {
+        "name": "reporter expression",
+        "meaning": "Protein output under source gating",
+        "label_type": "measured",
+        "unit": "relative fluorescence",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7102939/"
+      ],
+      "formats": [
+        "article",
+        "supplementary information"
+      ],
+      "license": "Article CC BY 4.0; raw-data terms not separately established",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7102939/",
+          "supports": "Primary source supports resource or study identity and the described context."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Supplementary file presence verified; numerical schema and raw FCS not inspected.",
+        "Chemistry is an intervention label, not a natural-modification inference."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "Chemistry changes response; retain source-specific cell comparisons."
+    },
+    "integration_caveats": [
+      "Separate mimic, endogenous-miRNA and protein-input conditions.",
+      "One-context chemistry benefit does not establish multi-cell selectivity."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "synthetic-mirna-switches-2015",
+      "rna-logic-matsuura2018"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "split-rna-switch-2025",
+    "name": "Split RNA switch cell-context reporter measurements",
+    "kind": "study",
+    "topics": [
+      "mirna_regulation",
+      "rna_logic",
+      "cell_selective_expression"
+    ],
+    "rna_scope": [
+      "synthetic mRNA"
+    ],
+    "description": "Multi-input switch study with source-data-supported reporter and context comparisons.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41467-025-60392-2"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-025-60392-2"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Human cell lines and hiPSCs; miRNA/protein conditions vary by figure.",
+    "assays": [
+      "flow cytometry",
+      "reporter fluorescence"
+    ],
+    "observation_unit": "Construct by condition",
+    "labels": [
+      {
+        "name": "ON/OFF ratio",
+        "meaning": "Reporter range under source input states",
+        "label_type": "computed",
+        "unit": "fold ratio",
+        "resolution": "construct"
+      },
+      {
+        "name": "reporter-positive fraction",
+        "meaning": "Population-level gated reporter response",
+        "label_type": "measured",
+        "unit": "percent",
+        "resolution": "sample"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.nature.com/articles/s41467-025-60392-2"
+      ],
+      "formats": [
+        "source data",
+        "supplementary information"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.nature.com/articles/s41467-025-60392-2",
+          "supports": "Primary source supports resource or study identity and the described context."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Availability statement checked; numerical source tables not inspected.",
+        "Cell-state and other payload outcomes are not one uniform expression label."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "mechanistic_sensor",
+      "notes": "Selected cell-context comparisons; no broad expression panel established."
+    },
+    "integration_caveats": [
+      "Retain inputs, mixtures, gating and controls.",
+      "Intracellular behavior does not establish delivery tropism."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "synthetic-mirna-switches-2015",
+      "rna-logic-matsuura2018"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "parade-natural-utr-mpra",
+    "name": "PARADE natural UTR MPRA / Library 1",
+    "kind": "study",
+    "topics": [
+      "cell_selective_expression",
+      "utr_regulation",
+      "multi_cell_mpra"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Matched multi-cell reporter data underlying PARADE. Public code defines labels; complete measurement release remains unresolved.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11722239/",
+      "https://github.com/autosome-ru/parade"
+    ],
+    "paper_doi": [
+      "10.1101/2024.12.31.630783"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Human MDA-MB-231, HepG2, Jurkat, SW480, PA-1 and NALM6; matched UTR panels across six contexts.",
+    "assays": [
+      "four-bin fluorescence MPRA"
+    ],
+    "observation_unit": "UTR fragment by cell line and replicate/fold",
+    "labels": [
+      {
+        "name": "1; 2; 3; 4",
+        "meaning": "Source four-bin reporter counts",
+        "label_type": "measured",
+        "unit": "counts",
+        "resolution": "construct"
+      },
+      {
+        "name": "mass_center",
+        "meaning": "Count-weighted reporter-bin center from code",
+        "label_type": "computed",
+        "unit": "source bin scale",
+        "resolution": "construct"
+      },
+      {
+        "name": "diff",
+        "meaning": "Cell-context mass_center minus sequence mean across contexts",
+        "label_type": "computed",
+        "unit": "source bin-scale difference",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": 60000,
+      "unit": "natural UTR fragments assayed",
+      "basis": "Preprint total, not independently counted quality-filtered rows",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unavailable",
+      "data_urls": [],
+      "formats": [
+        "CSV schema referenced in notebooks"
+      ],
+      "license": "Code MIT; preprint CC BY-NC-ND 4.0; measurement-data license unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11722239/",
+          "supports": "Natural library, matched cell panel, preprint status."
+        },
+        {
+          "url": "https://github.com/autosome-ru/parade/blob/master/predictor/regression_multiple/preprocess_utr3.ipynb",
+          "supports": "Bin-count, mass_center and diff definitions."
+        },
+        {
+          "url": "https://github.com/autosome-ru/parade/blob/master/README.md",
+          "supports": "Associated Zenodo data named without URL."
+        },
+        {
+          "url": "https://github.com/autosome-ru/parade/issues/2",
+          "supports": "Archive-link issue is open with zero comments at inspection."
+        }
+      ],
+      "files_inspected": [
+        "https://github.com/autosome-ru/parade/blob/master/predictor/regression_multiple/preprocess_utr3.ipynb"
+      ],
+      "limitations": [
+        "Complete natural-library measurement CSV not found in current tree.",
+        "GEO deposition declared without accession; Zenodo named without a link.",
+        "Unavailability refers to the located complete table, not proof no release exists elsewhere."
+      ]
+    },
+    "ml_tasks": [
+      "matched multi-cell reporter prediction",
+      "cell-context contrasts"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Direct matched assay design, with unresolved training-table access."
+    },
+    "integration_caveats": [
+      "Cell-line specificity is distinct from delivery tropism.",
+      "Group identical UTRs, parent fragments and replicates in splits.",
+      "Reporter context and 5-prime/3-prime task identity must remain visible."
+    ],
+    "related_model_ids": [
+      "P029"
+    ],
+    "related_resource_ids": [
+      "parade-generated-utr-mpra",
+      "parade-stability-assay"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "parade-generated-utr-mpra",
+    "name": "PARADE generated UTR validation / Library 2",
+    "kind": "study",
+    "topics": [
+      "cell_selective_expression",
+      "utr_regulation",
+      "generated_sequence_validation"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Measured generated/control UTR validation across the same panel; distinct from predictions.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11722239/",
+      "https://github.com/autosome-ru/parade/tree/master/predictor/library2"
+    ],
+    "paper_doi": [
+      "10.1101/2024.12.31.630783"
+    ],
+    "accessions": [],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Human MDA-MB-231, HepG2, Jurkat, SW480, PA-1 and NALM6; matched UTR panels across six contexts.",
+    "assays": [
+      "four-bin fluorescence MPRA"
+    ],
+    "observation_unit": "Generated/control fragment by cell line",
+    "labels": [
+      {
+        "name": "1; 2; 3; 4",
+        "meaning": "Source four-bin reporter counts",
+        "label_type": "measured",
+        "unit": "counts",
+        "resolution": "construct"
+      },
+      {
+        "name": "mass_center",
+        "meaning": "Count-weighted reporter-bin center from code",
+        "label_type": "computed",
+        "unit": "source bin scale",
+        "resolution": "construct"
+      },
+      {
+        "name": "diff",
+        "meaning": "Cell-context mass_center minus sequence mean across contexts",
+        "label_type": "computed",
+        "unit": "source bin-scale difference",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": 15849,
+      "unit": "UTRs passing reported QC",
+      "basis": "Derived sum of preprint counts 10174 (5-prime) and 5675 (3-prime); not recounted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unavailable",
+      "data_urls": [],
+      "formats": [
+        "CSV schema referenced in notebooks"
+      ],
+      "license": "Code MIT; preprint CC BY-NC-ND 4.0; measurement-data license unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11722239/",
+          "supports": "Separate validation library and reported QC counts."
+        },
+        {
+          "url": "https://github.com/autosome-ru/parade/blob/master/predictor/library2/preprocess_deltas_utr3.ipynb",
+          "supports": "Library-specific counts and activity/contrast processing."
+        },
+        {
+          "url": "https://github.com/autosome-ru/parade/issues/2",
+          "supports": "Unresolved measurement-archive link."
+        }
+      ],
+      "files_inspected": [
+        "https://github.com/autosome-ru/parade/blob/master/predictor/library2/preprocess_deltas_utr3.ipynb"
+      ],
+      "limitations": [
+        "Complete validation measurement CSV not found.",
+        "Code removes c15; use final panel/processing when interpreting contexts.",
+        "Preprint rounds total to 15800; precise QC sum differs."
+      ]
+    },
+    "ml_tasks": [
+      "distribution-shift validation of cell-context predictions"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Measured matched panel; complete-table access unresolved."
+    },
+    "integration_caveats": [
+      "Cell-line specificity is distinct from delivery tropism.",
+      "Group identical UTRs, parent fragments and replicates in splits.",
+      "Reporter context and 5-prime/3-prime task identity must remain visible.",
+      "Retain generated families and reused controls to prevent parent/control leakage."
+    ],
+    "related_model_ids": [
+      "P029"
+    ],
+    "related_resource_ids": [
+      "parade-natural-utr-mpra",
+      "parade-stability-assay"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "parade-stability-assay",
+    "name": "PARADE 3-prime UTR RNA/gDNA assay",
+    "kind": "study",
+    "topics": [
+      "utr_regulation",
+      "rna_abundance"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Separate abundance/stability-proxy task referenced by PARADE; not a time-course half-life label.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11722239/",
+      "https://github.com/autosome-ru/parade/tree/master/predictor/regression_stability"
+    ],
+    "paper_doi": [
+      "10.1101/2024.12.31.630783"
+    ],
+    "accessions": [],
+    "organisms": [],
+    "biological_context": "Cellular 3-prime UTR assay; complete sample/cell metadata not recovered.",
+    "assays": [
+      "RNA/genomic-DNA-normalized reporter assay"
+    ],
+    "observation_unit": "3-prime UTR construct",
+    "labels": [
+      {
+        "name": "RNA/gDNA",
+        "meaning": "Normalized RNA abundance relative to genomic DNA representation",
+        "label_type": "computed",
+        "unit": "ratio",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "unavailable",
+      "data_urls": [],
+      "formats": [
+        "CSV schema referenced in code"
+      ],
+      "license": "Code MIT; measurement-data license unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "schema",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://github.com/autosome-ru/parade/blob/master/predictor/model/stability_data.py",
+          "supports": "Default target field RNA/gDNA."
+        },
+        {
+          "url": "https://github.com/autosome-ru/parade/blob/master/README.md",
+          "supports": "Separate stability task and unlinked archive."
+        }
+      ],
+      "files_inspected": [
+        "https://github.com/autosome-ru/parade/blob/master/predictor/model/stability_data.py"
+      ],
+      "limitations": [
+        "Full table and normalization not validated; cell identity not assumed.",
+        "Abundance proxy is not measured half-life or six-cell specificity."
+      ]
+    },
+    "ml_tasks": [],
+    "cell_specificity": {
+      "evidence": "context_only",
+      "notes": "Matched specificity not established for this separate task."
+    },
+    "integration_caveats": [
+      "Separate RNA/gDNA from protein output and decay constants."
+    ],
+    "related_model_ids": [
+      "P029"
+    ],
+    "related_resource_ids": [
+      "parade-natural-utr-mpra"
+    ],
+    "priority": "medium",
+    "status": "curated"
+  },
+  {
+    "id": "griesemer2021-mprau",
+    "name": "Griesemer MPRAu human 3-prime UTR variant panel",
+    "kind": "study",
+    "topics": [
+      "utr_regulation",
+      "cell_context",
+      "multi_cell_mpra"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Matched six-cell UTR-variant reporter study with released ENCODE functional-characterization experiments.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8487971/",
+      "https://www.encodeproject.org/documents/3f7d5100-ebff-4829-8f6a-c36973d436ee/@@download/attachment/MPRAu_Methods.pdf",
+      "https://www.encodeproject.org/ENCSR481QRH/",
+      "https://www.encodeproject.org/ENCSR812PWW/",
+      "https://www.encodeproject.org/ENCSR147BIK/",
+      "https://www.encodeproject.org/ENCSR885ULM/",
+      "https://www.encodeproject.org/ENCSR181PJG/",
+      "https://www.encodeproject.org/ENCSR616NNF/"
+    ],
+    "paper_doi": [
+      "10.1016/j.cell.2021.08.025"
+    ],
+    "accessions": [
+      "ENCSR481QRH",
+      "ENCSR812PWW",
+      "ENCSR147BIK",
+      "ENCSR885ULM",
+      "ENCSR181PJG",
+      "ENCSR616NNF"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "HEK293, HepG2, GM12878, SK-N-SH, K562 and primary mammary epithelial cells.",
+    "assays": [
+      "MPRAu RNA/DNA reporter assay"
+    ],
+    "observation_unit": "UTR allele/background by cell line and replicate",
+    "labels": [
+      {
+        "name": "RNA/DNA relative expression",
+        "meaning": "Normalized reporter RNA abundance relative to DNA",
+        "label_type": "computed",
+        "unit": "ratio",
+        "resolution": "construct"
+      },
+      {
+        "name": "allelic skew",
+        "meaning": "Reference-versus-alternate expression difference",
+        "label_type": "computed",
+        "unit": "source log2 fold-change",
+        "resolution": "construct"
+      },
+      {
+        "name": "significance",
+        "meaning": "Source statistical and multiple-testing results",
+        "label_type": "computed",
+        "unit": "p-value / adjusted p-value",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": null,
+      "unit": "unknown",
+      "basis": "not independently counted",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://www.encodeproject.org/ENCSR481QRH/",
+        "https://www.encodeproject.org/ENCSR812PWW/",
+        "https://www.encodeproject.org/ENCSR147BIK/",
+        "https://www.encodeproject.org/ENCSR885ULM/",
+        "https://www.encodeproject.org/ENCSR181PJG/",
+        "https://www.encodeproject.org/ENCSR616NNF/"
+      ],
+      "formats": [
+        "ENCODE linked raw and processed files"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "metadata",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://www.encodeproject.org/ENCSR481QRH/?format=json",
+          "supports": "Released MPRA experiment with matching biosample."
+        },
+        {
+          "url": "https://www.encodeproject.org/ENCSR812PWW/?format=json",
+          "supports": "Released MPRA experiment with matching biosample."
+        },
+        {
+          "url": "https://www.encodeproject.org/ENCSR147BIK/?format=json",
+          "supports": "Released MPRA experiment with matching biosample."
+        },
+        {
+          "url": "https://www.encodeproject.org/ENCSR885ULM/?format=json",
+          "supports": "Released MPRA experiment with matching biosample."
+        },
+        {
+          "url": "https://www.encodeproject.org/ENCSR181PJG/?format=json",
+          "supports": "Released MPRA experiment with matching biosample."
+        },
+        {
+          "url": "https://www.encodeproject.org/ENCSR616NNF/?format=json",
+          "supports": "Released MPRA experiment with matching biosample."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8487971/",
+          "supports": "Six-cell assay and allele interpretation."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Archive metadata inspected; linked quantitative tables not inspected.",
+        "Source reference-coding/indexing issues require QC/background flags."
+      ]
+    },
+    "ml_tasks": [
+      "cell-dependent UTR variant effects",
+      "cross-context allele comparison"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Direct matched reporter RNA-abundance effects; not absolute protein output."
+    },
+    "integration_caveats": [
+      "Group alleles, alternate backgrounds and tiling mutants in the same split.",
+      "Cryptic reporter splicing can affect abundance; this is not automatically decay rate.",
+      "Preserve cell identity and normalization."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "maputr-2024"
+    ],
+    "priority": "high",
+    "status": "curated"
+  },
+  {
+    "id": "maputr-2024",
+    "name": "MapUTR rare and cancer 3-prime UTR variant screen",
+    "kind": "study",
+    "topics": [
+      "utr_regulation",
+      "cell_context",
+      "variant_effects"
+    ],
+    "rna_scope": [
+      "mRNA"
+    ],
+    "description": "Two-cell reporter study with processed public results and raw GEO data; external patient/genotype resources have separate terms.",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11026479/",
+      "https://github.com/gxiaolab/mapUTR",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232573"
+    ],
+    "paper_doi": [
+      "10.1038/s41467-024-46795-7"
+    ],
+    "accessions": [
+      "GSE232573"
+    ],
+    "organisms": [
+      "Homo sapiens"
+    ],
+    "biological_context": "Human HEK293 and HeLa; rare and cancer-associated UTR variants.",
+    "assays": [
+      "MapUTR RNA/DNA reporter assay"
+    ],
+    "observation_unit": "Reference/alternate pair by cell line",
+    "labels": [
+      {
+        "name": "activity score",
+        "meaning": "Source reporter abundance effect",
+        "label_type": "computed",
+        "unit": "source-normalized score",
+        "resolution": "construct"
+      },
+      {
+        "name": "variant effect",
+        "meaning": "Allelic abundance effect and significance",
+        "label_type": "computed",
+        "unit": "source effect scale / p-value",
+        "resolution": "construct"
+      }
+    ],
+    "scale": {
+      "value": 17301,
+      "unit": "rare variants in primary screen",
+      "basis": "Paper-reported subset; excludes separate somatic/follow-up collections",
+      "as_of": "2026-11-04"
+    },
+    "access": {
+      "level": "open",
+      "data_urls": [
+        "https://github.com/gxiaolab/mapUTR",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232573"
+      ],
+      "formats": [
+        "processed repository data",
+        "GEO/SRA reads"
+      ],
+      "license": "unknown",
+      "redistribution": "not established"
+    },
+    "verification": {
+      "level": "paper",
+      "checked_on": "2026-11-04",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11026479/",
+          "supports": "Two-cell assay; rare screen, processed repository and raw GSE232573."
+        }
+      ],
+      "files_inspected": [],
+      "limitations": [
+        "Processed headers and GEO samples not inspected.",
+        "Primary assay GSE232573 differs from follow-up prime-editing GSE232570.",
+        "Controlled external cancer/genotype data not accessed."
+      ]
+    },
+    "ml_tasks": [
+      "cell-dependent allelic regulation"
+    ],
+    "cell_specificity": {
+      "evidence": "direct_multi_context",
+      "notes": "Two-cell relative abundance effects, not broad tissue selectivity."
+    },
+    "integration_caveats": [
+      "Retain rare/somatic libraries, allele pairing, QC and cell identity.",
+      "Reporter splicing and normalization may influence output.",
+      "Public reporter tables do not authorize controlled patient-data redistribution."
+    ],
+    "related_model_ids": [],
+    "related_resource_ids": [
+      "griesemer2021-mprau"
+    ],
+    "priority": "high",
+    "status": "curated"
+  }
+]

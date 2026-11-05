@@ -1,0 +1,23 @@
+name: Validate registry
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Rebuild derived exports
+        run: python tools/build_registry.py
+      - name: Validate source metadata and public exports
+        run: python tools/validate_registry.py
+      - name: Check offline index behavior
+        run: node tools/check_index.js
+      - name: Ensure exports are synchronized
+        run: git diff --exit-code
