@@ -1,0 +1,13 @@
+{
+  "name": "ENCFF356YQN.tsv",
+  "source_url": "https://www.encodeproject.org/files/ENCFF356YQN/@@download/ENCFF356YQN.tsv",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "binary/octet-stream",
+  "content_length": "109",
+  "bytes_saved": 109,
+  "sha256": "b8b4b207aa19406f54e1999717b00449f8c8ae12f47a152763c3caff36c31ac2",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "ENCFF356YQN.tsv"
+}

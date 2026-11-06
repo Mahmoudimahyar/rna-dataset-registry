@@ -1,0 +1,13 @@
+{
+  "name": "encode_eclip.json",
+  "source_url": "https://www.encodeproject.org/search/?type=File&assay_title=eCLIP&file_format=bed&status=released&format=json&limit=5",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "application/json",
+  "content_length": null,
+  "bytes_saved": 55912,
+  "sha256": "0f4ed23a5b401f3bd6e3b94e6b5ee26d8b9fa86b29ebedc81cdfb022f84cb93d",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "encode_eclip.json"
+}

@@ -32,9 +32,13 @@ Reprocessed Ribo-seq and matched RNA-seq resources, ORF annotations and pausing 
 
 ## Verification and remaining gaps
 
-Checked: 2026-11-04. Actual files/headers inspected: not established.
+Checked: 2026-11-05. Actual files/headers inspected: not established.
 
 - Metadata/schema review is not inspection of every underlying dataset file.
+- Download documentation is not data-file verification
+- Keep prior metadata evidence level; do not label training-ready
+- Official page describes unmatched samples and missing TE values; matched RNA-seq must be checked
+- Bounded file audit: evidence/file-audit-20261105/translation/translation_file_audit.json; selected coverage only.
 
 - Matched RNA-seq exists for a subset, not every Ribo-seq sample.
 - Preserve P-site/periodicity quality, source studies and TE definition; TE is not mean ribosome load.
@@ -48,5 +52,13 @@ evidence: context_only; notes: Context annotation can support stratified analysi
 - https://sysbio.gzzoc.com/rpfdb/index.html
 
 - url: https://sysbio.gzzoc.com/rpfdb/index.html; supports: Resource identity, available label types and access route described in primary source documentation
+
+## Selected-file audit
+
+Potential endogenous translation-efficiency source; current file contents not verified
+
+Selected payload inspected: False. Coverage: Selected files/API responses, not all source holdings.
+
+[Inspection evidence](../evidence/file-audit-20261105/translation/translation_file_audit.json). [Combination assessment](../docs/cell-specific-model-feasibility.md).
 
 Related models: not established. Related resources: not established.

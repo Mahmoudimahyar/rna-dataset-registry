@@ -1,37 +1,48 @@
 {
-  "release": "0.1.0",
+  "release": "0.2.0",
   "built_on": "2026-11-05",
   "research_window": [
     "2026-11-04",
     "2026-11-05"
   ],
-  "resource_records": 209,
-  "curated_records": 122,
-  "candidate_records": 87,
+  "resource_records": 220,
+  "curated_records": 132,
+  "candidate_records": 88,
   "blocked_records": 0,
   "model_family_records": 52,
   "repository_urls_checked": 52,
   "repositories_reachable": 51,
   "readmes_scanned": 49,
   "kind_counts": {
-    "study": 59,
+    "study": 61,
     "benchmark": 8,
-    "derived_resource": 8,
-    "reference": 11,
-    "database": 31,
+    "derived_resource": 9,
+    "reference": 13,
+    "database": 36,
     "archive": 4,
     "model_release": 1
   },
   "verification_counts": {
-    "metadata": 76,
-    "file_sample": 6,
-    "schema": 14,
-    "paper": 26
+    "metadata": 71,
+    "file_sample": 24,
+    "schema": 13,
+    "paper": 24
   },
   "limits": [
     "Record counts mix database/reference/study/benchmark levels and are not counts of unique independent datasets or biological observations.",
     "Curated means source-backed metadata, with verification level stated. It does not mean full data-file validation.",
-    "Imported model assets remain candidates until reconciled.",
+    "Imported assets remain candidates unless explicitly reconciled with inspected original data.",
     "Neither global exhaustiveness nor world-largest status is established."
-  ]
+  ],
+  "bounded_file_audit": {
+    "resources_investigated": 20,
+    "selected_data_or_reference_payload_inspected": 16,
+    "numeric_data_access_gaps": [
+      "rpfdb3",
+      "transcirc",
+      "cellxgene-census",
+      "mirtarbase"
+    ],
+    "coverage_limit": "Selected files/queries only. Reference and index records are not experimental training observations; T-psi-C includes independently audited linked studies."
+  }
 }

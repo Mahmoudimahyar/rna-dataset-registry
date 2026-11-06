@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-11-05",
+  "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13591282/",
+  "full_text_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13591282/fullTextXML",
+  "supplementary_files_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13591282/supplementaryFiles",
+  "supplement_download": {
+    "http_status": 200,
+    "archive_bytes": 3001813,
+    "archive_sha256": "c80d695c1f74c0ea334fb76a588b2d77394fbe236ac765ec695abdce63109869",
+    "pdf_member": "si-contite_final_bbag518.pdf",
+    "pdf_bytes": 3102371,
+    "pdf_sha256": "85524f8e58866b26c90aa2247148fb7860611c41ea8132c0fc6ff1dab4a13d0a",
+    "pdf_pages": 17,
+    "scope": "Full ZIP and PDF downloaded outside repository; text and hyperlink annotations inspected; source document not redistributed"
+  },
+  "supplement_page3_dataset_sources": {
+    "human_genes_claimed": 11798,
+    "human_contexts_claimed": 96,
+    "mouse_genes_claimed": 11575,
+    "mouse_contexts_claimed": 46,
+    "provenance": "Both species subsets are explicitly described as processed RiboNN atlases, not independent external measurements"
+  },
+  "supplement_page4_table_s1": {
+    "scale_claims_repeat_page3": true,
+    "human_link_extracted_from_pdf_annotation": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-025-02712-x/MediaObjects/41587_2025_2712_MOESM3_ESM.xlsx",
+    "mouse_link_extracted_from_pdf_annotation": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-025-02712-x/MediaObjects/41587_2025_2712_MOESM4_ESM.xlsx",
+    "link_verification": "Actual PDF /Annots /A /URI objects parsed with pypdf, rather than inferring destinations from printed MOESM labels"
+  },
+  "human_source_file_inspection_by_coordinator": {
+    "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-025-02712-x/MediaObjects/41587_2025_2712_MOESM3_ESM.xlsx",
+    "bytes": 23027441,
+    "sha256": "5a9dd751cb8ac96dbe364e249561cb54d4912c4170e7d659b9d465bd008e4c47",
+    "human_data_rows": 10348,
+    "total_columns": 88,
+    "te_context_columns": 78,
+    "numeric_te_values": 716913,
+    "other_columns": "Eight metadata columns, fold and mean_te",
+    "inspection_attribution": "These workbook counts were inspected and communicated by the coordinator; supplementary PDF and exact source-link verification were performed by this reviewer"
+  },
+  "verdict": "The currently retrieved human source file directly linked by ContiTE does not reproduce its reported11798genes/96contexts scale. Exact preprocessing, source version or count definition remains unreconciled.",
+  "explicit_non_claims": [
+    "This discrepancy is not evidence that ContiTE used predicted labels",
+    "This discrepancy is not evidence that ContiTE used the RiboNN GitHub example FAKE TEs",
+    "No fabrication or misconduct conclusion is supported",
+    "ContiTE is a reuse of the RiboNN resource rather than an independent validation cohort"
+  ],
+  "integration_action": "Use recounted actual publisher-file dimensions for the proposed benchmark. Preserve ContiTE claimed dimensions separately until reproducible preprocessing or a matching version is found."
+}

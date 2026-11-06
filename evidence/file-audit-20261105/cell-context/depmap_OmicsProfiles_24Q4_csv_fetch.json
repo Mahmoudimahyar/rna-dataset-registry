@@ -1,0 +1,13 @@
+{
+  "name": "depmap_OmicsProfiles_24Q4.csv",
+  "source_url": "https://ndownloader.figshare.com/files/51065723",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "text/csv",
+  "content_length": "254733",
+  "bytes_saved": 254733,
+  "sha256": "0bb19ee57935d4b213d378a4db9caacaa1db7318a63ae81485d84f91c20a3bf2",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "depmap_OmicsProfiles_24Q4.csv"
+}

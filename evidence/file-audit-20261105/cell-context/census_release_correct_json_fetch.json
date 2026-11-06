@@ -1,0 +1,13 @@
+{
+  "name": "census_release_correct.json",
+  "source_url": "https://census.cellxgene.cziscience.com/cellxgene-census/v1/release.json",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "application/json",
+  "content_length": null,
+  "bytes_saved": 5248,
+  "sha256": "409739c0a0d385b16b3b9dd1b6abdc68a59232dc23d6b1d0b4ec57401fa3f191",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "census_release_correct.json"
+}

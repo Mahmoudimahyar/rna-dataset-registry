@@ -1,0 +1,13 @@
+{
+  "name": "ENCFF060HYJ.tsv",
+  "source_url": "https://www.encodeproject.org/files/ENCFF060HYJ/@@download/ENCFF060HYJ.tsv",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "binary/octet-stream",
+  "content_length": "31253921",
+  "bytes_saved": 31253921,
+  "sha256": "f527dac4975ea839a3d52a5f382e27ae8b69ed9c9d9ae665edd8374989c8efd2",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "ENCFF060HYJ.tsv"
+}

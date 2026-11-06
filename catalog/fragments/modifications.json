@@ -55,7 +55,8 @@
     "access": {
       "level": "open",
       "data_urls": [
-        "https://genesilico.pl/modomics/download"
+        "https://genesilico.pl/modomics/download",
+        "https://genesilico.pl/modomics/download/modified_positions/"
       ],
       "formats": [
         "MOL2",
@@ -68,8 +69,8 @@
       "redistribution": "not established"
     },
     "verification": {
-      "level": "metadata",
-      "checked_on": "2026-11-04",
+      "level": "file_sample",
+      "checked_on": "2026-11-05",
       "evidence": [
         {
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12807697/",
@@ -80,10 +81,15 @@
           "supports": "Current download page lists chemistry, ontology and modified-position exports."
         }
       ],
-      "files_inspected": [],
+      "files_inspected": [
+        "https://genesilico.pl/modomics/download/modified_positions/"
+      ],
       "limitations": [
-        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
-        "Dataset license was not established from the download page; paper states free research access."
+        "Dataset license was not established from the download page; paper states free research access.",
+        "Audited three legacy .mods files within one download archive, not every current MODOMICS endpoint",
+        "No cell-line or protein-output fields in inspected tables",
+        "Reference positions do not imply modification stoichiometry or actual presence in a new synthetic RNA",
+        "Bounded file audit: evidence/file-audit-20261105/modification-trna/audit.json; selected coverage only."
       ]
     },
     "ml_tasks": [
@@ -104,7 +110,14 @@
       "sci-modom"
     ],
     "priority": "high",
-    "status": "curated"
+    "status": "curated",
+    "file_audit_20261105": {
+      "selected_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/modification-trna/audit.json",
+      "integration_role": "Use as chemical/reference vocabulary and site annotation only; cannot join by cell to predict output.",
+      "scope": "Selected files/API responses, not all source holdings"
+    }
   },
   {
     "id": "rmbase-v3",
@@ -279,7 +292,10 @@
     "access": {
       "level": "open",
       "data_urls": [
-        "https://rnamd.org/m6a/help.php"
+        "https://rnamd.org/m6a/help.php",
+        "https://rnamd.org/m6a/download/high/hg38/Condition_hg38.txt.gz",
+        "https://rnamd.org/m6a/download/high/hg38/hg38_CL_Tech.txt.gz",
+        "https://www.rnamd.org/m6a/apiHighResolution.php?species=HomoSapiens&gene=EIF4G2"
       ],
       "formats": [
         "CSV (documented DMR exports)"
@@ -288,8 +304,8 @@
       "redistribution": "not established"
     },
     "verification": {
-      "level": "metadata",
-      "checked_on": "2026-11-04",
+      "level": "file_sample",
+      "checked_on": "2026-11-05",
       "evidence": [
         {
           "url": "https://academic.oup.com/nar/article/52/D1/D194/7243455",
@@ -300,11 +316,19 @@
           "supports": "Current help separates sites, enriched regions, quantitative contexts, single-cell modules and CSV differential-region export."
         }
       ],
-      "files_inspected": [],
+      "files_inspected": [
+        "https://rnamd.org/m6a/download/high/hg38/Condition_hg38.txt.gz",
+        "https://rnamd.org/m6a/download/high/hg38/hg38_CL_Tech.txt.gz",
+        "https://www.rnamd.org/m6a/apiHighResolution.php?species=HomoSapiens&gene=EIF4G2"
+      ],
       "limitations": [
-        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
         "Help page gives inconsistent MeRIP sample totals in different sections; no single exact scale is asserted.",
-        "No downloadable profile was opened."
+        "843678 support rows refer to427760 unique sites; do not treat support rows as independent modified positions",
+        "High-resolution support and bulk quantification have different assay interpretations",
+        "Quantification file read as bounded compressed prefix only; no full-file count or checksum claimed",
+        "No full measured synthetic-RNA modification-to-protein output matrix",
+        "Reported logFC values must not be interpreted as calibrated occupancy fractions",
+        "Bounded file audit: evidence/file-audit-20261105/modification-trna/audit.json; selected coverage only."
       ]
     },
     "ml_tasks": [
@@ -326,7 +350,14 @@
       "m5c-atlas"
     ],
     "priority": "high",
-    "status": "curated"
+    "status": "curated",
+    "file_audit_20261105": {
+      "selected_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/modification-trna/audit.json",
+      "integration_role": "Useful endogenous annotation and exploratory context evidence after genome/condition reconciliation; cannot mark the corresponding position as modified in an engineered reporter.",
+      "scope": "Selected files/API responses, not all source holdings"
+    }
   },
   {
     "id": "m6a2target",
@@ -1407,7 +1438,9 @@
       "level": "open",
       "data_urls": [
         "https://scimodom.dieterichlab.org/",
-        "https://dieterich-lab.github.io/scimodom/api.html"
+        "https://dieterich-lab.github.io/scimodom/api.html",
+        "https://scimodom.dieterichlab.org/api/v0/dataset/list_all",
+        "https://scimodom.dieterichlab.org/api/v0/transfer/dataset/fhx8RaDLaBC3"
       ],
       "formats": [
         "bedRMod",
@@ -1417,8 +1450,8 @@
       "redistribution": "not established"
     },
     "verification": {
-      "level": "schema",
-      "checked_on": "2026-11-04",
+      "level": "file_sample",
+      "checked_on": "2026-11-05",
       "evidence": [
         {
           "url": "https://scimodom.dieterichlab.org/",
@@ -1433,11 +1466,17 @@
           "supports": "Schema documentation specifies headers, coverage/frequency and 0-based half-open coordinates."
         }
       ],
-      "files_inspected": [],
+      "files_inspected": [
+        "https://scimodom.dieterichlab.org/api/v0/dataset/list_all",
+        "https://scimodom.dieterichlab.org/api/v0/transfer/dataset/fhx8RaDLaBC3"
+      ],
       "limitations": [
-        "No biological data file was inspected; this record establishes resource metadata and documented endpoints only.",
-        "Schema documentation was inspected, not an exported dataset.",
-        "Source-code AGPL licensing was identified; it is not assumed to govern all contributed data."
+        "Source-code AGPL licensing was identified; it is not assumed to govern all contributed data.",
+        "One HEK293T BID-seq pseudouridine dataset audited; no database-wide numerical validation",
+        "Dataset title says three replicates, but exported file has one record per site without replicate columns",
+        "Current docs describe newer /datasets routes that return404 on this deployed site; legacy routes discovered from its own public application work",
+        "Cross-study cell identity does not establish matching culture, dose, time or intracellular RNA modification state",
+        "Bounded file audit: evidence/file-audit-20261105/modification-trna/audit.json; selected coverage only."
       ]
     },
     "ml_tasks": [
@@ -1459,7 +1498,14 @@
       "modomics"
     ],
     "priority": "high",
-    "status": "curated"
+    "status": "curated",
+    "file_audit_20261105": {
+      "selected_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/modification-trna/audit.json",
+      "integration_role": "Can annotate endogenous sequence/site context or support modification-assay analyses. Not a direct label or measured modification state for delivered synthetic RNA.",
+      "scope": "Selected files/API responses, not all source holdings"
+    }
   },
   {
     "id": "rmpore",

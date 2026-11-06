@@ -1,0 +1,10 @@
+{
+  "name": "hpa_rna_celline.tsv.zip",
+  "source_url": "https://www.proteinatlas.org/download/rna_celline.tsv.zip",
+  "checked_on": "2026-11-05",
+  "complete": false,
+  "status": 404,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length": "19386",
+  "error": "404 Client Error: Not Found for url: https://www.proteinatlas.org/download/rna_celline.tsv.zip"
+}

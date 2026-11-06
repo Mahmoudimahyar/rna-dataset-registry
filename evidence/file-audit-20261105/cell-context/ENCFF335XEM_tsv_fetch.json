@@ -1,0 +1,13 @@
+{
+  "name": "ENCFF335XEM.tsv",
+  "source_url": "https://www.encodeproject.org/files/ENCFF335XEM/@@download/ENCFF335XEM.tsv",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "text/plain",
+  "content_length": "114714",
+  "bytes_saved": 114714,
+  "sha256": "8d7fcdbab1ab0d0390482dcd07d3898ae8c70fea576c8e1a03a5bbc0b9cb1b59",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "ENCFF335XEM.tsv"
+}

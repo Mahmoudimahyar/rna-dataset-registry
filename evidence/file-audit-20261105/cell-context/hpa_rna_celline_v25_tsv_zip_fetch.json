@@ -1,0 +1,13 @@
+{
+  "name": "hpa_rna_celline_v25.tsv.zip",
+  "source_url": "https://www.proteinatlas.org/download/tsv/rna_celline.tsv.zip",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "application/zip",
+  "content_length": "205861141",
+  "bytes_saved": 205861141,
+  "sha256": "e5b11779308c2720cfe89d9cb19932ad4c0c3fea0fa37e8c61a14d501995852a",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "hpa_rna_celline_v25.tsv.zip"
+}

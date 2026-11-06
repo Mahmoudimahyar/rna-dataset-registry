@@ -1,0 +1,200 @@
+{
+  "source_url": "https://api.figshare.com/v2/articles/27993248",
+  "release": "DepMap Public 24Q4",
+  "latest_release_claim": false,
+  "full_expression_rows_counted": 1673,
+  "gene_columns_counted": 19193,
+  "identifier_column": "Unnamed: 0",
+  "identifier_type": "ModelID ACH-*",
+  "gene_header_examples": [
+    "TSPAN6 (7105)",
+    "TNMD (64102)",
+    "DPM1 (8813)",
+    "SCYL3 (57147)",
+    "C1orf112 (55732)"
+  ],
+  "models_metadata_rows": 2105,
+  "profiles_metadata_rows": 4518,
+  "matched_requested_models": [
+    {
+      "ModelID": "ACH-000075",
+      "CellLineName": "U-87 MG",
+      "StrippedCellLineName": "U87MG",
+      "RRID": "CVCL_0022",
+      "numeric_expression_present": true,
+      "GrowthPattern": "Adherent",
+      "OnboardedMedia": "MF-006-001",
+      "ModelTreatment": "unknown",
+      "EngineeredModel": "unknown"
+    },
+    {
+      "ModelID": "ACH-000146",
+      "CellLineName": "THP-1",
+      "StrippedCellLineName": "THP1",
+      "RRID": "CVCL_0006",
+      "numeric_expression_present": true,
+      "GrowthPattern": "Suspension",
+      "OnboardedMedia": "MF-001-006",
+      "ModelTreatment": "unknown",
+      "EngineeredModel": "unknown"
+    },
+    {
+      "ModelID": "ACH-000201",
+      "CellLineName": "A-204",
+      "StrippedCellLineName": "A204",
+      "RRID": "CVCL_1058",
+      "numeric_expression_present": true,
+      "GrowthPattern": "Adherent",
+      "OnboardedMedia": "MF-023-001",
+      "ModelTreatment": "unknown",
+      "EngineeredModel": "unknown"
+    },
+    {
+      "ModelID": "ACH-000364",
+      "CellLineName": "U-2 OS",
+      "StrippedCellLineName": "U2OS",
+      "RRID": "CVCL_0042",
+      "numeric_expression_present": true,
+      "GrowthPattern": "Adherent",
+      "OnboardedMedia": "MF-023-001",
+      "ModelTreatment": "unknown",
+      "EngineeredModel": "unknown"
+    },
+    {
+      "ModelID": "ACH-000480",
+      "CellLineName": "HuH-7",
+      "StrippedCellLineName": "HUH7",
+      "RRID": "CVCL_0336",
+      "numeric_expression_present": true,
+      "GrowthPattern": "Adherent",
+      "OnboardedMedia": "MF-002-001",
+      "ModelTreatment": "unknown",
+      "EngineeredModel": "unknown"
+    },
+    {
+      "ModelID": "ACH-000681",
+      "CellLineName": "A549",
+      "StrippedCellLineName": "A549",
+      "RRID": "CVCL_0023",
+      "numeric_expression_present": true,
+      "GrowthPattern": "Adherent",
+      "OnboardedMedia": "MF-002-001",
+      "ModelTreatment": "unknown",
+      "EngineeredModel": "unknown"
+    },
+    {
+      "ModelID": "ACH-000739",
+      "CellLineName": "Hep G2",
+      "StrippedCellLineName": "HEPG2",
+      "RRID": "CVCL_0027",
+      "numeric_expression_present": true,
+      "GrowthPattern": "Adherent",
+      "OnboardedMedia": "MF-006-001",
+      "ModelTreatment": "unknown",
+      "EngineeredModel": "unknown"
+    },
+    {
+      "ModelID": "ACH-000880",
+      "CellLineName": "AGS",
+      "StrippedCellLineName": "AGS",
+      "RRID": "CVCL_0139",
+      "numeric_expression_present": true,
+      "GrowthPattern": "Adherent",
+      "OnboardedMedia": "MF-028-001",
+      "ModelTreatment": "unknown",
+      "EngineeredModel": "unknown"
+    },
+    {
+      "ModelID": "ACH-000971",
+      "CellLineName": "HCT 116",
+      "StrippedCellLineName": "HCT116",
+      "RRID": "CVCL_0291",
+      "numeric_expression_present": true,
+      "GrowthPattern": "Adherent",
+      "OnboardedMedia": "MF-023-001",
+      "ModelTreatment": "unknown",
+      "EngineeredModel": "unknown"
+    },
+    {
+      "ModelID": "ACH-000995",
+      "CellLineName": "JURKAT",
+      "StrippedCellLineName": "JURKAT",
+      "RRID": "CVCL_0065",
+      "numeric_expression_present": true,
+      "GrowthPattern": "Adherent",
+      "OnboardedMedia": "MF-001-001",
+      "ModelTreatment": "unknown",
+      "EngineeredModel": "unknown"
+    },
+    {
+      "ModelID": "ACH-001084",
+      "CellLineName": "HCT-8",
+      "StrippedCellLineName": "HCT8",
+      "RRID": "CVCL_2478",
+      "numeric_expression_present": false,
+      "GrowthPattern": "Adherent",
+      "OnboardedMedia": "unknown",
+      "ModelTreatment": "unknown",
+      "EngineeredModel": "unknown"
+    },
+    {
+      "ModelID": "ACH-001188",
+      "CellLineName": "SH-SY5Y",
+      "StrippedCellLineName": "SHSY5Y",
+      "RRID": "CVCL_0019",
+      "numeric_expression_present": true,
+      "GrowthPattern": "Adherent",
+      "OnboardedMedia": "MF-027-001",
+      "ModelTreatment": "unknown",
+      "EngineeredModel": "unknown"
+    }
+  ],
+  "numeric_slice_rows": 11,
+  "numeric_slice_columns": [
+    "Unnamed: 0",
+    "TSPAN6 (7105)",
+    "PABPC1 (26986)",
+    "EIF4G2 (1982)",
+    "HNRNPU (3192)",
+    "ADAR (103)",
+    "METTL3 (56339)",
+    "YTHDF3 (253943)"
+  ],
+  "sample_rows": [
+    {
+      "Unnamed: 0": "ACH-000075",
+      "TSPAN6 (7105)": 3.2448870591235344,
+      "PABPC1 (26986)": 8.984959545983171,
+      "EIF4G2 (1982)": 8.63310421280042,
+      "HNRNPU (3192)": 7.937050078711383,
+      "ADAR (103)": 5.943218087426284,
+      "METTL3 (56339)": 4.971313624068879,
+      "YTHDF3 (253943)": 4.630521963471638
+    },
+    {
+      "Unnamed: 0": "ACH-000880",
+      "TSPAN6 (7105)": 5.252476214135217,
+      "PABPC1 (26986)": 9.036832979585478,
+      "EIF4G2 (1982)": 9.682116764950074,
+      "HNRNPU (3192)": 8.959625275764786,
+      "ADAR (103)": 7.703488349656824,
+      "METTL3 (56339)": 5.490249210627085,
+      "YTHDF3 (253943)": 5.244887059123535
+    }
+  ],
+  "numeric_slice_artifact": "depmap_requested_numeric_slice.tsv",
+  "readout": "log2(TPM+1) protein-coding-gene RNA expression, computed from measured RNA-seq",
+  "replicates": "one aggregate/model matrix row; profile metadata may include multiple RNA profiles; not independently matched to source-study replicate",
+  "condition": "ModelTreatment and media available in Model.csv; not same-batch evidence for reporter studies",
+  "license": "CC BY 4.0 from release Figshare metadata",
+  "latest_download_endpoint_status": "200 HTML challenge, not biological CSV",
+  "limitations": [
+    "Human cancer cell line reference; mouse lines C2C12/Neuro-2a/RAW264.7/N2A not represented by this table.",
+    "HEK293T absent among exact requested RRID candidates in this Model.csv.",
+    "U87 source shorthand requires identity validation; CVCL_0022 is U-87 MG and must not be silently assigned.",
+    "HPA incorporates CCLE-derived RNA; HPA and DepMap are not necessarily independent evidence.",
+    "HCT-8 ACH-001084 exists in Model.csv but has no row in this selected expression matrix; metadata availability is not numeric expression coverage."
+  ],
+  "requested_model_metadata_matches": 12,
+  "requested_model_numeric_matches": 11
+}

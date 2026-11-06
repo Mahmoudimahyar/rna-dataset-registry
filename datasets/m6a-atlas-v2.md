@@ -1,6 +1,6 @@
 # m6A-Atlas v2.0
 
-Registry ID: `m6a-atlas-v2` · database · **curated** · verification: **metadata**
+Registry ID: `m6a-atlas-v2` · database · **curated** · verification: **file_sample**
 
 m6A atlas with high-resolution sites, lower-resolution MeRIP regions, condition-specific profiles and separate single-cell modules.
 
@@ -30,14 +30,21 @@ m6A atlas with high-resolution sites, lower-resolution MeRIP regions, condition-
 - Redistribution: not established
 
 - https://rnamd.org/m6a/help.php
+- https://rnamd.org/m6a/download/high/hg38/Condition_hg38.txt.gz
+- https://rnamd.org/m6a/download/high/hg38/hg38_CL_Tech.txt.gz
+- https://www.rnamd.org/m6a/apiHighResolution.php?species=HomoSapiens&gene=EIF4G2
 
 ## Verification and remaining gaps
 
-Checked: 2026-11-04. Actual files/headers inspected: not established.
+Checked: 2026-11-05. Actual files/headers inspected: https://rnamd.org/m6a/download/high/hg38/Condition_hg38.txt.gz; https://rnamd.org/m6a/download/high/hg38/hg38_CL_Tech.txt.gz; https://www.rnamd.org/m6a/apiHighResolution.php?species=HomoSapiens&gene=EIF4G2.
 
-- No biological data file was inspected; this record establishes resource metadata and documented endpoints only.
 - Help page gives inconsistent MeRIP sample totals in different sections; no single exact scale is asserted.
-- No downloadable profile was opened.
+- 843678 support rows refer to427760 unique sites; do not treat support rows as independent modified positions
+- High-resolution support and bulk quantification have different assay interpretations
+- Quantification file read as bounded compressed prefix only; no full-file count or checksum claimed
+- No full measured synthetic-RNA modification-to-protein output matrix
+- Reported logFC values must not be interpreted as calibrated occupancy fractions
+- Bounded file audit: evidence/file-audit-20261105/modification-trna/audit.json; selected coverage only.
 
 - High-resolution sites, MeRIP intervals and single-cell profiles cannot share a single resolution label.
 - Absent calls are not confirmed unmodified controls.
@@ -54,5 +61,13 @@ evidence: direct_multi_context; notes: Multiple contexts and a single-cell modul
 
 - url: https://academic.oup.com/nar/article/52/D1/D194/7243455; supports: Original v2 study describes integrated high-resolution and MeRIP data.
 - url: https://rnamd.org/m6a/help.php; supports: Current help separates sites, enriched regions, quantitative contexts, single-cell modules and CSV differential-region export.
+
+## Selected-file audit
+
+Useful endogenous annotation and exploratory context evidence after genome/condition reconciliation; cannot mark the corresponding position as modified in an engineered reporter.
+
+Selected payload inspected: True. Coverage: Selected files/API responses, not all source holdings.
+
+[Inspection evidence](../evidence/file-audit-20261105/modification-trna/audit.json). [Combination assessment](../docs/cell-specific-model-feasibility.md).
 
 Related models: not established. Related resources: rmbase-v3; m5c-atlas.

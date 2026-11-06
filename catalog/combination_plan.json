@@ -1,0 +1,77 @@
+{
+  "audit_date": "2026-11-05",
+  "model_trained": false,
+  "reliability_demonstrated": false,
+  "task_contracts": [
+    {
+      "task": "endogenous_mrna_te",
+      "label_resource": "p010-asset-2",
+      "endpoint": "Endogenous TE defined by the original paper as residuals from compositional linear regression of centered-log-ratio CDS RPF/RNA counts, then averaged within cell context. Not raw Ribo/RNA ratios, completed protein output, or synthetic reporter labels.",
+      "feature_resources": [
+        "human-protein-atlas-rna",
+        "depmap-ccle-expression"
+      ],
+      "status": "scoped supervised benchmark feasible; external context remains a proxy",
+      "required_tests": [
+        "sequence/gene-family holdout",
+        "cell holdout",
+        "joint sequence/cell holdout",
+        "increment over cell/sequence/additive baselines",
+        "upstream study deduplication"
+      ]
+    },
+    {
+      "task": "synthetic_circrna_relative_output",
+      "label_resource": "lamar-circrna-multicell-output",
+      "feature_resources": [
+        "human-protein-atlas-rna",
+        "depmap-ccle-expression",
+        "cellosaurus"
+      ],
+      "status": "assay-specific benchmark feasible; candidate cell identities need review",
+      "endpoint": "Relative reporter luminescence against a cell-specific linear mRNA reference",
+      "limits": [
+        "few independent contexts",
+        "reference normalization",
+        "no released replicate uncertainty",
+        "fixed Fluc CDS",
+        "no matched RNA persistence"
+      ]
+    },
+    {
+      "task": "synthetic_circrna_loading",
+      "label_resource": "albatross-circrna-polysome-atlas",
+      "status": "separate loading task; sequence joins need reconciliation",
+      "endpoint": "polysome-derived ribosomes per RNA",
+      "limits": [
+        "not direct protein-output validation",
+        "preprint",
+        "conflicting sequence fields"
+      ]
+    },
+    {
+      "task": "functional_trna_by_cds",
+      "status": "not supported by inspected matched data",
+      "limits": [
+        "circ reporter shared CDS",
+        "tRNA condition/schema conflicts",
+        "no matched CDS-varying protein-output panel"
+      ]
+    },
+    {
+      "task": "endogenous_rna_sensor_performance",
+      "status": "not supported by these databases alone",
+      "limits": [
+        "no paired sensor activation/leakage/protein-output table",
+        "expression/accessibility are component evidence"
+      ]
+    }
+  ],
+  "forbidden_pools": [
+    "protein output with ribosome loading or endogenousTE residuals",
+    "predicted coding potential with experimental translation output",
+    "HPA and DepMap as independent biological replicates",
+    "tRNA abundance with charging or gene copy number",
+    "cell-name overlaps as exact condition matches"
+  ]
+}

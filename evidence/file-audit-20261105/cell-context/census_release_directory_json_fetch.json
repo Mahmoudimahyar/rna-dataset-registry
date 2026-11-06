@@ -1,0 +1,10 @@
+{
+  "name": "census_release_directory.json",
+  "source_url": "https://census.cellxgene.cziscience.com/cell-census/v1/release.json",
+  "checked_on": "2026-11-05",
+  "complete": false,
+  "status": 404,
+  "content_type": "application/xml",
+  "content_length": null,
+  "error": "404 Client Error: Not Found for url: https://census.cellxgene.cziscience.com/cell-census/v1/release.json"
+}

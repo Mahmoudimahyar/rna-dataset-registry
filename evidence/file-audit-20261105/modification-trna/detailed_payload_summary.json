@@ -1,0 +1,2268 @@
+{
+  "charge_tar": [
+    {
+      "member": "GSM7675797_MEFcont1.counts.txt.gz",
+      "rows": 227,
+      "first_lines": [
+        "Mus_musculus_tRNA-Ala-AGC-1-1:214:94:118",
+        "Mus_musculus_tRNA-Ala-AGC-10-1:52:23:25"
+      ],
+      "delimiter": ":",
+      "field_width_counts": {
+        "4": 227
+      }
+    },
+    {
+      "member": "GSM7675798_MEFcont2.counts.txt.gz",
+      "rows": 227,
+      "first_lines": [
+        "Mus_musculus_tRNA-Ala-AGC-1-1:81:28:53",
+        "Mus_musculus_tRNA-Ala-AGC-10-1:57:16:31"
+      ],
+      "delimiter": ":",
+      "field_width_counts": {
+        "4": 227
+      }
+    },
+    {
+      "member": "GSM7675799_MEFcont3.counts.txt.gz",
+      "rows": 227,
+      "first_lines": [
+        "Mus_musculus_tRNA-Ala-AGC-1-1:186:99:82",
+        "Mus_musculus_tRNA-Ala-AGC-10-1:56:35:19"
+      ],
+      "delimiter": ":",
+      "field_width_counts": {
+        "4": 227
+      }
+    },
+    {
+      "member": "GSM7675800_MEFHF1.counts.txt.gz",
+      "rows": 227,
+      "first_lines": [
+        "Mus_musculus_tRNA-Ala-AGC-1-1:1697:1594:101",
+        "Mus_musculus_tRNA-Ala-AGC-10-1:60:44:14"
+      ],
+      "delimiter": ":",
+      "field_width_counts": {
+        "4": 227
+      }
+    },
+    {
+      "member": "GSM7675801_MEFHF2.counts.txt.gz",
+      "rows": 227,
+      "first_lines": [
+        "Mus_musculus_tRNA-Ala-AGC-1-1:362:262:91",
+        "Mus_musculus_tRNA-Ala-AGC-10-1:45:30:11"
+      ],
+      "delimiter": ":",
+      "field_width_counts": {
+        "4": 227
+      }
+    },
+    {
+      "member": "GSM7675802_MEFHF3.counts.txt.gz",
+      "rows": 227,
+      "first_lines": [
+        "Mus_musculus_tRNA-Ala-AGC-1-1:2541:1401:1130",
+        "Mus_musculus_tRNA-Ala-AGC-10-1:134:78:53"
+      ],
+      "delimiter": ":",
+      "field_width_counts": {
+        "4": 227
+      }
+    },
+    {
+      "member": "GSM7675803_Con2.tRNA.counts.txt.gz",
+      "rows": 261,
+      "first_lines": [
+        "Homo_sapiens_tRNA-Ala-AGC-1-1:795:193:462",
+        "Homo_sapiens_tRNA-Ala-AGC-10-1:2549:661:1781"
+      ],
+      "delimiter": ":",
+      "field_width_counts": {
+        "4": 261
+      }
+    },
+    {
+      "member": "GSM7675804_Con3.tRNA.counts.txt.gz",
+      "rows": 261,
+      "first_lines": [
+        "Homo_sapiens_tRNA-Ala-AGC-1-1:138:41:55",
+        "Homo_sapiens_tRNA-Ala-AGC-10-1:550:154:368"
+      ],
+      "delimiter": ":",
+      "field_width_counts": {
+        "4": 261
+      }
+    },
+    {
+      "member": "GSM7675805_Con4.tRNA.counts.txt.gz",
+      "rows": 261,
+      "first_lines": [
+        "Homo_sapiens_tRNA-Ala-AGC-1-1:4213:1597:2440",
+        "Homo_sapiens_tRNA-Ala-AGC-10-1:4075:1073:2864"
+      ],
+      "delimiter": ":",
+      "field_width_counts": {
+        "4": 261
+      }
+    },
+    {
+      "member": "GSM7675806_UV2.tRNA.counts.txt.gz",
+      "rows": 261,
+      "first_lines": [
+        "Homo_sapiens_tRNA-Ala-AGC-1-1:1212:635:544",
+        "Homo_sapiens_tRNA-Ala-AGC-10-1:645:259:372"
+      ],
+      "delimiter": ":",
+      "field_width_counts": {
+        "4": 261
+      }
+    },
+    {
+      "member": "GSM7675807_UV3.tRNA.counts.txt.gz",
+      "rows": 261,
+      "first_lines": [
+        "Homo_sapiens_tRNA-Ala-AGC-1-1:395:88:271",
+        "Homo_sapiens_tRNA-Ala-AGC-10-1:1130:240:853"
+      ],
+      "delimiter": ":",
+      "field_width_counts": {
+        "4": 261
+      }
+    },
+    {
+      "member": "GSM7675808_UV4.tRNA.counts.txt.gz",
+      "rows": 261,
+      "first_lines": [
+        "Homo_sapiens_tRNA-Ala-AGC-1-1:3011:477:2399",
+        "Homo_sapiens_tRNA-Ala-AGC-10-1:2978:727:2183"
+      ],
+      "delimiter": ":",
+      "field_width_counts": {
+        "4": 261
+      }
+    }
+  ],
+  "charge188_tar": [
+    {
+      "member": "GSM5691036_012S_1.txt.txt.gz",
+      "rows": 68,
+      "first_lines": [
+        "tRNA\tCCA\tCC\tRatio",
+        "Ala-AGC\t58442\t5720\t91.08506593"
+      ],
+      "delimiter": "\t",
+      "field_width_counts": {
+        "1": 68
+      }
+    },
+    {
+      "member": "GSM5691037_012S_2.txt.txt.gz",
+      "rows": 68,
+      "first_lines": [
+        "tRNA\tCCA\tCC\tRatio",
+        "Ala-AGC\t96185\t10095\t90.50150546"
+      ],
+      "delimiter": "\t",
+      "field_width_counts": {
+        "1": 68
+      }
+    },
+    {
+      "member": "GSM5691038_012S_3.txt.txt.gz",
+      "rows": 68,
+      "first_lines": [
+        "tRNA\tCCA\tCC\tRatio",
+        "Ala-AGC\t58892\t3963\t93.69501233"
+      ],
+      "delimiter": "\t",
+      "field_width_counts": {
+        "1": 68
+      }
+    },
+    {
+      "member": "GSM5691039_012A_1.txt.txt.gz",
+      "rows": 68,
+      "first_lines": [
+        "tRNA\tCCA\tCC\tRatio",
+        "Ala-AGC\t104650\t7571\t93.25349088"
+      ],
+      "delimiter": "\t",
+      "field_width_counts": {
+        "1": 68
+      }
+    },
+    {
+      "member": "GSM5691040_012A_2.txt.txt.gz",
+      "rows": 68,
+      "first_lines": [
+        "tRNA\tCCA\tCC\tRatio",
+        "Ala-AGC\t18074\t949\t95.01130211"
+      ],
+      "delimiter": "\t",
+      "field_width_counts": {
+        "1": 68
+      }
+    },
+    {
+      "member": "GSM5691041_012A_3.txt.txt.gz",
+      "rows": 68,
+      "first_lines": [
+        "tRNA\tCCA\tCC\tRatio",
+        "Ala-AGC\t3737\t160\t95.89427765"
+      ],
+      "delimiter": "\t",
+      "field_width_counts": {
+        "1": 68
+      }
+    },
+    {
+      "member": "GSM5691042_013S_1.txt.txt.gz",
+      "rows": 68,
+      "first_lines": [
+        "tRNA\tCCA\tCC\tRatio",
+        "Ala-AGC\t63\t3\t95.45454545"
+      ],
+      "delimiter": "\t",
+      "field_width_counts": {
+        "1": 68
+      }
+    },
+    {
+      "member": "GSM5691043_013S_2.txt.txt.gz",
+      "rows": 68,
+      "first_lines": [
+        "tRNA\tCCA\tCC\tRatio",
+        "Ala-AGC\t2613\t141\t94.88017429"
+      ],
+      "delimiter": "\t",
+      "field_width_counts": {
+        "1": 68
+      }
+    },
+    {
+      "member": "GSM5691044_013S_3.txt.txt.gz",
+      "rows": 68,
+      "first_lines": [
+        "tRNA\tCCA\tCC\tRatio",
+        "Ala-AGC\t23083\t1361\t94.43217149"
+      ],
+      "delimiter": "\t",
+      "field_width_counts": {
+        "1": 68
+      }
+    },
+    {
+      "member": "GSM5691045_013A_1.txt.txt.gz",
+      "rows": 68,
+      "first_lines": [
+        "tRNA\tCCA\tCC\tRatio",
+        "Ala-AGC\t83754\t6931\t92.35706015"
+      ],
+      "delimiter": "\t",
+      "field_width_counts": {
+        "1": 68
+      }
+    },
+    {
+      "member": "GSM5691046_013A_2.txt.txt.gz",
+      "rows": 68,
+      "first_lines": [
+        "tRNA\tCCA\tCC\tRatio",
+        "Ala-AGC\t18963\t1609\t92.17868948"
+      ],
+      "delimiter": "\t",
+      "field_width_counts": {
+        "1": 68
+      }
+    },
+    {
+      "member": "GSM5691047_013A_3.txt.txt.gz",
+      "rows": 68,
+      "first_lines": [
+        "tRNA\tCCA\tCC\tRatio",
+        "Ala-AGC\t1521\t107\t93.42751843"
+      ],
+      "delimiter": "\t",
+      "field_width_counts": {
+        "1": 68
+      }
+    }
+  ],
+  "m6a_conditions": {
+    "header": [
+      "seqnames",
+      "start",
+      "end",
+      "width",
+      "strand",
+      "ID",
+      "GSE",
+      "CellLine",
+      "Condition",
+      "Technique"
+    ],
+    "data_rows": 843678,
+    "missing_counts": {},
+    "cell_support_rows": {
+      "HeLa": 75032,
+      "HepG2": 39368,
+      "HSPC": 106853,
+      "LNCaP": 22745,
+      "RWPE": 22745,
+      "HEK293": 57968,
+      "PIG1": 3143,
+      "HEK293T": 161674,
+      "HEK293E": 160071,
+      "HCT116": 17611,
+      "A549": 33109,
+      "MCF7": 3230,
+      "MOLM13": 23477,
+      "CD8T": 37183,
+      "MDAMB231": 6003,
+      "kidney": 9220,
+      "ESC": 35405,
+      "liver": 5306,
+      "brain": 9239,
+      "OCM1": 2789,
+      "CM2005.1": 3045,
+      "CRMM1": 2962,
+      "OCM1a": 2944,
+      "OM431": 2556
+    },
+    "tech_support_rows": {
+      "PA-m6A-seq": 19657,
+      "miCLIP": 405618,
+      "m6A-SAC-seq": 160175,
+      "meCLIP": 10186,
+      "m6A-seq with improved protocol": 13433,
+      "miCLIP2": 27764,
+      "DART-seq": 10449,
+      "m6A-CLIP-seq": 68605,
+      "m6ACE": 10519,
+      "MAZTER-seq": 77666,
+      "m6A-REF-seq": 31102,
+      "m6A-label-seq ": 8504
+    },
+    "unique_gse": 23,
+    "unique_site_ids": 427760
+  },
+  "m6a_sites": {
+    "header": [
+      "seqnames",
+      "start",
+      "end",
+      "width",
+      "strand",
+      "GSE_tech_species_cellLine_treatment_C_count_Coverage",
+      "SeqCont",
+      "annotation",
+      "Gene_Name",
+      "Gene_Source",
+      "Gene_Biotype",
+      "Ensembl_ID",
+      "ID",
+      "RBP_Num",
+      "miRNA_Num",
+      "SplicingSite_Num",
+      "SNP_Num",
+      "Cell_Line",
+      "Cell_Line_Num",
+      "Technique",
+      "Technique_Num"
+    ],
+    "data_rows": 427760,
+    "missing_counts": {
+      "Gene_Name": 28319
+    },
+    "cell_support_rows": {},
+    "tech_support_rows": {},
+    "unique_gse": null,
+    "unique_site_ids": null
+  },
+  "m6a_quantification_prefix": {
+    "scope": "First 1MiB uncompressed from bounded 32MiB compressed prefix; last line omitted",
+    "header": "seqnames\tstart\tend\twidth\tstrand\tGSE102336.HepG2.Ctrl\tGSE102336.HepG2.ZCCHC4KO\tGSE103497.MONO.MAC.6.DMSO\tGSE104621.iSLK.219.Ctrl\tGSE106122.CD14.Ctrl\tGSE106122.CMP.Ctrl\tGSE106122.ERY1.Ctrl\tGSE106122.ERY2.Ctrl\tGSE106122.ERY3.Ctrl\tGSE106122.GMP.Ctrl\tGSE106122.HEL.150ug\tGSE106122.HEL.3ug\tGSE106122.HSC.Ctrl\tGSE106122.MEP.Ctrl\tGSE107954.hUCB.CD34.\tGSE110320.HepG2.Ctrl\tGSE110320.HepG2.M14KO\tGSE110320.HepG2.M3KO\tGSE110320.HepG2.SETD2KO\tGSE110320.HepG2.WTAPKO\tGSE112795.HeLa.Ctrl\tGSE112795.HeLa.EMT\tGSE112970.16HBE.Ctrl\tGSE112970.Cd.RWPE.1.chemical_carcinogen\tGSE112970.Cd.SV.HUC.1.chemical_carcinogen\tGSE112970.MC.SV.HUC_T2.chemical_carcinogen\tGSE112970.NSTC2.chemical_carcinogen\tGSE112970.RWPE.1.Ctrl\tGSE112970.SV.HUC.1.Ctrl\tGSE113798.immortalized_B_lymphocyte.healthy\tGSE113798.immortalized_B_lymphocyte.healthy_with_cortisol\tGSE113798.immortalized_B_lymphocyte.MDD\tGSE113798.immortalized_B_lymphocyte.MDD_with_cortisol\tGSE114150.Brain.22weeks\tGSE114150.heart.22weeks\tGSE114150.kidney.22weeks\tGSE114150.Liver.22weeks\tGSE114150.lung.22weeks\tGSE114150.muscle.22weeks\tGSE114150.placenta.22weeks\tGSE114150.stomach.22weeks\tGSE117299.lung.Cancer\tGSE119168.ovary.age35\tGSE119168.ovary.age36\tGSE119168.ovary.age45\tGSE119168.ovary.age46\tGSE119168.ovary.age51\tGSE119168.ovary.age54\tGSE119168.ovary.age59\tGSE119168.ovary.omental_tumor_age62\tGSE119168.ovary.omental_tumor_age64\tGSE119168.ovary.omental_tumor_age67\tGSE119168.ovary.omental_tumor_age68\tGSE119168.ovary.omental_tumor_age70\tGSE119168.ovary.omental_tumor_age73\tGSE119963.PEO1.Ctrl\tGSE119963.PEO1.resistant\tGSE120024.islets.Female\tGSE120024.islets.Male\tGSE120024.islets.T2D_Female\tGSE120024.islets.T2D_Male\tGSE120229.HEK293T.Ctrl\tGSE120229.HEK293T.PCIF1KD\tGSE120860.SMMC7721.Ctrl\tGSE122744.Cerebellum.Ctrl\tGSE122744.FrontalCortex.Ctrl\tGSE122744.Heart.Ctrl\tGSE122744.Kidney.Ctrl\tGSE122744.Liver.Ctrl\tGSE122744.Lung.Ctrl\tGSE122744.Muscle.Ctrl\tGSE122744.Spleen.Ctrl\tGSE122803.Mel624.Ctrl\tGSE122803.Mel624.PCIF1KO\tGSE128443.HeLa.Ctrl\tGSE128443.HeLa.SFPQOE\tGSE128575.THP1.ALKBH5_knock.down\tGSE128575.THP1.ALKBH5_rescue\tGSE128575.THP1.Ctrl\tGSE128580.Breast.cancer.biopsy1\tGSE128580.Breast.cancer.biopsy2\tGSE128580.Breast.cancer.biopsy3\tGSE128580.PC.3.Ctrl\tGSE128580.PC.3.FTO\tGSE128580.SK.BR.3.Ctrl\tGSE128580.SK.BR.3.FTO\tGSE129469.SU.DHL.8.Ctrl\tGSE129469.SU.DHL.8.siWTAP\tGSE129716.HCT116.Ctrl\tGSE129716.HCT116.si.YTHDF3\tGSE130172.MDA.MB.231.Ctrl\tGSE130892.OCI.Ly1.Ctrl\tGSE130892.OCI.Ly1.HS\tGSE132306.EndoC.bH1.Ctrl\tGSE132306.EndoC.bH1.M14KO\tGSE132306.EndoC.bH1.M3KO\tGSE133132.BGC823.Ctrl\tGSE133132.BGC823.SH.METTL3\tGSE136433.A549.cisplatin\tGSE136433.A549.Ctrl\tGSE137675.CM2005.1.Ctrl\tGSE137675.CRMM1.Ctrl\tGSE137675.OCM1a.Ctrl\tGSE137675.OCM1.Ctrl\tGSE137675.OCM431.Ctrl\tGSE137675.PIG1.Ctrl\tGSE137752.HMC3.Ctrl\tGSE137752.K562.Ctrl\tGSE141993.IMR90.Ctrl\tGSE141993.IMR90.senescent\tGSE144032.brain_region_BA9.old\tGSE144032.brain_region_BA9.young\tGSE144984.NOMO1.Ctrl\tGSE144984.NOMO1.shALKBH5\tGSE145923.Skin.Chronic.arsenic\tGSE145923.Skin.Chronic.arsenic.tumor.\tGSE145923.Skin.Ctrl\tGSE145924.Skin.Ctrl\tGSE145924.Skin.shMETTL14\tGSE145924.Skin.shMETTL14_UBV\tGSE147891.LNCaP.Ctrl\tGSE147891.RWPE.1.Ctrl\tGSE148962.HTR8_SVneo.Ctrl\tGSE148962.HTR8_SVneo.M3KD\tGSE149510.HCCLM3.ALKBH5.overexpressed\tGSE149510.HCCLM3.Ctrl\tGSE150892.P493.6.Ctrl\tGSE154555.K180.Ctrl\tGSE154555.K180.Mettl3KD\tGSE155448.Huh7.Ctrl\tGSE155448.Huh7.Ifn.treatment\tGSE156886.Ameloblastoma.Ctrl\tGSE156886.oral.tissue.Ctrl\tGSE158742.GSC387.Ctrl\tGSE158742.GSC4121.Ctrl\tGSE158742.HNP1.Ctrl\tGSE158742.NSC11.Ctrl\tGSE161792.MRC5.Ctrl\tGSE161792.MRC5.UV.24hr\tGSE161792.MRC5.UV.30min\tGSE161792.MRC5.UV.3hr\tGSE161879.pleomorphic.adenoma.tissue.malignant\tGSE161879.salivary.gland.Ctrl\tGSE164200.HeLa.Ctrl\tGSE164200.HeLa.heatshock\tGSE164200.HeLa.HS.HSATIIIKD\tGSE164200.HeLa.Recovery.HSATIIIKD\tGSE164200.HeLa.Recovery\tGSE165518.white.blood.cell.healthy\tGSE165518.white.blood.cell.SFTSV.infection\tGSE165690.HeLa.Ctrl\tGSE165690.HeLa.Rapamycin\tGSE166972.AGS.Ctrl\tGSE166972.AGS.sh.YTHDF1\tGSE167933.conjunctival.Ctrl\tGSE167933.pterygium.Ctrl\tGSE168778.Kasumi.1.CoCl2\tGSE168778.Kasumi.1.Ctrl\tGSE171373.HUCMSCs.Ctrl\tGSE171373.HUCMSCs.Induced\tGSE171472.H322.Ctrl\tGSE171472.H6658.FTO.knockdown\tGSE179042.Colon.cancer\tGSE179042.Colon.para.carcinoma\tGSE181540.hypertrophic.scar.Ctrl\tGSE181540.Skin.Ctrl\tGSE29714.HEK293T.Ctrl\tGSE37002.HepG2.HGF\tGSE37002.HepG2.HS\tGSE37002.HepG2.IFN\tGSE37002.HepG2.UV\tGSE37003.HepG2.Ctrl\tGSE37004.Brain.Ctrl\tGSE46705.HeLa.Ctrl\tGSE46705.HeLa.M14KO\tGSE46705.HeLa.M3KO\tGSE46705.HeLa.WTAPKO\tGSE55572.A549.Ctrl\tGSE55572.A549.GFPKO\tGSE55572.A549.KIAA1429KO\tGSE55572.A549.M14KO\tGSE55572.A549.M3KO\tGSE55572.A549.M3M14KO\tGSE55572.A549.WTAPKO\tGSE55572.HEK293T.Ctrl\tGSE55572.HEK293T.M3KO\tGSE55572.HEK293T.WTAPKO\tGSE55572.hESC.Ctrl\tGSE55572.hNPC.Ctrl\tGSE70299.lymphoblastoid.Ctrl\tGSE74016.MT4.Ctrl\tGSE76367.A549.Ctrl\tGSE76367.H1299.Ctrl\tGSE76414.MONO.MAC.6.Ctrl\tGSE76414.MONO.MAC.6.FTOOE\tGSE85724.CD4.T.Primary\tGSE85724.Jurkat.Ctrl\tGSE87190.MA9.3ITD.Ctrl\tGSE87190.MA9.3ITD.FTOKO\tGSE87190.MA9.3ITD.FTOKOwithR.2HG\tGSE87190.MA9.3ITD.R.2HG\tGSE87190.MA9.3RAS.Ctrl\tGSE87190.MA9.3RAS.FTOKO\tGSE87190.MA9.3RAS.FTOKOwithR.2HG\tGSE87190.MA9.3RAS.R.2HG\tGSE87190.NOMO.1.Ctrl\tGSE87190.NOMO.1.R.2HG\tGSE87515.GSC11.ALKBH5KO\tGSE87515.GSC11.Ctrl\tGSE87516.HEK293T.Ctrl\tGSE90642.HepG2.Ctrl\tGSE90642.HepG2.METTL14KD\tGSE90914.HEK293A.TOA.Ctrl\tGSE90914.HEK293A.TOA.M16KO\tGSE93911.endometrial.adjacent_patient1\tGSE93911.endometrial.adjacent_patient2\tGSE93911.endometrial.adjacent_patient3\tGSE93911.endometrial.adjacent_patient4\tGSE93911.endometrial.tumor_patient1\tGSE93911.endometrial.tumor_patient2\tGSE93911.endometrial.tumor_patient3\tGSE93911.endometrial.tumor_patient4\tGSE93911.HEC.1.A.Ctrl\tGSE93911.HEC.1.A.METTL3KD\tGSE93911.HEC.1.A.muMETTL14\tGSE93911.HEC.1.A.wtMETTL14\tGSE94613.MOLM13.Ctrl\tGSE94613.MOLM13.METTL3KD\tGSE94808.PBT003.Ctrl\tGSE94808.PBT003.M14KO\tGSE94808.PBT003.M3KO\tGSE99017.brain_cortex.Ctrl\tGSE99017.organoid.Ctrl\tPRJNA498900.BCa5637.Ctrl\tID",
+    "complete_sample_rows": 491,
+    "example_fields": [
+      "chr10",
+      "100005760",
+      "100005760",
+      "1",
+      "-",
+      "NA",
+      "NA",
+      "NA"
+    ]
+  },
+  "modomics_positions": [
+    {
+      "member": "SSU.mods",
+      "line_count": 450,
+      "noncomment_rows": 450,
+      "field_width_counts": {
+        "9": 450
+      },
+      "schema_for_9fields": [
+        "RNA_type",
+        "RNA_name",
+        "anticodon_or_subtype",
+        "compartment",
+        "organism",
+        "native_position",
+        "aligned_position_or_missing",
+        "modification",
+        "source_annotation"
+      ],
+      "human_rows": 59,
+      "cell_line_column_present": false,
+      "numerical_output_column_present": false
+    },
+    {
+      "member": "manual.mods",
+      "line_count": 159,
+      "noncomment_rows": 153,
+      "field_width_counts": {
+        "9": 153
+      },
+      "schema_for_9fields": [
+        "RNA_type",
+        "RNA_name",
+        "anticodon_or_subtype",
+        "compartment",
+        "organism",
+        "native_position",
+        "aligned_position_or_missing",
+        "modification",
+        "source_annotation"
+      ],
+      "human_rows": 47,
+      "cell_line_column_present": false,
+      "numerical_output_column_present": false
+    },
+    {
+      "member": "tRNA.mods",
+      "line_count": 1674,
+      "noncomment_rows": 1674,
+      "field_width_counts": {
+        "9": 1674
+      },
+      "schema_for_9fields": [
+        "RNA_type",
+        "RNA_name",
+        "anticodon_or_subtype",
+        "compartment",
+        "organism",
+        "native_position",
+        "aligned_position_or_missing",
+        "modification",
+        "source_annotation"
+      ],
+      "human_rows": 0,
+      "cell_line_column_present": false,
+      "numerical_output_column_present": false
+    }
+  ],
+  "tmod_matched_cell_entries": [
+    {
+      "id": 1062,
+      "gse": "GSE148202",
+      "gsm": "GSM5288654;GSM5288655",
+      "technology": "DAMM-seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "Rescue ALKBH7mut",
+      "dataset": "DAMM_HSA_Rescue_ALKBH7_mut",
+      "under_construction": 0,
+      "srr": "SRR14481226;SRR14481227"
+    },
+    {
+      "id": 1061,
+      "gse": "GSE148202",
+      "gsm": "GSM5288652;GSM5288653",
+      "technology": "DAMM-seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "Rescue ALKBH7WT",
+      "dataset": "DAMM_HSA_Rescue_ALKBH7",
+      "under_construction": 0,
+      "srr": "SRR14481224;SRR14481225"
+    },
+    {
+      "id": 1060,
+      "gse": "GSE148202",
+      "gsm": "GSM5288650;GSM5288651",
+      "technology": "DAMM-seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "Rescue_empty",
+      "dataset": "DAMM_HSA_Rescue_Vec",
+      "under_construction": 0,
+      "srr": "SRR14481222;SRR14481223"
+    },
+    {
+      "id": 1055,
+      "gse": "GSE148202",
+      "gsm": "GSM4460026;GSM4460027",
+      "technology": "DAMM-seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "ALKBH7_KO",
+      "dataset": "DAMM_HSA_mtdsRNA_ALKBH7KO",
+      "under_construction": 0,
+      "srr": "SRR11510408;SRR11510409"
+    },
+    {
+      "id": 1054,
+      "gse": "GSE148202",
+      "gsm": "GSM4460024;GSM4460025",
+      "technology": "DAMM-seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "none",
+      "dataset": "DAMM_HSA_mtdsRNA_ALKBH7",
+      "under_construction": 0,
+      "srr": "SRR11510406;SRR11510407"
+    },
+    {
+      "id": 1053,
+      "gse": "GSE148202",
+      "gsm": "GSM4460022;GSM4460023",
+      "technology": "DAMM-seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "ALKBH7 KD",
+      "dataset": "DAMM_HSA_mtdsRNA_siALKBH7",
+      "under_construction": 0,
+      "srr": "SRR11510404;SRR11510405"
+    },
+    {
+      "id": 1052,
+      "gse": "GSE148202",
+      "gsm": "GSM4460020;GSM4460021",
+      "technology": "DAMM-seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "none",
+      "dataset": "DAMM_HSA_mtdsRNA_siControl",
+      "under_construction": 0,
+      "srr": "SRR11510402;SRR11510403"
+    },
+    {
+      "id": 1047,
+      "gse": "GSE148202",
+      "gsm": "GSM4460010;GSM4460011",
+      "technology": "DAMM-seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "ALKBH7 KD",
+      "dataset": "DAMM_HSA_mttRNA_siALKBH7",
+      "under_construction": 0,
+      "srr": "SRR11510392;SRR11510393"
+    },
+    {
+      "id": 1046,
+      "gse": "GSE148202",
+      "gsm": "GSM4460008;GSM4460009",
+      "technology": "DAMM-seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "none",
+      "dataset": "DAMM_HSA_mttRNA_siControl",
+      "under_construction": 0,
+      "srr": "SRR11510390;SRR11510391"
+    },
+    {
+      "id": 1045,
+      "gse": "GSE148202",
+      "gsm": "GSM4456043;GSM4456044",
+      "technology": "DAMM-seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "AlkB+",
+      "dataset": "DAMM_HSA_SR_AlkB+",
+      "under_construction": 0,
+      "srr": "SRR11496498;SRR11496499"
+    },
+    {
+      "id": 1044,
+      "gse": "GSE148202",
+      "gsm": "GSM4456041;GSM4456042",
+      "technology": "DAMM-seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "none",
+      "dataset": "DAMM_HSA_SR_Input",
+      "under_construction": 0,
+      "srr": "SRR11496496SRR11496497"
+    },
+    {
+      "id": 1011,
+      "gse": "GSE198441",
+      "gsm": "GSM5946910;GSM5946911;GSM5946912",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "AlkB+",
+      "dataset": "MSR_HSA_shRT_AlkB+",
+      "under_construction": 0,
+      "srr": "SRR18302286;SRR18302287;SRR18302288"
+    },
+    {
+      "id": 1010,
+      "gse": "GSE198441",
+      "gsm": "GSM5946907;GSM5946908;GSM5946909",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "MSR_HSA_shRT",
+      "under_construction": 0,
+      "srr": "SRR18302289;SRR18302290;SRR18302291"
+    },
+    {
+      "id": 1009,
+      "gse": "GSE198441",
+      "gsm": "GSM5946940;GSM5946941;GSM5946942",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "AsO2",
+      "dataset": "MSR_HSA_psRNA_lRT_AsO2",
+      "under_construction": 0,
+      "srr": "SRR18302256;SRR18302257;SRR18302258"
+    },
+    {
+      "id": 1008,
+      "gse": "GSE198441",
+      "gsm": "GSM5946937;GSM5946938;GSM5946939",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "H2O2",
+      "dataset": "MSR_HSA_psRNA_lRT_H2O2",
+      "under_construction": 0,
+      "srr": "SRR18302259;SRR18302260;SRR18302261"
+    },
+    {
+      "id": 1007,
+      "gse": "GSE198441",
+      "gsm": "GSM5946934;GSM5946935;GSM5946936",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "heat stress",
+      "dataset": "MSR_HSA_psRNA_lRT_HS",
+      "under_construction": 0,
+      "srr": "SRR18302262;SRR18302263;SRR18302264"
+    },
+    {
+      "id": 1006,
+      "gse": "GSE198441",
+      "gsm": "GSM5946931;GSM5946932;GSM5946933",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "MSR_HSA_psRNA_lRT",
+      "under_construction": 0,
+      "srr": "SRR18302265;SRR18302266;SRR18302267"
+    },
+    {
+      "id": 1005,
+      "gse": "GSE198441",
+      "gsm": "GSM5946928;GSM5946929;GSM5946930",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "AsO2",
+      "dataset": "MSR_HSA_lRT_AsO2",
+      "under_construction": 0,
+      "srr": "SRR18302268;SRR18302269;SRR18302270"
+    },
+    {
+      "id": 1004,
+      "gse": "GSE198441",
+      "gsm": "GSM5946925;GSM5946926;GSM5946927",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "H2O2",
+      "dataset": "MSR_HSA_lRT_H2O2",
+      "under_construction": 0,
+      "srr": "SRR18302271;SRR18302272;SRR18302273"
+    },
+    {
+      "id": 1003,
+      "gse": "GSE198441",
+      "gsm": "GSM5946922;GSM5946923;GSM5946924",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "heat stress",
+      "dataset": "MSR_HSA_lRT_HS",
+      "under_construction": 0,
+      "srr": "SRR18302274;SRR18302275;SRR18302276"
+    },
+    {
+      "id": 1002,
+      "gse": "GSE198441",
+      "gsm": "GSM5946919;GSM5946920;GSM5946921",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "MSR_HSA_lRT",
+      "under_construction": 0,
+      "srr": "SRR18302277;SRR18302278;SRR18302279"
+    },
+    {
+      "id": 999,
+      "gse": "GSE44386",
+      "gsm": "GSM1084150;GSM1084151;GSM1084152",
+      "technology": "m5CmiCLIP-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "IP",
+      "dataset": "m5CmiCLIP_HSA_IP",
+      "under_construction": 0,
+      "srr": "SRR747665;SRR747666;SRR747667"
+    },
+    {
+      "id": 998,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "AlkAniline-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "METTL8 KO",
+      "dataset": "AlkAniline_HSA_METTL8_KO",
+      "under_construction": 0,
+      "srr": "ERR5954103;ERR5954104;ERR5954105;ERR5954106"
+    },
+    {
+      "id": 997,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "AlkAniline-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "AlkAniline_HSA_WT",
+      "under_construction": 0,
+      "srr": "ERR5954099;ERR5954100;ERR5954101;ERR5954102"
+    },
+    {
+      "id": 996,
+      "gse": "GSE287299",
+      "gsm": "GSM8743415;GSM8743416",
+      "technology": "m3C-IP-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "demethylase treatment",
+      "dataset": "m3C_HSA_DM",
+      "under_construction": 0,
+      "srr": "SRR32037343;SRR32037344"
+    },
+    {
+      "id": 995,
+      "gse": "GSE287299",
+      "gsm": "GSM8743413;GSM8743414",
+      "technology": "m3C-IP-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "m3C_HSA_IP",
+      "under_construction": 0,
+      "srr": "SRR32037346;SRR32037347"
+    },
+    {
+      "id": 994,
+      "gse": "GSE287299",
+      "gsm": "GSM8743411;GSM8743412",
+      "technology": "m3C-IP-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "m3C_HSA_WT",
+      "under_construction": 0,
+      "srr": "SRR32037348;SRR32037349"
+    },
+    {
+      "id": 991,
+      "gse": "GSE223469",
+      "gsm": "GSM6957091;GSM6957092",
+      "technology": "HAC-Seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "METTL2A/2B/6 KO&HAC treated",
+      "dataset": "HAC_HSA_M2/6KO_HAC",
+      "under_construction": 0,
+      "srr": "SRR23190729;SRR23190730"
+    },
+    {
+      "id": 990,
+      "gse": "GSE223469",
+      "gsm": "GSM6957089;GSM6957090",
+      "technology": "HAC-Seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "METTL2A/2B/6 KO",
+      "dataset": "HAC_HSA_M2/6KO",
+      "under_construction": 0,
+      "srr": "SRR23190731;SRR23190732"
+    },
+    {
+      "id": 989,
+      "gse": "GSE223469",
+      "gsm": "GSM6957087;GSM6957088",
+      "technology": "HAC-Seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "METTL6 KO&HAC treated",
+      "dataset": "HAC_HSA_M6KO_HAC",
+      "under_construction": 0,
+      "srr": "SRR23190733;SRR23190734"
+    },
+    {
+      "id": 988,
+      "gse": "GSE223469",
+      "gsm": "GSM6957085;GSM6957086",
+      "technology": "HAC-Seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "METTL6 KO",
+      "dataset": "HAC_HSA_M6KO",
+      "under_construction": 0,
+      "srr": "SRR23190735;SRR23190736"
+    },
+    {
+      "id": 987,
+      "gse": "GSE223469",
+      "gsm": "GSM6957083;GSM6957084",
+      "technology": "HAC-Seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "METTL2A/2B KO&HAC treated",
+      "dataset": "HAC_HSA_M2KO_HAC",
+      "under_construction": 0,
+      "srr": "SRR23190737;SRR23190738"
+    },
+    {
+      "id": 986,
+      "gse": "GSE223469",
+      "gsm": "GSM6957081;GSM6957082",
+      "technology": "HAC-Seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "METTL2A/2B KO",
+      "dataset": "HAC_HSA_M2KO",
+      "under_construction": 0,
+      "srr": "SRR23190739;SRR23190740"
+    },
+    {
+      "id": 985,
+      "gse": "GSE223469",
+      "gsm": "GSM6957079;GSM6957080",
+      "technology": "HAC-Seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "HAC treated",
+      "dataset": "HAC_HSA_HAC",
+      "under_construction": 0,
+      "srr": "SRR23190741;SRR23190742"
+    },
+    {
+      "id": 984,
+      "gse": "GSE223469",
+      "gsm": "GSM6957077;GSM6957078",
+      "technology": "HAC-Seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "HAC_HSA_WT",
+      "under_construction": 0,
+      "srr": "SRR23190743;SRR23190744"
+    },
+    {
+      "id": 975,
+      "gse": "GSE212210",
+      "gsm": "GSM7029101",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "untreated",
+      "dataset": "PRAISE_HSA_HEK293T_WT",
+      "under_construction": 0,
+      "srr": "SRR23356818"
+    },
+    {
+      "id": 974,
+      "gse": "GSE212210",
+      "gsm": "GSM7029099;GSM7029100",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "PRAISE",
+      "dataset": "PRAISE_HSA_PRAISE",
+      "under_construction": 0,
+      "srr": "SRR23356816;SRR23356817"
+    },
+    {
+      "id": 973,
+      "gse": "GSE299274",
+      "gsm": "GSM9089727;GSM9089728",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "TRUB1 KO&PRAISE treated",
+      "dataset": "PRAISE_HSA_TRUB1KO_PT",
+      "under_construction": 0,
+      "srr": "SRR34428804;SRR34428803"
+    },
+    {
+      "id": 972,
+      "gse": "GSE299274",
+      "gsm": "GSM9089726",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "TRUB1 KO&PRAISE untreated",
+      "dataset": "PRAISE_HSA_TRUB1",
+      "under_construction": 0,
+      "srr": "SRR34428805"
+    },
+    {
+      "id": 971,
+      "gse": "GSE299274",
+      "gsm": "GSM9089724;GSM9089725",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "PUS7 KO&PRAISE treated",
+      "dataset": "PRAISE_HSA_PUS7KO_PT",
+      "under_construction": 0,
+      "srr": "SRR34428807;SRR34428806"
+    },
+    {
+      "id": 970,
+      "gse": "GSE299274",
+      "gsm": "GSM9089723",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "PUS7 KO&PRAISE untreated",
+      "dataset": "PRAISE_HSA_PUS7KO",
+      "under_construction": 0,
+      "srr": "SRR34428808"
+    },
+    {
+      "id": 969,
+      "gse": "GSE299274",
+      "gsm": "GSM9089721;GSM9089722",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "RPUSD3 KO&PRAISE treated",
+      "dataset": "PRAISE_HSA_RPUSD3KO_PT",
+      "under_construction": 0,
+      "srr": "SRR34428810;SRR34428809"
+    },
+    {
+      "id": 968,
+      "gse": "GSE299274",
+      "gsm": "GSM9089720",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "RPUSD3 KO&PRAISE untreated",
+      "dataset": "PRAISE_HSA_RPUSD3KO",
+      "under_construction": 0,
+      "srr": "SRR34428811"
+    },
+    {
+      "id": 967,
+      "gse": "GSE299274",
+      "gsm": "GSM9089718;GSM9089719",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "RPUSD2 KO&PRAISE treated",
+      "dataset": "PRAISE_HSA_RPUSD2KO_PT",
+      "under_construction": 0,
+      "srr": "SRR34428813;SRR34428812"
+    },
+    {
+      "id": 966,
+      "gse": "GSE299274",
+      "gsm": "GSM9089717",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "RPUSD2 KO&PRAISE untreated",
+      "dataset": "PRAISE_HSA_RPUSD2KO",
+      "under_construction": 0,
+      "srr": "SRR34428814"
+    },
+    {
+      "id": 965,
+      "gse": "GSE299274",
+      "gsm": "GSM9089715;GSM9089716",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "RPUSD1 KO&PRAISE treated",
+      "dataset": "PRAISE_HSA_RPUSD1KO_PT",
+      "under_construction": 0,
+      "srr": "SRR34428816;SRR34428815"
+    },
+    {
+      "id": 964,
+      "gse": "GSE299274",
+      "gsm": "GSM9089714",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "RPUSD1 KO&PRAISE untreated",
+      "dataset": "PRAISE_HSA_RPUSD1KO",
+      "under_construction": 0,
+      "srr": "SRR34428817"
+    },
+    {
+      "id": 963,
+      "gse": "GSE299274",
+      "gsm": "GSM9089712;GSM9089713",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "PUS1 KO&PRAISE treated",
+      "dataset": "PRAISE_HSA_PUS1KO_PT",
+      "under_construction": 0,
+      "srr": "SRR34428819;SRR34428818"
+    },
+    {
+      "id": 962,
+      "gse": "GSE299274",
+      "gsm": "GSM9089711",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "PUS1 KO&PRAISE untreated",
+      "dataset": "PRAISE_HSA_PUS1KO",
+      "under_construction": 0,
+      "srr": "SRR34428820"
+    },
+    {
+      "id": 961,
+      "gse": "GSE299274",
+      "gsm": "GSM9089709;GSM9089710",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "DKC1 KD&PRAISE treated",
+      "dataset": "PRAISE_HSA_DKC1KD_PT",
+      "under_construction": 0,
+      "srr": "SRR34428822;SRR34428821"
+    },
+    {
+      "id": 960,
+      "gse": "GSE299274",
+      "gsm": "GSM9089708",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "DKC1 KD&PRAISE untreated",
+      "dataset": "PRAISE_HSA_DKC1KD",
+      "under_construction": 0,
+      "srr": "SRR34428823"
+    },
+    {
+      "id": 959,
+      "gse": "GSE299274",
+      "gsm": "GSM9089707;GSM9089706",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "DKC1 NC&PRAISE treated",
+      "dataset": "PRAISE_HSA_DKC1NC_PT",
+      "under_construction": 0,
+      "srr": "SRR34428825;SRR34428824"
+    },
+    {
+      "id": 958,
+      "gse": "GSE299274",
+      "gsm": "GSM9089705",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "DKC1 NC&PRAISE untreated",
+      "dataset": "PRAISE_HSA_DKC1NC",
+      "under_construction": 0,
+      "srr": "SRR34428826"
+    },
+    {
+      "id": 957,
+      "gse": "GSE299274",
+      "gsm": "GSM9036507;GSM9036508",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "PRAISE_treated",
+      "dataset": "PRAISE_HSA_PT",
+      "under_construction": 0,
+      "srr": "SRR33889165;SRR33889164"
+    },
+    {
+      "id": 956,
+      "gse": "GSE299274",
+      "gsm": "GSM9036506",
+      "technology": "PRAISE-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "PRAISE untreated",
+      "dataset": "PRAISE_HSA_WT",
+      "under_construction": 0,
+      "srr": "SRR33889166"
+    },
+    {
+      "id": 947,
+      "gse": "GSE305027",
+      "gsm": "GSM9161213;GSM9161214;GSM9161215",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "PUS1 KO&BS treated",
+      "dataset": "MSR_HSA_PUS1KO_BS",
+      "under_construction": 0,
+      "srr": "SRR34930139;SRR34930140;SRR34930143"
+    },
+    {
+      "id": 946,
+      "gse": "GSE305027",
+      "gsm": "GSM9161216;GSM9161217",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "TRUB1 KO&BS treated",
+      "dataset": "MSR_HSA_TRUB1KO_BS",
+      "under_construction": 0,
+      "srr": "SRR34930137;SRR34930138"
+    },
+    {
+      "id": 945,
+      "gse": "GSE305027",
+      "gsm": "GSM9161218;GSM9161219;GSM9161220",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "PUS7 KO&BS treated",
+      "dataset": "MSR_HSA_PUS7KO_BS",
+      "under_construction": 0,
+      "srr": "SRR34930133;SRR34930134;SRR34930136"
+    },
+    {
+      "id": 944,
+      "gse": "GSE305027",
+      "gsm": "GSM9161207;GSM9161208",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "MSR_HSA_WT",
+      "under_construction": 0,
+      "srr": "SRR34930146;SRR34930147"
+    },
+    {
+      "id": 943,
+      "gse": "GSE305027",
+      "gsm": "GSM9161221;GSM9161222",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "MSR_HSA_Polysome",
+      "under_construction": 0,
+      "srr": "SRR34930132;SRR34930135"
+    },
+    {
+      "id": 942,
+      "gse": "GSE305027",
+      "gsm": "GSM9161225;GSM9161226",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "MSR_HSA_Inp",
+      "under_construction": 0,
+      "srr": "SRR34930128;SRR34930129"
+    },
+    {
+      "id": 941,
+      "gse": "GSE305027",
+      "gsm": "GSM9161209;GSM9161210",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "BS treated",
+      "dataset": "MSR_HSA_BS",
+      "under_construction": 0,
+      "srr": "SRR34930144;SRR34930145"
+    },
+    {
+      "id": 940,
+      "gse": "GSE305027",
+      "gsm": "GSM9161223;GSM9161224",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "BS treated",
+      "dataset": "MSR_HSA_Polysome_BS",
+      "under_construction": 0,
+      "srr": "SRR34930130;SRR34930131"
+    },
+    {
+      "id": 939,
+      "gse": "GSE305027",
+      "gsm": "GSM9161227;GSM9161228",
+      "technology": "MSR-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "BS treated",
+      "dataset": "MSR_HSA_Inp_BS",
+      "under_construction": 0,
+      "srr": "SRR34930126;SRR34930127"
+    },
+    {
+      "id": 932,
+      "gse": "GSE124558",
+      "gsm": "GSM3536543;GSM3536544;GSM3536545",
+      "technology": "DM-Pseudo-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "PUS10 KO&CMC&AlkB+",
+      "dataset": "Pseudo_HSA_PUS10KO_CMC_AlkB+",
+      "under_construction": 0,
+      "srr": "SRR8383365;SRR8383366;SRR8383367"
+    },
+    {
+      "id": 931,
+      "gse": "GSE124558",
+      "gsm": "GSM3536540;GSM3536541;GSM3536542",
+      "technology": "DM-Pseudo-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "PUS10 KO&AlkB+",
+      "dataset": "Pseudo_HSA_PUS10KO_AlkB+",
+      "under_construction": 0,
+      "srr": "SRR8383362;SRR8383363;SRR8383364"
+    },
+    {
+      "id": 930,
+      "gse": "GSE124558",
+      "gsm": "GSM3536537;GSM3536538;GSM3536539",
+      "technology": "DM-Pseudo-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "CMC&AlkB+",
+      "dataset": "Pseudo_HSA_CMC_AlkB+",
+      "under_construction": 0,
+      "srr": "SRR8383359;SRR8383360;SRR8383361"
+    },
+    {
+      "id": 929,
+      "gse": "GSE124558",
+      "gsm": "GSM3536534;GSM3536535;GSM3536536",
+      "technology": "DM-Pseudo-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "AlkB+",
+      "dataset": "Pseudo_HSA_AlkB+",
+      "under_construction": 0,
+      "srr": "SRR8383356;SRR8383357;SRR8383358"
+    },
+    {
+      "id": 928,
+      "gse": "GSE285932",
+      "gsm": "GSM9073019",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD1 KO1&Rescue",
+      "dataset": "BACS_HSA_RPUSD1 KO1_Rescue",
+      "under_construction": 0,
+      "srr": "SRR34257004"
+    },
+    {
+      "id": 927,
+      "gse": "GSE285932",
+      "gsm": "GSM9073018",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD1 KO1&Rescue &BACS",
+      "dataset": "BACS_HSA_RPUSD1 KO1_Rescue_BACS",
+      "under_construction": 0,
+      "srr": "SRR34257005"
+    },
+    {
+      "id": 926,
+      "gse": "GSE285932",
+      "gsm": "GSM9073017",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD1 KO1&Rescue WT",
+      "dataset": "BACS_HSA_RPUSD1 KO1_Rescue WT",
+      "under_construction": 0,
+      "srr": "SRR34257006"
+    },
+    {
+      "id": 925,
+      "gse": "GSE285932",
+      "gsm": "GSM9073016",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD1 KO1&Rescue WT&BACS",
+      "dataset": "BACS_HSA_RPUSD1 KO1_Rescue WT_BACS",
+      "under_construction": 0,
+      "srr": "SRR34257007"
+    },
+    {
+      "id": 924,
+      "gse": "GSE285932",
+      "gsm": "GSM9073015",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD1 KO1&CTRL",
+      "dataset": "BACS_HSA_EV_RPUSD1KO1",
+      "under_construction": 0,
+      "srr": "SRR34257008"
+    },
+    {
+      "id": 923,
+      "gse": "GSE285932",
+      "gsm": "GSM9073014",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD1 KO1&BACS",
+      "dataset": "BACS_HSA_EV_RPUSD1KO1_BACS",
+      "under_construction": 0,
+      "srr": "SRR34257009"
+    },
+    {
+      "id": 916,
+      "gse": "GSE285932",
+      "gsm": "GSM9073007",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "Ctrl",
+      "dataset": "BACS_HSA_shTRUB22",
+      "under_construction": 0,
+      "srr": "SRR34257016"
+    },
+    {
+      "id": 915,
+      "gse": "GSE285932",
+      "gsm": "GSM9073006",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "BACS",
+      "dataset": "BACS_HSA_shTRUB22_BACS",
+      "under_construction": 0,
+      "srr": "SRR34257017"
+    },
+    {
+      "id": 914,
+      "gse": "GSE285932",
+      "gsm": "GSM9073005",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "Ctrl",
+      "dataset": "BACS_HSA_shTRUB21",
+      "under_construction": 0,
+      "srr": "SRR34257018"
+    },
+    {
+      "id": 913,
+      "gse": "GSE285932",
+      "gsm": "GSM9073004",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "BACS",
+      "dataset": "BACS_HSA_shTRUB21_BACS",
+      "under_construction": 0,
+      "srr": "SRR34257019"
+    },
+    {
+      "id": 912,
+      "gse": "GSE285932",
+      "gsm": "GSM9073003",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "Ctrl",
+      "dataset": "BACS_HSA_shCtrl2",
+      "under_construction": 0,
+      "srr": "SRR34257020"
+    },
+    {
+      "id": 911,
+      "gse": "GSE285932",
+      "gsm": "GSM9073002",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "BACS",
+      "dataset": "BACS_HSA_shCtrl2_BACS",
+      "under_construction": 0,
+      "srr": "SRR34257021"
+    },
+    {
+      "id": 910,
+      "gse": "GSE285932",
+      "gsm": "GSM9073001",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "Ctrl",
+      "dataset": "BACS_HSA_shCtrl1",
+      "under_construction": 0,
+      "srr": "SRR34257022"
+    },
+    {
+      "id": 909,
+      "gse": "GSE285932",
+      "gsm": "GSM9073000",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "BACS",
+      "dataset": "BACS_HSA_shCtrl1_BACS",
+      "under_construction": 0,
+      "srr": "SRR34257023"
+    },
+    {
+      "id": 908,
+      "gse": "GSE285932",
+      "gsm": "GSM8712990",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "PUS7L KO2&CTRL",
+      "dataset": "BACS_HSA_PUS7LKO2",
+      "under_construction": 0,
+      "srr": "SRR31899806"
+    },
+    {
+      "id": 907,
+      "gse": "GSE285932",
+      "gsm": "GSM8712989",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "PUS7L KO2&BACS",
+      "dataset": "BACS_HSA_PUS7LKO2_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899807"
+    },
+    {
+      "id": 906,
+      "gse": "GSE285932",
+      "gsm": "GSM8712988",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "PUS7L KO1&CTRL",
+      "dataset": "BACS_HSA_PUS7LKO1",
+      "under_construction": 0,
+      "srr": "SRR31899808"
+    },
+    {
+      "id": 905,
+      "gse": "GSE285932",
+      "gsm": "GSM8712987",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "PUS7L KO1&BACS",
+      "dataset": "BACS_HSA_PUS7LKO1_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899809"
+    },
+    {
+      "id": 904,
+      "gse": "GSE285932",
+      "gsm": "GSM8712986",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "PUS3 KO2&CTRL",
+      "dataset": "BACS_HSA_PUS3KO2",
+      "under_construction": 0,
+      "srr": "SRR31899810"
+    },
+    {
+      "id": 903,
+      "gse": "GSE285932",
+      "gsm": "GSM8712985",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "PUS3 KO2&BACS",
+      "dataset": "BACS_HSA_PUS3KO2_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899811"
+    },
+    {
+      "id": 902,
+      "gse": "GSE285932",
+      "gsm": "GSM8712984",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "PUS3 KO1&CTRL",
+      "dataset": "BACS_HSA_PUS3KO1",
+      "under_construction": 0,
+      "srr": "SRR31899812"
+    },
+    {
+      "id": 901,
+      "gse": "GSE285932",
+      "gsm": "GSM8712983",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "PUS3 KO1&BACS",
+      "dataset": "BACS_HSA_PUS3KO1_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899813"
+    },
+    {
+      "id": 900,
+      "gse": "GSE285932",
+      "gsm": "GSM8712982",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD10 KO2&CTRL",
+      "dataset": "BACS_HSA_RPUSD10KO2",
+      "under_construction": 0,
+      "srr": "SRR31899814"
+    },
+    {
+      "id": 899,
+      "gse": "GSE285932",
+      "gsm": "GSM8712981",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD10 KO2&BACS",
+      "dataset": "BACS_HSA_RPUSD10KO2_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899815"
+    },
+    {
+      "id": 898,
+      "gse": "GSE285932",
+      "gsm": "GSM8712980",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD10 KO1&CTRL",
+      "dataset": "BACS_HSA_RPUSD10KO1",
+      "under_construction": 0,
+      "srr": "SRR31899816"
+    },
+    {
+      "id": 897,
+      "gse": "GSE285932",
+      "gsm": "GSM8712979",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD10 KO1&BACS",
+      "dataset": "BACS_HSA_RPUSD10KO1_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899817"
+    },
+    {
+      "id": 896,
+      "gse": "GSE285932",
+      "gsm": "GSM8712978",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD4 KO2&CTRL",
+      "dataset": "BACS_HSA_RPUSD4KO2",
+      "under_construction": 0,
+      "srr": "SRR31899818"
+    },
+    {
+      "id": 895,
+      "gse": "GSE285932",
+      "gsm": "GSM8712977",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD4 KO2&BACS",
+      "dataset": "BACS_HSA_RPUSD4KO2_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899819"
+    },
+    {
+      "id": 894,
+      "gse": "GSE285932",
+      "gsm": "GSM8712976",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD4 KO1&CTRL",
+      "dataset": "BACS_HSA_RPUSD4KO1",
+      "under_construction": 0,
+      "srr": "SRR31899820"
+    },
+    {
+      "id": 893,
+      "gse": "GSE285932",
+      "gsm": "GSM8712975",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD4 KO1&BACS",
+      "dataset": "BACS_HSA_RPUSD4KO1_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899821"
+    },
+    {
+      "id": 892,
+      "gse": "GSE285932",
+      "gsm": "GSM8712974",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD3 KO2&CTRL",
+      "dataset": "BACS_HSA_RPUSD3KO2",
+      "under_construction": 0,
+      "srr": "SRR31899822"
+    },
+    {
+      "id": 891,
+      "gse": "GSE285932",
+      "gsm": "GSM8712973",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD3 KO2&BACS",
+      "dataset": "BACS_HSA_RPUSD3KO2_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899823"
+    },
+    {
+      "id": 890,
+      "gse": "GSE285932",
+      "gsm": "GSM8712972",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD3 KO1&CTRL",
+      "dataset": "BACS_HSA_RPUSD3KO1",
+      "under_construction": 0,
+      "srr": "SRR31899824"
+    },
+    {
+      "id": 889,
+      "gse": "GSE285932",
+      "gsm": "GSM8712971",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD3 KO1&BACS",
+      "dataset": "BACS_HSA_RPUSD3KO1_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899825"
+    },
+    {
+      "id": 888,
+      "gse": "GSE285932",
+      "gsm": "GSM8712970",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD2 KO2&CTRL",
+      "dataset": "BACS_HSA_RPUSD2KO2",
+      "under_construction": 0,
+      "srr": "SRR31899826"
+    },
+    {
+      "id": 887,
+      "gse": "GSE285932",
+      "gsm": "GSM8712969",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD2 KO2&BACS",
+      "dataset": "BACS_HSA_RPUSD2KO2_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899827"
+    },
+    {
+      "id": 886,
+      "gse": "GSE285932",
+      "gsm": "GSM8712968",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD2 KO1&CTRL",
+      "dataset": "BACS_HSA_RPUSD2KO1",
+      "under_construction": 0,
+      "srr": "SRR31899828"
+    },
+    {
+      "id": 885,
+      "gse": "GSE285932",
+      "gsm": "GSM8712967",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD2 KO1&BACS",
+      "dataset": "BACS_HSA_RPUSD2KO1_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899829"
+    },
+    {
+      "id": 884,
+      "gse": "GSE285932",
+      "gsm": "GSM8712966",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD1 KO2&CTRL",
+      "dataset": "BACS_HSA_RPUSD1KO2",
+      "under_construction": 0,
+      "srr": "SRR31899830"
+    },
+    {
+      "id": 883,
+      "gse": "GSE285932",
+      "gsm": "GSM8712965",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD1 KO2&BACS",
+      "dataset": "BACS_HSA_RPUSD1KO2_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899831"
+    },
+    {
+      "id": 882,
+      "gse": "GSE285932",
+      "gsm": "GSM8712964",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD1 KO1&CTRL",
+      "dataset": "BACS_HSA_RPUSD1KO1",
+      "under_construction": 0,
+      "srr": "SRR31899832"
+    },
+    {
+      "id": 881,
+      "gse": "GSE285932",
+      "gsm": "GSM8712963",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "RPUSD1 KO1&BACS",
+      "dataset": "BACS_HSA_RPUSD1KO1_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899833"
+    },
+    {
+      "id": 880,
+      "gse": "GSE285932",
+      "gsm": "GSM8712962",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "PUSL1 KO2&CTRL",
+      "dataset": "BACS_HSA_PUSL1KO2",
+      "under_construction": 0,
+      "srr": "SRR31899834"
+    },
+    {
+      "id": 879,
+      "gse": "GSE285932",
+      "gsm": "GSM8712961",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "PUSL1 KO2&BACS",
+      "dataset": "BACS_HSA_PUSL1KO2_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899835"
+    },
+    {
+      "id": 878,
+      "gse": "GSE285932",
+      "gsm": "GSM8712960",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "PUSL1 KO1&CTRL",
+      "dataset": "BACS_HSA_PUSL1KO1",
+      "under_construction": 0,
+      "srr": "SRR31899836"
+    },
+    {
+      "id": 877,
+      "gse": "GSE285932",
+      "gsm": "GSM8712959",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "PUSL1 KO1&BACS",
+      "dataset": "BACS_HSA_PUSL1KO1_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899837"
+    },
+    {
+      "id": 876,
+      "gse": "GSE285932",
+      "gsm": "GSM8712954",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "WT_CTRL",
+      "dataset": "BACS_HSA_WT",
+      "under_construction": 0,
+      "srr": "SRR31899842"
+    },
+    {
+      "id": 875,
+      "gse": "GSE285932",
+      "gsm": "GSM8712953",
+      "technology": "BACS-Seq",
+      "species": "Homo sapiens",
+      "sample": "HCT116",
+      "treatment": "WT_BACS",
+      "dataset": "BACS_HSA_BACS",
+      "under_construction": 0,
+      "srr": "SRR31899843"
+    },
+    {
+      "id": 846,
+      "gse": "GSE60047",
+      "gsm": "GSM1464219;GSM1464221;GSM1464231;GSM1464233",
+      "technology": "Pseudo-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "WT_Input",
+      "dataset": "Pseudo_HSA_HEK293T_WT",
+      "under_construction": 0,
+      "srr": "SRR1535832;SRR1535833;SRR1535836;SRR1535837;SRR1535847;SRR1535849"
+    },
+    {
+      "id": 845,
+      "gse": "GSE60047",
+      "gsm": "GSM1464218;GSM1464220;GSM1464230;GSM1464232",
+      "technology": "Pseudo-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "WT_CMC",
+      "dataset": "Pseudo_HSA_HEK293T_CMC",
+      "under_construction": 0,
+      "srr": "SRR1535830;SRR1535831;SRR1535834;SRR1535835;SRR1535846;SRR1535848"
+    },
+    {
+      "id": 844,
+      "gse": "GSE60047",
+      "gsm": "GSM1464215;GSM1464217",
+      "technology": "Pseudo-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "DKC1_KD",
+      "dataset": "Pseudo_HSA_DKC1_KD",
+      "under_construction": 0,
+      "srr": "SRR1535824;SRR1535825;SRR1535828;SRR1535829"
+    },
+    {
+      "id": 843,
+      "gse": "GSE60047",
+      "gsm": "GSM1464214;GSM1464216",
+      "technology": "Pseudo-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "DKC1_KD&CMC",
+      "dataset": "Pseudo_HSA_DKC1KD_CMC",
+      "under_construction": 0,
+      "srr": "SRR1535822;SRR1535823;SRR1535826;SRR1535827"
+    },
+    {
+      "id": 810,
+      "gse": "GSE209646",
+      "gsm": "GSM6381774;GSM6381775",
+      "technology": "m7G-quant-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "m7Gquant_HSA_293T",
+      "under_construction": 0,
+      "srr": "SRR20619921;SRR20619920"
+    },
+    {
+      "id": 808,
+      "gse": "GSE209646",
+      "gsm": "GSM6381770;GSM6381771",
+      "technology": "m7G-quant-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "KBH4 reduction & acid depurination",
+      "dataset": "m7Gquant_HSA_293THR",
+      "under_construction": 0,
+      "srr": "SRR20619924;SRR20619925"
+    },
+    {
+      "id": 802,
+      "gse": "GSE112276",
+      "gsm": "GSM3447866;GSM3447867",
+      "technology": "m7G-Seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "METTL1 kd&Biotin enriched",
+      "dataset": "m7G_HSA_shMETTL1_pulldown",
+      "under_construction": 0,
+      "srr": "SRR8113964;SRR8113965"
+    },
+    {
+      "id": 801,
+      "gse": "GSE112276",
+      "gsm": "GSM3447864;GSM3447865",
+      "technology": "m7G-Seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "METTL1 kd&Chemically treated",
+      "dataset": "m7G_HSA_shMETTL1_before_PD",
+      "under_construction": 0,
+      "srr": "SRR8113962;SRR8113963"
+    },
+    {
+      "id": 800,
+      "gse": "GSE112276",
+      "gsm": "GSM3447862;GSM3447863",
+      "technology": "m7G-Seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "Biotin enriched",
+      "dataset": "m7G_HSA_shCtrl_pulldown",
+      "under_construction": 0,
+      "srr": "SRR8113960;SRR8113961"
+    },
+    {
+      "id": 799,
+      "gse": "GSE112276",
+      "gsm": "GSM3447860;GSM3447861",
+      "technology": "m7G-Seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "Chemically treated",
+      "dataset": "m7G_HSA_shCtrl_before_PD",
+      "under_construction": 0,
+      "srr": "SRR8113958;SRR8113959"
+    },
+    {
+      "id": 794,
+      "gse": "GSE112276",
+      "gsm": "GSM3447850;GSM3447851",
+      "technology": "m7G-Seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "Biotin enriched",
+      "dataset": "m7G_HSA_HEK293T_pulldown",
+      "under_construction": 0,
+      "srr": "SRR8113948;SRR8113949"
+    },
+    {
+      "id": 793,
+      "gse": "GSE112276",
+      "gsm": "GSM3447848;GSM3447849",
+      "technology": "m7G-Seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "Biotin enriched",
+      "dataset": "m7G_HSA_HepG2_pulldown",
+      "under_construction": 0,
+      "srr": "SRR8113946;SRR8113947"
+    },
+    {
+      "id": 791,
+      "gse": "GSE112276",
+      "gsm": "GSM3447844;GSM3447845",
+      "technology": "m7G-Seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "Chemically treated",
+      "dataset": "m7G_HSA_HEK293T_before_PD",
+      "under_construction": 0,
+      "srr": "SRR8113942;SRR8113943"
+    },
+    {
+      "id": 790,
+      "gse": "GSE112276",
+      "gsm": "GSM3447842;GSM3447843",
+      "technology": "m7G-Seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "Chemically treated",
+      "dataset": "m7G_HSA_HepG2_before_PD",
+      "under_construction": 0,
+      "srr": "SRR8113940;SRR8113941"
+    },
+    {
+      "id": 788,
+      "gse": "GSE112276",
+      "gsm": "GSM3447838;GSM3447839",
+      "technology": "m7G-Seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "m7G_HSA_HEK293T_input",
+      "under_construction": 0,
+      "srr": "SRR8113936;SRR8113937"
+    },
+    {
+      "id": 787,
+      "gse": "GSE112276",
+      "gsm": "GSM3447836;GSM3447837",
+      "technology": "m7G-Seq",
+      "species": "Homo sapiens",
+      "sample": "HepG2",
+      "treatment": "none",
+      "dataset": "m7G_HSA_HepG2_input",
+      "under_construction": 0,
+      "srr": "SRR8113934;SRR8113935"
+    },
+    {
+      "id": 735,
+      "gse": "GSE229667",
+      "gsm": "GSM7170190;GSM7170191",
+      "technology": "MapID-tRNA-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "AlkB-",
+      "dataset": "MapID_HSA_HEK293T_AlkB-",
+      "under_construction": 0,
+      "srr": "SRR24162696;SRR24162697"
+    },
+    {
+      "id": 734,
+      "gse": "GSE229667",
+      "gsm": "GSM7170192;GSM7170193",
+      "technology": "MapID-tRNA-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "AlkB+",
+      "dataset": "MapID_HSA_HEK293T_AlkB+",
+      "under_construction": 0,
+      "srr": "SRR24162694;SRR24162695"
+    },
+    {
+      "id": 723,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "TGIRT-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "3'P",
+      "dataset": "TGIRT_HSA_GEV_3P",
+      "under_construction": 0,
+      "srr": "SRR5947788"
+    },
+    {
+      "id": 722,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "TGIRT-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "TGIRT_HSA_TC",
+      "under_construction": 0,
+      "srr": "SRR5650650"
+    },
+    {
+      "id": 721,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "TGIRT-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "TGIRT_HSA_TEV",
+      "under_construction": 0,
+      "srr": "SRR5650649"
+    },
+    {
+      "id": 720,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "TGIRT-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "TGIRT_HSA_GEV",
+      "under_construction": 0,
+      "srr": "SRR5650648"
+    },
+    {
+      "id": 719,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "TGIRT-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "TGIRT_HSA_GC",
+      "under_construction": 0,
+      "srr": "SRR5650647"
+    },
+    {
+      "id": 718,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "TGIRT-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "YBX1 KO",
+      "dataset": "TGIRT_HSA_YEX",
+      "under_construction": 0,
+      "srr": "SRR5650646"
+    },
+    {
+      "id": 717,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "TGIRT-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "YBX1 KO",
+      "dataset": "TGIRT_HSA_YCF",
+      "under_construction": 0,
+      "srr": "SRR5650645"
+    },
+    {
+      "id": 716,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "TGIRT-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "YBX1 KO",
+      "dataset": "TGIRT_HSA_YC",
+      "under_construction": 0,
+      "srr": "SRR5650644"
+    },
+    {
+      "id": 715,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "TGIRT-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "WT",
+      "dataset": "TGIRT_HSA_WEX",
+      "under_construction": 0,
+      "srr": "SRR5650643"
+    },
+    {
+      "id": 714,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "TGIRT-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "WT",
+      "dataset": "TGIRT_HSA_WCF",
+      "under_construction": 0,
+      "srr": "SRR5650642"
+    },
+    {
+      "id": 713,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "TGIRT-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "WT",
+      "dataset": "TGIRT_HSA_WC",
+      "under_construction": 0,
+      "srr": "SRR5650641"
+    },
+    {
+      "id": 684,
+      "gse": "not applicable",
+      "gsm": "not applicable",
+      "technology": "Lotte-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "none",
+      "dataset": "Lotte_HSA_HEK293T_WT",
+      "under_construction": 0,
+      "srr": "SRR9028844;SRR9028845"
+    },
+    {
+      "id": 681,
+      "gse": "GSE186736",
+      "gsm": "GSM5660221;GSM5660222;GSM5660223",
+      "technology": "ALL-tRNA-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "demethylation",
+      "dataset": "ALL_HSA_HEK293T_DM",
+      "under_construction": 0,
+      "srr": "SRR16608944;SRR16608945;SRR16608946;SRR16608947;SRR16608948"
+    },
+    {
+      "id": 625,
+      "gse": "GSE97259",
+      "gsm": "GSM2560259;GSM2560260;GSM2560261",
+      "technology": "DM-tRNA-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "AlkB+",
+      "dataset": "DM_HSA_HEK293T_AlkB+",
+      "under_construction": 0,
+      "srr": "SRR5398250;SRR5398251;SRR5398252"
+    },
+    {
+      "id": 624,
+      "gse": "GSE97259",
+      "gsm": "GSM2560256;GSM2560257;GSM2560258",
+      "technology": "DM-tRNA-seq",
+      "species": "Homo sapiens",
+      "sample": "HEK293T",
+      "treatment": "AlkB-",
+      "dataset": "DM_HSA_HEK293T_AlkB-",
+      "under_construction": 0,
+      "srr": "SRR5398247;SRR5398248;SRR5398249"
+    }
+  ],
+  "tmod_entity_numeric_summary": {
+    "rows": 650,
+    "count_positive_rows": 81,
+    "total_positive_rows": 0,
+    "per_counts_range": [
+      0.0,
+      34.31
+    ],
+    "cov_nonzero_rows": 81
+  }
+}

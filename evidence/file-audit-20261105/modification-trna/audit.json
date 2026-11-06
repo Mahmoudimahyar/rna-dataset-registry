@@ -1,0 +1,753 @@
+{
+  "audit_date": "2026-11-05",
+  "scope": "Representative actual files or read-only numerical API responses for five resource records. This is not full validation of every database file. Bulk data remain outside the repository.",
+  "resources": [
+    {
+      "id": "sci-modom",
+      "verification_level": "file_sample",
+      "status": "verified_representative_numerical_data",
+      "files": [
+        {
+          "url": "https://scimodom.dieterichlab.org/api/v0/dataset/list_all",
+          "bytes": 168410,
+          "sha256": "140ebfd2d23b28c06518f591388d2f5f055bbea5d3b19290a27251e1203bbc4c",
+          "hash_scope": "complete_response"
+        },
+        {
+          "url": "https://scimodom.dieterichlab.org/api/v0/transfer/dataset/fhx8RaDLaBC3",
+          "bytes": 31942,
+          "sha256": "7518c9a1ec3800591d830006e4f15bcea8601ba8b1bd90263af1d62117f79b25",
+          "hash_scope": "complete_response"
+        }
+      ],
+      "inspected_scope": {
+        "data_rows": 543,
+        "columns": [
+          "chrom",
+          "chromStart",
+          "chromEnd",
+          "name",
+          "score",
+          "strand",
+          "thickStart",
+          "thickEnd",
+          "itemRgb",
+          "coverage",
+          "frequency"
+        ],
+        "frequency_range": [
+          10.0,
+          100.0
+        ],
+        "coverage_range": [
+          37,
+          11005
+        ],
+        "unique_modifications": [
+          "Y"
+        ],
+        "replicate_column_present": false,
+        "metadata": {
+          "basecalling": null,
+          "bioinformatics_workflow": "https://doi.org/10.1038/s41587-022-01505-w",
+          "cto": "HEK293T",
+          "dataset_id": "fhx8RaDLaBC3",
+          "dataset_title": "HEK293T WT (BID-seq input/treated) 3 replicates",
+          "doi": "10.1038/s41587-022-01505-w",
+          "experiment": "https://doi.org/10.1038/s41587-022-01505-w",
+          "modomics_sname": "Y",
+          "pmid": "36302989",
+          "project_id": "a5huncbN",
+          "project_summary": "We report bisulfite-induced deletion sequencing (BID-seq), which uses a bisulfite-mediated reaction to convert pseudouridine stoichiometrically into deletion upon reverse transcription without cytosine deamination. BID-seq enables detection of pseudouridine sites with stoichiometry information in several human cell lines (polyA+ RNA from wild-type HeLa, HEK293T and A549 cells) and 12 different mouse tissues (polyA+ RNA from 12 mouse tissues).",
+          "project_title": "Quantitative sequencing using BID-seq uncovers abundant pseudouridines in mammalian mRNA at base resolution",
+          "rna": "WTS",
+          "sequencing_platform": "Illumina NovaSeq 6000",
+          "taxa_id": 9606,
+          "taxa_sname": "H. sapiens",
+          "tech": "BID-seq"
+        }
+      },
+      "live_dataset_metadata_rows": 163,
+      "join_keys": [
+        "EUFID/dataset_id",
+        "GEO source accession",
+        "GRCh38 interval",
+        "cell/tissue cto"
+      ],
+      "label_type": "Measured-assay-derived endogenous modification frequency/coverage; annotations and metadata separate",
+      "integration_decision": "Can annotate endogenous sequence/site context or support modification-assay analyses. Not a direct label or measured modification state for delivered synthetic RNA.",
+      "limits": [
+        "One HEK293T BID-seq pseudouridine dataset audited; no database-wide numerical validation",
+        "Dataset title says three replicates, but exported file has one record per site without replicate columns",
+        "Current docs describe newer /datasets routes that return404 on this deployed site; legacy routes discovered from its own public application work",
+        "Cross-study cell identity does not establish matching culture, dose, time or intracellular RNA modification state"
+      ]
+    },
+    {
+      "id": "m6a-atlas-v2",
+      "verification_level": "file_sample",
+      "status": "verified_full_selected_tables_and_bounded_quantification_prefix",
+      "files": [
+        {
+          "url": "https://rnamd.org/m6a/download/high/hg38/Condition_hg38.txt.gz",
+          "bytes": 6041793,
+          "sha256": "998b250f34ace1bd381e1b882e80431184bf7fe4f420cdba1f77ea29d563010f",
+          "hash_scope": "complete_response"
+        },
+        {
+          "url": "https://rnamd.org/m6a/download/high/hg38/hg38_CL_Tech.txt.gz",
+          "bytes": 20246265,
+          "sha256": "0bf62f1985649e0708f9f5605b7c710844af6e0bef86ac9f85abdca8e83cea93",
+          "hash_scope": "complete_response"
+        },
+        {
+          "url": "https://www.rnamd.org/m6a/apiHighResolution.php?species=HomoSapiens&gene=EIF4G2",
+          "bytes": 18272,
+          "sha256": "01cbe6d171fe67316630949a11b238e50d75a4869d2c065c9be9c7b690e52746",
+          "hash_scope": "complete_response"
+        }
+      ],
+      "inspected_scope": {
+        "m6a_conditions": {
+          "header": [
+            "seqnames",
+            "start",
+            "end",
+            "width",
+            "strand",
+            "ID",
+            "GSE",
+            "CellLine",
+            "Condition",
+            "Technique"
+          ],
+          "data_rows": 843678,
+          "missing_counts": {},
+          "cell_support_rows": {
+            "HeLa": 75032,
+            "HepG2": 39368,
+            "HSPC": 106853,
+            "LNCaP": 22745,
+            "RWPE": 22745,
+            "HEK293": 57968,
+            "PIG1": 3143,
+            "HEK293T": 161674,
+            "HEK293E": 160071,
+            "HCT116": 17611,
+            "A549": 33109,
+            "MCF7": 3230,
+            "MOLM13": 23477,
+            "CD8T": 37183,
+            "MDAMB231": 6003,
+            "kidney": 9220,
+            "ESC": 35405,
+            "liver": 5306,
+            "brain": 9239,
+            "OCM1": 2789,
+            "CM2005.1": 3045,
+            "CRMM1": 2962,
+            "OCM1a": 2944,
+            "OM431": 2556
+          },
+          "tech_support_rows": {
+            "PA-m6A-seq": 19657,
+            "miCLIP": 405618,
+            "m6A-SAC-seq": 160175,
+            "meCLIP": 10186,
+            "m6A-seq with improved protocol": 13433,
+            "miCLIP2": 27764,
+            "DART-seq": 10449,
+            "m6A-CLIP-seq": 68605,
+            "m6ACE": 10519,
+            "MAZTER-seq": 77666,
+            "m6A-REF-seq": 31102,
+            "m6A-label-seq ": 8504
+          },
+          "unique_gse": 23,
+          "unique_site_ids": 427760
+        },
+        "m6a_sites": {
+          "header": [
+            "seqnames",
+            "start",
+            "end",
+            "width",
+            "strand",
+            "GSE_tech_species_cellLine_treatment_C_count_Coverage",
+            "SeqCont",
+            "annotation",
+            "Gene_Name",
+            "Gene_Source",
+            "Gene_Biotype",
+            "Ensembl_ID",
+            "ID",
+            "RBP_Num",
+            "miRNA_Num",
+            "SplicingSite_Num",
+            "SNP_Num",
+            "Cell_Line",
+            "Cell_Line_Num",
+            "Technique",
+            "Technique_Num"
+          ],
+          "data_rows": 427760,
+          "missing_counts": {
+            "Gene_Name": 28319
+          },
+          "cell_support_rows": {},
+          "tech_support_rows": {},
+          "unique_gse": null,
+          "unique_site_ids": null
+        },
+        "m6a_quantification_prefix": {
+          "scope": "First 1MiB uncompressed from bounded 32MiB compressed prefix; last line omitted",
+          "header": "seqnames\tstart\tend\twidth\tstrand\tGSE102336.HepG2.Ctrl\tGSE102336.HepG2.ZCCHC4KO\tGSE103497.MONO.MAC.6.DMSO\tGSE104621.iSLK.219.Ctrl\tGSE106122.CD14.Ctrl\tGSE106122.CMP.Ctrl\tGSE106122.ERY1.Ctrl\tGSE106122.ERY2.Ctrl\tGSE106122.ERY3.Ctrl\tGSE106122.GMP.Ctrl\tGSE106122.HEL.150ug\tGSE106122.HEL.3ug\tGSE106122.HSC.Ctrl\tGSE106122.MEP.Ctrl\tGSE107954.hUCB.CD34.\tGSE110320.HepG2.Ctrl\tGSE110320.HepG2.M14KO\tGSE110320.HepG2.M3KO\tGSE110320.HepG2.SETD2KO\tGSE110320.HepG2.WTAPKO\tGSE112795.HeLa.Ctrl\tGSE112795.HeLa.EMT\tGSE112970.16HBE.Ctrl\tGSE112970.Cd.RWPE.1.chemical_carcinogen\tGSE112970.Cd.SV.HUC.1.chemical_carcinogen\tGSE112970.MC.SV.HUC_T2.chemical_carcinogen\tGSE112970.NSTC2.chemical_carcinogen\tGSE112970.RWPE.1.Ctrl\tGSE112970.SV.HUC.1.Ctrl\tGSE113798.immortalized_B_lymphocyte.healthy\tGSE113798.immortalized_B_lymphocyte.healthy_with_cortisol\tGSE113798.immortalized_B_lymphocyte.MDD\tGSE113798.immortalized_B_lymphocyte.MDD_with_cortisol\tGSE114150.Brain.22weeks\tGSE114150.heart.22weeks\tGSE114150.kidney.22weeks\tGSE114150.Liver.22weeks\tGSE114150.lung.22weeks\tGSE114150.muscle.22weeks\tGSE114150.placenta.22weeks\tGSE114150.stomach.22weeks\tGSE117299.lung.Cancer\tGSE119168.ovary.age35\tGSE119168.ovary.age36\tGSE119168.ovary.age45\tGSE119168.ovary.age46\tGSE119168.ovary.age51\tGSE119168.ovary.age54\tGSE119168.ovary.age59\tGSE119168.ovary.omental_tumor_age62\tGSE119168.ovary.omental_tumor_age64\tGSE119168.ovary.omental_tumor_age67\tGSE119168.ovary.omental_tumor_age68\tGSE119168.ovary.omental_tumor_age70\tGSE119168.ovary.omental_tumor_age73\tGSE119963.PEO1.Ctrl\tGSE119963.PEO1.resistant\tGSE120024.islets.Female\tGSE120024.islets.Male\tGSE120024.islets.T2D_Female\tGSE120024.islets.T2D_Male\tGSE120229.HEK293T.Ctrl\tGSE120229.HEK293T.PCIF1KD\tGSE120860.SMMC7721.Ctrl\tGSE122744.Cerebellum.Ctrl\tGSE122744.FrontalCortex.Ctrl\tGSE122744.Heart.Ctrl\tGSE122744.Kidney.Ctrl\tGSE122744.Liver.Ctrl\tGSE122744.Lung.Ctrl\tGSE122744.Muscle.Ctrl\tGSE122744.Spleen.Ctrl\tGSE122803.Mel624.Ctrl\tGSE122803.Mel624.PCIF1KO\tGSE128443.HeLa.Ctrl\tGSE128443.HeLa.SFPQOE\tGSE128575.THP1.ALKBH5_knock.down\tGSE128575.THP1.ALKBH5_rescue\tGSE128575.THP1.Ctrl\tGSE128580.Breast.cancer.biopsy1\tGSE128580.Breast.cancer.biopsy2\tGSE128580.Breast.cancer.biopsy3\tGSE128580.PC.3.Ctrl\tGSE128580.PC.3.FTO\tGSE128580.SK.BR.3.Ctrl\tGSE128580.SK.BR.3.FTO\tGSE129469.SU.DHL.8.Ctrl\tGSE129469.SU.DHL.8.siWTAP\tGSE129716.HCT116.Ctrl\tGSE129716.HCT116.si.YTHDF3\tGSE130172.MDA.MB.231.Ctrl\tGSE130892.OCI.Ly1.Ctrl\tGSE130892.OCI.Ly1.HS\tGSE132306.EndoC.bH1.Ctrl\tGSE132306.EndoC.bH1.M14KO\tGSE132306.EndoC.bH1.M3KO\tGSE133132.BGC823.Ctrl\tGSE133132.BGC823.SH.METTL3\tGSE136433.A549.cisplatin\tGSE136433.A549.Ctrl\tGSE137675.CM2005.1.Ctrl\tGSE137675.CRMM1.Ctrl\tGSE137675.OCM1a.Ctrl\tGSE137675.OCM1.Ctrl\tGSE137675.OCM431.Ctrl\tGSE137675.PIG1.Ctrl\tGSE137752.HMC3.Ctrl\tGSE137752.K562.Ctrl\tGSE141993.IMR90.Ctrl\tGSE141993.IMR90.senescent\tGSE144032.brain_region_BA9.old\tGSE144032.brain_region_BA9.young\tGSE144984.NOMO1.Ctrl\tGSE144984.NOMO1.shALKBH5\tGSE145923.Skin.Chronic.arsenic\tGSE145923.Skin.Chronic.arsenic.tumor.\tGSE145923.Skin.Ctrl\tGSE145924.Skin.Ctrl\tGSE145924.Skin.shMETTL14\tGSE145924.Skin.shMETTL14_UBV\tGSE147891.LNCaP.Ctrl\tGSE147891.RWPE.1.Ctrl\tGSE148962.HTR8_SVneo.Ctrl\tGSE148962.HTR8_SVneo.M3KD\tGSE149510.HCCLM3.ALKBH5.overexpressed\tGSE149510.HCCLM3.Ctrl\tGSE150892.P493.6.Ctrl\tGSE154555.K180.Ctrl\tGSE154555.K180.Mettl3KD\tGSE155448.Huh7.Ctrl\tGSE155448.Huh7.Ifn.treatment\tGSE156886.Ameloblastoma.Ctrl\tGSE156886.oral.tissue.Ctrl\tGSE158742.GSC387.Ctrl\tGSE158742.GSC4121.Ctrl\tGSE158742.HNP1.Ctrl\tGSE158742.NSC11.Ctrl\tGSE161792.MRC5.Ctrl\tGSE161792.MRC5.UV.24hr\tGSE161792.MRC5.UV.30min\tGSE161792.MRC5.UV.3hr\tGSE161879.pleomorphic.adenoma.tissue.malignant\tGSE161879.salivary.gland.Ctrl\tGSE164200.HeLa.Ctrl\tGSE164200.HeLa.heatshock\tGSE164200.HeLa.HS.HSATIIIKD\tGSE164200.HeLa.Recovery.HSATIIIKD\tGSE164200.HeLa.Recovery\tGSE165518.white.blood.cell.healthy\tGSE165518.white.blood.cell.SFTSV.infection\tGSE165690.HeLa.Ctrl\tGSE165690.HeLa.Rapamycin\tGSE166972.AGS.Ctrl\tGSE166972.AGS.sh.YTHDF1\tGSE167933.conjunctival.Ctrl\tGSE167933.pterygium.Ctrl\tGSE168778.Kasumi.1.CoCl2\tGSE168778.Kasumi.1.Ctrl\tGSE171373.HUCMSCs.Ctrl\tGSE171373.HUCMSCs.Induced\tGSE171472.H322.Ctrl\tGSE171472.H6658.FTO.knockdown\tGSE179042.Colon.cancer\tGSE179042.Colon.para.carcinoma\tGSE181540.hypertrophic.scar.Ctrl\tGSE181540.Skin.Ctrl\tGSE29714.HEK293T.Ctrl\tGSE37002.HepG2.HGF\tGSE37002.HepG2.HS\tGSE37002.HepG2.IFN\tGSE37002.HepG2.UV\tGSE37003.HepG2.Ctrl\tGSE37004.Brain.Ctrl\tGSE46705.HeLa.Ctrl\tGSE46705.HeLa.M14KO\tGSE46705.HeLa.M3KO\tGSE46705.HeLa.WTAPKO\tGSE55572.A549.Ctrl\tGSE55572.A549.GFPKO\tGSE55572.A549.KIAA1429KO\tGSE55572.A549.M14KO\tGSE55572.A549.M3KO\tGSE55572.A549.M3M14KO\tGSE55572.A549.WTAPKO\tGSE55572.HEK293T.Ctrl\tGSE55572.HEK293T.M3KO\tGSE55572.HEK293T.WTAPKO\tGSE55572.hESC.Ctrl\tGSE55572.hNPC.Ctrl\tGSE70299.lymphoblastoid.Ctrl\tGSE74016.MT4.Ctrl\tGSE76367.A549.Ctrl\tGSE76367.H1299.Ctrl\tGSE76414.MONO.MAC.6.Ctrl\tGSE76414.MONO.MAC.6.FTOOE\tGSE85724.CD4.T.Primary\tGSE85724.Jurkat.Ctrl\tGSE87190.MA9.3ITD.Ctrl\tGSE87190.MA9.3ITD.FTOKO\tGSE87190.MA9.3ITD.FTOKOwithR.2HG\tGSE87190.MA9.3ITD.R.2HG\tGSE87190.MA9.3RAS.Ctrl\tGSE87190.MA9.3RAS.FTOKO\tGSE87190.MA9.3RAS.FTOKOwithR.2HG\tGSE87190.MA9.3RAS.R.2HG\tGSE87190.NOMO.1.Ctrl\tGSE87190.NOMO.1.R.2HG\tGSE87515.GSC11.ALKBH5KO\tGSE87515.GSC11.Ctrl\tGSE87516.HEK293T.Ctrl\tGSE90642.HepG2.Ctrl\tGSE90642.HepG2.METTL14KD\tGSE90914.HEK293A.TOA.Ctrl\tGSE90914.HEK293A.TOA.M16KO\tGSE93911.endometrial.adjacent_patient1\tGSE93911.endometrial.adjacent_patient2\tGSE93911.endometrial.adjacent_patient3\tGSE93911.endometrial.adjacent_patient4\tGSE93911.endometrial.tumor_patient1\tGSE93911.endometrial.tumor_patient2\tGSE93911.endometrial.tumor_patient3\tGSE93911.endometrial.tumor_patient4\tGSE93911.HEC.1.A.Ctrl\tGSE93911.HEC.1.A.METTL3KD\tGSE93911.HEC.1.A.muMETTL14\tGSE93911.HEC.1.A.wtMETTL14\tGSE94613.MOLM13.Ctrl\tGSE94613.MOLM13.METTL3KD\tGSE94808.PBT003.Ctrl\tGSE94808.PBT003.M14KO\tGSE94808.PBT003.M3KO\tGSE99017.brain_cortex.Ctrl\tGSE99017.organoid.Ctrl\tPRJNA498900.BCa5637.Ctrl\tID",
+          "complete_sample_rows": 491,
+          "example_fields": [
+            "chr10",
+            "100005760",
+            "100005760",
+            "1",
+            "-",
+            "NA",
+            "NA",
+            "NA"
+          ]
+        }
+      },
+      "join_keys": [
+        "m6A_hg38 site ID",
+        "hg38 position/strand",
+        "Ensembl_ID",
+        "GSE",
+        "CellLine",
+        "Condition",
+        "Technique"
+      ],
+      "label_type": "Assay-supported endogenous site/condition calls; quantification file contains study-condition measurements with missing values, not a universal modified-fraction assay",
+      "integration_decision": "Useful endogenous annotation and exploratory context evidence after genome/condition reconciliation; cannot mark the corresponding position as modified in an engineered reporter.",
+      "limits": [
+        "843678 support rows refer to427760 unique sites; do not treat support rows as independent modified positions",
+        "High-resolution support and bulk quantification have different assay interpretations",
+        "Quantification file read as bounded compressed prefix only; no full-file count or checksum claimed",
+        "No full measured synthetic-RNA modification-to-protein output matrix",
+        "Reported logFC values must not be interpreted as calibrated occupancy fractions"
+      ]
+    },
+    {
+      "id": "tmodbase2",
+      "verification_level": "file_sample",
+      "status": "verified_read_only_graphql_numerical_response",
+      "source_urls": [
+        "https://doi.org/10.1093/nar/gkag1092",
+        "https://www.tmodbase2.com/",
+        "https://www.tmodbase2.com/assets/MyDownload-C7RT6G13.js"
+      ],
+      "files": [
+        {
+          "url": "https://www.tmodbase2.com/graphql",
+          "bytes": 138423,
+          "sha256": "acf8483c6d21ad470529987c4ef699964d40764e734764026b1bf37750329fdb",
+          "hash_scope": "complete_response"
+        },
+        {
+          "url": "https://www.tmodbase2.com/graphql",
+          "bytes": 6352739,
+          "sha256": "9b037bd1bc1b7fb4fd0c69480c55b3c42d7c0bebd6cfa6c1c6b128df9c149661",
+          "hash_scope": "complete_response"
+        }
+      ],
+      "api_query_evidence": "tmod_api_audit.json",
+      "inspected_scope": {
+        "metadata_rows": 528,
+        "metadata_columns": [
+          "id",
+          "gse",
+          "gsm",
+          "technology",
+          "species",
+          "sample",
+          "treatment",
+          "dataset",
+          "under_construction",
+          "srr"
+        ],
+        "matched_cell_metadata_entry_counts": {
+          "HepG2": 18,
+          "HEK293T": 83,
+          "HCT116": 48
+        },
+        "entity_dataset": "DAMM_HSA_Rescue_ALKBH7_mut",
+        "entity_condition": "HepG2 ALKBH7-mutant rescue",
+        "entity_rows": 650,
+        "entity_columns": [
+          "id",
+          "name",
+          "raw_name",
+          "dataset",
+          "cov",
+          "stop",
+          "mismatch",
+          "per_mismatch",
+          "total",
+          "counts",
+          "per_counts",
+          "cov_ng",
+          "stop_ng",
+          "mismatch_ng",
+          "per_mismatch_ng"
+        ],
+        "numeric_summary": {
+          "rows": 650,
+          "count_positive_rows": 81,
+          "total_positive_rows": 0,
+          "per_counts_range": [
+            0.0,
+            34.31
+          ],
+          "cov_nonzero_rows": 81
+        }
+      },
+      "join_keys": [
+        "dataset string",
+        "GSE/GSM/SRR source metadata",
+        "tRNA name/raw_name",
+        "sample and treatment"
+      ],
+      "label_type": "Read-count-derived tRNA abundance fields and positional coverage/mismatch/stop arrays; not calibrated charging or universal modification fractions",
+      "integration_decision": "Exploratory functional tRNA context only after selecting comparable assays and treatments. Inspected numerical condition is perturbed and cannot be assigned to untreated HepG2 reporter output.",
+      "limits": [
+        "650 tRNA entities but only81 with nonzero counts/coverage in inspected response",
+        "total field is zero in every inspected entity despite positive counts in81; interpretation remains unresolved",
+        "No per-replicate entity dimension; metadata can aggregate multiple GSMs",
+        "Cell labels alone do not establish preparation or biological-condition equivalence",
+        "One numerical condition verified, not all528 datasets"
+      ]
+    },
+    {
+      "id": "t-psi-c-sequencing-index",
+      "verification_level": "metadata",
+      "status": "verified_index_with_linked_processed_study_files",
+      "files": [
+        {
+          "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/all/",
+          "bytes": 38117,
+          "sha256": "f687a94ea33aee3b82e65567acef0f2302e7fe495cbfbd92700f5d80e109136b",
+          "hash_scope": "complete_response"
+        }
+      ],
+      "linked_numerical_studies": [
+        {
+          "accession": "GSE239867",
+          "file": {
+            "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239867/suppl/GSE239867_RAW.tar",
+            "bytes": 40960,
+            "sha256": "77c3aeda1650cf719479c468114a80456de90394270c2200bec481ea3c61e715",
+            "hash_scope": "complete_response"
+          },
+          "member_count": 12,
+          "members": [
+            {
+              "member": "GSM7675797_MEFcont1.counts.txt.gz",
+              "rows": 227,
+              "columns": [
+                "tRNA_identifier",
+                "unlabeled_numeric_1",
+                "unlabeled_numeric_2",
+                "unlabeled_numeric_3"
+              ],
+              "numeric_columns_parse_as_nonnegative_integers": true
+            },
+            {
+              "member": "GSM7675798_MEFcont2.counts.txt.gz",
+              "rows": 227,
+              "columns": [
+                "tRNA_identifier",
+                "unlabeled_numeric_1",
+                "unlabeled_numeric_2",
+                "unlabeled_numeric_3"
+              ],
+              "numeric_columns_parse_as_nonnegative_integers": true
+            },
+            {
+              "member": "GSM7675799_MEFcont3.counts.txt.gz",
+              "rows": 227,
+              "columns": [
+                "tRNA_identifier",
+                "unlabeled_numeric_1",
+                "unlabeled_numeric_2",
+                "unlabeled_numeric_3"
+              ],
+              "numeric_columns_parse_as_nonnegative_integers": true
+            },
+            {
+              "member": "GSM7675800_MEFHF1.counts.txt.gz",
+              "rows": 227,
+              "columns": [
+                "tRNA_identifier",
+                "unlabeled_numeric_1",
+                "unlabeled_numeric_2",
+                "unlabeled_numeric_3"
+              ],
+              "numeric_columns_parse_as_nonnegative_integers": true
+            },
+            {
+              "member": "GSM7675801_MEFHF2.counts.txt.gz",
+              "rows": 227,
+              "columns": [
+                "tRNA_identifier",
+                "unlabeled_numeric_1",
+                "unlabeled_numeric_2",
+                "unlabeled_numeric_3"
+              ],
+              "numeric_columns_parse_as_nonnegative_integers": true
+            },
+            {
+              "member": "GSM7675802_MEFHF3.counts.txt.gz",
+              "rows": 227,
+              "columns": [
+                "tRNA_identifier",
+                "unlabeled_numeric_1",
+                "unlabeled_numeric_2",
+                "unlabeled_numeric_3"
+              ],
+              "numeric_columns_parse_as_nonnegative_integers": true
+            },
+            {
+              "member": "GSM7675803_Con2.tRNA.counts.txt.gz",
+              "rows": 261,
+              "columns": [
+                "tRNA_identifier",
+                "unlabeled_numeric_1",
+                "unlabeled_numeric_2",
+                "unlabeled_numeric_3"
+              ],
+              "numeric_columns_parse_as_nonnegative_integers": true
+            },
+            {
+              "member": "GSM7675804_Con3.tRNA.counts.txt.gz",
+              "rows": 261,
+              "columns": [
+                "tRNA_identifier",
+                "unlabeled_numeric_1",
+                "unlabeled_numeric_2",
+                "unlabeled_numeric_3"
+              ],
+              "numeric_columns_parse_as_nonnegative_integers": true
+            },
+            {
+              "member": "GSM7675805_Con4.tRNA.counts.txt.gz",
+              "rows": 261,
+              "columns": [
+                "tRNA_identifier",
+                "unlabeled_numeric_1",
+                "unlabeled_numeric_2",
+                "unlabeled_numeric_3"
+              ],
+              "numeric_columns_parse_as_nonnegative_integers": true
+            },
+            {
+              "member": "GSM7675806_UV2.tRNA.counts.txt.gz",
+              "rows": 261,
+              "columns": [
+                "tRNA_identifier",
+                "unlabeled_numeric_1",
+                "unlabeled_numeric_2",
+                "unlabeled_numeric_3"
+              ],
+              "numeric_columns_parse_as_nonnegative_integers": true
+            },
+            {
+              "member": "GSM7675807_UV3.tRNA.counts.txt.gz",
+              "rows": 261,
+              "columns": [
+                "tRNA_identifier",
+                "unlabeled_numeric_1",
+                "unlabeled_numeric_2",
+                "unlabeled_numeric_3"
+              ],
+              "numeric_columns_parse_as_nonnegative_integers": true
+            },
+            {
+              "member": "GSM7675808_UV4.tRNA.counts.txt.gz",
+              "rows": 261,
+              "columns": [
+                "tRNA_identifier",
+                "unlabeled_numeric_1",
+                "unlabeled_numeric_2",
+                "unlabeled_numeric_3"
+              ],
+              "numeric_columns_parse_as_nonnegative_integers": true
+            }
+          ],
+          "unique_tRNA_ids": 487,
+          "total_data_rows": 2928,
+          "ratio_range": null,
+          "ratio_formula_max_abs_error": null
+        },
+        {
+          "accession": "GSE188855",
+          "file": {
+            "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188855/suppl/GSE188855_RAW.tar",
+            "bytes": 30720,
+            "sha256": "425d8cea1f9a507e96bcd5f53db111d52bf79543eb035180bbdc34b3fc2cfc53",
+            "hash_scope": "complete_response"
+          },
+          "member_count": 12,
+          "members": [
+            {
+              "member": "GSM5691036_012S_1.txt.txt.gz",
+              "rows": 67,
+              "columns": [
+                "tRNA",
+                "CCA",
+                "CC",
+                "Ratio"
+              ],
+              "missing_values": 0
+            },
+            {
+              "member": "GSM5691037_012S_2.txt.txt.gz",
+              "rows": 67,
+              "columns": [
+                "tRNA",
+                "CCA",
+                "CC",
+                "Ratio"
+              ],
+              "missing_values": 0
+            },
+            {
+              "member": "GSM5691038_012S_3.txt.txt.gz",
+              "rows": 67,
+              "columns": [
+                "tRNA",
+                "CCA",
+                "CC",
+                "Ratio"
+              ],
+              "missing_values": 0
+            },
+            {
+              "member": "GSM5691039_012A_1.txt.txt.gz",
+              "rows": 67,
+              "columns": [
+                "tRNA",
+                "CCA",
+                "CC",
+                "Ratio"
+              ],
+              "missing_values": 0
+            },
+            {
+              "member": "GSM5691040_012A_2.txt.txt.gz",
+              "rows": 67,
+              "columns": [
+                "tRNA",
+                "CCA",
+                "CC",
+                "Ratio"
+              ],
+              "missing_values": 0
+            },
+            {
+              "member": "GSM5691041_012A_3.txt.txt.gz",
+              "rows": 67,
+              "columns": [
+                "tRNA",
+                "CCA",
+                "CC",
+                "Ratio"
+              ],
+              "missing_values": 0
+            },
+            {
+              "member": "GSM5691042_013S_1.txt.txt.gz",
+              "rows": 67,
+              "columns": [
+                "tRNA",
+                "CCA",
+                "CC",
+                "Ratio"
+              ],
+              "missing_values": 2
+            },
+            {
+              "member": "GSM5691043_013S_2.txt.txt.gz",
+              "rows": 67,
+              "columns": [
+                "tRNA",
+                "CCA",
+                "CC",
+                "Ratio"
+              ],
+              "missing_values": 0
+            },
+            {
+              "member": "GSM5691044_013S_3.txt.txt.gz",
+              "rows": 67,
+              "columns": [
+                "tRNA",
+                "CCA",
+                "CC",
+                "Ratio"
+              ],
+              "missing_values": 0
+            },
+            {
+              "member": "GSM5691045_013A_1.txt.txt.gz",
+              "rows": 67,
+              "columns": [
+                "tRNA",
+                "CCA",
+                "CC",
+                "Ratio"
+              ],
+              "missing_values": 0
+            },
+            {
+              "member": "GSM5691046_013A_2.txt.txt.gz",
+              "rows": 67,
+              "columns": [
+                "tRNA",
+                "CCA",
+                "CC",
+                "Ratio"
+              ],
+              "missing_values": 0
+            },
+            {
+              "member": "GSM5691047_013A_3.txt.txt.gz",
+              "rows": 67,
+              "columns": [
+                "tRNA",
+                "CCA",
+                "CC",
+                "Ratio"
+              ],
+              "missing_values": 1
+            }
+          ],
+          "unique_tRNA_ids": 67,
+          "total_data_rows": 804,
+          "ratio_range": [
+            0.0,
+            100.0
+          ],
+          "ratio_formula_max_abs_error": 4.9924580025617615e-09
+        }
+      ],
+      "join_keys": [
+        "method",
+        "GEO accession",
+        "GSM",
+        "tRNA identifier/anticodon"
+      ],
+      "label_type": "The index is reference metadata; downstream dedicated assays provide counts/derived charging fractions",
+      "integration_decision": "Useful study discovery. Downloaded charging studies support their own stress/cell-state analyses; neither is a matched cell-context covariate matrix for the circRNA reporter panels.",
+      "limits": [
+        "GSE239867 covers mouse MEFs and human NTERT keratinocytes under stress; unlabeled colon-separated count columns require mapping before calculation",
+        "GSE188855 has12 samples and67 tRNA IDs per file, with Ratio equal to100*CCA/(CCA+CC) within rounding",
+        "GSE188855 sample GSM5691036 title is Lung_starvation_rep1 but treatment metadata says untreated; preserve the conflict and resolve against study design before assigning labels",
+        "The GSE188855 study is a separately investigated charging experiment; current T-psi-C index explicitly links GSE239867",
+        "No circRNA/mRNA protein-output labels in these tRNA processed files"
+      ]
+    },
+    {
+      "id": "modomics",
+      "verification_level": "file_sample",
+      "status": "verified_reference_position_archive",
+      "files": [
+        {
+          "url": "https://genesilico.pl/modomics/download/modified_positions/",
+          "bytes": 146558,
+          "sha256": "940e939dd59c87812c82b12d1e08789737b6df953c5b3515ceb63938eb8f23dd",
+          "hash_scope": "complete_response"
+        }
+      ],
+      "inspected_scope": [
+        {
+          "member": "SSU.mods",
+          "line_count": 450,
+          "noncomment_rows": 450,
+          "field_width_counts": {
+            "9": 450
+          },
+          "schema_for_9fields": [
+            "RNA_type",
+            "RNA_name",
+            "anticodon_or_subtype",
+            "compartment",
+            "organism",
+            "native_position",
+            "aligned_position_or_missing",
+            "modification",
+            "source_annotation"
+          ],
+          "human_rows": 59,
+          "cell_line_column_present": false,
+          "numerical_output_column_present": false
+        },
+        {
+          "member": "manual.mods",
+          "line_count": 159,
+          "noncomment_rows": 153,
+          "field_width_counts": {
+            "9": 153
+          },
+          "schema_for_9fields": [
+            "RNA_type",
+            "RNA_name",
+            "anticodon_or_subtype",
+            "compartment",
+            "organism",
+            "native_position",
+            "aligned_position_or_missing",
+            "modification",
+            "source_annotation"
+          ],
+          "human_rows": 47,
+          "cell_line_column_present": false,
+          "numerical_output_column_present": false
+        },
+        {
+          "member": "tRNA.mods",
+          "line_count": 1674,
+          "noncomment_rows": 1674,
+          "field_width_counts": {
+            "9": 1674
+          },
+          "schema_for_9fields": [
+            "RNA_type",
+            "RNA_name",
+            "anticodon_or_subtype",
+            "compartment",
+            "organism",
+            "native_position",
+            "aligned_position_or_missing",
+            "modification",
+            "source_annotation"
+          ],
+          "human_rows": 0,
+          "cell_line_column_present": false,
+          "numerical_output_column_present": false
+        }
+      ],
+      "join_keys": [
+        "organism",
+        "RNA identity",
+        "compartment",
+        "native/aligned position",
+        "modification symbol"
+      ],
+      "label_type": "Curated reference modification positions, not numerical cell-state abundance/activity",
+      "integration_decision": "Use as chemical/reference vocabulary and site annotation only; cannot join by cell to predict output.",
+      "limits": [
+        "Audited three legacy .mods files within one download archive, not every current MODOMICS endpoint",
+        "No cell-line or protein-output fields in inspected tables",
+        "Reference positions do not imply modification stoichiometry or actual presence in a new synthetic RNA"
+      ]
+    }
+  ],
+  "scientific_conclusion": "None of these five supplies matched synthetic mRNA/circRNA sequence-by-cell protein-output labels. They can provide references or hypothesis-driven auxiliary features, but joining by cell name alone would introduce unmeasured-context assumptions. Direct translation-specific claims need separately defined RNA persistence/exposure and protein kinetics measurements."
+}

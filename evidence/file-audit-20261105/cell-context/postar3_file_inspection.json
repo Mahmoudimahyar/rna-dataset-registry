@@ -1,0 +1,87 @@
+{
+  "source_url": "http://111.198.139.65/download/human_RBP/ALKBH1.binding.sites.zip",
+  "redirect_provenance": "https://postar.ncrnalab.org/ publishes canonical/meta-refresh link to http://111.198.139.65",
+  "archive_member": "human_RBP/ALKBH1.binding.sites",
+  "full_selected_file_rows_counted": 5361,
+  "unique_site_ids": 1971,
+  "column_count": [
+    22
+  ],
+  "header_in_file": false,
+  "sample_rows": [
+    [
+      "chr1",
+      "110226138",
+      "110226158",
+      "human_RBP_CLIPdb_1622599",
+      "0",
+      "+",
+      "ALKBH1",
+      "HITS-CLIP,Piranha_0.01",
+      "HeLa",
+      "GSE65299,GSM2107199",
+      "8",
+      "chr1",
+      "110225974",
+      "110226178",
+      "ENSG00000116396|ENST00000469655",
+      "0",
+      "+",
+      "protein_coding",
+      "CDS",
+      "KCNC4",
+      "0.9088",
+      "3.8784"
+    ],
+    [
+      "chr1",
+      "110226138",
+      "110226158",
+      "human_RBP_CLIPdb_1622599",
+      "0",
+      "+",
+      "ALKBH1",
+      "HITS-CLIP,Piranha_0.01",
+      "HeLa",
+      "GSE65299,GSM2107199",
+      "8",
+      "chr1",
+      "110225974",
+      "110226178",
+      "ENSG00000116396|ENST00000369787",
+      "0",
+      "+",
+      "protein_coding",
+      "CDS",
+      "KCNC4",
+      "0.9088",
+      "3.8784"
+    ]
+  ],
+  "rbps": [
+    "ALKBH1"
+  ],
+  "cell_contexts": [
+    "HeLa"
+  ],
+  "assay_pipeline_labels": [
+    "HITS-CLIP,CIMS",
+    "HITS-CLIP,Piranha_0.01"
+  ],
+  "source_accessions": [
+    "GSE65299,GSM2107198",
+    "GSE65299,GSM2107199",
+    "GSE65299,GSM2107200"
+  ],
+  "identifiers": "genomic intervals, POSTAR binding-site ID, Ensembl gene|transcript, gene symbol, GEO source accessions",
+  "readout": "processed CLIP binding-site/transcript-overlap rows; not expression, affinity or translation",
+  "replicates": "not explicit in selected table; source GEO records needed",
+  "assembly": "not established from headerless selected table",
+  "condition": "HeLa label; culture/treatment not explicit",
+  "license": "unknown; accessibility is not redistribution permission",
+  "limitations": [
+    "One ALKBH1 file only; not full POSTAR3.",
+    "Multiple rows may repeat one binding site across transcript overlaps; site IDs and row counts must remain distinct.",
+    "22 columns observed but exact definitions of extra scores and assembly unresolved."
+  ]
+}

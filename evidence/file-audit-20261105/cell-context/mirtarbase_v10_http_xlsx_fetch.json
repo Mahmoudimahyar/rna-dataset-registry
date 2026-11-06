@@ -1,0 +1,7 @@
+{
+  "name": "mirtarbase_v10_http.xlsx",
+  "source_url": "http://mirtarbase.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/cache/download/10.0/hsa_MTI.xlsx",
+  "checked_on": "2026-11-05",
+  "complete": false,
+  "error": "HTTPSConnectionPool(host='mirtarbase.cuhk.edu.cn', port=443): Max retries exceeded with url: /~miRTarBase/miRTarBase_2025/cache/download/10.0/hsa_MTI.xlsx (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1010)')))"
+}

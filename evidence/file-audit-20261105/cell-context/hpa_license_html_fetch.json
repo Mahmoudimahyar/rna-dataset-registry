@@ -1,0 +1,13 @@
+{
+  "name": "hpa_license.html",
+  "source_url": "https://www.proteinatlas.org/about/licence",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length": "21838",
+  "bytes_saved": 127946,
+  "sha256": "4c9b589b90bd63fd0b1fe63ea528e7df80287ede333ab8762960742c13301678",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "hpa_license.html"
+}

@@ -1,0 +1,11 @@
+{
+  "resource": "CELLxGENE Census",
+  "verification_level": "metadata",
+  "source_url": "https://census.cellxgene.cziscience.com/cellxgene-census/v1/release.json",
+  "resolved_stable": "2025-11-08",
+  "numeric_expression_rows_inspected": 0,
+  "sdk_attempt": "cellxgene-census installation attempted with bundled Windows Python; tiledbsoma had to build from source and native build failed.",
+  "unavailable_gap": "No actual numeric Census slice obtained; metadata does not meet file_sample verification.",
+  "license": "per-dataset/collection terms not inspected; API code license is not data license",
+  "recommended_next_step": "Use supported Linux/macOS environment and export a bounded real 10-cell x 3-gene slice with dataset_id, donor/assay/condition and raw-layer provenance."
+}

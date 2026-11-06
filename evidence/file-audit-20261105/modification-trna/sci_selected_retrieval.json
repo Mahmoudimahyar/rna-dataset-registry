@@ -1,0 +1,47 @@
+{
+  "selected_dataset_metadata": [
+    {
+      "basecalling": null,
+      "bioinformatics_workflow": "https://doi.org/10.1038/s41587-022-01505-w",
+      "cto": "HEK293T",
+      "dataset_id": "fhx8RaDLaBC3",
+      "dataset_title": "HEK293T WT (BID-seq input/treated) 3 replicates",
+      "doi": "10.1038/s41587-022-01505-w",
+      "experiment": "https://doi.org/10.1038/s41587-022-01505-w",
+      "modomics_sname": "Y",
+      "pmid": "36302989",
+      "project_id": "a5huncbN",
+      "project_summary": "We report bisulfite-induced deletion sequencing (BID-seq), which uses a bisulfite-mediated reaction to convert pseudouridine stoichiometrically into deletion upon reverse transcription without cytosine deamination. BID-seq enables detection of pseudouridine sites with stoichiometry information in several human cell lines (polyA+ RNA from wild-type HeLa, HEK293T and A549 cells) and 12 different mouse tissues (polyA+ RNA from 12 mouse tissues).",
+      "project_title": "Quantitative sequencing using BID-seq uncovers abundant pseudouridines in mammalian mRNA at base resolution",
+      "rna": "WTS",
+      "sequencing_platform": "Illumina NovaSeq 6000",
+      "taxa_id": 9606,
+      "taxa_sname": "H. sapiens",
+      "tech": "BID-seq"
+    }
+  ],
+  "retrievals": [
+    {
+      "id": "sci_bedrmod_fhx8RaDLaBC3",
+      "url": "https://scimodom.dieterichlab.org/api/v0/transfer/dataset/fhx8RaDLaBC3",
+      "resolved_url": "https://scimodom.dieterichlab.org/api/v0/transfer/dataset/fhx8RaDLaBC3",
+      "status": 200,
+      "content_type": "text/csv; charset=utf-8",
+      "bytes_read": 31942,
+      "complete": true,
+      "sha256": "7518c9a1ec3800591d830006e4f15bcea8601ba8b1bd90263af1d62117f79b25",
+      "hash_scope": "full_response"
+    },
+    {
+      "id": "charge188_correct_sample",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5691036&targ=self&form=text&view=full",
+      "resolved_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5691036&targ=self&form=text&view=full",
+      "status": 200,
+      "content_type": "geo/text",
+      "bytes_read": 3459,
+      "complete": true,
+      "sha256": "8c199eed784e51e424959b3daaa0a674abeebb4d3e3838fdef4384d90db2a948",
+      "hash_scope": "full_response"
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "audit_date": "2026-11-05",
+  "audit_utc": "2026-11-06T00:35:35.904813+00:00",
+  "scope": "Six translation/circRNA database resources; bounded actual-file verification with unsuccessful routes preserved. Source data not redistributed.",
+  "resources": [
+    {
+      "resource_id": "circatlas3",
+      "name": "circAtlas v3",
+      "verification_level": "file_sample",
+      "inspection_status": "verified_coordinate_file",
+      "files": [
+        {
+          "source_url": "https://ngdc.cncb.ac.cn/circatlas/analysis/bed/human_bed_v3.0.zip",
+          "source_filename": "circAtlas_human_bed_v3.0.zip",
+          "bytes": 11345110,
+          "sha256": "6ae2efd2f0e5ef4ab82a2070a2b52467ed23308e6188658e135fe9173fa71b01",
+          "checksum_scope": "Complete source file",
+          "http_status": 200,
+          "member": "human_bed_v3.0.txt",
+          "rows": 768986,
+          "columns": [
+            "Chro",
+            "Start",
+            "End",
+            "Strand",
+            "circAltas_ID"
+          ],
+          "unique_circatlas_ids": 768986
+        }
+      ],
+      "data_role": "Reference coordinates and identifier reconciliation, not measured expression or translation labels",
+      "join_keys": [
+        "circAltas_ID",
+        "Chro/Start/End/Strand plus documented assembly"
+      ],
+      "combinability": "Can reconcile endogenous circRNA identifiers; no direct join to arbitrary synthetic IRES sequences established",
+      "limitations": [
+        "Full human coordinate file was inspected, not the entire database",
+        "Coordinate download contains no tissue/cell expression or protein-output columns",
+        "Do not infer full-length isoform identity from a BSJ coordinate alone",
+        "Genome assembly and coordinate conventions must be independently preserved"
+      ],
+      "primary_sources": [
+        "https://ngdc.cncb.ac.cn/circatlas/links1.php",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10767913/"
+      ]
+    },
+    {
+      "resource_id": "circtarget",
+      "name": "CircTarget",
+      "verification_level": "file_sample",
+      "inspection_status": "verified_interaction_file",
+      "files": [
+        {
+          "source_url": "https://circtarget.cn/static/download/A549.rar",
+          "source_filename": "CircTarget_A549.rar",
+          "bytes": 23143,
+          "sha256": "c84c0986137d9f7a2024506b27f82c247291d24e034787ef9bdbcae1fd988450",
+          "checksum_scope": "Complete source file",
+          "http_status": 200,
+          "tables": [
+            {
+              "member": "A549.txt",
+              "rows": 1677,
+              "columns": [
+                "circRNA ID",
+                "Ensembl ID",
+                "Gene name",
+                "Gene type",
+                "Chimeric read count",
+                "P-value",
+                "Cell line/Tissue",
+                "Species",
+                "Interaction type",
+                "Detected method"
+              ],
+              "row_field_count_distribution": {
+                "10": 1677
+              }
+            }
+          ],
+          "cells": {
+            "A549": 1677
+          },
+          "species": {
+            "Human": 1677
+          },
+          "support_type": {
+            "BSJ supported": 1142,
+            "nonBSJ supported": 535
+          },
+          "methods": {
+            "KARR-seq": 1677
+          }
+        }
+      ],
+      "data_role": "Read-supported RNA-RNA interaction evidence with computed significance",
+      "join_keys": [
+        "circRNA ID",
+        "Ensembl ID",
+        "Cell line/Tissue",
+        "Species"
+      ],
+      "combinability": "A549 cell identity overlaps LAMAR, but endogenous circRNA interaction IDs do not establish matching synthetic reporter constructs",
+      "limitations": [
+        "Only the A549 archive was inspected",
+        "BSJ supported and nonBSJ supported interactions must remain distinct",
+        "Chimeric read counts and P-values are not activation, leakage or protein-output labels",
+        "No causal effect on translation established by an interaction"
+      ],
+      "primary_sources": [
+        "https://circtarget.cn/download/"
+      ]
+    },
+    {
+      "resource_id": "riboseq-org",
+      "name": "RiboSeq.Org",
+      "verification_level": "file_sample",
+      "inspection_status": "verified_metadata_export_and_partial_signal_file",
+      "files": [
+        {
+          "source_url": "https://rdp.ucc.ie/sample_select_form/?download-metadata=Cell-Line%3DA549",
+          "source_filename": "RDP_A549_metadata.csv",
+          "bytes": 98968,
+          "sha256": "8be081fe04518415d8a6c5a2057f17b35c3d768a8057fd9c65573735aef09f1b",
+          "checksum_scope": "Complete source file",
+          "http_status": 200,
+          "rows": 234,
+          "columns": [
+            "process_status",
+            "FASTA_file",
+            "BioProject",
+            "GEO",
+            "Run",
+            "spots",
+            "bases",
+            "avgLength",
+            "size_MB",
+            "Experiment",
+            "LibraryName",
+            "LibraryStrategy",
+            "LibrarySelection",
+            "LibrarySource",
+            "LibraryLayout",
+            "InsertSize",
+            "InsertDev",
+            "Platform",
+            "Model",
+            "SRAStudy",
+            "Study_Pubmed_id",
+            "Sample",
+            "BioSample",
+            "SampleType",
+            "TaxID",
+            "ScientificName",
+            "SampleName",
+            "CenterName",
+            "Submission",
+            "MONTH",
+            "YEAR",
+            "AUTHOR",
+            "sample_source",
+            "sample_title",
+            "LIBRARYTYPE",
+            "REPLICATE",
+            "CONDITION",
+            "INHIBITOR",
+            "BATCH",
+            "TIMEPOINT",
+            "TISSUE",
+            "CELL_LINE",
+            "FRACTION",
+            "ENA_first_public",
+            "ENA_last_update",
+            "INSDC_center_alias",
+            "INSDC_center_name",
+            "INSDC_first_public",
+            "INSDC_last_update",
+            "INSDC_status",
+            "ENA_checklist",
+            "GEO_Accession",
+            "Experiment_Date",
+            "date_sequenced",
+            "submission_date",
+            "date",
+            "STAGE",
+            "GENE",
+            "Sex",
+            "Strain",
+            "Age",
+            "Infected",
+            "Disease",
+            "Genotype",
+            "Feeding",
+            "Temperature",
+            "SiRNA",
+            "SgRNA",
+            "ShRNA",
+            "Plasmid",
+            "Growth_Condition",
+            "Stress",
+            "Cancer",
+            "microRNA",
+            "Individual",
+            "Antibody",
+            "Ethnicity",
+            "Dose",
+            "Stimulation",
+            "Host",
+            "UMI",
+            "Adapter",
+            "Separation",
+            "rRNA_depletion",
+            "Barcode",
+            "Monosome_purification",
+            "Nuclease",
+            "Kit",
+            "Info"
+          ],
+          "library_type_counts": {
+            "Ribo-Seq": 227,
+            "RNA-Seq": 5,
+            "tRNA-Seq": 1,
+            "SSU": 1
+          },
+          "processing_status_counts": {
+            "Not Yet Started": 40,
+            "Completed": 165,
+            "": 29
+          },
+          "rna_processing_status_counts": {
+            "Not Yet Started": 5
+          }
+        },
+        {
+          "url": "https://rdp.ucc.ie/static2/bigwig/SRR328/SRR3286544.forward.bw",
+          "status": 206,
+          "content_range": "bytes 0-1048575/8927577",
+          "content_length_header": "1048576",
+          "bytes_inspected": 1048576,
+          "byte_prefix_sha256": "9cc71e72a76d84aa73fe0ab294f5abf30bfa98fa729694d8fb28ad414ffbd704",
+          "full_file_sha256": null,
+          "scope": "First 1 MiB of source; only first compressed data section parsed",
+          "bigwig_header": {
+            "magic_hex": "0x888ffc26",
+            "version": 4,
+            "zoom_levels": 10,
+            "chrom_tree_offset": 344,
+            "full_data_offset": 705,
+            "full_index_offset": 4921030,
+            "uncompress_buffer_size": 32768
+          },
+          "section_count_header": 1016,
+          "first_section": {
+            "chrom_id": 0,
+            "start": 629197,
+            "end": 1309730,
+            "step": 0,
+            "span": 0,
+            "type": 1,
+            "items": 1024
+          },
+          "signal_records_parsed": 1024,
+          "signal_min_max": [
+            1.0,
+            177.0
+          ],
+          "signal_fields": [
+            "chrom_id",
+            "start",
+            "end",
+            "numeric coverage value"
+          ],
+          "biology": {
+            "run": "SRR3286544",
+            "study": "PRJNA316125",
+            "geo": "GSE79539",
+            "cell_line": "A549",
+            "condition": "Grown under normal condition",
+            "inhibitor": "Cycloheximide",
+            "library_type": "Ribo-Seq",
+            "meaning": "Genome-aligned footprint coverage, not completed protein production or a direct circRNA-specific signal"
+          },
+          "integration_limits": [
+            "Requires transcript/reference annotation and independently verified matched RNA-seq to derive endogenous TE",
+            "Ribo-seq genomic reads do not uniquely establish circRNA translation",
+            "Not an independent dataset from other portals that index SRR3286544"
+          ]
+        }
+      ],
+      "data_role": "Endogenous footprint signal and study/sample discovery; possible mRNA TE after matched RNA-seq processing",
+      "join_keys": [
+        "Run",
+        "BioProject",
+        "GEO",
+        "CELL_LINE",
+        "CONDITION",
+        "REPLICATE",
+        "TIMEPOINT",
+        "reference genome/transcript annotation"
+      ],
+      "combinability": "No ready paired A549 TE matrix established: all five RNA-Seq rows in this export are Not Yet Started; original-study pairing and raw processing remain required",
+      "limitations": [
+        "One cell-filtered metadata export and one 1-MiB BigWig prefix were inspected, not all studies",
+        "227 Ribo-Seq, 5 RNA-Seq, 1 tRNA-Seq, 1 SSU entries are not 234 independent comparable TE measurements",
+        "Same cell name includes normal, drug, infection and genetic perturbation contexts",
+        "Footprint occupancy can reflect elongation or stalling and is not direct protein synthesis rate",
+        "Do not pool with reporter luminescence or polysome-loading labels",
+        "Deduplicate upstream accessions against RPFdb and model training atlases"
+      ],
+      "primary_sources": [
+        "https://rdp.ucc.ie/samples?Cell-Line=A549",
+        "https://rdp.ucc.ie/Sample/SRR3286544/",
+        "https://riboseq.org/tutorials/RDP_Overview.html"
+      ]
+    },
+    {
+      "resource_id": "ribocirc2",
+      "name": "riboCIRC v2",
+      "verification_level": "file_sample",
+      "inspection_status": "verified_context_and_literature_files",
+      "files": [
+        {
+          "source_url": "http://www.ribocirc.com/download/All_context-specific_ribo-circRNAs.rar",
+          "source_filename": "riboCIRC2_context.rar",
+          "bytes": 54081,
+          "sha256": "5367d271f22f1f1e81383019b61ed47c241b4bb23c7172a9a5a06642ad481535",
+          "checksum_scope": "Complete source file",
+          "http_status": 200,
+          "tables": [
+            {
+              "member": "All_context-specific_ribo-circRNAs/basic_info_Context-specific.txt",
+              "rows": 86,
+              "columns": [
+                "circRNA_type",
+                "Species",
+                "riboCIRC_ID",
+                "Uniform_ID",
+                "Genome_position",
+                "Genome_assembly",
+                "Strand",
+                "Transcript",
+                "HostGene_Ensembl_ID",
+                "Host_gene_Symbol",
+                "Length",
+                "Translation_Evidences",
+                "cORFs",
+                "Other_ID",
+                "circRNA_sequence",
+                "exon_sequence"
+              ],
+              "row_field_count_distribution": {
+                "16": 86
+              }
+            },
+            {
+              "member": "All_context-specific_ribo-circRNAs/Editing_Context-specific.txt",
+              "rows": 3,
+              "columns": [
+                "riboCIRC_ID",
+                "Genome_pos",
+                "Strand",
+                "Database",
+                "AtoI_sites_genome",
+                "AtoI_sites_relative",
+                "circRNA_type"
+              ],
+              "row_field_count_distribution": {
+                "7": 3
+              }
+            },
+            {
+              "member": "All_context-specific_ribo-circRNAs/IRES_Context-specific.txt",
+              "rows": 8,
+              "columns": [
+                "riboCIRC_name",
+                "IRES_name",
+                "positon",
+                "circRNA_type"
+              ],
+              "row_field_count_distribution": {
+                "4": 8
+              }
+            },
+            {
+              "member": "All_context-specific_ribo-circRNAs/m6A_Context-specific.txt",
+              "rows": 55,
+              "columns": [
+                "riboCIRC_ID",
+                "Genome_pos",
+                "Strand",
+                "Database",
+                "m6A_sites_genome",
+                "m6A_sites_relative",
+                "circRNA_type"
+              ],
+              "row_field_count_distribution": {
+                "7": 55
+              }
+            },
+            {
+              "member": "All_context-specific_ribo-circRNAs/orf_Context-specific.txt",
+              "rows": 143,
+              "columns": [
+                "cORF_id",
+                "riboCIRC_ID",
+                "cORF_start",
+                "cORF_BSJ",
+                "cORF_stop",
+                "cORF_length",
+                "cORF_seq",
+                "cORF_pep",
+                "circRNA_type"
+              ],
+              "row_field_count_distribution": {
+                "9": 143
+              }
+            },
+            {
+              "member": "All_context-specific_ribo-circRNAs/pxd_Context-specific.txt",
+              "rows": 70,
+              "columns": [
+                "riboCIRC_ID",
+                "cORF_id",
+                "PXD",
+                "Peptide_hits",
+                "circRNA_type"
+              ],
+              "row_field_count_distribution": {
+                "5": 70
+              }
+            },
+            {
+              "member": "All_context-specific_ribo-circRNAs/RBP_Context-specific.txt",
+              "rows": 117,
+              "columns": [
+                "riboCIRC_name",
+                "cluster",
+                "RBP_name",
+                "circRNA_type"
+              ],
+              "row_field_count_distribution": {
+                "4": 117
+              }
+            },
+            {
+              "member": "All_context-specific_ribo-circRNAs/RPF_Context-specific.txt",
+              "rows": 134,
+              "columns": [
+                "riboCIRC_ID",
+                "Footprints",
+                "Footprints_unique",
+                "Dataset_",
+                "Sample_",
+                "Source_",
+                "circRNA_type"
+              ],
+              "row_field_count_distribution": {
+                "7": 134
+              }
+            }
+          ],
+          "context_circRNAs": 86,
+          "species": {
+            "human": 75,
+            "mouse": 9,
+            "rat": 2
+          },
+          "assemblies": {
+            "hg38": 75,
+            "mm10": 9,
+            "rn6": 2
+          },
+          "footprint_evidence_rows": 134,
+          "footprint_unique_circRNAs": 86,
+          "footprint_studies": 28
+        },
+        {
+          "source_url": "http://www.ribocirc.com/download/literature-reported_trans-circRNAs.rar",
+          "source_filename": "riboCIRC2_literature.rar",
+          "bytes": 72304,
+          "sha256": "acbaf334cbefdda6f9d1a884b1f0eafcc442ef484c438a3907f3a6c79be2d999",
+          "checksum_scope": "Complete source file",
+          "http_status": 200,
+          "tables": [
+            {
+              "member": "literature-reported_trans-circRNAs/literature-reported_trans-circRNAs.txt",
+              "rows": 80,
+              "columns": [
+                "Index",
+                "circRNA_name",
+                "Naming",
+                "circBase_ID",
+                "riboCIRC_ID",
+                "Genome_position",
+                "Genome_assembly",
+                "Strand",
+                "sequence length(nt)",
+                "full-seqence",
+                "Start_codon",
+                "cORF sequence",
+                "cORF_length (aa)",
+                "cORF_seq",
+                "Species",
+                "Paper",
+                "PMID",
+                "DOI",
+                "Journal",
+                "Release_year",
+                "Peptide_detection_evidence",
+                "PXD_number",
+                "IRES",
+                "m6A",
+                "Editing",
+                "RBP"
+              ],
+              "row_field_count_distribution": {
+                "26": 80
+              }
+            }
+          ]
+        }
+      ],
+      "data_role": "Context-specific inferred endogenous translation evidence and literature-curated evidence; not a quantitative synthetic circRNA-by-cell output matrix",
+      "join_keys": [
+        "riboCIRC_ID",
+        "Uniform_ID",
+        "Genome_position/Genome_assembly/Strand",
+        "HostGene_Ensembl_ID",
+        "Dataset_",
+        "Sample_",
+        "Source_"
+      ],
+      "combinability": "Can annotate endogenous circRNA coding/interaction evidence and reconcile coordinates with circAtlas; direct overlap with synthetic reporter sequences not established",
+      "limitations": [
+        "Two complete downloadable archives inspected, not all riboCIRC datasets",
+        "Context-specific means source-context evidence, not a calibrated cell-selectivity score",
+        "Source_ is heterogeneous text and often only an SRX identifier; explicit cell mapping still needed",
+        "Footprints and unique footprints are counts of supporting evidence, not RNA-normalized protein output",
+        "Predicted ORFs, m6A/IRES/RBP annotations and literature evidence must retain their evidence types",
+        "HTTP official site works; HTTPS timed out; legacy sysbio human ZIP links return404 through web tool"
+      ],
+      "primary_sources": [
+        "http://www.ribocirc.com/download.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12807610/"
+      ]
+    },
+    {
+      "resource_id": "rpfdb3",
+      "name": "RPFdb v3",
+      "verification_level": "metadata",
+      "inspection_status": "data_file_not_retrieved",
+      "files": [],
+      "attempts": [
+        {
+          "url": "https://sysbio.gzzoc.com/rpfdb/download.html",
+          "result": "HTTP403 via direct requests; indexed official page readable with web tool"
+        },
+        {
+          "url": "http://sysbio.gzzoc.com/rpfdb/download.html",
+          "result": "Connection timeout after30seconds"
+        },
+        {
+          "url": "https://www.rpfdb.org/download.html",
+          "result": "DNS resolution failed"
+        }
+      ],
+      "data_role": "Potential endogenous translation-efficiency source; current file contents not verified",
+      "join_keys": [
+        "Potential source study/sample and gene IDs; actual schema not verified"
+      ],
+      "combinability": "Not cleared for integration by this file audit",
+      "limitations": [
+        "Download documentation is not data-file verification",
+        "Keep prior metadata evidence level; do not label training-ready",
+        "Official page describes unmatched samples and missing TE values; matched RNA-seq must be checked"
+      ],
+      "primary_sources": [
+        "https://sysbio.gzzoc.com/rpfdb/download.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701560/"
+      ]
+    },
+    {
+      "resource_id": "transcirc",
+      "name": "TransCirc",
+      "verification_level": "metadata",
+      "inspection_status": "data_file_not_retrieved",
+      "files": [],
+      "attempts": [
+        {
+          "url": "https://www.biosino.org/transcirc/download",
+          "result": "HTTP403 via direct requests; new site has no readable data links via web tool"
+        },
+        {
+          "url": "https://www.biosino.org/transcirc-v1/download",
+          "result": "HTTP403 via direct requests; indexed official v1 page documents64.52MB metadata TSV but actual payload link unavailable"
+        },
+        {
+          "url": "https://biosino.org/transcirc-v1/download",
+          "result": "HTTP403 via direct requests"
+        }
+      ],
+      "data_role": "Potential circRNA translation-evidence aggregate; actual payload unverified",
+      "join_keys": [
+        "Documented circRNA IDs and genomic coordinates; actual file schema not verified"
+      ],
+      "combinability": "Not cleared for integration by this file audit",
+      "limitations": [
+        "v1 download documentation is not proof of a current v2 payload",
+        "No bulk or representative data rows inspected",
+        "Computed translation potential is not experimentally measured protein output"
+      ],
+      "primary_sources": [
+        "https://www.biosino.org/transcirc-v1/download",
+        "https://www.biosino.org/transcirc-v1/help",
+        "https://doi.org/10.1093/nar/gkaa823"
+      ]
+    }
+  ],
+  "summary": {
+    "resources_attempted": 6,
+    "resources_with_actual_data_file_rows_or_signal_inspected": 4,
+    "resources_without_retrieved_data_files": 2
+  }
+}

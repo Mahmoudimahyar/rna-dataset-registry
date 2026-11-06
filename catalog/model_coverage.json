@@ -698,8 +698,8 @@
     "area": "Translation regulation and dynamics",
     "task": "Predict mammalian translation efficiency across cell types",
     "method_summary": "Multitask deep CNN captures position-dependent short sequence patterns; LGBM and lasso/elastic-net/random-forest baselines use lengths, codon/amino-acid/UTR features.",
-    "inputs": "Full transcript sequence/region labels; handcrafted features for classic models",
-    "outputs": "Cell-type-specific TE predictions",
+    "inputs": "Full mRNA sequence plus coding-frame annotations; standard multitask inference does not require a measured cell-state vector.",
+    "outputs": "Context-specific endogenous TE residual predictions through output heads for contexts represented during training.",
     "repository_urls": [
       "https://github.com/Sanofi-Public/RiboNN",
       "https://github.com/CenikLab/TE_classic_ML"
@@ -712,9 +712,9 @@
     "paper_inventory_complete": false,
     "all_dataset_files_inspected": false,
     "remaining_gaps": [
-      "Actual supplementary workbooks not inspected in this pass.",
       "Every accession in the upstream compendium and every external validation study has not been individually reconciled.",
-      "Classic-ML repository assets are not fully audited."
+      "Classic-ML repository assets are not fully audited.",
+      "All original Human-table rows and TE columns were parsed; mouse and predicted-TE supplements were not inspected. Source-context/species metadata and ContiTE preprocessing remain to reconcile."
     ],
     "inventory_source": "Imported earlier paper and repository audit; evidence remains nonexhaustive.",
     "checked_on": "2026-11-04",
@@ -789,7 +789,9 @@
         "limits": "README data-pointer scan only. Not proof all paper datasets are enumerated, inspected, released or usable."
       }
     ],
-    "curated_resource_ids": [],
+    "curated_resource_ids": [
+      "p010-asset-2"
+    ],
     "complete_dataset_audit": false
   },
   {
@@ -1922,8 +1924,8 @@
     "area": "Stability, 3′UTR and cell specificity",
     "task": "Design UTRs with target-cell activity, specificity and stability.",
     "method_summary": "Predictor learns sequence regulatory activity; generator compares cold-diffusion refinement, a genetic algorithm, random sampling and motif-based design. It optimizes a differential-activity objective and tests both single and combined UTR strategies.",
-    "inputs": "5-prime/3-prime UTR sequences, cell markers, MPRA activity/stability labels.",
-    "outputs": "Predicted cell-specific activity and de novo UTR designs.",
+    "inputs": "UTR sequence, explicit cell-line identity and sequence annotations; original training panel covers six cell lines.",
+    "outputs": "Post-transcriptional reporter activity and deviation from across-cell mean, plus candidate UTR designs; activity includes RNA stability effects.",
     "repository_urls": [
       "https://github.com/autosome-ru/parade"
     ],
@@ -2142,8 +2144,8 @@
     "area": "CDS and full mRNA design",
     "task": "Predict and optimize translation while considering cellular environment and structure.",
     "method_summary": "Translation model has two convolutional and five fully connected layers. A learned differentiable MFE predictor supplies stability proxy; activation-maximization gradient ascent changes codon distributions while synonym regularization preserves protein identity.",
-    "inputs": "One-hot CDS, transcript abundance and RNA-seq-derived cellular-expression context.",
-    "outputs": "Translation score, MFE surrogate and synonymous optimized CDS.",
+    "inputs": "CDS sequence, target mRNA abundance and RNA-seq cellular-expression profile; measured tRNA supply is not an explicit standard input.",
+    "outputs": "ln(5 * Ribo-seq RPKM + 1) prediction, MFE surrogate and synonymous candidate designs; not RNA-normalized TE or direct protein production per RNA.",
     "repository_urls": [
       "https://github.com/wangfanfff/RiboDecode"
     ],

@@ -1,0 +1,148 @@
+{
+  "checked_on": "2026-11-05",
+  "scope": "Primary-source endpoint check of the seven model-correction topics in the supplied critique; not an independent novelty review or replication of all experiments.",
+  "critique_read": true,
+  "registry_edits_applied": false,
+  "review": [
+    {
+      "model": "PARADE",
+      "decision": "Accept endpoint and explicit-context correction.",
+      "inputs": "UTR sequence, positional/sequence annotations and categorical cell-line condition channels in the inspected multitask predictor configuration.",
+      "outputs": "Reporter-activity features mass_center and diff; the latter represents deviation from the across-context activity mean. A separate stability task uses RNA/gDNA.",
+      "context_limit": "Explicit cell identity does not establish prediction for arbitrary untrained cell types; categorical identity is not a measured cellular-state vector.",
+      "endpoint_limit": "Post-transcriptional reporter activity can include stability and abundance effects; do not relabel as translation rate per RNA. RNA/gDNA is an abundance/stability proxy, not directly measured time-course half-life.",
+      "publication_status": "The cited 2024.12.31.630783 version is a preprint.",
+      "primary_checks": [
+        {
+          "url": "https://raw.githubusercontent.com/autosome-ru/parade/master/predictor/model/utrdata_cl.py",
+          "supports": "Condition2Tensor; cell_type field; conditions feature; default mass_center/diff targets; inspected live code."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/autosome-ru/parade/master/predictor/regression_multiple/regression_utr3.ipynb",
+          "supports": "Code-cell source explicitly configures sequence, positional and conditions features."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/autosome-ru/parade/master/predictor/regression_multiple/preprocess_utr3.ipynb",
+          "supports": "Code-cell source computes mass_center as count-weighted bin position and diff as mass_center minus its sequence-group mean; zscore is a separate derived field."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/autosome-ru/parade/master/predictor/model/stability_data.py",
+          "supports": "Separate RNA/gDNA target."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11722239/",
+          "supports": "Primary preprint: six-cell-line UTR reporter experiments and selected linear-mRNA validation; browser search content inspected, direct open encountered CAPTCHA."
+        }
+      ]
+    },
+    {
+      "model": "RiboDecode",
+      "decision": "Accept transformed-Ribo-seq correction; retain experimental validation separately.",
+      "inputs": "CDS/codon sequence, mRNA abundance and RNA-seq-derived cellular expression profile.",
+      "outputs": "Translation-model target is ln(5 * Ribo-seq RPKM + 1); the framework separately uses an MFE surrogate and synonymous codon optimization.",
+      "endpoint_limit": "Ribosome-profiling abundance is not RNA-normalized TE, absolute protein yield or a direct per-RNA production rate. Measured tRNA supply is not an explicit model input.",
+      "experimental_scope_limit": "Preferential linear-mRNA expression comparisons and separate modified/circular-RNA output validation must not be merged into demonstrated circRNA cell selectivity.",
+      "primary_checks": [
+        {
+          "url": "https://www.nature.com/articles/s41467-025-64894-x",
+          "supports": "Live requests HTML: Methods specifies ln(RPKM times 5 plus 1) for Ribo-seq/RNA-seq; Discussion identifies Ribo-seq RPKM target and abundance input."
+        }
+      ]
+    },
+    {
+      "model": "RiboNN",
+      "decision": "Accept fixed-context multitask-output distinction, with supervised transfer-learning qualification.",
+      "inputs": "Full mRNA sequence split into UTR/CDS regions or full sequence plus region-length/frame annotations.",
+      "outputs": "TE predictions for context outputs learned during training.",
+      "context_limit": "Standard author inference instructions require sequence/region information, not a measured cell-state vector. Author implementation also provides transfer learning; do not claim the model can never adapt to a new context.",
+      "primary_checks": [
+        {
+          "url": "https://raw.githubusercontent.com/Sanofi-Public/RiboNN/main/README.md",
+          "supports": "Live README input schema, pretrained human/mouse multitask prediction and separate transfer-learning workflow; example training TEs explicitly fake."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12323635/",
+          "supports": "Primary-paper architecture and TE endpoint reference; full paper not independently re-extracted in this bounded check."
+        }
+      ]
+    },
+    {
+      "model": "ContiTE",
+      "decision": "Accept labeled few-shot adaptation distinction.",
+      "inputs": "Transcript-region sequences and learned tissue-context embedding; target-context labeled support examples during adaptation.",
+      "outputs": "TE prediction in the modeled/adapted tissue context.",
+      "context_limit": "Principal few-shot adaptation uses labeled target-domain examples to update context embedding. The study also evaluates mean-source zero-shot inference; do not erase that comparator or imply all inference requires new labels.",
+      "primary_checks": [
+        {
+          "url": "https://academic.oup.com/bib/article/27/5/bbag518/8822816",
+          "supports": "Primary full-text search retrieval: support-set sizes 10/50/100/150; N=50 main operating point; labeled target-domain supervision and separate zero-shot comparison. Direct page open encountered publisher redirect error."
+        }
+      ]
+    },
+    {
+      "model": "Albatross",
+      "decision": "Accept structure-model versus functional-atlas distinction.",
+      "inputs": "IRES RNA sequence, through an IRES-fine-tuned RNA language model and dependency mapping.",
+      "outputs": "Inferred RNA secondary-structure/base-pair dependency maps.",
+      "endpoint_limit": "The accompanying experiment profiles 96 full-length IRESes in circRNA reporters across six cell lines. Those measured activity profiles are an atlas; they are not the learned model's cell-specific translation outputs.",
+      "publication_status": "May 2026 primary preprint.",
+      "primary_checks": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13228543/",
+          "supports": "Primary full text inspected in preceding current-session check: abstract, atlas section and model dependency-mapping section clearly separate functional profiling from structural prediction."
+        }
+      ]
+    },
+    {
+      "model": "CITActivator-associated classifier",
+      "decision": "Accept protein-feature classifier and forced-recruitment qualification.",
+      "inputs": "Protein amino-acid-sequence-derived features.",
+      "outputs": "RBP activator/nonactivator classification based on reporter-screen labels.",
+      "experimental_scope_limit": "The screening assay uses candidate RBP tethering to a circRNA reporter. Activity after forced recruitment does not establish natural binding to arbitrary RNAs or cell specificity. The paper separately validates selected cognate-binding and IRES/protein contexts.",
+      "context_limit": "Not an RNA-plus-cellular-RBP-abundance predictor of circRNA output across cell types.",
+      "publication_date": "2026-11-04",
+      "primary_checks": [
+        {
+          "url": "https://www.nature.com/articles/s41467-026-77614-w",
+          "supports": "Live requests HTML: luciferase circRNA reporter plus tethered RBP library; PUF tethering; RNA and luciferase measurements; separate recruited endogenous-factor validation."
+        },
+        {
+          "url": "https://github.com/CikiyWang/CITActivator",
+          "supports": "Author repository describes sparse PLS-DA protein-feature classification; classification directory inspected via GitHub API."
+        }
+      ]
+    },
+    {
+      "model": "ADAR-GPT",
+      "decision": "Accept editing-site classification/score correction.",
+      "inputs": "201-nucleotide sequence window with marked candidate adenosine.",
+      "outputs": "Edited/not-edited site classification or positive-class probability/score at a specified threshold-defined task.",
+      "endpoint_limit": "Principal GTEx-liver task uses a 15-percent editing threshold; class probability is not predicted molecular editing fraction, sensor activation or basal leak.",
+      "primary_checks": [
+        {
+          "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.2529073123",
+          "supports": "Primary research-paper abstract inspected through search: 201-nt candidate windows, GTEx liver n=131 and principal 15-percent classification task."
+        },
+        {
+          "url": "https://github.com/Scientific-Computing-Lab/ADAR-GPT",
+          "supports": "Author README explicitly frames binary classification, threshold groups and positive-label inference probability."
+        }
+      ]
+    },
+    {
+      "model": "TransRM",
+      "decision": "Accept circRNA translation-probability correction; avoid implying absolute yield or causal modification effects.",
+      "inputs": "Modification-related features centered on base-resolution m6A-site information.",
+      "outputs": "Estimated modification/site contributions and circRNA translation probability through learned features and random-forest classification.",
+      "endpoint_limit": "Not absolute protein yield, translation rate per RNA or output for a specified target cell. Learned contribution scores are not experimentally proven causal effects of installing/removing modifications.",
+      "input_evidence_limit": "Primary abstract establishes modification-feature and probability tasks; exact implementation schema and any latent cell-specific stratification were not independently inspected. Do not add an explicit cell-context input absent source verification.",
+      "primary_checks": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40023417/",
+          "supports": "Primary paper abstract inspected in current session: convolutional modification features, BiGRU site contributions and random-forest circRNA translation probability."
+        }
+      ]
+    }
+  ],
+  "shared_conclusion": "Keep reporter activity, RNA abundance, ribosome occupancy, RNA-normalized TE, editing-site class probability, structure prediction, coding/translation potential and protein output distinct. These endpoint checks do not establish broad research novelty."
+}

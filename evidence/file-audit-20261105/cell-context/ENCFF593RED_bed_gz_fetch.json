@@ -1,0 +1,13 @@
+{
+  "name": "ENCFF593RED.bed.gz",
+  "source_url": "https://www.encodeproject.org/files/ENCFF593RED/@@download/ENCFF593RED.bed.gz",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "application/vnd.realvnc.bed",
+  "content_length": "91663",
+  "bytes_saved": 91663,
+  "sha256": "5948e98052723b24adeb2b843045bb2bab19c017a7d3992a97d6d456db2adcb8",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "ENCFF593RED.bed.gz"
+}

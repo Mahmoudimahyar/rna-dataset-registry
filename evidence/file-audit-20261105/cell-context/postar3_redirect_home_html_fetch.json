@@ -1,0 +1,13 @@
+{
+  "name": "postar3_redirect_home.html",
+  "source_url": "http://111.198.139.65/",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "text/html",
+  "content_length": "3322",
+  "bytes_saved": 13162,
+  "sha256": "e5b2b05ade53870469b0d20522336d1ded48087ea6ad70dd8b70834f2615f6b9",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "postar3_redirect_home.html"
+}

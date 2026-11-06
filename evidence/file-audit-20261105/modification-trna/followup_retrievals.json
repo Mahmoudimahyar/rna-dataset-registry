@@ -1,0 +1,56 @@
+[
+  {
+    "id": "sci_js",
+    "url": "https://scimodom.dieterichlab.org/assets/index-49c52661.js",
+    "resolved_url": "https://scimodom.dieterichlab.org/assets/index-49c52661.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "bytes_read": 6421802,
+    "complete": true,
+    "sha256": "6d4a283f04216ac8b641e3e862317b3d8dd84b6104b7e157431239fad588c2db",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "sci_api_doc",
+    "url": "https://dieterich-lab.github.io/scimodom/api_dataset.html",
+    "error": "cannot use a string pattern on a bytes-like object"
+  },
+  {
+    "id": "tmod_js",
+    "url": "http://www.tmodbase2.com/assets/index-BSl168Y1.js",
+    "resolved_url": "https://www.tmodbase2.com/assets/index-BSl168Y1.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "bytes_read": 1846378,
+    "complete": true,
+    "sha256": "f4472adb54abefe3cf6a031bd3f3765ce3d3a6a9cac779520e66bbad20b72bfe",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "charge_tar",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239867/suppl/GSE239867_RAW.tar",
+    "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239867/suppl/GSE239867_RAW.tar",
+    "status": 200,
+    "content_type": "application/x-tar",
+    "bytes_read": 40960,
+    "complete": true,
+    "sha256": "77c3aeda1650cf719479c468114a80456de90394270c2200bec481ea3c61e715",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "m6a_targeted",
+    "url": "https://www.rnamd.org/m6a/apiHighResolution.php?species=HomoSapiens&gene=EIF4G2",
+    "resolved_url": "https://www.rnamd.org/m6a/apiHighResolution.php?species=HomoSapiens&gene=EIF4G2",
+    "status": 200,
+    "content_type": "text/plain;charset=UTF-8",
+    "bytes_read": 18272,
+    "complete": true,
+    "sha256": "01cbe6d171fe67316630949a11b238e50d75a4869d2c065c9be9c7b690e52746",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "tmod_https_frontend",
+    "url": "https://www.tmodbase2.com/",
+    "error": "cannot use a string pattern on a bytes-like object"
+  }
+]

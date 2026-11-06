@@ -1,0 +1,13 @@
+{
+  "name": "encode_knockdown_experiment.json",
+  "source_url": "https://www.encodeproject.org/experiments/ENCSR067LLB/?format=json",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "application/json",
+  "content_length": null,
+  "bytes_saved": 898200,
+  "sha256": "c8050484cfee2a74c52927ab21ac248b53fea09bbbfd13a662d6051b6701c667",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "encode_knockdown_experiment.json"
+}

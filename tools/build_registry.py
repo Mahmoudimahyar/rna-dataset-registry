@@ -18,7 +18,11 @@ for m in models:
     m['curated_resource_ids']=[r['id'] for r in rows if m['id'] in r.get('related_model_ids',[]) and r['status']=='curated']
     m['complete_dataset_audit']=False
 date='2026-11-05'
-summary=dict(release='0.1.0',built_on=date,research_window=['2026-11-04','2026-11-05'],resource_records=len(rows),curated_records=sum(r['status']=='curated' for r in rows),candidate_records=sum(r['status']=='candidate' for r in rows),blocked_records=sum(r['status']=='blocked' for r in rows),model_family_records=len(models),repository_urls_checked=len(repos),repositories_reachable=sum(r['accessible'] for r in repos),readmes_scanned=sum(r['status']=='readme_data_pointers_scanned' for r in readmes),kind_counts=dict(collections.Counter(r['kind'] for r in rows if r['status']=='curated')),verification_counts=dict(collections.Counter(r['verification']['level'] for r in rows if r['status']=='curated')),limits=['Record counts mix database/reference/study/benchmark levels and are not counts of unique independent datasets or biological observations.','Curated means source-backed metadata, with verification level stated. It does not mean full data-file validation.','Imported model assets remain candidates until reconciled.','Neither global exhaustiveness nor world-largest status is established.'])
+summary=dict(release='0.2.0',built_on=date,research_window=['2026-11-04','2026-11-05'],resource_records=len(rows),curated_records=sum(r['status']=='curated' for r in rows),candidate_records=sum(r['status']=='candidate' for r in rows),blocked_records=sum(r['status']=='blocked' for r in rows),model_family_records=len(models),repository_urls_checked=len(repos),repositories_reachable=sum(r['accessible'] for r in repos),readmes_scanned=sum(r['status']=='readme_data_pointers_scanned' for r in readmes),kind_counts=dict(collections.Counter(r['kind'] for r in rows if r['status']=='curated')),verification_counts=dict(collections.Counter(r['verification']['level'] for r in rows if r['status']=='curated')),limits=['Record counts mix database/reference/study/benchmark levels and are not counts of unique independent datasets or biological observations.','Curated means source-backed metadata, with verification level stated. It does not mean full data-file validation.','Imported assets remain candidates unless explicitly reconciled with inspected original data.','Neither global exhaustiveness nor world-largest status is established.'])
+audit_path=B/'evidence/file-audit-20261105/summary.json'
+if audit_path.exists():
+    audit=json.loads(audit_path.read_text(encoding='utf-8'))
+    summary['bounded_file_audit']={k:audit[k] for k in ['resources_investigated','selected_data_or_reference_payload_inspected','numeric_data_access_gaps','coverage_limit']}
 registry=dict(schema_version='1.0.0',summary=summary,resources=rows)
 for f,x in [('catalog/registry.json',registry),('catalog/model_coverage.json',models),('catalog/summary.json',summary)]:
     (B/f).write_text(json.dumps(x,ensure_ascii=False,indent=2),encoding='utf-8')
@@ -39,6 +43,8 @@ for r in rows:
     s+='\n## Access and reuse\n\n'+f'- Access: {r["access"]["level"]}\n- Formats: {st(r["access"]["formats"])}\n- Source license: {st(r["access"]["license"])}\n- Redistribution: {st(r["access"]["redistribution"])}\n\n'+bullet(r['access']['data_urls'])+'\n\n'
     s+='## Verification and remaining gaps\n\n'+f'Checked: {r["verification"]["checked_on"]}. Actual files/headers inspected: {st(r["verification"]["files_inspected"])}.\n\n'+bullet(r['verification']['limitations'])+'\n\n'+bullet(r['integration_caveats'])+'\n\n'
     s+='## Cell specificity\n\n'+st(r['cell_specificity'])+'\n\n## Sources\n\n'+bullet(r['source_urls'])+'\n\n'+bullet([st(x) for x in r['verification']['evidence']])+'\n\n'
+    if r.get('file_audit_20261105'):
+        a=r['file_audit_20261105'];s+='## Selected-file audit\n\n'+st(a['integration_role'])+'\n\nSelected payload inspected: '+str(a['selected_payload_inspected'])+'. Coverage: '+a['scope']+'.\n\n[Inspection evidence](../'+a['evidence_path']+'). [Combination assessment](../docs/cell-specific-model-feasibility.md).\n\n'
     s+='Related models: '+st(r['related_model_ids'])+'. Related resources: '+st(r['related_resource_ids'])+'.\n'
     (cards/(r['id']+'.md')).write_text('\n'.join(x.rstrip() for x in s.splitlines())+'\n',encoding='utf-8')
 mcards=B/'models';mcards.mkdir(exist_ok=True)
@@ -56,9 +62,14 @@ with (B/'catalog/registry.csv').open('w',encoding='utf-8',newline='') as f:
     for r in rows:w.writerow({k:st(r[k]) if k in r else r['access']['level'] if k=='access_level' else st(r['access']['license']) if k=='license' else r['verification']['level'] for k in keys})
 # Access manifest includes file links and landing pages, explicitly marked.
 manifest=[]
+payload_path=B/'evidence/file-audit-20261105/verified_payloads.json'
+payload_rows=json.loads(payload_path.read_text(encoding='utf-8'))['files'] if payload_path.exists() else []
 for r in rows:
     for u in r['access']['data_urls']:
-        manifest.append(dict(resource_id=r['id'],url=u,link_kind='file' if re.search(r'\.(?:gz|zip|csv|tsv|h5|hdf5|7z|rar|txt|json|rdat)(?:\?|$)',u,re.I) else 'landing_or_api',access=r['access']['level'],source_license=st(r['access']['license']),redistribution=st(r['access']['redistribution']),checksum=None,checksum_status='Not established in this registry; obtain source checksum before download/use',downloaded=False))
+        proofs=[p for p in payload_rows if p['resource_id']==r['id'] and p['url']==u]
+        digests={p['sha256'] for p in proofs if p.get('sha256') and p.get('download_complete')}
+        checksum=next(iter(digests)) if len(digests)==1 else None
+        manifest.append(dict(resource_id=r['id'],url=u,link_kind='file' if re.search(r'\.(?:gz|zip|csv|tsv|xlsx|bw|h5|hdf5|7z|rar|txt|json|rdat)(?:\?|$)',u,re.I) else 'landing_or_api',access=r['access']['level'],source_license=st(r['access']['license']),redistribution=st(r['access']['redistribution']),checksum=checksum,checksum_status='SHA256 of complete selected response; see request/scope evidence' if checksum else 'Multiple request-specific response hashes; see verification records' if len(digests)>1 else 'Partial-file inspection only; full checksum not established' if proofs else 'Not established in this registry; obtain source checksum before download/use',downloaded=any(p.get('download_complete') for p in proofs),sample_inspected=bool(proofs),verification_records=proofs))
 (B/'catalog/access_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
 topic_counts=collections.Counter(t for r in rows if r['status']=='curated' for t in r['topics'])
 idx='# Dataset index\n\nCounts are catalog records at mixed levels, not unique biological datasets.\n\n'

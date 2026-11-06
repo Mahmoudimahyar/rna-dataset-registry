@@ -1,0 +1,13 @@
+{
+  "name": "hpa_cell_metadata.html",
+  "source_url": "https://www.proteinatlas.org/humanproteome/cell+line/data",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length": "46946",
+  "bytes_saved": 415407,
+  "sha256": "d49ad7346cbf2da0dda0ded198b97c724eab6cc6f22e9c6538b0eedddd0f8bf3",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "hpa_cell_metadata.html"
+}

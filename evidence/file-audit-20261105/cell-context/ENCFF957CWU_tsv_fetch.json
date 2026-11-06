@@ -1,0 +1,13 @@
+{
+  "name": "ENCFF957CWU.tsv",
+  "source_url": "https://www.encodeproject.org/files/ENCFF957CWU/@@download/ENCFF957CWU.tsv",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "binary/octet-stream",
+  "content_length": "289",
+  "bytes_saved": 289,
+  "sha256": "9916015db2ed9308a4de6a2124459fe95fbe8084f9917fbf79e2e55ab6035698",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "ENCFF957CWU.tsv"
+}

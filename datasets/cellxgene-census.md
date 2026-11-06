@@ -31,9 +31,12 @@ Versioned single-cell corpus with standardized cell/gene metadata and queryable 
 
 ## Verification and remaining gaps
 
-Checked: 2026-11-04. Actual files/headers inspected: not established.
+Checked: 2026-11-05. Actual files/headers inspected: not established.
 
 - Metadata/schema review is not inspection of every underlying dataset file.
+- Release manifest inspected; native TileDB-SOMA runtime unavailable on supplied Windows Python.
+- Do not promote metadata or a release listing to expression-file validation.
+- Bounded file audit: evidence/file-audit-20261105/cell-context/census_access_audit.json; selected coverage only.
 
 - Filter duplicate cells using is_primary_data; retain original dataset citations.
 - UMI and full-length read counts are not directly interchangeable.
@@ -48,5 +51,13 @@ evidence: context_only; notes: Context annotation can support stratified analysi
 - https://chanzuckerberg.github.io/cellxgene-census/
 
 - url: https://chanzuckerberg.github.io/cellxgene-census/; supports: Resource identity, available label types and access route described in primary source documentation
+
+## Selected-file audit
+
+Potential primary-cell context; no numeric data slice verified in this environment.
+
+Selected payload inspected: False. Coverage: Selected files/API responses, not all source holdings.
+
+[Inspection evidence](../evidence/file-audit-20261105/cell-context/census_access_audit.json). [Combination assessment](../docs/cell-specific-model-feasibility.md).
 
 Related models: not established. Related resources: human-cell-atlas.

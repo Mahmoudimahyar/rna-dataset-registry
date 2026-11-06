@@ -1,0 +1,133 @@
+{
+  "source_url": "https://www.proteinatlas.org/humanproteome/cell+line/data",
+  "release": "25.1",
+  "total_cell_metadata_rows": 1206,
+  "requested_candidates_by_rrid": {
+    "A204": "CVCL_1058",
+    "A549": "CVCL_0023",
+    "AGS": "CVCL_0139",
+    "HCT116": "CVCL_0291",
+    "HepG2": "CVCL_0027",
+    "JURKAT": "CVCL_0065",
+    "SH-SY5Y": "CVCL_0019",
+    "THP-1": "CVCL_0006",
+    "U87": "CVCL_0022",
+    "Huh7": "CVCL_0336",
+    "HCT8": "CVCL_2478",
+    "U2OS": "CVCL_0042",
+    "HEK293T": "CVCL_0063"
+  },
+  "rows": [
+    {
+      "Cell line": "A-204",
+      "Cancer cell line": "Yes",
+      "Primary disease": "Rhabdoid",
+      "Disease subtype": "Malignant Rhabdoid Tumor",
+      "Primary/Metastasis": "Primary",
+      "Patient": "Female, 1",
+      "Sample collection site": "Soft tissue",
+      "Cellosaurus ID": "CVCL_1058"
+    },
+    {
+      "Cell line": "A-549",
+      "Cancer cell line": "Yes",
+      "Primary disease": "Lung cancer",
+      "Disease subtype": "unknown",
+      "Primary/Metastasis": "Primary",
+      "Patient": "Male, 58",
+      "Sample collection site": "Lung",
+      "Cellosaurus ID": "CVCL_0023"
+    },
+    {
+      "Cell line": "AGS",
+      "Cancer cell line": "Yes",
+      "Primary disease": "Gastric cancer",
+      "Disease subtype": "Adenocarcinoma",
+      "Primary/Metastasis": "Primary",
+      "Patient": "Female, 54",
+      "Sample collection site": "Stomach",
+      "Cellosaurus ID": "CVCL_0139"
+    },
+    {
+      "Cell line": "HCT 116",
+      "Cancer cell line": "Yes",
+      "Primary disease": "Colorectal cancer",
+      "Disease subtype": "Adenocarcinoma",
+      "Primary/Metastasis": "Primary",
+      "Patient": "Male, 48",
+      "Sample collection site": "Large intestine",
+      "Cellosaurus ID": "CVCL_0291"
+    },
+    {
+      "Cell line": "Hep-G2",
+      "Cancer cell line": "Yes",
+      "Primary disease": "Liver cancer",
+      "Disease subtype": "unknown",
+      "Primary/Metastasis": "Primary",
+      "Patient": "Male, 15",
+      "Sample collection site": "Liver",
+      "Cellosaurus ID": "CVCL_0027"
+    },
+    {
+      "Cell line": "Huh-7",
+      "Cancer cell line": "Yes",
+      "Primary disease": "Liver cancer",
+      "Disease subtype": "Hepatocellular Carcinoma",
+      "Primary/Metastasis": "Primary",
+      "Patient": "Male, 57",
+      "Sample collection site": "Liver",
+      "Cellosaurus ID": "CVCL_0336"
+    },
+    {
+      "Cell line": "JURKAT",
+      "Cancer cell line": "Yes",
+      "Primary disease": "Leukemia",
+      "Disease subtype": "unknown",
+      "Primary/Metastasis": "Primary",
+      "Patient": "Male, 14",
+      "Sample collection site": "Haematopoietic and lymphoid tissue",
+      "Cellosaurus ID": "CVCL_0065"
+    },
+    {
+      "Cell line": "SH-SY5Y",
+      "Cancer cell line": "Yes",
+      "Primary disease": "Neuroblastoma",
+      "Disease subtype": "unknown",
+      "Primary/Metastasis": "Metastasis",
+      "Patient": "Female, 4",
+      "Sample collection site": "Bone marrow",
+      "Cellosaurus ID": "CVCL_0019"
+    },
+    {
+      "Cell line": "THP-1",
+      "Cancer cell line": "Yes",
+      "Primary disease": "Leukemia",
+      "Disease subtype": "unknown",
+      "Primary/Metastasis": "Primary",
+      "Patient": "Male, 1",
+      "Sample collection site": "Haematopoietic and lymphoid tissue",
+      "Cellosaurus ID": "CVCL_0006"
+    },
+    {
+      "Cell line": "U-87MG ATCC",
+      "Cancer cell line": "Yes",
+      "Primary disease": "Brain cancer",
+      "Disease subtype": "unknown",
+      "Primary/Metastasis": "Primary",
+      "Patient": "Male, 44",
+      "Sample collection site": "Central nervous system",
+      "Cellosaurus ID": "CVCL_0022"
+    },
+    {
+      "Cell line": "U2OS",
+      "Cancer cell line": "Yes",
+      "Primary disease": "Bone cancer",
+      "Disease subtype": "unknown",
+      "Primary/Metastasis": "Primary",
+      "Patient": "Female, 15",
+      "Sample collection site": "Bone",
+      "Cellosaurus ID": "CVCL_0042"
+    }
+  ],
+  "caveat": "Candidate name-to-RRID harmonization requires source-study provenance; U87 not silently resolved beyond source name."
+}

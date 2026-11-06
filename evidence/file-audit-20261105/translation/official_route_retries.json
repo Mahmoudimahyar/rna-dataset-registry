@@ -1,0 +1,25 @@
+[
+  {
+    "url": "https://www.ribocirc.com/",
+    "error_type": "ConnectTimeout"
+  },
+  {
+    "url": "https://ribocirc.com/",
+    "error_type": "ConnectTimeout"
+  },
+  {
+    "url": "http://www.ribocirc.com/",
+    "status": 200,
+    "bytes": 15367
+  },
+  {
+    "url": "https://biosino.org/transcirc-v1/download",
+    "status": 403,
+    "bytes": 1584
+  },
+  {
+    "url": "https://www.biosino.org/transcirc-v1/download",
+    "status": 403,
+    "bytes": 1584
+  }
+]

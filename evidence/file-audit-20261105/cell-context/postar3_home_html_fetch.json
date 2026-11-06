@@ -1,0 +1,13 @@
+{
+  "name": "postar3_home.html",
+  "source_url": "https://postar.ncrnalab.org/",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length": "260",
+  "bytes_saved": 429,
+  "sha256": "44feba87f372fea7ad1d9036d8384a6727c400faf008ba947b38fd3eb8ac25e1",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "postar3_home.html"
+}

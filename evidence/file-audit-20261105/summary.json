@@ -1,0 +1,284 @@
+{
+  "audit_date": "2026-11-05",
+  "resources_investigated": 20,
+  "selected_data_or_reference_payload_inspected": 16,
+  "numeric_data_access_gaps": [
+    "rpfdb3",
+    "transcirc",
+    "cellxgene-census",
+    "mirtarbase"
+  ],
+  "coverage_limit": "Selected files/queries only. Reference and index records are not experimental training observations; T-psi-C includes independently audited linked studies.",
+  "resources": [
+    {
+      "resource_id": "circatlas3",
+      "name": "circAtlas v3",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/translation/translation_file_audit.json",
+      "integration_role": "Reference coordinates and identifier reconciliation, not measured expression or translation labels",
+      "limitations": [
+        "Full human coordinate file was inspected, not the entire database",
+        "Coordinate download contains no tissue/cell expression or protein-output columns",
+        "Do not infer full-length isoform identity from a BSJ coordinate alone",
+        "Genome assembly and coordinate conventions must be independently preserved"
+      ]
+    },
+    {
+      "resource_id": "circtarget",
+      "name": "CircTarget",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/translation/translation_file_audit.json",
+      "integration_role": "Read-supported RNA-RNA interaction evidence with computed significance",
+      "limitations": [
+        "Only the A549 archive was inspected",
+        "BSJ supported and nonBSJ supported interactions must remain distinct",
+        "Chimeric read counts and P-values are not activation, leakage or protein-output labels",
+        "No causal effect on translation established by an interaction"
+      ]
+    },
+    {
+      "resource_id": "riboseq-org",
+      "name": "RiboSeq.Org portal family",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/translation/translation_file_audit.json",
+      "integration_role": "Endogenous footprint signal and study/sample discovery; possible mRNA TE after matched RNA-seq processing",
+      "limitations": [
+        "One cell-filtered metadata export and one 1-MiB BigWig prefix were inspected, not all studies",
+        "227 Ribo-Seq, 5 RNA-Seq, 1 tRNA-Seq, 1 SSU entries are not 234 independent comparable TE measurements",
+        "Same cell name includes normal, drug, infection and genetic perturbation contexts",
+        "Footprint occupancy can reflect elongation or stalling and is not direct protein synthesis rate",
+        "Do not pool with reporter luminescence or polysome-loading labels",
+        "Deduplicate upstream accessions against RPFdb and model training atlases"
+      ]
+    },
+    {
+      "resource_id": "ribocirc2",
+      "name": "riboCIRC v2",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/translation/translation_file_audit.json",
+      "integration_role": "Context-specific inferred endogenous translation evidence and literature-curated evidence; not a quantitative synthetic circRNA-by-cell output matrix",
+      "limitations": [
+        "Two complete downloadable archives inspected, not all riboCIRC datasets",
+        "Context-specific means source-context evidence, not a calibrated cell-selectivity score",
+        "Source_ is heterogeneous text and often only an SRX identifier; explicit cell mapping still needed",
+        "Footprints and unique footprints are counts of supporting evidence, not RNA-normalized protein output",
+        "Predicted ORFs, m6A/IRES/RBP annotations and literature evidence must retain their evidence types",
+        "HTTP official site works; HTTPS timed out; legacy sysbio human ZIP links return404 through web tool"
+      ]
+    },
+    {
+      "resource_id": "rpfdb3",
+      "name": "RPFdb v3",
+      "selected_data_or_reference_payload_inspected": false,
+      "verification_level": "metadata",
+      "evidence_path": "evidence/file-audit-20261105/translation/translation_file_audit.json",
+      "integration_role": "Potential endogenous translation-efficiency source; current file contents not verified",
+      "limitations": [
+        "Download documentation is not data-file verification",
+        "Keep prior metadata evidence level; do not label training-ready",
+        "Official page describes unmatched samples and missing TE values; matched RNA-seq must be checked"
+      ]
+    },
+    {
+      "resource_id": "transcirc",
+      "name": "TransCirc",
+      "selected_data_or_reference_payload_inspected": false,
+      "verification_level": "metadata",
+      "evidence_path": "evidence/file-audit-20261105/translation/translation_file_audit.json",
+      "integration_role": "Potential circRNA translation-evidence aggregate; actual payload unverified",
+      "limitations": [
+        "v1 download documentation is not proof of a current v2 payload",
+        "No bulk or representative data rows inspected",
+        "Computed translation potential is not experimentally measured protein output"
+      ]
+    },
+    {
+      "resource_id": "sci-modom",
+      "name": "Sci-ModoM",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/modification-trna/audit.json",
+      "integration_role": "Can annotate endogenous sequence/site context or support modification-assay analyses. Not a direct label or measured modification state for delivered synthetic RNA.",
+      "limitations": [
+        "One HEK293T BID-seq pseudouridine dataset audited; no database-wide numerical validation",
+        "Dataset title says three replicates, but exported file has one record per site without replicate columns",
+        "Current docs describe newer /datasets routes that return404 on this deployed site; legacy routes discovered from its own public application work",
+        "Cross-study cell identity does not establish matching culture, dose, time or intracellular RNA modification state"
+      ]
+    },
+    {
+      "resource_id": "m6a-atlas-v2",
+      "name": "m6A-Atlas v2.0",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/modification-trna/audit.json",
+      "integration_role": "Useful endogenous annotation and exploratory context evidence after genome/condition reconciliation; cannot mark the corresponding position as modified in an engineered reporter.",
+      "limitations": [
+        "843678 support rows refer to427760 unique sites; do not treat support rows as independent modified positions",
+        "High-resolution support and bulk quantification have different assay interpretations",
+        "Quantification file read as bounded compressed prefix only; no full-file count or checksum claimed",
+        "No full measured synthetic-RNA modification-to-protein output matrix",
+        "Reported logFC values must not be interpreted as calibrated occupancy fractions"
+      ]
+    },
+    {
+      "resource_id": "tmodbase2",
+      "name": "tModBase v2.0",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/modification-trna/audit.json",
+      "integration_role": "Exploratory functional tRNA context only after selecting comparable assays and treatments. Inspected numerical condition is perturbed and cannot be assigned to untreated HepG2 reporter output.",
+      "limitations": [
+        "650 tRNA entities but only81 with nonzero counts/coverage in inspected response",
+        "total field is zero in every inspected entity despite positive counts in81; interpretation remains unresolved",
+        "No per-replicate entity dimension; metadata can aggregate multiple GSMs",
+        "Cell labels alone do not establish preparation or biological-condition equivalence",
+        "One numerical condition verified, not all528 datasets"
+      ]
+    },
+    {
+      "resource_id": "t-psi-c-sequencing-index",
+      "name": "T-psi-C tRNA sequencing study index",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "metadata",
+      "evidence_path": "evidence/file-audit-20261105/modification-trna/audit.json",
+      "integration_role": "Useful study discovery. Downloaded charging studies support their own stress/cell-state analyses; neither is a matched cell-context covariate matrix for the circRNA reporter panels.",
+      "limitations": [
+        "GSE239867 covers mouse MEFs and human NTERT keratinocytes under stress; unlabeled colon-separated count columns require mapping before calculation",
+        "GSE188855 has12 samples and67 tRNA IDs per file, with Ratio equal to100*CCA/(CCA+CC) within rounding",
+        "GSE188855 sample GSM5691036 title is Lung_starvation_rep1 but treatment metadata says untreated; preserve the conflict and resolve against study design before assigning labels",
+        "The GSE188855 study is a separately investigated charging experiment; current T-psi-C index explicitly links GSE239867",
+        "No circRNA/mRNA protein-output labels in these tRNA processed files"
+      ]
+    },
+    {
+      "resource_id": "modomics",
+      "name": "MODOMICS (2025 update)",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/modification-trna/audit.json",
+      "integration_role": "Use as chemical/reference vocabulary and site annotation only; cannot join by cell to predict output.",
+      "limitations": [
+        "Audited three legacy .mods files within one download archive, not every current MODOMICS endpoint",
+        "No cell-line or protein-output fields in inspected tables",
+        "Reference positions do not imply modification stoichiometry or actual presence in a new synthetic RNA"
+      ]
+    },
+    {
+      "resource_id": "human-protein-atlas-rna",
+      "name": "Human Protein Atlas RNA expression downloads",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/cell-context/hpa_file_inspection.json",
+      "integration_role": "External baseline RNA-expression features; 1206 cell lines and20162 genes in inspected25.1 file.",
+      "limitations": [
+        "No replicate column or matched reporter condition; RNA expression does not establish protein activity.",
+        "HPA can reuse CCLE profiles; HPA and DepMap are not independent cohorts."
+      ]
+    },
+    {
+      "resource_id": "depmap-ccle-expression",
+      "name": "DepMap/CCLE protein-coding expression reference",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/cell-context/depmap_file_inspection.json",
+      "integration_role": "External expression features:1673 models by19193 genes; inspect24Q4 rather than assume latest.",
+      "limitations": [
+        "Human cancer cell line reference; mouse lines C2C12/Neuro-2a/RAW264.7/N2A not represented by this table.",
+        "HEK293T absent among exact requested RRID candidates in this Model.csv.",
+        "U87 source shorthand requires identity validation; CVCL_0022 is U-87 MG and must not be silently assigned.",
+        "HPA incorporates CCLE-derived RNA; HPA and DepMap are not necessarily independent evidence.",
+        "HCT-8 ACH-001084 exists in Model.csv but has no row in this selected expression matrix; metadata availability is not numeric expression coverage."
+      ]
+    },
+    {
+      "resource_id": "encode",
+      "name": "ENCODE RNA experiments",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/cell-context/encode_file_inspection.json",
+      "integration_role": "RBP-binding and cell-free motif evidence; selected knockdown RNA quantifications are not matched translation labels.",
+      "limitations": [
+        "five complete selected files; not entire ENCODE collection",
+        "K562 peak/RNA perturbation examples are not matched to the requested reporter-cell contexts; cell-free RBNS cannot establish cell-specific binding or translation.",
+        "Knockdown quantification without matched controls is not an effect estimate."
+      ]
+    },
+    {
+      "resource_id": "postar3",
+      "name": "POSTAR3",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/cell-context/postar3_file_inspection.json",
+      "integration_role": "Endogenous binding-site annotation; coordinate joins require resolving assembly and score meanings.",
+      "limitations": [
+        "One ALKBH1 file only; not full POSTAR3.",
+        "Multiple rows may repeat one binding site across transcript overlaps; site IDs and row counts must remain distinct.",
+        "22 columns observed but exact definitions of extra scores and assembly unresolved."
+      ]
+    },
+    {
+      "resource_id": "cellxgene-census",
+      "name": "CZ CELLxGENE Census",
+      "selected_data_or_reference_payload_inspected": false,
+      "verification_level": "metadata",
+      "evidence_path": "evidence/file-audit-20261105/cell-context/census_access_audit.json",
+      "integration_role": "Potential primary-cell context; no numeric data slice verified in this environment.",
+      "limitations": [
+        "Release manifest inspected; native TileDB-SOMA runtime unavailable on supplied Windows Python.",
+        "Do not promote metadata or a release listing to expression-file validation."
+      ]
+    },
+    {
+      "resource_id": "mirtarbase",
+      "name": "miRTarBase",
+      "selected_data_or_reference_payload_inspected": false,
+      "verification_level": "metadata",
+      "evidence_path": "evidence/file-audit-20261105/cell-context/mirtarbase_access_audit.json",
+      "integration_role": "Potential miRNA mechanism evidence; not cleared for numerical integration.",
+      "limitations": [
+        "Current CSV returned403 or TLS failure; no interaction rows inspected.",
+        "Schema and source redistribution terms unresolved."
+      ]
+    },
+    {
+      "resource_id": "rasp2",
+      "name": "RASP v2",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/auxiliary/audit.json",
+      "integration_role": "Measured structure features:7732882 six-column raw HepG2 icSHAPE BED rows in selected track.",
+      "limitations": [
+        "Human API lists124 raw and54 imputed tracks; only one raw track inspected.",
+        "Native genomic structure need not transfer to synthetic reporters; match assembly, condition and sequence."
+      ]
+    },
+    {
+      "resource_id": "rnalocate",
+      "name": "RNALocate",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/auxiliary/audit.json",
+      "integration_role": "Localization annotation with computed confidence;55ACTB mRNA query-export rows.",
+      "limitations": [
+        "Bulk mRNA and circRNA ZIP links returned404; selected query CSV works.",
+        "Localization does not establish translation rate; RNALocate noncommercial terms apply."
+      ]
+    },
+    {
+      "resource_id": "cellosaurus",
+      "name": "Cellosaurus cell-line identities",
+      "selected_data_or_reference_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/auxiliary/audit.json",
+      "integration_role": "Identity reconciliation only;18selected reference entries inspected.",
+      "limitations": [
+        "Do not substituteHEK293 forHEK293T, equateJurkat sublines or resolve unspecifiedU87 silently."
+      ]
+    }
+  ]
+}

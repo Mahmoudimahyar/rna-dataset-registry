@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-11-05",
+  "resources_investigated": 6,
+  "resources_with_actual_numeric_or_interval_rows": 4,
+  "resources_with_access_gaps": 2,
+  "hpa_rows": 24315372,
+  "depmap_model_rows": 1673,
+  "encode_files": 5,
+  "postar_selected_rows": 5361,
+  "combination_feasibility": {
+    "feasible": "Build baseline cell-context features by Ensembl/Entrez mapping and validated cell identities; retain original study reporter translation labels separately.",
+    "not_supported": "A matched causal training table joining these context references to LAMAR13/Albatross conditions; miRNA activity labels from miRTarBase; direct protein-factor activity inferred from RNA abundance.",
+    "must_preserve": [
+      "species and cell lineage",
+      "cell stock/RRID and ambiguous aliases",
+      "release/version and gene annotation",
+      "RNA units vs protein/translation readouts",
+      "perturbation vs baseline",
+      "biological/technical replicate identity",
+      "missingness",
+      "overlapping upstream CCLE provenance"
+    ]
+  },
+  "metadata_only_in_repo": true,
+  "bulk_download_location": "external user-designated audit directory; no absolute paths stored"
+}

@@ -13,7 +13,7 @@ All 52 paper-level model/family records are mapped; no record is certified as an
 | [Smart5UTR](../models/P007.md) | 5′UTR and translation initiation | 1 | 1 |
 | [mRNA-LM](../models/P008.md) | CDS and full mRNA design | 0 | 3 |
 | [Translation efficiency covariation (TEC)](../models/P009.md) | Translation regulation and dynamics | 0 | 1 |
-| [RiboNN + classic ML](../models/P010.md) | Translation regulation and dynamics | 0 | 2 |
+| [RiboNN + classic ML](../models/P010.md) | Translation regulation and dynamics | 1 | 2 |
 | [mDD-0](../models/P011.md) | CDS and full mRNA design | 0 | 1 |
 | [SANDSTORM + GARDN](../models/P012.md) | Enabling RNA models and measurements | 9 | 8 |
 | [RNop](../models/P013.md) | CDS and full mRNA design | 0 | 1 |

@@ -1,0 +1,460 @@
+[
+  {
+    "id": "sci_dataset_yaml",
+    "url": "https://dieterich-lab.github.io/scimodom/_static/openapi/_include/dataset.yaml",
+    "resolved_url": "https://dieterich-lab.github.io/scimodom/_static/openapi/_include/dataset.yaml",
+    "status": 200,
+    "content_type": "text/yaml",
+    "bytes_read": 9336,
+    "complete": true,
+    "sha256": "cf7833ac0e069e39599bb5549b26a172cbfb5a93b65a4d3524e9290225bbc44d",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "sci_browse_yaml",
+    "url": "https://dieterich-lab.github.io/scimodom/_static/openapi/_include/browse.yaml",
+    "resolved_url": "https://dieterich-lab.github.io/scimodom/_static/openapi/_include/browse.yaml",
+    "status": 200,
+    "content_type": "text/yaml",
+    "bytes_read": 3763,
+    "complete": true,
+    "sha256": "14d05f7f7e1b8ed88061b396d1fb3d7a3a79be253d9ef7e659436779dcbdb6e8",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "sci_modification_yaml",
+    "url": "https://dieterich-lab.github.io/scimodom/_static/openapi/_include/modification.yaml",
+    "resolved_url": "https://dieterich-lab.github.io/scimodom/_static/openapi/_include/modification.yaml",
+    "status": 200,
+    "content_type": "text/yaml",
+    "bytes_read": 17237,
+    "complete": true,
+    "sha256": "cb5314f91e3c78352c4e4d1f77e64462e5d3d44a581abe7a8910ad3d0c69d5da",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "tmod_download_js",
+    "url": "https://www.tmodbase2.com/assets/MyDownload-C7RT6G13.js",
+    "resolved_url": "https://www.tmodbase2.com/assets/MyDownload-C7RT6G13.js",
+    "status": 200,
+    "content_type": "text/javascript; charset=utf-8",
+    "bytes_read": 8769,
+    "complete": true,
+    "sha256": "11c03b1020bb5d540ebc0b696c8350ce8a9ade07cc9d6aa26570ab0bef37ebe6",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "charge_gse188855",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188855/suppl/",
+    "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188855/suppl/",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes_read": 673,
+    "complete": true,
+    "sha256": "ec58b97acac68496e10515d0bb9f83350f755dec6353d8e7d6c3bfb3e1b22cf1",
+    "hash_scope": "full_response",
+    "links": [
+      {
+        "text": "Parent Directory",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188855/"
+      },
+      {
+        "text": "GSE188855_RAW.tar",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188855/suppl/GSE188855_RAW.tar"
+      },
+      {
+        "text": "filelist.txt",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188855/suppl/filelist.txt"
+      },
+      {
+        "text": "HHS Vulnerability Disclosure",
+        "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html"
+      }
+    ],
+    "scripts": []
+  },
+  {
+    "id": "tpsic_index",
+    "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/all/",
+    "resolved_url": "https://tpsic.igcz.poznan.pl/trna-sequencing/all/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes_read": 38117,
+    "complete": true,
+    "sha256": "f687a94ea33aee3b82e65567acef0f2302e7fe495cbfbd92700f5d80e109136b",
+    "hash_scope": "full_response",
+    "links": [
+      {
+        "text": "",
+        "url": "https://tpsic.igcz.poznan.pl/"
+      },
+      {
+        "text": "API details",
+        "url": "https://tpsic.igcz.poznan.pl/info/api/"
+      },
+      {
+        "text": "Fasta",
+        "url": "https://tpsic.igcz.poznan.pl/trna/download/?format=fasta"
+      },
+      {
+        "text": "Fasta (unmodified)",
+        "url": "https://tpsic.igcz.poznan.pl/trna/download/?format=unmodified-fasta"
+      },
+      {
+        "text": "Dot-bracket",
+        "url": "https://tpsic.igcz.poznan.pl/trna/download/?format=dot-bracket"
+      },
+      {
+        "text": "CSV",
+        "url": "https://tpsic.igcz.poznan.pl/trna/download/?format=csv"
+      },
+      {
+        "text": "Log in",
+        "url": "https://tpsic.igcz.poznan.pl/accounts/login/?next=/trna-sequencing/all/"
+      },
+      {
+        "text": "Register",
+        "url": "https://tpsic.igcz.poznan.pl/accounts/register/?next=/trna-sequencing/all/"
+      },
+      {
+        "text": "Home",
+        "url": "https://tpsic.igcz.poznan.pl/info/start/"
+      },
+      {
+        "text": "Database",
+        "url": "https://tpsic.igcz.poznan.pl/trna/"
+      },
+      {
+        "text": "Aligned seqs",
+        "url": "https://tpsic.igcz.poznan.pl/trna/aligned-seqs/"
+      },
+      {
+        "text": "tRNA sequencing",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/all/"
+      },
+      {
+        "text": "Variants, diseases",
+        "url": "https://tpsic.igcz.poznan.pl/variants-diseases/variant-disease-list/"
+      },
+      {
+        "text": "Upload",
+        "url": "https://tpsic.igcz.poznan.pl/trna/trna-deposition/"
+      },
+      {
+        "text": "Statistics",
+        "url": "https://tpsic.igcz.poznan.pl/trna/statistics/"
+      },
+      {
+        "text": "About",
+        "url": "https://tpsic.igcz.poznan.pl/info/about/"
+      },
+      {
+        "text": "",
+        "url": "http://igcz.poznan.pl/en/"
+      },
+      {
+        "text": "Using CHARGE-seq to survey the pools of charged tRNAs in amino-acid-deprived cells and investigate h",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/1/"
+      },
+      {
+        "text": "Ordered Two-Template Relay Sequencing",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/2/"
+      },
+      {
+        "text": "Ligation-independent detection of all types of RNA",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/3/"
+      },
+      {
+        "text": "Quantitative Mature tRNA sequencing",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/4/"
+      },
+      {
+        "text": "Long hairpin oligonucleotide based tRNA high-throughput sequencing",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/10/"
+      },
+      {
+        "text": "Dimethyl-sulfate chemical probing and mutational profiling coupled with demethylase treatment in tra",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/5/"
+      },
+      {
+        "text": "Adapter-ligated libraries of tRNA-derived sequences",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/6/"
+      },
+      {
+        "text": "Induro-tRNAseq",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/7/"
+      },
+      {
+        "text": "The extension of DM-tRNA-seq method determining fraction of charged isodecoders using periodate trea",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/8/"
+      },
+      {
+        "text": "Y-shaped Adapter-ligated MAture TRNA sequencing",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/9/"
+      },
+      {
+        "text": "Misincorporation tRNA sequencing",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/11/"
+      },
+      {
+        "text": "tRNA sequencing using engineered demethylases to remove base methylations and a highly processive th",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/12/"
+      },
+      {
+        "text": "Absolute Quantification RNA-Seq",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/13/"
+      },
+      {
+        "text": "AlkB-facilitated RNA Methylation sequencing",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/14/"
+      },
+      {
+        "text": "An integrated method that uses chemical ligation to sandwich the amino acid of a charged tRNA in bet",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/15/"
+      },
+      {
+        "text": "Hydrolysis-Based tRNA Sequencing",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/16/"
+      },
+      {
+        "text": "Demethylation-assisted multiple methylation sequencing",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/17/"
+      },
+      {
+        "text": "DNA Oligo for RNA Quantification sequencing",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/18/"
+      },
+      {
+        "text": "Nanopore-based approach to sequence native tRNA",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/trna-detail/19/"
+      },
+      {
+        "text": "https://www.ebi.ac.uk/ena/browser/view/PRJEB90828",
+        "url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB90828"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186736",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186736"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE331519",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE331519"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE309283",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE309283"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE313501",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE313501"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252634",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252634"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159434",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159434"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139936",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139936"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/sra/?term=SRP056032",
+        "url": "https://www.ncbi.nlm.nih.gov/sra/?term=SRP056032"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE284268",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE284268"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE259250",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE259250"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278291",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278291"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196072",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196072"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE173806",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE173806"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140105",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140105"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140105",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140105"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150355",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150355"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142393",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142393"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97259",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97259"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76434",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76434"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154165",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154165"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157276",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157276"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239867",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239867"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196251",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196251"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148202",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148202"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE262888",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE262888"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95683",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95683"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE267524",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE267524"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE233343",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE233343"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152621",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152621"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276080",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276080"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227927",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227927"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE241752",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE241752"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE277509",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE277509"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA726257",
+        "url": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA726257"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278291",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278291"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE283760",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE283760"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE309058",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE309058"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE295507",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE295507"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300004",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300004"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198271",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198271"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141436",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141436"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/sra/?term=SRP096584",
+        "url": "https://www.ncbi.nlm.nih.gov/sra/?term=SRP096584"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE328815",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE328815"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198606",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198606"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162913",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162913"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196705",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196705"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154165",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154165"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144791",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144791"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1088289",
+        "url": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1088289"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/bioproject/996215",
+        "url": "https://www.ncbi.nlm.nih.gov/bioproject/996215"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA541863",
+        "url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA541863"
+      },
+      {
+        "text": "https://www.ebi.ac.uk/ena/browser/view/PRJEB55684",
+        "url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB55684"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198441",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198441"
+      },
+      {
+        "text": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1154980",
+        "url": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1154980"
+      }
+    ],
+    "scripts": [
+      "https://tpsic.igcz.poznan.pl/static/jquery.min.js",
+      "https://tpsic.igcz.poznan.pl/static/detail_admin/js/bootstrap.min.js",
+      "https://tpsic.igcz.poznan.pl/static/detail_admin/js/jquery-ui-1.10.2.custom.min.js",
+      "https://tpsic.igcz.poznan.pl/static/detail_admin/js/jquery.knob.js",
+      "https://tpsic.igcz.poznan.pl/static/detail_admin/js/theme.js"
+    ]
+  }
+]

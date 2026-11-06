@@ -1,0 +1,121 @@
+{
+  "study": "Zhou et al. 2025 LAMAR",
+  "doi": "10.1186/s13059-025-03752-x",
+  "article_url": "https://link.springer.com/article/10.1186/s13059-025-03752-x",
+  "checked_date": "2026-11-05",
+  "source": {
+    "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-025-03752-x/MediaObjects/13059_2025_3752_MOESM2_ESM.xlsx",
+    "filename": "LAMAR_TableS1_13059_2025_3752_MOESM2_ESM.xlsx",
+    "bytes": 232142,
+    "sha256": "457b2cbe212be9dd5b292cd1cef9345ba73cc583bca3f191e0a46b5e24fdd476",
+    "status": "downloaded_publicly_no_auth"
+  },
+  "schema": {
+    "Metadata": [
+      "IRES ID",
+      "Accession ID",
+      "Start",
+      "End",
+      "Predicted probability",
+      "Sequence"
+    ],
+    "IRES activity": [
+      "IRES ID",
+      "Cell line",
+      "Raw Activity",
+      "Score"
+    ]
+  },
+  "source_ranges": {
+    "metadata": "Metadata!A1:F306",
+    "activity": "'IRES activity'!A1:D3916"
+  },
+  "counts": {
+    "metadata_ids": 305,
+    "unique_sequences": 305,
+    "measured_sequence_cell_pairs": 3915,
+    "unique_cell_labels": 13,
+    "complete_13cell_sequence_count": 280,
+    "complete_13cell_matrix_pairs": 3640,
+    "complete_11cell_sequence_count": 305,
+    "complete_11cell_matrix_pairs": 3355,
+    "missing_pairs_out_of_305_times_13": 50,
+    "cell_pair_counts_as_written": {
+      "A204": 305,
+      "A549": 305,
+      "AGS": 305,
+      "C2C12": 305,
+      "HCT116": 305,
+      "Hepg2": 305,
+      "HFF1": 305,
+      "JURKAT": 305,
+      "Neruo-2a ": 280,
+      "RAW264.7": 305,
+      "SY5Y": 305,
+      "THP-1": 305,
+      "U87": 280
+    },
+    "cell_observation_count_distribution_per_sequence": {
+      "13": 280,
+      "11": 25
+    }
+  },
+  "checks": {
+    "duplicate_metadata_ids": 0,
+    "duplicate_sequence_cell_pairs": [],
+    "activity_ids_missing_metadata": [],
+    "null_counts_in_activity_columns": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "score_matches_log10_rawactivity_times_1e5_plus1_max_abs_error": 8.881784197001252e-16,
+    "sequence_lengths_nt_min_max": [
+      500,
+      1005
+    ],
+    "sequence_length_matches_end_minus_start_plus_one_count": 302,
+    "sequence_coordinate_length_mismatches": [
+      {
+        "ires_id": 92,
+        "accession": "OL660538",
+        "start": 1,
+        "end": 588,
+        "sequence_length": 540
+      },
+      {
+        "ires_id": 135,
+        "accession": "KJ825801",
+        "start": 1,
+        "end": 526,
+        "sequence_length": 516
+      },
+      {
+        "ires_id": 275,
+        "accession": "MT857223",
+        "start": 10752,
+        "end": 11397,
+        "sequence_length": 559
+      }
+    ]
+  },
+  "sequence_join": "Exact IRES ID join, one Metadata record per ID and unique IRES ID x Cell line in activity. Accession ID/Start/End/Sequence are all in the same workbook. No external sequence join required.",
+  "measurement_vs_prediction": {
+    "Predicted probability": "LAMAR model probability; not experimental translation.",
+    "Raw Activity": "Observed reporter output normalized against modified-mRNA reporter control according to article Methods; not raw luminescence.",
+    "Score": "Deterministic log10(Raw Activity * 100000 + 1), matches every worksheet row.",
+    "replicates": "Article says two replicates. Workbook contains one value per IRES ID x Cell line, with no replicate identifier, replicate-level values, uncertainty, or explicit aggregation rule."
+  },
+  "cell_label_cautions": [
+    "Workbook has 'Neruo-2a ' including trailing space (likely Neuro-2a; preserve original label until mapping documented).",
+    "Workbook has 'Hepg2'; article lists HepG2."
+  ],
+  "scope_limits": [
+    "These are IRES insert sequences in a shared circRNA reporter context, not complete independent circRNA designs.",
+    "The same sequence is repeated across cells; do not treat 3915 pairs as 3915 independent sequence examples.",
+    "Contains 305 viral-derived candidates and 13 cell contexts; model training must group sequence-related records and account for source and assay differences.",
+    "No imputation was performed; exactly 25 IDs lack both Neruo-2a and U87 values.",
+    "Three metadata records (IDs 92, 135, 275) have sequence length unequal to End-Start+1. This audit does not infer the reason. Use the supplied Sequence column and exact IRES ID join; do not silently reconstruct sequences from accession coordinates."
+  ]
+}

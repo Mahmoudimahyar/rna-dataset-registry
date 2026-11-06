@@ -1,0 +1,13 @@
+{
+  "name": "depmap_Model_24Q4.csv",
+  "source_url": "https://ndownloader.figshare.com/files/51065297",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "text/csv",
+  "content_length": "645696",
+  "bytes_saved": 645696,
+  "sha256": "b7a0c1385e6cef30132b56aff61f1261d11e3f490490b355c430d32ee0dbdcfa",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "depmap_Model_24Q4.csv"
+}

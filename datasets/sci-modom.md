@@ -1,6 +1,6 @@
 # Sci-ModoM
 
-Registry ID: `sci-modom` · database · **curated** · verification: **schema**
+Registry ID: `sci-modom` · database · **curated** · verification: **file_sample**
 
 Quantitative transcriptome-wide modification database retaining reported coverage and frequency in the standardized bedRMod representation.
 
@@ -29,14 +29,19 @@ Quantitative transcriptome-wide modification database retaining reported coverag
 
 - https://scimodom.dieterichlab.org/
 - https://dieterich-lab.github.io/scimodom/api.html
+- https://scimodom.dieterichlab.org/api/v0/dataset/list_all
+- https://scimodom.dieterichlab.org/api/v0/transfer/dataset/fhx8RaDLaBC3
 
 ## Verification and remaining gaps
 
-Checked: 2026-11-04. Actual files/headers inspected: not established.
+Checked: 2026-11-05. Actual files/headers inspected: https://scimodom.dieterichlab.org/api/v0/dataset/list_all; https://scimodom.dieterichlab.org/api/v0/transfer/dataset/fhx8RaDLaBC3.
 
-- No biological data file was inspected; this record establishes resource metadata and documented endpoints only.
-- Schema documentation was inspected, not an exported dataset.
 - Source-code AGPL licensing was identified; it is not assumed to govern all contributed data.
+- One HEK293T BID-seq pseudouridine dataset audited; no database-wide numerical validation
+- Dataset title says three replicates, but exported file has one record per site without replicate columns
+- Current docs describe newer /datasets routes that return404 on this deployed site; legacy routes discovered from its own public application work
+- Cross-study cell identity does not establish matching culture, dose, time or intracellular RNA modification state
+- Bounded file audit: evidence/file-audit-20261105/modification-trna/audit.json; selected coverage only.
 
 - bedRMod coordinates are 0-based and half-open; conversions must be explicit.
 - Retain technology, assembly/annotation and context metadata; reported frequency is assay-dependent.
@@ -56,5 +61,13 @@ evidence: direct_multi_context; notes: Dataset contexts are retained; cross-cont
 - url: https://scimodom.dieterichlab.org/; supports: Primary page documents quantitative datasets and free browsing without login.
 - url: https://academic.oup.com/nar/article/53/D1/D310/7875981; supports: Original paper describes source-linked data integration and scope.
 - url: https://dieterich-lab.github.io/scimodom/bedrmod.html; supports: Schema documentation specifies headers, coverage/frequency and 0-based half-open coordinates.
+
+## Selected-file audit
+
+Can annotate endogenous sequence/site context or support modification-assay analyses. Not a direct label or measured modification state for delivered synthetic RNA.
+
+Selected payload inspected: True. Coverage: Selected files/API responses, not all source holdings.
+
+[Inspection evidence](../evidence/file-audit-20261105/modification-trna/audit.json). [Combination assessment](../docs/cell-specific-model-feasibility.md).
 
 Related models: not established. Related resources: modomics.

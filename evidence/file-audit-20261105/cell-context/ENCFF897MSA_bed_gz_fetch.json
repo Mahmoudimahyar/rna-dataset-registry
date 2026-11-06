@@ -1,0 +1,13 @@
+{
+  "name": "ENCFF897MSA.bed.gz",
+  "source_url": "https://www.encodeproject.org/files/ENCFF897MSA/@@download/ENCFF897MSA.bed.gz",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "application/vnd.realvnc.bed",
+  "content_length": "45927",
+  "bytes_saved": 45927,
+  "sha256": "f4aa428693f176fe9ea846e61140670c3e0772139d6836667d3e62daae7aa04d",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "ENCFF897MSA.bed.gz"
+}

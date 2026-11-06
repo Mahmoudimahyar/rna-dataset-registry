@@ -1,0 +1,55 @@
+{
+  "url": "https://rdp.ucc.ie/static2/bigwig/SRR328/SRR3286544.forward.bw",
+  "status": 206,
+  "content_range": "bytes 0-1048575/8927577",
+  "content_length_header": "1048576",
+  "bytes_inspected": 1048576,
+  "byte_prefix_sha256": "9cc71e72a76d84aa73fe0ab294f5abf30bfa98fa729694d8fb28ad414ffbd704",
+  "full_file_sha256": null,
+  "scope": "First 1 MiB of source; only first compressed data section parsed",
+  "bigwig_header": {
+    "magic_hex": "0x888ffc26",
+    "version": 4,
+    "zoom_levels": 10,
+    "chrom_tree_offset": 344,
+    "full_data_offset": 705,
+    "full_index_offset": 4921030,
+    "uncompress_buffer_size": 32768
+  },
+  "section_count_header": 1016,
+  "first_section": {
+    "chrom_id": 0,
+    "start": 629197,
+    "end": 1309730,
+    "step": 0,
+    "span": 0,
+    "type": 1,
+    "items": 1024
+  },
+  "signal_records_parsed": 1024,
+  "signal_min_max": [
+    1.0,
+    177.0
+  ],
+  "signal_fields": [
+    "chrom_id",
+    "start",
+    "end",
+    "numeric coverage value"
+  ],
+  "biology": {
+    "run": "SRR3286544",
+    "study": "PRJNA316125",
+    "geo": "GSE79539",
+    "cell_line": "A549",
+    "condition": "Grown under normal condition",
+    "inhibitor": "Cycloheximide",
+    "library_type": "Ribo-Seq",
+    "meaning": "Genome-aligned footprint coverage, not completed protein production or a direct circRNA-specific signal"
+  },
+  "integration_limits": [
+    "Requires transcript/reference annotation and independently verified matched RNA-seq to derive endogenous TE",
+    "Ribo-seq genomic reads do not uniquely establish circRNA translation",
+    "Not an independent dataset from other portals that index SRR3286544"
+  ]
+}

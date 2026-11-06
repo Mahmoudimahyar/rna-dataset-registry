@@ -1,0 +1,13 @@
+{
+  "name": "encode_rbns_set.json",
+  "source_url": "https://www.encodeproject.org/publication-data/ENCSR876DCD/?format=json",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "application/json",
+  "content_length": null,
+  "bytes_saved": 47144,
+  "sha256": "410b25edea64dfd7d0007adf9e4d56b82891beab05b83e018411e2358674ebf2",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "encode_rbns_set.json"
+}

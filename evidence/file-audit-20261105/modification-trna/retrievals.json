@@ -1,0 +1,71 @@
+[
+  {
+    "id": "sci_modom_frontend",
+    "url": "https://scimodom.dieterichlab.org/",
+    "error": "cannot use a string pattern on a bytes-like object"
+  },
+  {
+    "id": "m6a_conditions",
+    "url": "https://rnamd.org/m6a/download/high/hg38/Condition_hg38.txt.gz",
+    "resolved_url": "https://rnamd.org/m6a/download/high/hg38/Condition_hg38.txt.gz",
+    "status": 200,
+    "content_type": "application/x-gzip",
+    "bytes_read": 6041793,
+    "complete": true,
+    "sha256": "998b250f34ace1bd381e1b882e80431184bf7fe4f420cdba1f77ea29d563010f",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "m6a_quantification",
+    "url": "https://rnamd.org/m6a/download/high/hg38/human_all_logFC.txt.gz",
+    "resolved_url": "https://rnamd.org/m6a/download/high/hg38/human_all_logFC.txt.gz",
+    "status": 200,
+    "content_type": "application/x-gzip",
+    "bytes_read": 33619968,
+    "complete": false,
+    "sha256": "2304c36bb15e6b84d8b41752d55c6057913e00fe438ba00f6147ac3bbd6607ad",
+    "hash_scope": "bounded_prefix"
+  },
+  {
+    "id": "m6a_sites",
+    "url": "https://rnamd.org/m6a/download/high/hg38/hg38_CL_Tech.txt.gz",
+    "resolved_url": "https://rnamd.org/m6a/download/high/hg38/hg38_CL_Tech.txt.gz",
+    "status": 200,
+    "content_type": "application/x-gzip",
+    "bytes_read": 20246265,
+    "complete": true,
+    "sha256": "0bf62f1985649e0708f9f5605b7c710844af6e0bef86ac9f85abdca8e83cea93",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "modomics_positions",
+    "url": "https://genesilico.pl/modomics/download/modified_positions/",
+    "resolved_url": "https://genesilico.pl/modomics/download/modified_positions/",
+    "status": 200,
+    "content_type": "application/zip",
+    "bytes_read": 146558,
+    "complete": true,
+    "sha256": "940e939dd59c87812c82b12d1e08789737b6df953c5b3515ceb63938eb8f23dd",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "tmodbase_frontend",
+    "url": "http://www.tmodbase2.com/",
+    "error": "cannot use a string pattern on a bytes-like object"
+  },
+  {
+    "id": "tpsic_index",
+    "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/all/",
+    "error": "cannot use a string pattern on a bytes-like object"
+  },
+  {
+    "id": "charge_gse239867",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239867/suppl/",
+    "error": "cannot use a string pattern on a bytes-like object"
+  },
+  {
+    "id": "charge_gse188855",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188855/suppl/",
+    "error": "cannot use a string pattern on a bytes-like object"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "depmap_download_files.csv",
+  "source_url": "https://depmap.org/portal/api/download/files",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length": null,
+  "bytes_saved": 4842,
+  "sha256": "19c8a509a513eff2aa44f46f225566a6f67657a0fe284910de4c73a31b54ca62",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "depmap_download_files.csv"
+}

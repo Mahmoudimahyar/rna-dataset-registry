@@ -708,7 +708,12 @@
     "access": {
       "level": "open",
       "data_urls": [
-        "https://www.encodeproject.org/data-standards/"
+        "https://www.encodeproject.org/data-standards/",
+        "https://www.encodeproject.org/files/ENCFF593RED/@@download/ENCFF593RED.bed.gz",
+        "https://www.encodeproject.org/files/ENCFF897MSA/@@download/ENCFF897MSA.bed.gz",
+        "https://www.encodeproject.org/files/ENCFF644GCJ/@@download/ENCFF644GCJ.tsv",
+        "https://www.encodeproject.org/files/ENCFF060HYJ/@@download/ENCFF060HYJ.tsv",
+        "https://www.encodeproject.org/files/ENCFF335XEM/@@download/ENCFF335XEM.tsv"
       ],
       "formats": [
         "FASTQ",
@@ -722,17 +727,26 @@
       "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
     },
     "verification": {
-      "level": "metadata",
-      "checked_on": "2026-11-04",
+      "level": "file_sample",
+      "checked_on": "2026-11-05",
       "evidence": [
         {
           "url": "https://www.encodeproject.org/data-standards/",
           "supports": "Resource identity, available label types and access route described in primary source documentation"
         }
       ],
-      "files_inspected": [],
+      "files_inspected": [
+        "https://www.encodeproject.org/files/ENCFF593RED/@@download/ENCFF593RED.bed.gz",
+        "https://www.encodeproject.org/files/ENCFF897MSA/@@download/ENCFF897MSA.bed.gz",
+        "https://www.encodeproject.org/files/ENCFF644GCJ/@@download/ENCFF644GCJ.tsv",
+        "https://www.encodeproject.org/files/ENCFF060HYJ/@@download/ENCFF060HYJ.tsv",
+        "https://www.encodeproject.org/files/ENCFF335XEM/@@download/ENCFF335XEM.tsv"
+      ],
       "limitations": [
-        "Metadata/schema review is not inspection of every underlying dataset file."
+        "five complete selected files; not entire ENCODE collection",
+        "K562 peak/RNA perturbation examples are not matched to the requested reporter-cell contexts; cell-free RBNS cannot establish cell-specific binding or translation.",
+        "Knockdown quantification without matched controls is not an effect estimate.",
+        "Bounded file audit: evidence/file-audit-20261105/cell-context/encode_file_inspection.json; selected coverage only."
       ]
     },
     "ml_tasks": [
@@ -751,7 +765,14 @@
     "related_model_ids": [],
     "related_resource_ids": [],
     "priority": "high",
-    "status": "curated"
+    "status": "curated",
+    "file_audit_20261105": {
+      "selected_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/cell-context/encode_file_inspection.json",
+      "integration_role": "RBP-binding and cell-free motif evidence; selected knockdown RNA quantifications are not matched translation labels.",
+      "scope": "Selected files/API responses, not all source holdings"
+    }
   },
   {
     "id": "gtex",
@@ -991,7 +1012,7 @@
     },
     "verification": {
       "level": "metadata",
-      "checked_on": "2026-11-04",
+      "checked_on": "2026-11-05",
       "evidence": [
         {
           "url": "https://chanzuckerberg.github.io/cellxgene-census/",
@@ -1000,7 +1021,10 @@
       ],
       "files_inspected": [],
       "limitations": [
-        "Metadata/schema review is not inspection of every underlying dataset file."
+        "Metadata/schema review is not inspection of every underlying dataset file.",
+        "Release manifest inspected; native TileDB-SOMA runtime unavailable on supplied Windows Python.",
+        "Do not promote metadata or a release listing to expression-file validation.",
+        "Bounded file audit: evidence/file-audit-20261105/cell-context/census_access_audit.json; selected coverage only."
       ]
     },
     "ml_tasks": [
@@ -1021,7 +1045,14 @@
       "human-cell-atlas"
     ],
     "priority": "high",
-    "status": "curated"
+    "status": "curated",
+    "file_audit_20261105": {
+      "selected_payload_inspected": false,
+      "verification_level": "metadata",
+      "evidence_path": "evidence/file-audit-20261105/cell-context/census_access_audit.json",
+      "integration_role": "Potential primary-cell context; no numeric data slice verified in this environment.",
+      "scope": "Selected files/API responses, not all source holdings"
+    }
   },
   {
     "id": "archs4",
@@ -1335,7 +1366,8 @@
     "access": {
       "level": "open",
       "data_urls": [
-        "https://www.proteinatlas.org/about/download"
+        "https://www.proteinatlas.org/about/download",
+        "https://www.proteinatlas.org/download/tsv/rna_celline.tsv.zip"
       ],
       "formats": [
         "TSV",
@@ -1346,17 +1378,21 @@
       "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
     },
     "verification": {
-      "level": "metadata",
-      "checked_on": "2026-11-04",
+      "level": "file_sample",
+      "checked_on": "2026-11-05",
       "evidence": [
         {
           "url": "https://www.proteinatlas.org/about/download",
           "supports": "Resource identity, available label types and access route described in primary source documentation"
         }
       ],
-      "files_inspected": [],
+      "files_inspected": [
+        "https://www.proteinatlas.org/download/tsv/rna_celline.tsv.zip"
+      ],
       "limitations": [
-        "Metadata/schema review is not inspection of every underlying dataset file."
+        "No replicate column or matched reporter condition; RNA expression does not establish protein activity.",
+        "HPA can reuse CCLE profiles; HPA and DepMap are not independent cohorts.",
+        "Bounded file audit: evidence/file-audit-20261105/cell-context/hpa_file_inspection.json; selected coverage only."
       ]
     },
     "ml_tasks": [
@@ -1374,7 +1410,14 @@
     "related_model_ids": [],
     "related_resource_ids": [],
     "priority": "high",
-    "status": "curated"
+    "status": "curated",
+    "file_audit_20261105": {
+      "selected_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/cell-context/hpa_file_inspection.json",
+      "integration_role": "External baseline RNA-expression features; 1206 cell lines and20162 genes in inspected25.1 file.",
+      "scope": "Selected files/API responses, not all source holdings"
+    }
   },
   {
     "id": "rpfdb3",
@@ -1443,7 +1486,7 @@
     },
     "verification": {
       "level": "metadata",
-      "checked_on": "2026-11-04",
+      "checked_on": "2026-11-05",
       "evidence": [
         {
           "url": "https://sysbio.gzzoc.com/rpfdb/index.html",
@@ -1452,7 +1495,11 @@
       ],
       "files_inspected": [],
       "limitations": [
-        "Metadata/schema review is not inspection of every underlying dataset file."
+        "Metadata/schema review is not inspection of every underlying dataset file.",
+        "Download documentation is not data-file verification",
+        "Keep prior metadata evidence level; do not label training-ready",
+        "Official page describes unmatched samples and missing TE values; matched RNA-seq must be checked",
+        "Bounded file audit: evidence/file-audit-20261105/translation/translation_file_audit.json; selected coverage only."
       ]
     },
     "ml_tasks": [
@@ -1470,7 +1517,14 @@
     "related_model_ids": [],
     "related_resource_ids": [],
     "priority": "high",
-    "status": "curated"
+    "status": "curated",
+    "file_audit_20261105": {
+      "selected_payload_inspected": false,
+      "verification_level": "metadata",
+      "evidence_path": "evidence/file-audit-20261105/translation/translation_file_audit.json",
+      "integration_role": "Potential endogenous translation-efficiency source; current file contents not verified",
+      "scope": "Selected files/API responses, not all source holdings"
+    }
   },
   {
     "id": "riboseq-org",
@@ -1513,7 +1567,9 @@
     "access": {
       "level": "open",
       "data_urls": [
-        "https://riboseq.org/"
+        "https://riboseq.org/",
+        "https://rdp.ucc.ie/sample_select_form/?download-metadata=Cell-Line%3DA549",
+        "https://rdp.ucc.ie/static2/bigwig/SRR328/SRR3286544.forward.bw"
       ],
       "formats": [
         "browser tracks",
@@ -1523,17 +1579,26 @@
       "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
     },
     "verification": {
-      "level": "metadata",
-      "checked_on": "2026-11-04",
+      "level": "file_sample",
+      "checked_on": "2026-11-05",
       "evidence": [
         {
           "url": "https://riboseq.org/",
           "supports": "Resource identity, available label types and access route described in primary source documentation"
         }
       ],
-      "files_inspected": [],
+      "files_inspected": [
+        "https://rdp.ucc.ie/sample_select_form/?download-metadata=Cell-Line%3DA549",
+        "https://rdp.ucc.ie/static2/bigwig/SRR328/SRR3286544.forward.bw"
+      ],
       "limitations": [
-        "Metadata/schema review is not inspection of every underlying dataset file."
+        "One cell-filtered metadata export and one 1-MiB BigWig prefix were inspected, not all studies",
+        "227 Ribo-Seq, 5 RNA-Seq, 1 tRNA-Seq, 1 SSU entries are not 234 independent comparable TE measurements",
+        "Same cell name includes normal, drug, infection and genetic perturbation contexts",
+        "Footprint occupancy can reflect elongation or stalling and is not direct protein synthesis rate",
+        "Do not pool with reporter luminescence or polysome-loading labels",
+        "Deduplicate upstream accessions against RPFdb and model training atlases",
+        "Bounded file audit: evidence/file-audit-20261105/translation/translation_file_audit.json; selected coverage only."
       ]
     },
     "ml_tasks": [
@@ -1554,7 +1619,14 @@
       "sra"
     ],
     "priority": "high",
-    "status": "curated"
+    "status": "curated",
+    "file_audit_20261105": {
+      "selected_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/translation/translation_file_audit.json",
+      "integration_role": "Endogenous footprint signal and study/sample discovery; possible mRNA TE after matched RNA-seq processing",
+      "scope": "Selected files/API responses, not all source holdings"
+    }
   },
   {
     "id": "postar3",
@@ -1598,7 +1670,8 @@
     "access": {
       "level": "open",
       "data_urls": [
-        "http://postar.ncrnalab.org/"
+        "http://postar.ncrnalab.org/",
+        "http://111.198.139.65/download/human_RBP/ALKBH1.binding.sites.zip"
       ],
       "formats": [
         "BED",
@@ -1608,17 +1681,22 @@
       "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
     },
     "verification": {
-      "level": "paper",
-      "checked_on": "2026-11-04",
+      "level": "file_sample",
+      "checked_on": "2026-11-05",
       "evidence": [
         {
           "url": "https://doi.org/10.1093/nar/gkab702",
           "supports": "Resource identity, available label types and access route described in primary source documentation"
         }
       ],
-      "files_inspected": [],
+      "files_inspected": [
+        "http://111.198.139.65/download/human_RBP/ALKBH1.binding.sites.zip"
+      ],
       "limitations": [
-        "Metadata/schema review is not inspection of every underlying dataset file."
+        "One ALKBH1 file only; not full POSTAR3.",
+        "Multiple rows may repeat one binding site across transcript overlaps; site IDs and row counts must remain distinct.",
+        "22 columns observed but exact definitions of extra scores and assembly unresolved.",
+        "Bounded file audit: evidence/file-audit-20261105/cell-context/postar3_file_inspection.json; selected coverage only."
       ]
     },
     "ml_tasks": [
@@ -1636,7 +1714,14 @@
     "related_model_ids": [],
     "related_resource_ids": [],
     "priority": "high",
-    "status": "curated"
+    "status": "curated",
+    "file_audit_20261105": {
+      "selected_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/cell-context/postar3_file_inspection.json",
+      "integration_role": "Endogenous binding-site annotation; coordinate joins require resolving assembly and score meanings.",
+      "scope": "Selected files/API responses, not all source holdings"
+    }
   },
   {
     "id": "encori",
@@ -1842,7 +1927,8 @@
     "access": {
       "level": "open",
       "data_urls": [
-        "https://www.rnalocate.org/download"
+        "https://www.rnalocate.org/download",
+        "https://www.rnalocate.org/show_search?dataset=Symbol&Keyword=ACTB&category=mRNA&species=Homo+sapiens&subcellular_loc=All&page=1&score1=0.0&score2=1.0&sources=experiment&sortBy=None&last_id=&download=yes"
       ],
       "formats": [
         "tables",
@@ -1852,17 +1938,21 @@
       "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
     },
     "verification": {
-      "level": "metadata",
-      "checked_on": "2026-11-04",
+      "level": "file_sample",
+      "checked_on": "2026-11-05",
       "evidence": [
         {
           "url": "https://www.rnalocate.org/download",
           "supports": "Resource identity, available label types and access route described in primary source documentation"
         }
       ],
-      "files_inspected": [],
+      "files_inspected": [
+        "https://www.rnalocate.org/show_search?dataset=Symbol&Keyword=ACTB&category=mRNA&species=Homo+sapiens&subcellular_loc=All&page=1&score1=0.0&score2=1.0&sources=experiment&sortBy=None&last_id=&download=yes"
+      ],
       "limitations": [
-        "Metadata/schema review is not inspection of every underlying dataset file."
+        "Bulk mRNA and circRNA ZIP links returned404; selected query CSV works.",
+        "Localization does not establish translation rate; RNALocate noncommercial terms apply.",
+        "Bounded file audit: evidence/file-audit-20261105/auxiliary/audit.json; selected coverage only."
       ]
     },
     "ml_tasks": [
@@ -1879,7 +1969,14 @@
     "related_model_ids": [],
     "related_resource_ids": [],
     "priority": "high",
-    "status": "curated"
+    "status": "curated",
+    "file_audit_20261105": {
+      "selected_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/auxiliary/audit.json",
+      "integration_role": "Localization annotation with computed confidence;55ACTB mRNA query-export rows.",
+      "scope": "Selected files/API responses, not all source holdings"
+    }
   },
   {
     "id": "rasp2",
@@ -1933,7 +2030,9 @@
     "access": {
       "level": "open",
       "data_urls": [
-        "https://rasp2.zhanglab.net/download/"
+        "https://rasp2.zhanglab.net/download/",
+        "https://rasp2.zhanglab.net/api/query_bwfiles/?species=hg38",
+        "https://rasp2.zhanglab.net/api/downloadfile/?filetype=bed&filelist=hg38%2FicSHAPE_CR_2021_Sun%2FHepG2.bed.gz"
       ],
       "formats": [
         "tracks",
@@ -1943,17 +2042,22 @@
       "redistribution": "See explicit source license; public accessibility alone is not redistribution permission"
     },
     "verification": {
-      "level": "paper",
-      "checked_on": "2026-11-04",
+      "level": "file_sample",
+      "checked_on": "2026-11-05",
       "evidence": [
         {
           "url": "https://doi.org/10.1093/nar/gkae1117",
           "supports": "Resource identity, available label types and access route described in primary source documentation"
         }
       ],
-      "files_inspected": [],
+      "files_inspected": [
+        "https://rasp2.zhanglab.net/api/query_bwfiles/?species=hg38",
+        "https://rasp2.zhanglab.net/api/downloadfile/?filetype=bed&filelist=hg38%2FicSHAPE_CR_2021_Sun%2FHepG2.bed.gz"
+      ],
       "limitations": [
-        "Metadata/schema review is not inspection of every underlying dataset file."
+        "Human API lists124 raw and54 imputed tracks; only one raw track inspected.",
+        "Native genomic structure need not transfer to synthetic reporters; match assembly, condition and sequence.",
+        "Bounded file audit: evidence/file-audit-20261105/auxiliary/audit.json; selected coverage only."
       ]
     },
     "ml_tasks": [
@@ -1971,7 +2075,14 @@
     "related_model_ids": [],
     "related_resource_ids": [],
     "priority": "high",
-    "status": "curated"
+    "status": "curated",
+    "file_audit_20261105": {
+      "selected_payload_inspected": true,
+      "verification_level": "file_sample",
+      "evidence_path": "evidence/file-audit-20261105/auxiliary/audit.json",
+      "integration_role": "Measured structure features:7732882 six-column raw HepG2 icSHAPE BED rows in selected track.",
+      "scope": "Selected files/API responses, not all source holdings"
+    }
   },
   {
     "id": "rmdb",

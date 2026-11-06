@@ -11,6 +11,10 @@ A source-backed catalog of RNA and mRNA resources for machine learning: chemical
 - Review the [52 model/family records from the literature collection](docs/model-index.md), including unresolved release and dataset gaps.
 - Load [JSON](catalog/registry.json), [CSV](catalog/registry.csv), [model coverage](catalog/model_coverage.json) or the [access manifest](catalog/access_manifest.json).
 - See [current counts and verification levels](catalog/summary.json) and [validation results](evidence/validation.json).
+- Read the [20-resource actual-file audit and model feasibility assessment](docs/cell-specific-model-feasibility.md), [machine-readable audit](evidence/file-audit-20261105/summary.json), [candidate cell joins](catalog/cell_context_join_manifest.json) and [task-specific combination plan](catalog/combination_plan.json).
+- Review the [response to scientific criticism](docs/review-response-2026-11-05.md), including corrected endpoints and the unresolved ContiTE source-dimension discrepancy.
+
+Current file-audit release: **220 resource records**, including **132 source-backed records** and **88 candidates**. Selected data/reference payloads or linked study files were inspected for **16 of the 20 reviewed resources**. Four retain numerical-data access gaps. Reference entries, index records and repeated observations are not independent training datasets. The original human RiboNN supplement and two synthetic-circRNA reporter studies have separate label definitions and provenance; no trained predictor or harmonized biological corpus is claimed.
 
 Research window: **4–5 November 2026**. The source library contains 193 PDF copies / 181 unique byte streams; no new source PDFs were found since the earlier review. This hash inventory does not certify scientific completeness. All 52 paper-level RNA model/family records are mapped; some records represent several algorithms/models. Known repository URLs were rechecked, with README pointer scans where retrievable. These checks do not establish that every paper dataset has been inspected.
 

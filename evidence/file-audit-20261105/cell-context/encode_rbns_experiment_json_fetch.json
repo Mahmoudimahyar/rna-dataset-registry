@@ -1,0 +1,13 @@
+{
+  "name": "encode_rbns_experiment.json",
+  "source_url": "https://www.encodeproject.org/experiments/ENCSR919USP/?format=json",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "application/json",
+  "content_length": null,
+  "bytes_saved": 84975,
+  "sha256": "4787b01a82c1d665100c30e956bc9f398dbb1a3f6ffa53bbc069396dc19b5709",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "encode_rbns_experiment.json"
+}

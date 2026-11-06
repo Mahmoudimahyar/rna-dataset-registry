@@ -1,0 +1,85 @@
+{
+  "not_applied": true,
+  "updates": [
+    {
+      "id": "human-protein-atlas-rna",
+      "proposed_verification_level": "file_sample",
+      "scale": {
+        "value": 24315372,
+        "unit": "gene-cell-line rows in complete selected v25.1 file",
+        "basis": "counted all rows"
+      },
+      "files_inspected": [
+        "rna_celline.tsv.zip member rna_celline.tsv"
+      ],
+      "limitations": [
+        "Full selected RNA cell-line matrix validated, not all HPA modalities.",
+        "HPA may contain CCLE-derived profiles; avoid double-counting independent biological evidence."
+      ]
+    },
+    {
+      "id": "depmap-ccle-expression",
+      "record_action": "new candidate resource record; coordinator resolve existing ID",
+      "proposed_verification_level": "file_sample",
+      "scale": {
+        "value": 1673,
+        "unit": "model rows in complete 24Q4 expression file",
+        "basis": "counted; gene columns separately counted"
+      },
+      "files_inspected": [
+        "Model.csv",
+        "OmicsProfiles.csv",
+        "OmicsExpressionProteinCodingGenesTPMLogp1.csv"
+      ],
+      "limitations": [
+        "24Q4 inspected, not latest release.",
+        "Current endpoint returned HTML; exact no-newer-release claim not made."
+      ]
+    },
+    {
+      "id": "encode",
+      "proposed_verification_level": "file_sample",
+      "scale": {
+        "value": 5,
+        "unit": "selected biological files inspected",
+        "basis": "2 eCLIP BED + 2 knockdown quantifications + 1 RBNS enrichment"
+      },
+      "limitations": [
+        "File-sample scope only.",
+        "RBNS PWM files share enrichment output_type; inspect contents to distinguish PWM versus k-mer R tables.",
+        "Knockdown quantification alone is not a perturbational effect estimate."
+      ]
+    },
+    {
+      "id": "postar3",
+      "proposed_verification_level": "file_sample",
+      "scale": {
+        "value": 5361,
+        "unit": "transcript-overlap rows in selected ALKBH1 file",
+        "basis": "complete selected archive member counted"
+      },
+      "limitations": [
+        "Do not report this as full database scale.",
+        "Assembly, extra scores, replicate provenance and redistribution terms remain unknown."
+      ]
+    },
+    {
+      "id": "cellxgene-census",
+      "proposed_verification_level": "metadata",
+      "files_inspected": [],
+      "limitations": [
+        "Actual small numeric slice not obtained; Windows TileDB-SOMA installation blocked."
+      ]
+    },
+    {
+      "id": "mirtarbase",
+      "record_action": "new blocked/candidate resource record; coordinator resolve existing ID",
+      "proposed_verification_level": "metadata",
+      "files_inspected": [],
+      "limitations": [
+        "Release webpage reachable, actual interactionCSV HTTP403/TLS failure.",
+        "License and row schema not verified."
+      ]
+    }
+  ]
+}

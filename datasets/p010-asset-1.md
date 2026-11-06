@@ -1,8 +1,8 @@
 # RiboNN example training table
 
-Registry ID: `p010-asset-1` · model_release · **candidate** · verification: **unverified**
+Registry ID: `p010-asset-1` · software_example · **candidate** · verification: **unverified**
 
-Example transcript row Transcript sequence, sizes and gene identifiers
+Author-provided example training schema with explicitly FAKE TE values; not biological training labels.
 
 ## What the data contains
 
@@ -17,7 +17,7 @@ Example transcript row Transcript sequence, sizes and gene identifiers
 
 | Label | Meaning | Evidence type | Unit | Resolution |
 |---|---|---|---|---|
-| TE_<cell> columns; fold | Demonstration TE values are fake, not experimental labels. | unknown | unknown | unknown |
+| example TE | Synthetic/example labels explicitly described as fake by author README | synthetic | example value | transcript |
 
 ## Access and reuse
 
@@ -36,6 +36,7 @@ Checked: 2026-11-04. Actual files/headers inspected: not established.
 - Imported candidate. Prior evidence level: file_inspected. Import is not a new file inspection or certification of labels.
 
 - May group multiple datasets or overlap other model assets; do not count as an independent experimental dataset.
+- Never use this example as measured translation ground truth.
 
 ## Cell specificity
 

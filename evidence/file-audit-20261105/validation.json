@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "audited_resources": 20,
+  "selected_payload_resources": 16,
+  "explicit_numeric_access_gaps": [
+    "rpfdb3",
+    "transcirc",
+    "cellxgene-census",
+    "mirtarbase"
+  ],
+  "text_evidence_files_checked": 104,
+  "limits": "Checks establish audit consistency and publication hygiene, not predictive reliability or complete database coverage."
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "sci_datasets",
+    "url": "https://scimodom.dieterichlab.org/api/v0/datasets",
+    "resolved_url": "https://scimodom.dieterichlab.org/api/v0/datasets",
+    "status": 404,
+    "content_type": "application/json",
+    "bytes_read": 31,
+    "complete": true,
+    "sha256": "8089140e2c0fba359bcc6fd6994404abf220ff563cbe41b4ef59a50acfc1b0ad",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "sci_projects",
+    "url": "https://scimodom.dieterichlab.org/api/v0/projects",
+    "resolved_url": "https://scimodom.dieterichlab.org/api/v0/projects",
+    "status": 404,
+    "content_type": "application/json",
+    "bytes_read": 31,
+    "complete": true,
+    "sha256": "8089140e2c0fba359bcc6fd6994404abf220ff563cbe41b4ef59a50acfc1b0ad",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "charge188_tar",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188855/suppl/GSE188855_RAW.tar",
+    "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188855/suppl/GSE188855_RAW.tar",
+    "status": 200,
+    "content_type": "application/x-tar",
+    "bytes_read": 30720,
+    "complete": true,
+    "sha256": "425d8cea1f9a507e96bcd5f53db111d52bf79543eb035180bbdc34b3fc2cfc53",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "charge239_geo",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239867&targ=self&form=text&view=full",
+    "resolved_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239867&targ=self&form=text&view=full",
+    "status": 200,
+    "content_type": "geo/text",
+    "bytes_read": 3479,
+    "complete": true,
+    "sha256": "5a9b1a9aeccb4de594294f3ab1692d4a2c43a0a9251669bdd763c63c48c09fc0",
+    "hash_scope": "full_response"
+  },
+  {
+    "id": "charge188_geo",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188855&targ=self&form=text&view=full",
+    "resolved_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE188855&targ=self&form=text&view=full",
+    "status": 200,
+    "content_type": "geo/text",
+    "bytes_read": 2528,
+    "complete": true,
+    "sha256": "404f940caf7adf3527ce6411d4b9c329b1498c1d4105e3a6612a694ae5b44a86",
+    "hash_scope": "full_response"
+  }
+]

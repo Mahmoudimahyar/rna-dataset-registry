@@ -1,0 +1,336 @@
+{
+  "verification_level": "file_sample",
+  "sample_scope": "five complete selected files; not entire ENCODE collection",
+  "files": [
+    {
+      "accession": "ENCFF593RED",
+      "dataset": "/experiments/ENCSR720BJU/",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1,
+        2
+      ],
+      "technical_replicates": [
+        "1_1",
+        "2_1"
+      ],
+      "output_type": "peaks",
+      "file_format": "bed",
+      "genome_annotation": "V29",
+      "target": "TARDBP",
+      "source_url": "https://www.encodeproject.org/files/ENCFF593RED/@@download/ENCFF593RED.bed.gz",
+      "context": "K562",
+      "full_rows_counted": 4592,
+      "header_in_file": false,
+      "column_count": 10,
+      "sample_rows": [
+        [
+          "chr1",
+          "517550",
+          "517654",
+          ".",
+          "1000",
+          "-",
+          "6.2459240141347",
+          "16.252305875944",
+          "-1",
+          "-1"
+        ],
+        [
+          "chr1",
+          "950046",
+          "950109",
+          ".",
+          "1000",
+          "-",
+          "7.36716836441872",
+          "30.1340642567478",
+          "-1",
+          "-1"
+        ]
+      ],
+      "column_semantics": "BED6+4; numeric score/signal fields retained; exact extra-field semantics not inferred from values alone",
+      "readout": "RBP-binding peak interval, not translation output",
+      "artifact_name": "ENCFF593RED.bed.gz",
+      "bytes": 91663,
+      "sha256": "5948e98052723b24adeb2b843045bb2bab19c017a7d3992a97d6d456db2adcb8",
+      "sha256_scope": "complete local artifact"
+    },
+    {
+      "accession": "ENCFF897MSA",
+      "dataset": "/experiments/ENCSR391BBA/",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        1,
+        2
+      ],
+      "technical_replicates": [
+        "1_1",
+        "2_1"
+      ],
+      "output_type": "peaks",
+      "file_format": "bed",
+      "genome_annotation": "V29",
+      "target": "EIF4E",
+      "source_url": "https://www.encodeproject.org/files/ENCFF897MSA/@@download/ENCFF897MSA.bed.gz",
+      "context": "K562",
+      "full_rows_counted": 2148,
+      "header_in_file": false,
+      "column_count": 10,
+      "sample_rows": [
+        [
+          "chr1",
+          "959212",
+          "959272",
+          ".",
+          "1000",
+          "-",
+          "4.02912898443694",
+          "6.03578455597374",
+          "-1",
+          "-1"
+        ],
+        [
+          "chr1",
+          "960799",
+          "961083",
+          ".",
+          "1000",
+          "+",
+          "3.1191183174900496",
+          "5.57100718815197",
+          "-1",
+          "-1"
+        ]
+      ],
+      "column_semantics": "BED6+4; numeric score/signal fields retained; exact extra-field semantics not inferred from values alone",
+      "readout": "RBP-binding peak interval, not translation output",
+      "artifact_name": "ENCFF897MSA.bed.gz",
+      "bytes": 45927,
+      "sha256": "f4aa428693f176fe9ea846e61140670c3e0772139d6836667d3e62daae7aa04d",
+      "sha256_scope": "complete local artifact"
+    },
+    {
+      "accession": "ENCFF644GCJ",
+      "dataset": "/experiments/ENCSR067LLB/",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "technical_replicates": [
+        "2_1"
+      ],
+      "output_type": "gene quantifications",
+      "file_format": "tsv",
+      "genome_annotation": "V29",
+      "target": "DDX24",
+      "source_url": "https://www.encodeproject.org/files/ENCFF644GCJ/@@download/ENCFF644GCJ.tsv",
+      "context": "K562",
+      "artifact_name": "ENCFF644GCJ.tsv",
+      "full_rows_counted": 59526,
+      "columns": [
+        "gene_id",
+        "transcript_id(s)",
+        "length",
+        "effective_length",
+        "expected_count",
+        "TPM",
+        "FPKM",
+        "posterior_mean_count",
+        "posterior_standard_deviation_of_count",
+        "pme_TPM",
+        "pme_FPKM",
+        "TPM_ci_lower_bound",
+        "TPM_ci_upper_bound",
+        "TPM_coefficient_of_quartile_variation",
+        "FPKM_ci_lower_bound",
+        "FPKM_ci_upper_bound",
+        "FPKM_coefficient_of_quartile_variation"
+      ],
+      "sample_rows": [
+        {
+          "gene_id": "10904",
+          "transcript_id(s)": "10904",
+          "length": 93.0,
+          "effective_length": 0.0,
+          "expected_count": 0.0,
+          "TPM": 0.0,
+          "FPKM": 0.0,
+          "posterior_mean_count": 0.0,
+          "posterior_standard_deviation_of_count": 0.0,
+          "pme_TPM": 0.0,
+          "pme_FPKM": 0.0,
+          "TPM_ci_lower_bound": 0.0,
+          "TPM_ci_upper_bound": 0.0,
+          "TPM_coefficient_of_quartile_variation": 0.0,
+          "FPKM_ci_lower_bound": 0.0,
+          "FPKM_ci_upper_bound": 0.0,
+          "FPKM_coefficient_of_quartile_variation": 0.0
+        },
+        {
+          "gene_id": "12954",
+          "transcript_id(s)": "12954",
+          "length": 94.0,
+          "effective_length": 0.0,
+          "expected_count": 0.0,
+          "TPM": 0.0,
+          "FPKM": 0.0,
+          "posterior_mean_count": 0.0,
+          "posterior_standard_deviation_of_count": 0.0,
+          "pme_TPM": 0.0,
+          "pme_FPKM": 0.0,
+          "TPM_ci_lower_bound": 0.0,
+          "TPM_ci_upper_bound": 0.0,
+          "TPM_coefficient_of_quartile_variation": 0.0,
+          "FPKM_ci_lower_bound": 0.0,
+          "FPKM_ci_upper_bound": 0.0,
+          "FPKM_coefficient_of_quartile_variation": 0.0
+        }
+      ],
+      "readout": "RNA-seq transcript/gene quantification after DDX24 shRNA, not differential expression by itself",
+      "bytes": 10916145,
+      "sha256": "644c995ae30a5f630e940ea08e62af8242f47c023cbf8e2bf960507ab0628b81",
+      "sha256_scope": "complete local artifact"
+    },
+    {
+      "accession": "ENCFF060HYJ",
+      "dataset": "/experiments/ENCSR067LLB/",
+      "assembly": "GRCh38",
+      "biological_replicates": [
+        2
+      ],
+      "technical_replicates": [
+        "2_1"
+      ],
+      "output_type": "transcript quantifications",
+      "file_format": "tsv",
+      "genome_annotation": "V29",
+      "target": "DDX24",
+      "source_url": "https://www.encodeproject.org/files/ENCFF060HYJ/@@download/ENCFF060HYJ.tsv",
+      "context": "K562",
+      "artifact_name": "ENCFF060HYJ.tsv",
+      "full_rows_counted": 207507,
+      "columns": [
+        "transcript_id",
+        "gene_id",
+        "length",
+        "effective_length",
+        "expected_count",
+        "TPM",
+        "FPKM",
+        "IsoPct",
+        "posterior_mean_count",
+        "posterior_standard_deviation_of_count",
+        "pme_TPM",
+        "pme_FPKM",
+        "IsoPct_from_pme_TPM",
+        "TPM_ci_lower_bound",
+        "TPM_ci_upper_bound",
+        "TPM_coefficient_of_quartile_variation",
+        "FPKM_ci_lower_bound",
+        "FPKM_ci_upper_bound",
+        "FPKM_coefficient_of_quartile_variation"
+      ],
+      "sample_rows": [
+        {
+          "transcript_id": "10904",
+          "gene_id": "10904",
+          "length": 93,
+          "effective_length": 0.0,
+          "expected_count": 0.0,
+          "TPM": 0.0,
+          "FPKM": 0.0,
+          "IsoPct": 0.0,
+          "posterior_mean_count": 0.0,
+          "posterior_standard_deviation_of_count": 0.0,
+          "pme_TPM": 0.0,
+          "pme_FPKM": 0.0,
+          "IsoPct_from_pme_TPM": 0.0,
+          "TPM_ci_lower_bound": 0.0,
+          "TPM_ci_upper_bound": 0.0,
+          "TPM_coefficient_of_quartile_variation": 0.0,
+          "FPKM_ci_lower_bound": 0.0,
+          "FPKM_ci_upper_bound": 0.0,
+          "FPKM_coefficient_of_quartile_variation": 0.0
+        },
+        {
+          "transcript_id": "12954",
+          "gene_id": "12954",
+          "length": 94,
+          "effective_length": 0.0,
+          "expected_count": 0.0,
+          "TPM": 0.0,
+          "FPKM": 0.0,
+          "IsoPct": 0.0,
+          "posterior_mean_count": 0.0,
+          "posterior_standard_deviation_of_count": 0.0,
+          "pme_TPM": 0.0,
+          "pme_FPKM": 0.0,
+          "IsoPct_from_pme_TPM": 0.0,
+          "TPM_ci_lower_bound": 0.0,
+          "TPM_ci_upper_bound": 0.0,
+          "TPM_coefficient_of_quartile_variation": 0.0,
+          "FPKM_ci_lower_bound": 0.0,
+          "FPKM_ci_upper_bound": 0.0,
+          "FPKM_coefficient_of_quartile_variation": 0.0
+        }
+      ],
+      "readout": "RNA-seq transcript/gene quantification after DDX24 shRNA, not differential expression by itself",
+      "bytes": 31253921,
+      "sha256": "f527dac4975ea839a3d52a5f382e27ae8b69ed9c9d9ae665edd8374989c8efd2",
+      "sha256_scope": "complete local artifact"
+    },
+    {
+      "accession": "ENCFF335XEM",
+      "dataset": "/experiments/ENCSR919USP/",
+      "assembly": null,
+      "biological_replicates": [
+        1
+      ],
+      "technical_replicates": [
+        "1_1",
+        "1_2",
+        "1_3"
+      ],
+      "output_type": "enrichment",
+      "file_format": "tsv",
+      "genome_annotation": null,
+      "target": "YBX2",
+      "source_url": "https://www.encodeproject.org/files/ENCFF335XEM/@@download/ENCFF335XEM.tsv",
+      "context": "cell-free sample",
+      "artifact_name": "ENCFF335XEM.tsv",
+      "full_rows_counted": 4096,
+      "columns": [
+        "[YBX2]",
+        "5 nM",
+        "80 nM",
+        "1300 nM"
+      ],
+      "sample_rows": [
+        {
+          "[YBX2]": "AACAAC",
+          "5 nM": 1.6071,
+          "80 nM": 1.5353,
+          "1300 nM": 1.8245
+        },
+        {
+          "[YBX2]": "ACAACA",
+          "5 nM": 1.5385,
+          "80 nM": 1.5273,
+          "1300 nM": 1.8053
+        }
+      ],
+      "readout": "in vitro YBX2 k-mer enrichment ratio at listed nM concentrations",
+      "concentrations_nM": [
+        5,
+        80,
+        1300
+      ],
+      "bytes": 114714,
+      "sha256": "8d7fcdbab1ab0d0390482dcd07d3898ae8c70fea576c8e1a03a5bbc0b9cb1b59",
+      "sha256_scope": "complete local artifact"
+    }
+  ],
+  "license": "not independently verified; primary policy URL attempted returned 404",
+  "limitation": "K562 peak/RNA perturbation examples are not matched to the requested reporter-cell contexts; cell-free RBNS cannot establish cell-specific binding or translation."
+}

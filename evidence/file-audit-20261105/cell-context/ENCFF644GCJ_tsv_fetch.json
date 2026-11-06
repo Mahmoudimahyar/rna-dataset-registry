@@ -1,0 +1,13 @@
+{
+  "name": "ENCFF644GCJ.tsv",
+  "source_url": "https://www.encodeproject.org/files/ENCFF644GCJ/@@download/ENCFF644GCJ.tsv",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "binary/octet-stream",
+  "content_length": "10916145",
+  "bytes_saved": 10916145,
+  "sha256": "644c995ae30a5f630e940ea08e62af8242f47c023cbf8e2bf960507ab0628b81",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "ENCFF644GCJ.tsv"
+}

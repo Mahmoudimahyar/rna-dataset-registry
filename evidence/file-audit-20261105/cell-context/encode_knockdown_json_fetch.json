@@ -1,0 +1,13 @@
+{
+  "name": "encode_knockdown.json",
+  "source_url": "https://www.encodeproject.org/search/?type=File&assay_title=shRNA+RNA-seq&file_format=tsv&status=released&format=json&limit=5",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "application/json",
+  "content_length": null,
+  "bytes_saved": 67242,
+  "sha256": "9993251ef0f403f7bf15ca4f0bfff352c5155674dca9e8edb33e903582580629",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "encode_knockdown.json"
+}

@@ -8,7 +8,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "adapt-cas13-activity",
@@ -19,7 +21,34 @@
     "redistribution": "MIT observed at repository level; external-source conditions still apply",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "albatross-circrna-polysome-atlas",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE347nnn/GSE347508/suppl/GSE347508_Supplement_S1.xlsx",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "5c17e9e6ba99476392c304c4d5f1322e5bc9905b8dcf2f72961b915583c826d9",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "albatross-circrna-polysome-atlas",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE347nnn/GSE347508/suppl/GSE347508_Supplement_S1.xlsx",
+        "scope": "complete GEO source workbook",
+        "download_complete": true,
+        "sha256": "5c17e9e6ba99476392c304c4d5f1322e5bc9905b8dcf2f72961b915583c826d9",
+        "partial_sha256": null,
+        "bytes": 691214,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "all-trnaseq-gse186736",
@@ -30,7 +59,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "all-trnaseq-gse186736",
@@ -41,7 +72,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "all-trnaseq-gse186736",
@@ -52,7 +85,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "toehold-flowseq-gse149225",
@@ -63,7 +98,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "aparent2",
@@ -74,7 +111,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "aparent2",
@@ -85,7 +124,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "archs4",
@@ -96,7 +137,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "archs4",
@@ -107,7 +150,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "attract",
@@ -118,7 +163,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "bprna",
@@ -129,7 +176,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "brain-trna-poliii-ribotag-study",
@@ -140,7 +189,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "brain-trna-poliii-ribotag-study",
@@ -151,7 +202,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "breast-cancer-trna-gse77401",
@@ -162,7 +215,459 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_1058?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "ce8be4f45b7f3520a2ac6956712c54ca3bc506811e6690f5580f52caa3ca57e3",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_1058?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "ce8be4f45b7f3520a2ac6956712c54ca3bc506811e6690f5580f52caa3ca57e3",
+        "partial_sha256": null,
+        "bytes": 15261,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0023?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "6ff5cc08db1140e9f0901519f94c123e1678ebb6f94f9cb07b8a589b8a5e9b46",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0023?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "6ff5cc08db1140e9f0901519f94c123e1678ebb6f94f9cb07b8a589b8a5e9b46",
+        "partial_sha256": null,
+        "bytes": 278983,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0139?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "b0cccd08296f5651afe1f709d206da1e667d591bb3e1dfe37014c85359248104",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0139?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "b0cccd08296f5651afe1f709d206da1e667d591bb3e1dfe37014c85359248104",
+        "partial_sha256": null,
+        "bytes": 24633,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0291?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "c56e953fa892fc074a6c3e473f90abb7367f1437330ad8d1810e3555fcbfb02b",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0291?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "c56e953fa892fc074a6c3e473f90abb7367f1437330ad8d1810e3555fcbfb02b",
+        "partial_sha256": null,
+        "bytes": 58244,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0027?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "77eda17d9fbc02f1e08adc84e4ad0d77c39809fde6b0e68b44b7166df254c760",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0027?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "77eda17d9fbc02f1e08adc84e4ad0d77c39809fde6b0e68b44b7166df254c760",
+        "partial_sha256": null,
+        "bytes": 235876,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0065?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "846f51dbfcce5895b538b2df151a5be4f2ec5c90cce90bca554af90c1588e473",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0065?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "846f51dbfcce5895b538b2df151a5be4f2ec5c90cce90bca554af90c1588e473",
+        "partial_sha256": null,
+        "bytes": 32330,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0367?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "a0eac7563fd42d3138214a9c7b03a1eda336800941e46460d37b9bde9338e9b3",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0367?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "a0eac7563fd42d3138214a9c7b03a1eda336800941e46460d37b9bde9338e9b3",
+        "partial_sha256": null,
+        "bytes": 16546,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0019?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "cb09ed221aaeae221429defba656b8c0f9880e007b66d781c0bc19d9f1a2f445",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0019?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "cb09ed221aaeae221429defba656b8c0f9880e007b66d781c0bc19d9f1a2f445",
+        "partial_sha256": null,
+        "bytes": 34001,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0006?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "dfe1fa3e14f81d4dd4bcf8a739df88142dc6906b4e9699745094ecdc5d4b1acb",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0006?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "dfe1fa3e14f81d4dd4bcf8a739df88142dc6906b4e9699745094ecdc5d4b1acb",
+        "partial_sha256": null,
+        "bytes": 42034,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0022?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "88ba5ba4d4a2ae435c626e70797a8731e8b5c89a36ab3ae2efd32f5d208475cb",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0022?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "88ba5ba4d4a2ae435c626e70797a8731e8b5c89a36ab3ae2efd32f5d208475cb",
+        "partial_sha256": null,
+        "bytes": 29184,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0336?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "0c74cefd26b217cbfb6e736db776960a0291c0106d73d2886947de3695af82c5",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0336?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "0c74cefd26b217cbfb6e736db776960a0291c0106d73d2886947de3695af82c5",
+        "partial_sha256": null,
+        "bytes": 24441,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0045?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "371cd390a16a8ecb2f4df2e5b331a35757e3baa2c801aa1c11e4b83d5e65c1e5",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0045?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "371cd390a16a8ecb2f4df2e5b331a35757e3baa2c801aa1c11e4b83d5e65c1e5",
+        "partial_sha256": null,
+        "bytes": 31457,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0063?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "1bbcd90497ec9d88cc87e2e8bdc7618b7e5476365f32ccf9b5367871b3e9c173",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0063?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "1bbcd90497ec9d88cc87e2e8bdc7618b7e5476365f32ccf9b5367871b3e9c173",
+        "partial_sha256": null,
+        "bytes": 18602,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_2478?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "7a230ed11bb66bc442ab6ed1b5afb27890893a4f714cccbd22e8d35820bdff72",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_2478?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "7a230ed11bb66bc442ab6ed1b5afb27890893a4f714cccbd22e8d35820bdff72",
+        "partial_sha256": null,
+        "bytes": 15046,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0042?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "ea5d571017274c322e100709f4e24a0ef53d4ae454971cde7a099f7bc5e64b69",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0042?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "ea5d571017274c322e100709f4e24a0ef53d4ae454971cde7a099f7bc5e64b69",
+        "partial_sha256": null,
+        "bytes": 37408,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0470?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "84729e41c6a329ed679d01f11eb10e72e8a95a4b8a59548ea032889db28df51b",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0470?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "84729e41c6a329ed679d01f11eb10e72e8a95a4b8a59548ea032889db28df51b",
+        "partial_sha256": null,
+        "bytes": 12349,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0188?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "9368695819d2e224fd8f8ae1e8f8305d88937001758dc0d6dfb236b2d1cef1af",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0188?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "9368695819d2e224fd8f8ae1e8f8305d88937001758dc0d6dfb236b2d1cef1af",
+        "partial_sha256": null,
+        "bytes": 17486,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "cellosaurus",
+    "url": "https://api.cellosaurus.org/cell-line/CVCL_0493?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "a4042f7678c4aae5bf52ba9bcd12735af54ede8ed8c179eb7815b972ef1aa108",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "cellosaurus",
+        "url": "https://api.cellosaurus.org/cell-line/CVCL_0493?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "a4042f7678c4aae5bf52ba9bcd12735af54ede8ed8c179eb7815b972ef1aa108",
+        "partial_sha256": null,
+        "bytes": 12391,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "cellreadr-2022",
@@ -173,7 +678,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "cellreadr-2022",
@@ -184,7 +691,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "charge-trnaseq-zenodo10778311",
@@ -195,18 +704,22 @@
     "redistribution": "Permitted under CC-BY-4.0 subject to attribution and source terms",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "charged-trnaseq-gse97259",
     "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE97nnn/GSE97259/suppl/GSE97259_Aggregate_Ratios.xlsx",
-    "link_kind": "landing_or_api",
+    "link_kind": "file",
     "access": "open",
     "source_license": "unknown",
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "charged-trnaseq-gse97259",
@@ -217,7 +730,59 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "circatlas3",
+    "url": "https://ngdc.cncb.ac.cn/circatlas/analysis/bed/human_bed_v3.0.zip",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only is cataloged",
+    "checksum": "6ae2efd2f0e5ef4ab82a2070a2b52467ed23308e6188658e135fe9173fa71b01",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "circatlas3",
+        "url": "https://ngdc.cncb.ac.cn/circatlas/analysis/bed/human_bed_v3.0.zip",
+        "scope": "Complete source file",
+        "download_complete": true,
+        "sha256": "6ae2efd2f0e5ef4ab82a2070a2b52467ed23308e6188658e135fe9173fa71b01",
+        "partial_sha256": null,
+        "bytes": 11345110,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "circtarget",
+    "url": "https://circtarget.cn/static/download/A549.rar",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only is cataloged",
+    "checksum": "c84c0986137d9f7a2024506b27f82c247291d24e034787ef9bdbcae1fd988450",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "circtarget",
+        "url": "https://circtarget.cn/static/download/A549.rar",
+        "scope": "Complete source file",
+        "download_complete": true,
+        "sha256": "c84c0986137d9f7a2024506b27f82c247291d24e034787ef9bdbcae1fd988450",
+        "partial_sha256": null,
+        "bytes": 23143,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "cns-trap",
@@ -228,7 +793,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "cns-trap",
@@ -239,7 +806,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "cellxgene-census",
@@ -250,7 +819,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "darned-editing",
@@ -261,7 +832,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "dart-vadar-2023",
@@ -272,7 +845,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "dart-vadar-2023",
@@ -283,7 +858,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "dbtrend",
@@ -294,7 +871,84 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "depmap-ccle-expression",
+    "url": "https://ndownloader.figshare.com/files/51065489",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "CC BY4.0 (inspected24Q4 Figshare release)",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "2a71dc94110efcc0221eae821bb93a9f03b54bea16f005818911a09d33383d56",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "depmap-ccle-expression",
+        "url": "https://ndownloader.figshare.com/files/51065489",
+        "scope": "entire downloaded response body",
+        "download_complete": true,
+        "sha256": "2a71dc94110efcc0221eae821bb93a9f03b54bea16f005818911a09d33383d56",
+        "partial_sha256": null,
+        "bytes": 506628654,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "depmap-ccle-expression",
+    "url": "https://ndownloader.figshare.com/files/51065297",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "CC BY4.0 (inspected24Q4 Figshare release)",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "b7a0c1385e6cef30132b56aff61f1261d11e3f490490b355c430d32ee0dbdcfa",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "depmap-ccle-expression",
+        "url": "https://ndownloader.figshare.com/files/51065297",
+        "scope": "entire downloaded response body",
+        "download_complete": true,
+        "sha256": "b7a0c1385e6cef30132b56aff61f1261d11e3f490490b355c430d32ee0dbdcfa",
+        "partial_sha256": null,
+        "bytes": 645696,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "depmap-ccle-expression",
+    "url": "https://ndownloader.figshare.com/files/51065723",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "CC BY4.0 (inspected24Q4 Figshare release)",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "0bb19ee57935d4b213d378a4db9caacaa1db7318a63ae81485d84f91c20a3bf2",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "depmap-ccle-expression",
+        "url": "https://ndownloader.figshare.com/files/51065723",
+        "scope": "entire downloaded response body",
+        "download_complete": true,
+        "sha256": "0bb19ee57935d4b213d378a4db9caacaa1db7318a63ae81485d84f91c20a3bf2",
+        "partial_sha256": null,
+        "bytes": 254733,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "directrmdb",
@@ -305,7 +959,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "dm-trnaseq-gse66550",
@@ -316,7 +972,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "dm-trnaseq-gse66550",
@@ -327,7 +985,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "ecdysone-smallrna-gse69934",
@@ -338,7 +998,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "expression-atlas",
@@ -349,7 +1011,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "encode",
@@ -360,7 +1024,134 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "encode",
+    "url": "https://www.encodeproject.org/files/ENCFF593RED/@@download/ENCFF593RED.bed.gz",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
+    "checksum": "5948e98052723b24adeb2b843045bb2bab19c017a7d3992a97d6d456db2adcb8",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "encode",
+        "url": "https://www.encodeproject.org/files/ENCFF593RED/@@download/ENCFF593RED.bed.gz",
+        "scope": "complete local artifact",
+        "download_complete": true,
+        "sha256": "5948e98052723b24adeb2b843045bb2bab19c017a7d3992a97d6d456db2adcb8",
+        "partial_sha256": null,
+        "bytes": 91663,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "encode",
+    "url": "https://www.encodeproject.org/files/ENCFF897MSA/@@download/ENCFF897MSA.bed.gz",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
+    "checksum": "f4aa428693f176fe9ea846e61140670c3e0772139d6836667d3e62daae7aa04d",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "encode",
+        "url": "https://www.encodeproject.org/files/ENCFF897MSA/@@download/ENCFF897MSA.bed.gz",
+        "scope": "complete local artifact",
+        "download_complete": true,
+        "sha256": "f4aa428693f176fe9ea846e61140670c3e0772139d6836667d3e62daae7aa04d",
+        "partial_sha256": null,
+        "bytes": 45927,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "encode",
+    "url": "https://www.encodeproject.org/files/ENCFF644GCJ/@@download/ENCFF644GCJ.tsv",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
+    "checksum": "644c995ae30a5f630e940ea08e62af8242f47c023cbf8e2bf960507ab0628b81",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "encode",
+        "url": "https://www.encodeproject.org/files/ENCFF644GCJ/@@download/ENCFF644GCJ.tsv",
+        "scope": "complete local artifact",
+        "download_complete": true,
+        "sha256": "644c995ae30a5f630e940ea08e62af8242f47c023cbf8e2bf960507ab0628b81",
+        "partial_sha256": null,
+        "bytes": 10916145,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "encode",
+    "url": "https://www.encodeproject.org/files/ENCFF060HYJ/@@download/ENCFF060HYJ.tsv",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
+    "checksum": "f527dac4975ea839a3d52a5f382e27ae8b69ed9c9d9ae665edd8374989c8efd2",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "encode",
+        "url": "https://www.encodeproject.org/files/ENCFF060HYJ/@@download/ENCFF060HYJ.tsv",
+        "scope": "complete local artifact",
+        "download_complete": true,
+        "sha256": "f527dac4975ea839a3d52a5f382e27ae8b69ed9c9d9ae665edd8374989c8efd2",
+        "partial_sha256": null,
+        "bytes": 31253921,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "encode",
+    "url": "https://www.encodeproject.org/files/ENCFF335XEM/@@download/ENCFF335XEM.tsv",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
+    "checksum": "8d7fcdbab1ab0d0390482dcd07d3898ae8c70fea576c8e1a03a5bbc0b9cb1b59",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "encode",
+        "url": "https://www.encodeproject.org/files/ENCFF335XEM/@@download/ENCFF335XEM.tsv",
+        "scope": "complete local artifact",
+        "download_complete": true,
+        "sha256": "8d7fcdbab1ab0d0390482dcd07d3898ae8c70fea576c8e1a03a5bbc0b9cb1b59",
+        "partial_sha256": null,
+        "bytes": 114714,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "encori",
@@ -371,7 +1162,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "eukaryotic-toeholds-zhao2021",
@@ -382,7 +1175,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "ena",
@@ -393,7 +1188,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "hydro-smallrna-comparison-gse137834",
@@ -404,7 +1201,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "full-length-human-utr",
@@ -415,7 +1214,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "gardn-predicted-utr-traces",
@@ -426,7 +1227,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "gardn-aptaswitch-validation",
@@ -437,18 +1240,22 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "gardn-aptaswitch-validation",
     "url": "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/aptaswitch_data.xlsx",
-    "link_kind": "landing_or_api",
+    "link_kind": "file",
     "access": "open",
     "source_license": "unknown",
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "gardn-toehold-validation",
@@ -459,18 +1266,22 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "gardn-aptaswitch-screen",
     "url": "https://media.githubusercontent.com/media/AlexGreenLab/GARDN-SANDSTORM/main/aptamer/data/aptaswitch_data.xlsx",
-    "link_kind": "landing_or_api",
+    "link_kind": "file",
     "access": "open",
     "source_license": "unknown",
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "gardn-sandstorm-release",
@@ -481,7 +1292,9 @@
     "redistribution": "Software academic/noncommercial use subject to LICENSE.txt; data rights require source-specific review",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "gardn-sandstorm-release",
@@ -492,7 +1305,9 @@
     "redistribution": "Software academic/noncommercial use subject to LICENSE.txt; data rights require source-specific review",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "gencode",
@@ -503,7 +1318,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "griesemer2021-mprau",
@@ -514,7 +1331,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "griesemer2021-mprau",
@@ -525,7 +1344,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "griesemer2021-mprau",
@@ -536,7 +1357,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "griesemer2021-mprau",
@@ -547,7 +1370,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "griesemer2021-mprau",
@@ -558,7 +1383,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "griesemer2021-mprau",
@@ -569,7 +1396,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "gtex",
@@ -580,7 +1409,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "human-cell-decay",
@@ -591,7 +1422,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "human-cell-decay",
@@ -602,7 +1435,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "human-cell-atlas",
@@ -613,7 +1448,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "human-protein-atlas-rna",
@@ -624,7 +1461,34 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "human-protein-atlas-rna",
+    "url": "https://www.proteinatlas.org/download/tsv/rna_celline.tsv.zip",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
+    "checksum": "e5b11779308c2720cfe89d9cb19932ad4c0c3fea0fa37e8c61a14d501995852a",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "human-protein-atlas-rna",
+        "url": "https://www.proteinatlas.org/download/tsv/rna_celline.tsv.zip",
+        "scope": "entire downloaded response body",
+        "download_complete": true,
+        "sha256": "e5b11779308c2720cfe89d9cb19932ad4c0c3fea0fa37e8c61a14d501995852a",
+        "partial_sha256": null,
+        "bytes": 205861141,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "hydro-trnaseq-gse95683",
@@ -635,7 +1499,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "k562-slamseq",
@@ -646,7 +1512,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "k562-slamseq",
@@ -657,7 +1525,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "k562-slamseq",
@@ -668,7 +1538,34 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "lamar-circrna-multicell-output",
+    "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-025-03752-x/MediaObjects/13059_2025_3752_MOESM2_ESM.xlsx",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "457b2cbe212be9dd5b292cd1cef9345ba73cc583bca3f191e0a46b5e24fdd476",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "lamar-circrna-multicell-output",
+        "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs13059-025-03752-x/MediaObjects/13059_2025_3752_MOESM2_ESM.xlsx",
+        "scope": "complete publisher source workbook",
+        "download_complete": true,
+        "sha256": "457b2cbe212be9dd5b292cd1cef9345ba73cc583bca3f191e0a46b5e24fdd476",
+        "partial_sha256": null,
+        "bytes": 232142,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "m5c-atlas",
@@ -679,7 +1576,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "m6a-atlas-v2",
@@ -690,7 +1589,84 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "m6a-atlas-v2",
+    "url": "https://rnamd.org/m6a/download/high/hg38/Condition_hg38.txt.gz",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established",
+    "checksum": "998b250f34ace1bd381e1b882e80431184bf7fe4f420cdba1f77ea29d563010f",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "m6a-atlas-v2",
+        "url": "https://rnamd.org/m6a/download/high/hg38/Condition_hg38.txt.gz",
+        "scope": "complete_response",
+        "download_complete": true,
+        "sha256": "998b250f34ace1bd381e1b882e80431184bf7fe4f420cdba1f77ea29d563010f",
+        "partial_sha256": null,
+        "bytes": 6041793,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "m6a-atlas-v2",
+    "url": "https://rnamd.org/m6a/download/high/hg38/hg38_CL_Tech.txt.gz",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established",
+    "checksum": "0bf62f1985649e0708f9f5605b7c710844af6e0bef86ac9f85abdca8e83cea93",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "m6a-atlas-v2",
+        "url": "https://rnamd.org/m6a/download/high/hg38/hg38_CL_Tech.txt.gz",
+        "scope": "complete_response",
+        "download_complete": true,
+        "sha256": "0bf62f1985649e0708f9f5605b7c710844af6e0bef86ac9f85abdca8e83cea93",
+        "partial_sha256": null,
+        "bytes": 20246265,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "m6a-atlas-v2",
+    "url": "https://www.rnamd.org/m6a/apiHighResolution.php?species=HomoSapiens&gene=EIF4G2",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established",
+    "checksum": "01cbe6d171fe67316630949a11b238e50d75a4869d2c065c9be9c7b690e52746",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "m6a-atlas-v2",
+        "url": "https://www.rnamd.org/m6a/apiHighResolution.php?species=HomoSapiens&gene=EIF4G2",
+        "scope": "complete_response",
+        "download_complete": true,
+        "sha256": "01cbe6d171fe67316630949a11b238e50d75a4869d2c065c9be9c7b690e52746",
+        "partial_sha256": null,
+        "bytes": 18272,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "m6a2target",
@@ -701,7 +1677,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "m6avar",
@@ -712,7 +1690,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "m7ghub-v2",
@@ -723,7 +1703,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "maputr-2024",
@@ -734,7 +1716,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "maputr-2024",
@@ -745,7 +1729,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "mim-trnaseq-gse152621",
@@ -756,7 +1742,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "mim-trnaseq-gse152621",
@@ -767,7 +1755,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "mim-trnaseq-gse152621",
@@ -778,7 +1768,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "mim-trnaseq-gse152621",
@@ -789,7 +1781,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "mim-trnaseq-gse152621",
@@ -800,7 +1794,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "mim-trnaseq-gse152621",
@@ -811,7 +1807,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "mim-trnaseq-gse152621",
@@ -822,7 +1820,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "mim-trnaseq-gse152621",
@@ -833,7 +1833,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "mir302-switch-2016",
@@ -844,7 +1846,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "mirbase",
@@ -855,7 +1859,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "modified-mrna-switches-2020",
@@ -866,7 +1872,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "modomics",
@@ -877,7 +1885,34 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "modomics",
+    "url": "https://genesilico.pl/modomics/download/modified_positions/",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established",
+    "checksum": "940e939dd59c87812c82b12d1e08789737b6df953c5b3515ceb63938eb8f23dd",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "modomics",
+        "url": "https://genesilico.pl/modomics/download/modified_positions/",
+        "scope": "complete_response",
+        "download_complete": true,
+        "sha256": "940e939dd59c87812c82b12d1e08789737b6df953c5b3515ceb63938eb8f23dd",
+        "partial_sha256": null,
+        "bytes": 146558,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "brain-ribostamp",
@@ -888,7 +1923,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "brain-ribostamp",
@@ -899,7 +1936,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "hpsc-m5c-gse240569",
@@ -910,7 +1949,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "mrnabench",
@@ -921,7 +1962,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "msr-stress-gse198441",
@@ -932,7 +1975,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "nanobaselib",
@@ -943,7 +1988,9 @@
     "redistribution": "Processed dataset reuse is author-licensed under CC BY 4.0; upstream raw-source rights require separate checking.",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "nanobaselib",
@@ -954,7 +2001,9 @@
     "redistribution": "Processed dataset reuse is author-licensed under CC BY 4.0; upstream raw-source rights require separate checking.",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "nanoconsensus-rrna-benchmark",
@@ -965,7 +2014,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "nanoconsensus-rrna-benchmark",
@@ -976,7 +2027,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "nanoconsensus-rrna-benchmark",
@@ -987,7 +2040,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "geo",
@@ -998,7 +2053,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "refseq",
@@ -1009,7 +2066,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "sra",
@@ -1020,7 +2079,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "nm-mut-seq-gse174518",
@@ -1031,7 +2092,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "nm-seq-gse90164",
@@ -1042,7 +2105,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "oligodendrocyte-quantm-gse182808",
@@ -1053,7 +2118,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "oligodendrocyte-quantm-gse182808",
@@ -1064,7 +2131,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "oligodendrocyte-quantm-gse182808",
@@ -1075,7 +2144,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "oligodendrocyte-quantm-gse182808",
@@ -1086,7 +2157,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "openprot",
@@ -1097,7 +2170,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "orfome-codon-decay",
@@ -1108,7 +2183,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "orfome-codon-decay",
@@ -1119,7 +2196,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "orfome-codon-decay",
@@ -1130,7 +2209,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "pdb-rna",
@@ -1141,7 +2222,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "polya-db",
@@ -1152,7 +2235,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "polyasite",
@@ -1163,7 +2248,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "postar3",
@@ -1174,7 +2261,34 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "postar3",
+    "url": "http://111.198.139.65/download/human_RBP/ALKBH1.binding.sites.zip",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
+    "checksum": "4f21b7bb86070b2dabfa704462da4f6178c7c21f87a181af193a8544086071a6",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "postar3",
+        "url": "http://111.198.139.65/download/human_RBP/ALKBH1.binding.sites.zip",
+        "scope": "entire downloaded response body",
+        "download_complete": true,
+        "sha256": "4f21b7bb86070b2dabfa704462da4f6178c7c21f87a181af193a8544086071a6",
+        "partial_sha256": null,
+        "bytes": 78491,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "praise-gse212210",
@@ -1185,7 +2299,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "prostate-charge-gse196251",
@@ -1196,7 +2312,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "pseudo-seq-gse58200",
@@ -1207,7 +2325,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "quantm-trnaseq-gse141436",
@@ -1218,7 +2338,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "quantm-trnaseq-gse141436",
@@ -1229,7 +2351,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "quantm-trnaseq-gse141436",
@@ -1240,7 +2364,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "quantm-trnaseq-gse141436",
@@ -1251,7 +2377,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "quantm-trnaseq-gse141436",
@@ -1262,7 +2390,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "quantm-trnaseq-gse141436",
@@ -1273,7 +2403,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "radar-editing",
@@ -1284,7 +2416,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "radar-2022",
@@ -1295,7 +2429,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "radar-2022",
@@ -1306,7 +2442,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "radars-2022",
@@ -1317,7 +2455,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "radars-2022",
@@ -1328,7 +2468,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rasp2",
@@ -1339,7 +2481,59 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "rasp2",
+    "url": "https://rasp2.zhanglab.net/api/query_bwfiles/?species=hg38",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
+    "checksum": "1f894bbd830658d8ce7c91180c1ad74b8a93c5422ae9b40df28e4ab575784b4a",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "rasp2",
+        "url": "https://rasp2.zhanglab.net/api/query_bwfiles/?species=hg38",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "1f894bbd830658d8ce7c91180c1ad74b8a93c5422ae9b40df28e4ab575784b4a",
+        "partial_sha256": null,
+        "bytes": 124312,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "rasp2",
+    "url": "https://rasp2.zhanglab.net/api/downloadfile/?filetype=bed&filelist=hg38%2FicSHAPE_CR_2021_Sun%2FHepG2.bed.gz",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
+    "checksum": "904864c4b5bcae7e7f993dd9172ba8429aad8e9a4d661824e0fbbf8a3fab1215",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "rasp2",
+        "url": "https://rasp2.zhanglab.net/api/downloadfile/?filetype=bed&filelist=hg38%2FicSHAPE_CR_2021_Sun%2FHepG2.bed.gz",
+        "scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "sha256": "904864c4b5bcae7e7f993dd9172ba8429aad8e9a4d661824e0fbbf8a3fab1215",
+        "partial_sha256": null,
+        "bytes": 50944000,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "rbs-seq-gse90963",
@@ -1350,7 +2544,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "recount3",
@@ -1361,7 +2557,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rediportal",
@@ -1372,7 +2570,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rfam",
@@ -1383,7 +2583,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rfam-riboswitch-families",
@@ -1394,7 +2596,9 @@
     "redistribution": "Rfam data stated CC0; retain release and provenance",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rfam-riboswitch-families",
@@ -1405,7 +2609,9 @@
     "redistribution": "Rfam data stated CC0; retain release and provenance",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "ribocentre-switch",
@@ -1416,7 +2622,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "ribocentre-switch",
@@ -1427,7 +2635,59 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "ribocirc2",
+    "url": "http://www.ribocirc.com/download/All_context-specific_ribo-circRNAs.rar",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only is cataloged",
+    "checksum": "5367d271f22f1f1e81383019b61ed47c241b4bb23c7172a9a5a06642ad481535",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "ribocirc2",
+        "url": "http://www.ribocirc.com/download/All_context-specific_ribo-circRNAs.rar",
+        "scope": "Complete source file",
+        "download_complete": true,
+        "sha256": "5367d271f22f1f1e81383019b61ed47c241b4bb23c7172a9a5a06642ad481535",
+        "partial_sha256": null,
+        "bytes": 54081,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "ribocirc2",
+    "url": "http://www.ribocirc.com/download/literature-reported_trans-circRNAs.rar",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only is cataloged",
+    "checksum": "acbaf334cbefdda6f9d1a884b1f0eafcc442ef484c438a3907f3a6c79be2d999",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "ribocirc2",
+        "url": "http://www.ribocirc.com/download/literature-reported_trans-circRNAs.rar",
+        "scope": "Complete source file",
+        "download_complete": true,
+        "sha256": "acbaf334cbefdda6f9d1a884b1f0eafcc442ef484c438a3907f3a6c79be2d999",
+        "partial_sha256": null,
+        "bytes": 72304,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "ribod",
@@ -1438,7 +2698,34 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "p010-asset-2",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-025-02712-x/MediaObjects/41587_2025_2712_MOESM3_ESM.xlsx",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "Original paper states processed supplements available without restriction; preserve publisher/source terms",
+    "redistribution": "Source remains with publisher; metadata only here",
+    "checksum": "5a9dd751cb8ac96dbe364e249561cb54d4912c4170e7d659b9d465bd008e4c47",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "p010-asset-2",
+        "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-025-02712-x/MediaObjects/41587_2025_2712_MOESM3_ESM.xlsx",
+        "scope": "complete original publisher workbook",
+        "download_complete": true,
+        "sha256": "5a9dd751cb8ac96dbe364e249561cb54d4912c4170e7d659b9d465bd008e4c47",
+        "partial_sha256": null,
+        "bytes": 23027441,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "riboseq-org",
@@ -1449,7 +2736,59 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "riboseq-org",
+    "url": "https://rdp.ucc.ie/sample_select_form/?download-metadata=Cell-Line%3DA549",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
+    "checksum": "8be081fe04518415d8a6c5a2057f17b35c3d768a8057fd9c65573735aef09f1b",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "riboseq-org",
+        "url": "https://rdp.ucc.ie/sample_select_form/?download-metadata=Cell-Line%3DA549",
+        "scope": "Complete source file",
+        "download_complete": true,
+        "sha256": "8be081fe04518415d8a6c5a2057f17b35c3d768a8057fd9c65573735aef09f1b",
+        "partial_sha256": null,
+        "bytes": 98968,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "riboseq-org",
+    "url": "https://rdp.ucc.ie/static2/bigwig/SRR328/SRR3286544.forward.bw",
+    "link_kind": "file",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
+    "checksum": null,
+    "checksum_status": "Partial-file inspection only; full checksum not established",
+    "downloaded": false,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "riboseq-org",
+        "url": "https://rdp.ucc.ie/static2/bigwig/SRR328/SRR3286544.forward.bw",
+        "scope": "First 1 MiB of source; only first compressed data section parsed",
+        "download_complete": false,
+        "sha256": null,
+        "partial_sha256": "9cc71e72a76d84aa73fe0ab294f5abf30bfa98fa729694d8fb28ad414ffbd704",
+        "bytes": 1048576,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "rm2target",
@@ -1460,7 +2799,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rmap-challenge",
@@ -1471,7 +2812,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rmbase-v3",
@@ -1482,7 +2825,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rmpore",
@@ -1493,7 +2838,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rmvar-v2",
@@ -1504,7 +2851,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rmdb",
@@ -1515,7 +2864,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rmdb",
@@ -1526,7 +2877,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "dorado-rna004-modification-benchmark",
@@ -1537,7 +2890,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "dorado-rna004-modification-benchmark",
@@ -1548,7 +2903,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rnacentral",
@@ -1559,7 +2916,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rnalocate",
@@ -1570,7 +2929,34 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "rnalocate",
+    "url": "https://www.rnalocate.org/show_search?dataset=Symbol&Keyword=ACTB&category=mRNA&species=Homo+sapiens&subcellular_loc=All&page=1&score1=0.0&score2=1.0&sources=experiment&sortBy=None&last_id=&download=yes",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "Non-commercial use/distribution with citation; commercial users must contact source",
+    "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
+    "checksum": "651126f2c335c0bf6a814533847950a296a192dfe67603c8a7a4ca7f5d332d70",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "rnalocate",
+        "url": "https://www.rnalocate.org/show_search?dataset=Symbol&Keyword=ACTB&category=mRNA&species=Homo+sapiens&subcellular_loc=All&page=1&score1=0.0&score2=1.0&sources=experiment&sortBy=None&last_id=&download=yes",
+        "scope": "full response body",
+        "download_complete": true,
+        "sha256": "651126f2c335c0bf6a814533847950a296a192dfe67603c8a7a4ca7f5d332d70",
+        "partial_sha256": null,
+        "bytes": 4925,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "rpfdb3",
@@ -1581,7 +2967,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "saluki-half-life",
@@ -1592,7 +2980,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "saluki-half-life",
@@ -1603,7 +2993,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "sample2019-chemistry-reporters",
@@ -1614,7 +3006,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "sci-modom",
@@ -1625,7 +3019,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "sci-modom",
@@ -1636,7 +3032,59 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "sci-modom",
+    "url": "https://scimodom.dieterichlab.org/api/v0/dataset/list_all",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established",
+    "checksum": "140ebfd2d23b28c06518f591388d2f5f055bbea5d3b19290a27251e1203bbc4c",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "sci-modom",
+        "url": "https://scimodom.dieterichlab.org/api/v0/dataset/list_all",
+        "scope": "complete_response",
+        "download_complete": true,
+        "sha256": "140ebfd2d23b28c06518f591388d2f5f055bbea5d3b19290a27251e1203bbc4c",
+        "partial_sha256": null,
+        "bytes": 168410,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "sci-modom",
+    "url": "https://scimodom.dieterichlab.org/api/v0/transfer/dataset/fhx8RaDLaBC3",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established",
+    "checksum": "7518c9a1ec3800591d830006e4f15bcea8601ba8b1bd90263af1d62117f79b25",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "sci-modom",
+        "url": "https://scimodom.dieterichlab.org/api/v0/transfer/dataset/fhx8RaDLaBC3",
+        "scope": "complete_response",
+        "download_complete": true,
+        "sha256": "7518c9a1ec3800591d830006e4f15bcea8601ba8b1bd90263af1d62117f79b25",
+        "partial_sha256": null,
+        "bytes": 31942,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "human-differentiation-gse227927",
@@ -1647,7 +3095,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "m1a-safra-gse97419",
@@ -1658,7 +3108,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1669,7 +3121,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1680,7 +3134,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1691,7 +3147,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1702,7 +3160,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1713,7 +3173,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1724,7 +3186,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1735,7 +3199,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1746,7 +3212,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1757,7 +3225,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1768,7 +3238,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1779,7 +3251,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1790,7 +3264,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1801,7 +3277,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1812,7 +3290,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1823,7 +3303,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1834,7 +3316,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1845,7 +3329,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1856,7 +3342,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "single-cell-ribo",
@@ -1867,7 +3355,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "split-rna-switch-2025",
@@ -1878,7 +3368,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "rna-logic-matsuura2018",
@@ -1889,7 +3381,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "tbdb",
@@ -1900,7 +3394,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "tcell-activation-gse165537",
@@ -1911,7 +3407,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "tcell-activation-gse165537",
@@ -1922,7 +3420,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "tcell-activation-gse165537",
@@ -1933,7 +3433,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "tcell-activation-gse165537",
@@ -1944,7 +3446,84 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "t-psi-c-sequencing-index",
+    "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/all/",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "f687a94ea33aee3b82e65567acef0f2302e7fe495cbfbd92700f5d80e109136b",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "t-psi-c-sequencing-index",
+        "url": "https://tpsic.igcz.poznan.pl/trna-sequencing/all/",
+        "scope": "complete_response",
+        "download_complete": true,
+        "sha256": "f687a94ea33aee3b82e65567acef0f2302e7fe495cbfbd92700f5d80e109136b",
+        "partial_sha256": null,
+        "bytes": 38117,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "t-psi-c-sequencing-index",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239867/suppl/GSE239867_RAW.tar",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "77c3aeda1650cf719479c468114a80456de90394270c2200bec481ea3c61e715",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "t-psi-c-sequencing-index",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE239nnn/GSE239867/suppl/GSE239867_RAW.tar",
+        "scope": "complete_response",
+        "download_complete": true,
+        "sha256": "77c3aeda1650cf719479c468114a80456de90394270c2200bec481ea3c61e715",
+        "partial_sha256": null,
+        "bytes": 40960,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
+  },
+  {
+    "resource_id": "t-psi-c-sequencing-index",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188855/suppl/GSE188855_RAW.tar",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": "425d8cea1f9a507e96bcd5f53db111d52bf79543eb035180bbdc34b3fc2cfc53",
+    "checksum_status": "SHA256 of complete selected response; see request/scope evidence",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "t-psi-c-sequencing-index",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE188nnn/GSE188855/suppl/GSE188855_RAW.tar",
+        "scope": "complete_response",
+        "download_complete": true,
+        "sha256": "425d8cea1f9a507e96bcd5f53db111d52bf79543eb035180bbdc34b3fc2cfc53",
+        "partial_sha256": null,
+        "bytes": 30720,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "tandemmod-ivet-gse227087",
@@ -1955,7 +3534,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "tandemmod-ivet-gse227087",
@@ -1966,7 +3547,45 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
+  },
+  {
+    "resource_id": "tmodbase2",
+    "url": "https://www.tmodbase2.com/graphql",
+    "link_kind": "landing_or_api",
+    "access": "open",
+    "source_license": "unknown",
+    "redistribution": "not established; metadata only redistributed",
+    "checksum": null,
+    "checksum_status": "Multiple request-specific response hashes; see verification records",
+    "downloaded": true,
+    "sample_inspected": true,
+    "verification_records": [
+      {
+        "resource_id": "tmodbase2",
+        "url": "https://www.tmodbase2.com/graphql",
+        "scope": "complete_response",
+        "download_complete": true,
+        "sha256": "acf8483c6d21ad470529987c4ef699964d40764e734764026b1bf37750329fdb",
+        "partial_sha256": null,
+        "bytes": 138423,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      },
+      {
+        "resource_id": "tmodbase2",
+        "url": "https://www.tmodbase2.com/graphql",
+        "scope": "complete_response",
+        "download_complete": true,
+        "sha256": "9b037bd1bc1b7fb4fd0c69480c55b3c42d7c0bebd6cfa6c1c6b128df9c149661",
+        "partial_sha256": null,
+        "bytes": 6352739,
+        "verification": "selected payload inspected; see resource audit",
+        "request_note": "For query APIs, response hashes depend on the exact request. See the request/provenance audit."
+      }
+    ]
   },
   {
     "resource_id": "tric",
@@ -1977,7 +3596,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "trna-hyseq-gse134987",
@@ -1988,7 +3609,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "trna-proliferation-gse163609",
@@ -1999,7 +3622,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "trna-proliferation-gse163609",
@@ -2010,7 +3635,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "trna-proliferation-gse163609",
@@ -2021,7 +3648,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "trna-proliferation-gse163609",
@@ -2032,7 +3661,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "sapiens-uaspire-rbs",
@@ -2043,7 +3674,9 @@
     "redistribution": "Noncommercial unadapted data sharing with attribution; assess derivatives separately",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "ubs-seq-gse225614",
@@ -2054,7 +3687,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "utr-seq-zebrafish",
@@ -2065,7 +3700,9 @@
     "redistribution": "See explicit source license; public accessibility alone is not redistribution permission",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "yamat-seq-srp096584",
@@ -2076,7 +3713,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p052-asset-2",
@@ -2087,7 +3726,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p093-asset-1",
@@ -2098,7 +3739,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p093-asset-2",
@@ -2109,7 +3752,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p046-asset-1",
@@ -2120,7 +3765,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p037-asset-2",
@@ -2131,7 +3778,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p035-asset-1",
@@ -2142,7 +3791,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p012-asset-3",
@@ -2153,7 +3804,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p006-asset-1",
@@ -2164,7 +3817,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p005-asset-1",
@@ -2175,7 +3830,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p017-asset-1",
@@ -2186,7 +3843,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p050-asset-1",
@@ -2197,7 +3856,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p002-asset-2",
@@ -2208,7 +3869,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p016-asset-1",
@@ -2219,7 +3882,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p024-asset-1",
@@ -2230,7 +3895,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p030-asset-1",
@@ -2241,7 +3908,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p032-asset-2",
@@ -2252,7 +3921,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p003-asset-1",
@@ -2263,7 +3934,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p031-asset-2",
@@ -2274,7 +3947,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p039-asset-1",
@@ -2285,7 +3960,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p012-asset-6",
@@ -2296,7 +3973,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p012-asset-7",
@@ -2307,7 +3986,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p001-asset-2",
@@ -2318,7 +3999,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p032-asset-1",
@@ -2329,7 +4012,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p017-asset-2",
@@ -2340,7 +4025,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p020-asset-2",
@@ -2351,7 +4038,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p004-asset-1",
@@ -2362,7 +4051,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p025-asset-2",
@@ -2373,7 +4064,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p052-asset-1",
@@ -2384,7 +4077,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p005-asset-2",
@@ -2395,7 +4090,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p008-asset-3",
@@ -2406,7 +4103,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p011-asset-1",
@@ -2417,7 +4116,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p025-asset-1",
@@ -2428,7 +4129,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p037-asset-1",
@@ -2439,7 +4142,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p008-asset-1",
@@ -2450,7 +4155,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p020-asset-1",
@@ -2461,7 +4168,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p015-asset-1",
@@ -2472,7 +4181,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p014-asset-1",
@@ -2483,7 +4194,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p036-asset-2",
@@ -2494,7 +4207,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p001-asset-1",
@@ -2505,7 +4220,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p036-asset-1",
@@ -2516,7 +4233,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p031-asset-1",
@@ -2527,7 +4246,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p038-asset-2",
@@ -2538,7 +4259,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p042-asset-2",
@@ -2549,7 +4272,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p025-asset-3",
@@ -2560,7 +4285,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p012-asset-5",
@@ -2571,7 +4298,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p041-asset-1",
@@ -2582,7 +4311,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p021-asset-1",
@@ -2593,7 +4324,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p029-asset-2",
@@ -2604,7 +4337,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p029-asset-1",
@@ -2615,7 +4350,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p029-asset-4",
@@ -2626,7 +4363,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p029-asset-3",
@@ -2637,7 +4376,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p028-asset-1",
@@ -2648,7 +4389,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p003-asset-2",
@@ -2659,7 +4402,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p045-asset-1",
@@ -2670,7 +4415,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p026-asset-1",
@@ -2681,18 +4428,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
-  },
-  {
-    "resource_id": "p010-asset-2",
-    "url": "https://doi.org/10.1038/s41587-025-02712-x",
-    "link_kind": "landing_or_api",
-    "access": "unknown",
-    "source_license": "unknown",
-    "redistribution": "not established",
-    "checksum": null,
-    "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p042-asset-1",
@@ -2703,7 +4441,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p028-asset-2",
@@ -2714,7 +4454,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p034-asset-1",
@@ -2725,7 +4467,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p049-asset-1",
@@ -2736,7 +4480,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p010-asset-1",
@@ -2747,7 +4493,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p034-asset-2",
@@ -2758,7 +4506,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p033-asset-1",
@@ -2769,7 +4519,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p044-asset-1",
@@ -2780,7 +4532,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p047-asset-1",
@@ -2791,7 +4545,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p043-asset-1",
@@ -2802,7 +4558,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p013-asset-1",
@@ -2813,7 +4571,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p012-asset-1",
@@ -2824,7 +4584,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p002-asset-1",
@@ -2835,7 +4597,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p012-asset-4",
@@ -2846,7 +4610,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p006-asset-2",
@@ -2857,7 +4623,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p012-asset-8",
@@ -2868,7 +4636,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p007-asset-1",
@@ -2879,7 +4649,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p048-asset-1",
@@ -2890,7 +4662,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p038-asset-1",
@@ -2901,7 +4675,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p008-asset-2",
@@ -2912,7 +4688,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p009-asset-1",
@@ -2923,18 +4701,22 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p027-asset-1",
     "url": "https://cdn.elifesciences.org/articles/69611/elife-69611-supp1-v2.xlsx",
-    "link_kind": "landing_or_api",
+    "link_kind": "file",
     "access": "unknown",
     "source_license": "unknown",
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p040-asset-1",
@@ -2945,7 +4727,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p019-asset-2",
@@ -2956,7 +4740,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p019-asset-1",
@@ -2967,7 +4753,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p018-asset-3",
@@ -2978,7 +4766,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p018-asset-1",
@@ -2989,7 +4779,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p018-asset-2",
@@ -3000,7 +4792,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p022-asset-1",
@@ -3011,7 +4805,9 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   },
   {
     "resource_id": "p012-asset-2",
@@ -3022,6 +4818,8 @@
     "redistribution": "not established",
     "checksum": null,
     "checksum_status": "Not established in this registry; obtain source checksum before download/use",
-    "downloaded": false
+    "downloaded": false,
+    "sample_inspected": false,
+    "verification_records": []
   }
 ]

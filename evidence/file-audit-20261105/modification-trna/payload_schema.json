@@ -1,0 +1,126 @@
+{
+  "m6a_conditions": {
+    "full_decompression": true,
+    "total_lines": 843679,
+    "header": [
+      "seqnames",
+      "start",
+      "end",
+      "width",
+      "strand",
+      "ID",
+      "GSE",
+      "CellLine",
+      "Condition",
+      "Technique"
+    ],
+    "row_width_counts": {
+      "10": 843679
+    },
+    "first_rows_no_sequences": [
+      [
+        "chr1",
+        "629094",
+        "629094",
+        "1",
+        "+",
+        "m6A_hg38_1",
+        "GSE54921",
+        "HeLa",
+        "Ctrl",
+        "PA-m6A-seq"
+      ],
+      [
+        "chr1",
+        "629165",
+        "629165",
+        "1",
+        "+",
+        "m6A_hg38_2",
+        "GSE121942",
+        "HepG2",
+        "Ctrl",
+        "miCLIP"
+      ]
+    ],
+    "unique_cell_labels": null,
+    "sample_rows_for_schema": [
+      [
+        "chr1",
+        "629094",
+        "629094",
+        "1",
+        "+",
+        "m6A_hg38_1",
+        "GSE54921",
+        "HeLa",
+        "Ctrl",
+        "PA-m6A-seq"
+      ],
+      [
+        "chr1",
+        "629165",
+        "629165",
+        "1",
+        "+",
+        "m6A_hg38_2",
+        "GSE121942",
+        "HepG2",
+        "Ctrl",
+        "miCLIP"
+      ],
+      [
+        "chr1",
+        "629165",
+        "629165",
+        "1",
+        "+",
+        "m6A_hg38_2",
+        "GSE54921",
+        "HeLa",
+        "Ctrl",
+        "PA-m6A-seq"
+      ],
+      [
+        "chr1",
+        "629180",
+        "629180",
+        "1",
+        "+",
+        "m6A_hg38_3",
+        "GSE121942",
+        "HepG2",
+        "SETD2_knockdown",
+        "miCLIP"
+      ],
+      [
+        "chr1",
+        "629180",
+        "629180",
+        "1",
+        "+",
+        "m6A_hg38_3",
+        "GSE54921",
+        "HeLa",
+        "Ctrl",
+        "PA-m6A-seq"
+      ]
+    ]
+  },
+  "modomics_positions": {
+    "members": [
+      {
+        "name": "SSU.mods",
+        "bytes": 28511
+      },
+      {
+        "name": "manual.mods",
+        "bytes": 9898
+      },
+      {
+        "name": "tRNA.mods",
+        "bytes": 107843
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "postar3_redirect_download.html",
+  "source_url": "http://111.198.139.65/download.php",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length": "12799",
+  "bytes_saved": 299017,
+  "sha256": "87423e5cd178a1dd45af161bbfc45a440d3a16f3fba65332d3d1532e5a258f90",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "postar3_redirect_download.html"
+}

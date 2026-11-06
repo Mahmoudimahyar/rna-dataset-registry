@@ -1,0 +1,688 @@
+{
+  "audit_date": "2026-11-05",
+  "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-025-02712-x/MediaObjects/41587_2025_2712_MOESM3_ESM.xlsx",
+  "source_filename": "41587_2025_2712_MOESM3_ESM.xlsx",
+  "bytes": 23027441,
+  "sha256": "5a9dd751cb8ac96dbe364e249561cb54d4912c4170e7d659b9d465bd008e4c47",
+  "checksum_scope": "complete original publisher workbook",
+  "scope": "All nonempty Human sheet rows and all TE columns parsed; sequences used only for length/identity audit and not redistributed.",
+  "sheet": "Human",
+  "rows": 10348,
+  "columns": [
+    "SYMBOL",
+    "gene_id",
+    "tx_id",
+    "tx_size",
+    "utr5_size",
+    "utr3_size",
+    "cds_size",
+    "tx_sequence",
+    "TE_108T",
+    "TE_12T",
+    "TE_A2780",
+    "TE_A549",
+    "TE_BJ",
+    "TE_BRx-142",
+    "TE_C643",
+    "TE_CRL-1634",
+    "TE_Calu-3",
+    "TE_Cybrid_Cells",
+    "TE_H1-hESC",
+    "TE_H1933",
+    "TE_H9-hESC",
+    "TE_HAP-1",
+    "TE_HCC_tumor",
+    "TE_HCC_adjancent_normal",
+    "TE_HCT116",
+    "TE_HEK293",
+    "TE_HEK293T",
+    "TE_HMECs",
+    "TE_HSB2",
+    "TE_HSPCs",
+    "TE_HeLa",
+    "TE_HeLa_S3",
+    "TE_HepG2",
+    "TE_Huh-7.5",
+    "TE_Huh7",
+    "TE_K562",
+    "TE_Kidney_normal_tissue",
+    "TE_LCL",
+    "TE_LuCaP-PDX",
+    "TE_MCF10A",
+    "TE_MCF10A-ER-Src",
+    "TE_MCF7",
+    "TE_MD55A3",
+    "TE_MDA-MB-231",
+    "TE_MM1.S",
+    "TE_MOLM-13",
+    "TE_Molt-3",
+    "TE_Mutu",
+    "TE_OSCC",
+    "TE_PANC1",
+    "TE_PATU-8902",
+    "TE_PC3",
+    "TE_PC9",
+    "TE_Primary_CD4+_T-cells",
+    "TE_Primary_human_bronchial_epithelial_cells",
+    "TE_RD-CCL-136",
+    "TE_RPE-1",
+    "TE_SH-SY5Y",
+    "TE_SUM159PT",
+    "TE_SW480TetOnAPC",
+    "TE_T47D",
+    "TE_THP-1",
+    "TE_U-251",
+    "TE_U-343",
+    "TE_U2392",
+    "TE_U2OS",
+    "TE_Vero_6",
+    "TE_WI38",
+    "TE_WM902B",
+    "TE_WTC-11",
+    "TE_ZR75-1",
+    "TE_cardiac_fibroblasts",
+    "TE_ccRCC",
+    "TE_early_neurons",
+    "TE_fibroblast",
+    "TE_hESC",
+    "TE_human_brain_tumor",
+    "TE_iPSC-differentiated_dopamine_neurons",
+    "TE_megakaryocytes",
+    "TE_muscle_tissue",
+    "TE_neuronal_precursor_cells",
+    "TE_neurons",
+    "TE_normal_brain_tissue",
+    "TE_normal_prostate",
+    "TE_primary_macrophages",
+    "TE_skeletal_muscle",
+    "fold",
+    "mean_te"
+  ],
+  "te_context_columns": [
+    "TE_108T",
+    "TE_12T",
+    "TE_A2780",
+    "TE_A549",
+    "TE_BJ",
+    "TE_BRx-142",
+    "TE_C643",
+    "TE_CRL-1634",
+    "TE_Calu-3",
+    "TE_Cybrid_Cells",
+    "TE_H1-hESC",
+    "TE_H1933",
+    "TE_H9-hESC",
+    "TE_HAP-1",
+    "TE_HCC_tumor",
+    "TE_HCC_adjancent_normal",
+    "TE_HCT116",
+    "TE_HEK293",
+    "TE_HEK293T",
+    "TE_HMECs",
+    "TE_HSB2",
+    "TE_HSPCs",
+    "TE_HeLa",
+    "TE_HeLa_S3",
+    "TE_HepG2",
+    "TE_Huh-7.5",
+    "TE_Huh7",
+    "TE_K562",
+    "TE_Kidney_normal_tissue",
+    "TE_LCL",
+    "TE_LuCaP-PDX",
+    "TE_MCF10A",
+    "TE_MCF10A-ER-Src",
+    "TE_MCF7",
+    "TE_MD55A3",
+    "TE_MDA-MB-231",
+    "TE_MM1.S",
+    "TE_MOLM-13",
+    "TE_Molt-3",
+    "TE_Mutu",
+    "TE_OSCC",
+    "TE_PANC1",
+    "TE_PATU-8902",
+    "TE_PC3",
+    "TE_PC9",
+    "TE_Primary_CD4+_T-cells",
+    "TE_Primary_human_bronchial_epithelial_cells",
+    "TE_RD-CCL-136",
+    "TE_RPE-1",
+    "TE_SH-SY5Y",
+    "TE_SUM159PT",
+    "TE_SW480TetOnAPC",
+    "TE_T47D",
+    "TE_THP-1",
+    "TE_U-251",
+    "TE_U-343",
+    "TE_U2392",
+    "TE_U2OS",
+    "TE_Vero_6",
+    "TE_WI38",
+    "TE_WM902B",
+    "TE_WTC-11",
+    "TE_ZR75-1",
+    "TE_cardiac_fibroblasts",
+    "TE_ccRCC",
+    "TE_early_neurons",
+    "TE_fibroblast",
+    "TE_hESC",
+    "TE_human_brain_tumor",
+    "TE_iPSC-differentiated_dopamine_neurons",
+    "TE_megakaryocytes",
+    "TE_muscle_tissue",
+    "TE_neuronal_precursor_cells",
+    "TE_neurons",
+    "TE_normal_brain_tissue",
+    "TE_normal_prostate",
+    "TE_primary_macrophages",
+    "TE_skeletal_muscle"
+  ],
+  "te_contexts": 78,
+  "unique_genes": 10348,
+  "unique_transcripts": 10348,
+  "numeric_te_observations": 716913,
+  "complete_across_all_contexts_rows": 1577,
+  "numeric_per_context": {
+    "TE_A2780": 9657,
+    "TE_A549": 10078,
+    "TE_BJ": 9856,
+    "TE_BRx-142": 9029,
+    "TE_CRL-1634": 10265,
+    "TE_H1-hESC": 10233,
+    "TE_HAP-1": 9769,
+    "TE_HCT116": 9860,
+    "TE_HEK293": 10228,
+    "TE_HEK293T": 10245,
+    "TE_HeLa": 10161,
+    "TE_HeLa_S3": 9659,
+    "TE_HepG2": 9736,
+    "TE_Huh-7.5": 9320,
+    "TE_Huh7": 9909,
+    "TE_Kidney_normal_tissue": 9728,
+    "TE_LCL": 10142,
+    "TE_LuCaP-PDX": 10240,
+    "TE_MCF10A-ER-Src": 9601,
+    "TE_MCF7": 9492,
+    "TE_PANC1": 5555,
+    "TE_RD-CCL-136": 9913,
+    "TE_SH-SY5Y": 10045,
+    "TE_SUM159PT": 9752,
+    "TE_T47D": 9682,
+    "TE_U-251": 9986,
+    "TE_U2OS": 10062,
+    "TE_WI38": 9689,
+    "TE_WTC-11": 10192,
+    "TE_ZR75-1": 9768,
+    "TE_ccRCC": 10221,
+    "TE_fibroblast": 9848,
+    "TE_hESC": 10257,
+    "TE_iPSC-differentiated_dopamine_neurons": 10323,
+    "TE_normal_prostate": 10198,
+    "TE_108T": 9390,
+    "TE_12T": 9615,
+    "TE_Calu-3": 9572,
+    "TE_Cybrid_Cells": 9805,
+    "TE_H1933": 8490,
+    "TE_H9-hESC": 9920,
+    "TE_HMECs": 9659,
+    "TE_HSB2": 8321,
+    "TE_K562": 9088,
+    "TE_MCF10A": 9923,
+    "TE_MD55A3": 9466,
+    "TE_MDA-MB-231": 10055,
+    "TE_MM1.S": 9140,
+    "TE_MOLM-13": 9125,
+    "TE_Molt-3": 8769,
+    "TE_OSCC": 9524,
+    "TE_RPE-1": 9805,
+    "TE_SW480TetOnAPC": 9870,
+    "TE_U-343": 9744,
+    "TE_Vero_6": 9460,
+    "TE_WM902B": 9549,
+    "TE_cardiac_fibroblasts": 9963,
+    "TE_early_neurons": 9668,
+    "TE_megakaryocytes": 9612,
+    "TE_muscle_tissue": 9678,
+    "TE_neuronal_precursor_cells": 9801,
+    "TE_neurons": 9503,
+    "TE_normal_brain_tissue": 9439,
+    "TE_HCC_tumor": 9499,
+    "TE_PATU-8902": 7993,
+    "TE_PC3": 9272,
+    "TE_PC9": 9287,
+    "TE_Primary_CD4+_T-cells": 8391,
+    "TE_Primary_human_bronchial_epithelial_cells": 8002,
+    "TE_human_brain_tumor": 9022,
+    "TE_skeletal_muscle": 4813,
+    "TE_C643": 2973,
+    "TE_HCC_adjancent_normal": 8401,
+    "TE_HSPCs": 8088,
+    "TE_Mutu": 4819,
+    "TE_THP-1": 8731,
+    "TE_U2392": 5289,
+    "TE_primary_macrophages": 3680
+  },
+  "missing_or_nonnumeric_per_context": {
+    "TE_108T": 958,
+    "TE_12T": 733,
+    "TE_C643": 7375,
+    "TE_Calu-3": 776,
+    "TE_Cybrid_Cells": 543,
+    "TE_H1933": 1858,
+    "TE_H9-hESC": 428,
+    "TE_HCC_tumor": 849,
+    "TE_HCC_adjancent_normal": 1947,
+    "TE_HMECs": 689,
+    "TE_HSB2": 2027,
+    "TE_HSPCs": 2260,
+    "TE_K562": 1260,
+    "TE_MCF10A": 425,
+    "TE_MD55A3": 882,
+    "TE_MDA-MB-231": 293,
+    "TE_MM1.S": 1208,
+    "TE_MOLM-13": 1223,
+    "TE_Molt-3": 1579,
+    "TE_Mutu": 5529,
+    "TE_OSCC": 824,
+    "TE_PATU-8902": 2355,
+    "TE_PC3": 1076,
+    "TE_PC9": 1061,
+    "TE_Primary_CD4+_T-cells": 1957,
+    "TE_Primary_human_bronchial_epithelial_cells": 2346,
+    "TE_RPE-1": 543,
+    "TE_SW480TetOnAPC": 478,
+    "TE_THP-1": 1617,
+    "TE_U-343": 604,
+    "TE_U2392": 5059,
+    "TE_Vero_6": 888,
+    "TE_WM902B": 799,
+    "TE_cardiac_fibroblasts": 385,
+    "TE_early_neurons": 680,
+    "TE_human_brain_tumor": 1326,
+    "TE_megakaryocytes": 736,
+    "TE_muscle_tissue": 670,
+    "TE_neuronal_precursor_cells": 547,
+    "TE_neurons": 845,
+    "TE_normal_brain_tissue": 909,
+    "TE_primary_macrophages": 6668,
+    "TE_skeletal_muscle": 5535,
+    "TE_PANC1": 4793,
+    "TE_BRx-142": 1319,
+    "TE_U2OS": 286,
+    "TE_HeLa_S3": 689,
+    "TE_MCF10A-ER-Src": 747,
+    "TE_MCF7": 856,
+    "TE_U-251": 362,
+    "TE_A549": 270,
+    "TE_normal_prostate": 150,
+    "TE_Huh-7.5": 1028,
+    "TE_Kidney_normal_tissue": 620,
+    "TE_SUM159PT": 596,
+    "TE_T47D": 666,
+    "TE_BJ": 492,
+    "TE_WI38": 659,
+    "TE_LCL": 206,
+    "TE_A2780": 691,
+    "TE_HAP-1": 579,
+    "TE_Huh7": 439,
+    "TE_CRL-1634": 83,
+    "TE_HepG2": 612,
+    "TE_ccRCC": 127,
+    "TE_fibroblast": 500,
+    "TE_HCT116": 488,
+    "TE_HeLa": 187,
+    "TE_LuCaP-PDX": 108,
+    "TE_SH-SY5Y": 303,
+    "TE_RD-CCL-136": 435,
+    "TE_ZR75-1": 580,
+    "TE_HEK293": 120,
+    "TE_HEK293T": 103,
+    "TE_H1-hESC": 115,
+    "TE_WTC-11": 156,
+    "TE_iPSC-differentiated_dopamine_neurons": 25,
+    "TE_hESC": 91
+  },
+  "fold_counts": {
+    "4": 1011,
+    "9": 1024,
+    "7": 1031,
+    "2": 1114,
+    "0": 1045,
+    "6": 1020,
+    "5": 1028,
+    "1": 1063,
+    "8": 1058,
+    "3": 954
+  },
+  "transcript_length_min_max": [
+    303,
+    12275
+  ],
+  "te_value_ranges": {
+    "TE_108T": [
+      -3.222017135,
+      6.150157394
+    ],
+    "TE_12T": [
+      -2.809671336,
+      5.82744789
+    ],
+    "TE_A2780": [
+      -3.095984931,
+      3.422046247
+    ],
+    "TE_A549": [
+      -2.800700927,
+      3.142539289
+    ],
+    "TE_BJ": [
+      -3.54749084,
+      5.90408788
+    ],
+    "TE_BRx-142": [
+      -4.742367773,
+      5.410552391
+    ],
+    "TE_C643": [
+      0.134692715,
+      6.11178909
+    ],
+    "TE_CRL-1634": [
+      -3.27841121,
+      4.29019124
+    ],
+    "TE_Calu-3": [
+      -3.44620235,
+      4.036599307
+    ],
+    "TE_Cybrid_Cells": [
+      -2.640403073,
+      6.886462002
+    ],
+    "TE_H1-hESC": [
+      -3.52759913,
+      5.458710421
+    ],
+    "TE_H1933": [
+      -2.74975359,
+      6.486537704
+    ],
+    "TE_H9-hESC": [
+      -3.713149178,
+      6.125093043
+    ],
+    "TE_HAP-1": [
+      -3.053884543,
+      4.299717583
+    ],
+    "TE_HCC_tumor": [
+      -3.459393187,
+      3.379995344
+    ],
+    "TE_HCC_adjancent_normal": [
+      -3.261674156,
+      3.753068711
+    ],
+    "TE_HCT116": [
+      -3.17856157,
+      4.577852197
+    ],
+    "TE_HEK293": [
+      -2.666693891,
+      3.401144287
+    ],
+    "TE_HEK293T": [
+      -2.73840874,
+      4.314330894
+    ],
+    "TE_HMECs": [
+      -3.71070956,
+      3.967765145
+    ],
+    "TE_HSB2": [
+      -3.458568301,
+      3.461881232
+    ],
+    "TE_HSPCs": [
+      -2.227158301,
+      6.873647331
+    ],
+    "TE_HeLa": [
+      -2.333393094,
+      3.387430712
+    ],
+    "TE_HeLa_S3": [
+      -3.907005846,
+      3.895571587
+    ],
+    "TE_HepG2": [
+      -2.715688069,
+      4.373591004
+    ],
+    "TE_Huh-7.5": [
+      -2.490727586,
+      3.123118404
+    ],
+    "TE_Huh7": [
+      -2.694473085,
+      3.009823153
+    ],
+    "TE_K562": [
+      -2.721403053,
+      6.945343292
+    ],
+    "TE_Kidney_normal_tissue": [
+      -2.49550949,
+      4.91225152
+    ],
+    "TE_LCL": [
+      -3.145896817,
+      7.362059739
+    ],
+    "TE_LuCaP-PDX": [
+      -2.987498265,
+      3.085139475
+    ],
+    "TE_MCF10A": [
+      -4.348063983,
+      3.533694607
+    ],
+    "TE_MCF10A-ER-Src": [
+      -2.742159668,
+      7.068641366
+    ],
+    "TE_MCF7": [
+      -3.58532198,
+      5.810249931
+    ],
+    "TE_MD55A3": [
+      -3.335956817,
+      5.160205397
+    ],
+    "TE_MDA-MB-231": [
+      -4.78195627,
+      3.916637558
+    ],
+    "TE_MM1.S": [
+      -4.071887118,
+      4.668512354
+    ],
+    "TE_MOLM-13": [
+      -3.779548384,
+      4.732875975
+    ],
+    "TE_Molt-3": [
+      -2.578733218,
+      3.880029483
+    ],
+    "TE_Mutu": [
+      -0.859908171,
+      5.784108788
+    ],
+    "TE_OSCC": [
+      -3.488434251,
+      5.55088729
+    ],
+    "TE_PANC1": [
+      -0.662753906,
+      6.555645395
+    ],
+    "TE_PATU-8902": [
+      -3.44266504,
+      3.730381877
+    ],
+    "TE_PC3": [
+      -2.964982957,
+      3.245550672
+    ],
+    "TE_PC9": [
+      -4.149281419,
+      6.400269761
+    ],
+    "TE_Primary_CD4+_T-cells": [
+      -2.481368151,
+      7.223639431
+    ],
+    "TE_Primary_human_bronchial_epithelial_cells": [
+      -1.367543363,
+      4.934336063
+    ],
+    "TE_RD-CCL-136": [
+      -3.215326154,
+      4.865906479
+    ],
+    "TE_RPE-1": [
+      -3.625209297,
+      4.258473735
+    ],
+    "TE_SH-SY5Y": [
+      -3.082426694,
+      7.410732024
+    ],
+    "TE_SUM159PT": [
+      -4.425053952,
+      4.33045952
+    ],
+    "TE_SW480TetOnAPC": [
+      -3.096360616,
+      3.984652616
+    ],
+    "TE_T47D": [
+      -3.726295251,
+      4.394025893
+    ],
+    "TE_THP-1": [
+      -3.816077594,
+      6.255340558
+    ],
+    "TE_U-251": [
+      -4.283680196,
+      7.293039398
+    ],
+    "TE_U-343": [
+      -4.042264302,
+      7.408083973
+    ],
+    "TE_U2392": [
+      -0.423795897,
+      6.138501219
+    ],
+    "TE_U2OS": [
+      -3.208112246,
+      4.114473909
+    ],
+    "TE_Vero_6": [
+      -1.903664763,
+      4.578489208
+    ],
+    "TE_WI38": [
+      -3.147833928,
+      6.801049186
+    ],
+    "TE_WM902B": [
+      -4.026062056,
+      6.410689359
+    ],
+    "TE_WTC-11": [
+      -4.277795871,
+      3.339110703
+    ],
+    "TE_ZR75-1": [
+      -3.342038732,
+      4.720921871
+    ],
+    "TE_cardiac_fibroblasts": [
+      -4.01541197,
+      5.354771303
+    ],
+    "TE_ccRCC": [
+      -3.314395298,
+      3.740964598
+    ],
+    "TE_early_neurons": [
+      -3.716490278,
+      3.275171271
+    ],
+    "TE_fibroblast": [
+      -3.450552847,
+      3.90955097
+    ],
+    "TE_hESC": [
+      -3.075500415,
+      3.619036335
+    ],
+    "TE_human_brain_tumor": [
+      -4.244705446,
+      8.039545905
+    ],
+    "TE_iPSC-differentiated_dopamine_neurons": [
+      -4.007639691,
+      3.7705546
+    ],
+    "TE_megakaryocytes": [
+      -3.742003983,
+      4.324272913
+    ],
+    "TE_muscle_tissue": [
+      -4.78107381,
+      3.259988997
+    ],
+    "TE_neuronal_precursor_cells": [
+      -3.413925073,
+      3.519764245
+    ],
+    "TE_neurons": [
+      -3.407826849,
+      3.536105689
+    ],
+    "TE_normal_brain_tissue": [
+      -5.288638554,
+      6.721828343
+    ],
+    "TE_normal_prostate": [
+      -4.044397655,
+      3.141066084
+    ],
+    "TE_primary_macrophages": [
+      -0.383113651,
+      6.494010318
+    ],
+    "TE_skeletal_muscle": [
+      -2.212302375,
+      8.326208051
+    ]
+  },
+  "endpoint": "Endogenous TE defined by the original paper as residuals from compositional linear regression of centered-log-ratio CDS RPF/RNA counts, then averaged within cell context. Not raw Ribo/RNA ratios, completed protein output, or synthetic reporter labels.",
+  "provenance_cautions": [
+    "GitHub example training table is explicitly fake TE in README; not used as biological labels.",
+    "ContiTE reuses the RiboNN atlas; it is not an independent experimental dataset.",
+    "ContiTE article states different counts from this inspected original Human supplement; reconcile exact input versions before reproducing or comparing.",
+    "Publisher Supplementary Tables3/4 contain predicted TEs and must not be treated as measured labels.",
+    "Same gene across contexts is a repeated observation, not a new independent sequence.",
+    "No uniformly matched external HPA/DepMap assay condition established."
+  ],
+  "endpoint_source": "https://www.nature.com/articles/s41587-025-02712-x",
+  "endpoint_source_section": "Methods: calculation of cell-type-specific translation efficiencies",
+  "context_identity_caution": "The Human sheet is a human-transcript benchmark, not independent verification of every context species or stock. In particular, TE_Vero_6 requires source-metadata reconciliation before assigning a human cell identity."
+}

@@ -1,0 +1,53 @@
+{
+  "audit_date": "2026-11-05",
+  "paper": {
+    "title": "An RNA Language Model trained on sequence alone reveals the structural logic of Internal Ribosome Entry Sites",
+    "status": "bioRxiv preprint; not certified by peer review",
+    "doi": "10.64898/2026.05.19.726202",
+    "pmid": "42239231",
+    "pmcid": "PMC13228543",
+    "posted": "2026-05-20"
+  },
+  "sources": {
+    "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13228543/",
+    "geo_series": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347508",
+    "processed_xlsx": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE347nnn/GSE347508/suppl/GSE347508_Supplement_S1.xlsx",
+    "geo_metadata": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE347nnn/GSE347508/soft/GSE347508_family.soft.gz",
+    "supplement_zip": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13228543/supplementaryFiles",
+    "code": "https://github.com/rouskinlab/Albatross",
+    "prediction_atlas": "https://albatrossrna.org/"
+  },
+  "download_verified": {
+    "geo_xlsx_bytes": 691214,
+    "geo_xlsx_sha256": "5c17e9e6ba99476392c304c4d5f1322e5bc9905b8dcf2f72961b915583c826d9",
+    "pmc_xlsx_bytes": 677864,
+    "pmc_and_geo_xlsx_identical": false
+  },
+  "endpoint": {
+    "name": "Ribosomal_Loading",
+    "meaning": "average ribosomes per RNA, polysome loading proxy for translation",
+    "not_measured": "protein output per RNA",
+    "normalization": "Barcode counts normalized to total reads per sample and then fractional representation in unseparated lysate; polysome-weighted expectation.",
+    "polysome_assay_post_transfection_time": "not stated in inspected main text, supplementary methods, or GEO sample record; 24-hour luciferase and 6-hour DMS times are separate assays",
+    "circRNA_origin": "in vitro generated circRNA library; do not conflate with separate DNA-transfected bicistronic luciferase validation",
+    "replicates": "2 biological x 2 technical per cell; Fig 2 n=4/cell does not mean 4 independent biological replicates"
+  },
+  "matrix": {
+    "rows": 576,
+    "cells": {
+      "293t": 96,
+      "Huh7": 96,
+      "N2A": 96,
+      "HCT8": 96,
+      "SHSY5Y": 96,
+      "U2OS": 96
+    },
+    "unique_id_cell_pairs": 576,
+    "finite_loading_and_sd_rows": 576,
+    "label_min": 0.98294353825844,
+    "label_max": 4.70466471811769,
+    "endpoint_unique_sequences": 92,
+    "ires_reference_ids": 96,
+    "ires_reference_unique_sequences": 95
+  }
+}

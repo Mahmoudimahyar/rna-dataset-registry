@@ -1,0 +1,17 @@
+{
+  "entries": [
+    {
+      "artifact_name": "hpa_requested_numeric_slice.tsv",
+      "bytes": 1955,
+      "sha256": "b7922c12f075e94637d4938dd1db296acd5fa275830b3d5eccbad12a6154d369",
+      "sha256_scope": "complete local artifact"
+    },
+    {
+      "artifact_name": "depmap_requested_numeric_slice.tsv",
+      "bytes": 1624,
+      "sha256": "b5068150e4a8cc5b89617d73bea2f7a8ce5ad5923c284e5c217392f0dfec658e",
+      "sha256_scope": "complete local artifact"
+    }
+  ],
+  "scope": "SHA values cover complete local derived slice artifacts only; full source file SHA values are separate in download_manifest.json."
+}

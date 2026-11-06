@@ -1,0 +1,13 @@
+{
+  "name": "encode_rbns_files.json",
+  "source_url": "https://www.encodeproject.org/search/?type=File&output_type=enrichment&format=json&limit=10",
+  "checked_on": "2026-11-05",
+  "complete": true,
+  "status": 200,
+  "content_type": "application/json",
+  "content_length": null,
+  "bytes_saved": 82626,
+  "sha256": "7ec4a61c709481b4436e348973133311525d38f7713aca630ddb1af56bee8d4f",
+  "sha256_scope": "entire downloaded response body",
+  "artifact_name": "encode_rbns_files.json"
+}

@@ -1,0 +1,928 @@
+{
+  "audit_date": "2026-11-05",
+  "scope": "Selected data files and reference API records; no raw rows or molecular sequences redistributed.",
+  "results": {
+    "rnalocate_circRNA": {
+      "status": "access_or_parse_failed",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.rnalocate.org/static/download/circRNA%20subcellular%20localization%20information.zip"
+    },
+    "rnalocate_mRNA": {
+      "status": "access_or_parse_failed",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.rnalocate.org/static/download/mRNA%20subcellular%20localization%20information.zip"
+    },
+    "rnalocate_export": {
+      "resource_id": "rnalocate",
+      "verification": "full_selected_query_csv_parsed",
+      "file": {
+        "url": "https://www.rnalocate.org/show_search?dataset=Symbol&Keyword=ACTB&category=mRNA&species=Homo+sapiens&subcellular_loc=All&page=1&score1=0.0&score2=1.0&sources=experiment&sortBy=None&last_id=&download=yes",
+        "http_status": 200,
+        "content_type": "text/csv",
+        "last_modified": null,
+        "bytes": 4925,
+        "sha256": "651126f2c335c0bf6a814533847950a296a192dfe67603c8a7a4ca7f5d332d70",
+        "checksum_scope": "full response body",
+        "download_complete": true
+      },
+      "columns": [
+        "RNA Symbol",
+        "RNA Category",
+        "Species",
+        "Tissue/Cell Line",
+        "Localization",
+        "Score"
+      ],
+      "query": {
+        "dataset": "Symbol",
+        "Keyword": "ACTB",
+        "category": "mRNA",
+        "species": "Homo sapiens",
+        "subcellular_loc": "All",
+        "page": "1",
+        "score1": "0.0",
+        "score2": "1.0",
+        "sources": "experiment",
+        "sortBy": "None",
+        "last_id": "",
+        "download": "yes"
+      },
+      "selected_rows": 55,
+      "distinct_localizations": [
+        "Cell leading edge",
+        "Chromatin",
+        "Cytoplasm",
+        "Cytosol",
+        "Cytosolsub",
+        "Endoplasmic reticulum",
+        "Extracellular exosome",
+        "Extracellular vesicle",
+        "Lamellipodium",
+        "Membrane",
+        "Microvesicle",
+        "Mitochondrion",
+        "Nuclear inner membrane",
+        "Nuclear outer membrane",
+        "Nucleolus",
+        "Nucleoplasm",
+        "Nucleus",
+        "Nucleussub",
+        "Perinuclear",
+        "RNA-rich region",
+        "Ribosome"
+      ],
+      "cell_or_tissue_labels": [
+        "A549|GM12878|H1.hESC|HeLa.S3|HepG2|HT1080|HUVEC|IMR.90|K562|MCF.7|NCI.H460|NHEK|SK.MEL.5|SK.N.DZ|SK.N.SH",
+        "A549|GM12878|H1.hESC|HeLa.S3|HepG2|HT1080|HUVEC|K562|MCF.7|NCI.H460|NHEK|SK.MEL.5|SK.N.DZ",
+        "Amniotic.fluid|Bronchoalveolar.lavage.fluid.sample|Cerebrospinal.fluid|Ovarian.Follicle.Fluid|Plasma|Seminal.fluid|Serum|Sputum|Urine",
+        "Blood|Urine|CSF|Bile",
+        "CRC cell line (SW480)",
+        "Colon cancer cells",
+        "Colorectal cancer cell lines (HCT-15|SW480|WiDr)",
+        "Colorectal cancer cells",
+        "Embryonic stem cells",
+        "GM12878|HeLa-S3|HepG2|K562",
+        "GM12878|HeLa-S3|K562",
+        "GM12878|K562",
+        "Glioblastoma cells",
+        "HEK-293 cells",
+        "HEK-293T cells",
+        "HEK293T cell line",
+        "HEK293T cell line|plasma",
+        "HeLa cells",
+        "HeLa-S3 cells|K562 cells",
+        "Hepatocellular carcinoma|Immortalized hepatocyte cells",
+        "Human T lymphocytes (Jurkat E6-1)",
+        "Human cervical cancer cell line (HeLa)",
+        "Human lung fibroblasts (MRC5)",
+        "Human umbilical vein endothelial cells",
+        "K562",
+        "K562 cells",
+        "Lung fibroblasts",
+        "Multidrug resistant cell line (NCI/ADR-RES)",
+        "Nasopharyngeal carcinoma cells",
+        "Saliva",
+        "U2OS cells",
+        "Urine",
+        "WI-38 cells",
+        "plasma"
+      ],
+      "missing_cell_or_tissue_rows": 0,
+      "score_range": [
+        0.328976360383502,
+        0.90145991609349
+      ],
+      "interpretation": "Experimental-source localization annotations with computed confidence score, not measured translation. This targeted ACTB export is a schema/data sample; it does not verify the full database.",
+      "license": "Official download page permits noncommercial use with attribution. Bulk mRNA/circRNA ZIP links returned404 in this audit."
+    },
+    "cellosaurus": {
+      "resource_id": "cellosaurus",
+      "verification": "selected_reference_records_parsed",
+      "entries": [
+        {
+          "requested_accession": "CVCL_1058",
+          "primary_accessions": [
+            "CVCL_1058"
+          ],
+          "recommended_names": [
+            "A-204"
+          ],
+          "synonyms": [
+            "A204"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": null,
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_1058?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 15261,
+            "sha256": "ce8be4f45b7f3520a2ac6956712c54ca3bc506811e6690f5580f52caa3ca57e3",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0023",
+          "primary_accessions": [
+            "CVCL_0023"
+          ],
+          "recommended_names": [
+            "A-549"
+          ],
+          "synonyms": [
+            "A 549",
+            "A549",
+            "NCI-A549",
+            "A549/ATCC",
+            "A549 ATCC",
+            "A549ATCC",
+            "hA549"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": null,
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0023?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 278983,
+            "sha256": "6ff5cc08db1140e9f0901519f94c123e1678ebb6f94f9cb07b8a589b8a5e9b46",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0139",
+          "primary_accessions": [
+            "CVCL_0139"
+          ],
+          "recommended_names": [
+            "AGS"
+          ],
+          "synonyms": [],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": null,
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0139?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 24633,
+            "sha256": "b0cccd08296f5651afe1f709d206da1e667d591bb3e1dfe37014c85359248104",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0291",
+          "primary_accessions": [
+            "CVCL_0291"
+          ],
+          "recommended_names": [
+            "HCT 116"
+          ],
+          "synonyms": [
+            "HCT-116",
+            "HCT.116",
+            "HCT_116",
+            "HCT116",
+            "HCT116wt",
+            "HCT-116/P",
+            "HCT-116/parental",
+            "CoCL2"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": null,
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0291?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 58244,
+            "sha256": "c56e953fa892fc074a6c3e473f90abb7367f1437330ad8d1810e3555fcbfb02b",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0027",
+          "primary_accessions": [
+            "CVCL_0027"
+          ],
+          "recommended_names": [
+            "Hep-G2"
+          ],
+          "synonyms": [
+            "HEP-G2",
+            "Hep G2",
+            "HEP G2",
+            "HepG2",
+            "HEPG2"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": null,
+          "comment_fields": [
+            "comment-list"
+          ],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0027?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 235876,
+            "sha256": "77eda17d9fbc02f1e08adc84e4ad0d77c39809fde6b0e68b44b7166df254c760",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0065",
+          "primary_accessions": [
+            "CVCL_0065"
+          ],
+          "recommended_names": [
+            "Jurkat"
+          ],
+          "synonyms": [
+            "JURKAT",
+            "JM",
+            "JM-Jurkat",
+            "Jurkat-FHCRC",
+            "Jurkat FHCRC",
+            "FHCRC-11",
+            "FHCRC subclone 11",
+            "FCCH1024"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": null,
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0065?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 32330,
+            "sha256": "846f51dbfcce5895b538b2df151a5be4f2ec5c90cce90bca554af90c1588e473",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0367",
+          "primary_accessions": [
+            "CVCL_0367"
+          ],
+          "recommended_names": [
+            "Jurkat E6.1"
+          ],
+          "synonyms": [
+            "JurkatE6-1",
+            "Jurkat E6-1",
+            "Jurkat, Clone E6-1",
+            "Jurkat Clone E6-1",
+            "Jurkat (clone E6-1)",
+            "JURKAT E-6.1",
+            "JURKAT E-61",
+            "Jurkat-CloneE61",
+            "Jurkat-E6",
+            "Jurkat E6",
+            "J.E6-1",
+            "E6-1",
+            "Jurkat J6"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": [
+            {
+              "accession": "CVCL_0065",
+              "category": "Cell line databases/resources",
+              "database": "Cellosaurus",
+              "label": "Jurkat",
+              "url": "https://www.cellosaurus.org/CVCL_0065"
+            }
+          ],
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0367?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 16546,
+            "sha256": "a0eac7563fd42d3138214a9c7b03a1eda336800941e46460d37b9bde9338e9b3",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0019",
+          "primary_accessions": [
+            "CVCL_0019"
+          ],
+          "recommended_names": [
+            "SH-SY5Y"
+          ],
+          "synonyms": [
+            "SH-Sy5y",
+            "SHSY5Y",
+            "SHSY-5Y",
+            "SK-SH-SY5Y",
+            "SY5Y",
+            "SH-SY5Y Parental"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": [
+            {
+              "accession": "CVCL_0531",
+              "category": "Cell line databases/resources",
+              "database": "Cellosaurus",
+              "label": "SK-N-SH",
+              "url": "https://www.cellosaurus.org/CVCL_0531"
+            }
+          ],
+          "comment_fields": [
+            "comment-list"
+          ],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0019?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 34001,
+            "sha256": "cb09ed221aaeae221429defba656b8c0f9880e007b66d781c0bc19d9f1a2f445",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0006",
+          "primary_accessions": [
+            "CVCL_0006"
+          ],
+          "recommended_names": [
+            "THP-1"
+          ],
+          "synonyms": [
+            "THP1",
+            "THP 1",
+            "THPI",
+            "THP-1(ATCC)",
+            "THP-1-O",
+            "O-THP-1",
+            "Tohoku Hospital Pediatrics-1"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": null,
+          "comment_fields": [
+            "comment-list"
+          ],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0006?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 42034,
+            "sha256": "dfe1fa3e14f81d4dd4bcf8a739df88142dc6906b4e9699745094ecdc5d4b1acb",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0022",
+          "primary_accessions": [
+            "CVCL_0022"
+          ],
+          "recommended_names": [
+            "U-87MG ATCC"
+          ],
+          "synonyms": [
+            "U-87MG",
+            "U-87 MG",
+            "U87 MG",
+            "U-87-MG",
+            "U87-MG",
+            "U87MG",
+            "U-87",
+            "U87",
+            "87 MG",
+            "87MG"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": null,
+          "comment_fields": [
+            "comment-list"
+          ],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0022?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 29184,
+            "sha256": "88ba5ba4d4a2ae435c626e70797a8731e8b5c89a36ab3ae2efd32f5d208475cb",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0336",
+          "primary_accessions": [
+            "CVCL_0336"
+          ],
+          "recommended_names": [
+            "Huh-7"
+          ],
+          "synonyms": [
+            "HuH-7",
+            "HUH-7",
+            "HuH7",
+            "Huh7",
+            "HUH7",
+            "HUH7.0",
+            "JTC-39",
+            "Japanese Tissue Culture-39"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": null,
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0336?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 24441,
+            "sha256": "0c74cefd26b217cbfb6e736db776960a0291c0106d73d2886947de3695af82c5",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0045",
+          "primary_accessions": [
+            "CVCL_0045"
+          ],
+          "recommended_names": [
+            "HEK293"
+          ],
+          "synonyms": [
+            "Hek293",
+            "HEK-293",
+            "HEK/293",
+            "(HEK)293",
+            "HEK 293",
+            "HEK;293",
+            "293",
+            "293 HEK",
+            "293 Ad5",
+            "Graham 293",
+            "Graham-293",
+            "Human Embryonic Kidney 293"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": null,
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0045?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 31457,
+            "sha256": "371cd390a16a8ecb2f4df2e5b331a35757e3baa2c801aa1c11e4b83d5e65c1e5",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0063",
+          "primary_accessions": [
+            "CVCL_0063"
+          ],
+          "recommended_names": [
+            "HEK293T"
+          ],
+          "synonyms": [
+            "Hek293T",
+            "HEK-293T",
+            "HEK 293T",
+            "HEK-293-T",
+            "HEK 293 T",
+            "293-T",
+            "293 T",
+            "293T",
+            "Human Embryonic Kidney 293T",
+            "293tsA1609neo"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": [
+            {
+              "accession": "CVCL_0045",
+              "category": "Cell line databases/resources",
+              "database": "Cellosaurus",
+              "label": "HEK293",
+              "url": "https://www.cellosaurus.org/CVCL_0045"
+            }
+          ],
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0063?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 18602,
+            "sha256": "1bbcd90497ec9d88cc87e2e8bdc7618b7e5476365f32ccf9b5367871b3e9c173",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_2478",
+          "primary_accessions": [
+            "CVCL_2478"
+          ],
+          "recommended_names": [
+            "HCT 8"
+          ],
+          "synonyms": [
+            "HCT-8",
+            "HCT8"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": [
+            {
+              "accession": "CVCL_3449",
+              "category": "Cell line databases/resources",
+              "database": "Cellosaurus",
+              "label": "__Parent_cell_line_of_DLD-1/HCT 8/HCT 15/HRT-18",
+              "url": "https://www.cellosaurus.org/CVCL_3449"
+            }
+          ],
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_2478?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 15046,
+            "sha256": "7a230ed11bb66bc442ab6ed1b5afb27890893a4f714cccbd22e8d35820bdff72",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0042",
+          "primary_accessions": [
+            "CVCL_0042"
+          ],
+          "recommended_names": [
+            "U2OS"
+          ],
+          "synonyms": [
+            "U-2 OS",
+            "U-2OS",
+            "U-2-OS",
+            "U2-OS",
+            "U20-S",
+            "U20S",
+            "2T"
+          ],
+          "species": [
+            {
+              "accession": "9606",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+              "label": "Homo sapiens (Human)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3"
+            }
+          ],
+          "parent_information": null,
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0042?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 37408,
+            "sha256": "ea5d571017274c322e100709f4e24a0ef53d4ae454971cde7a099f7bc5e64b69",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0470",
+          "primary_accessions": [
+            "CVCL_0470"
+          ],
+          "recommended_names": [
+            "Neuro-2a"
+          ],
+          "synonyms": [
+            "NEURO-2A",
+            "Neuro 2a",
+            "Neuro2a",
+            "Neuro2A",
+            "N-2a",
+            "N2a",
+            "N2A",
+            "Nb2a",
+            "NB2a"
+          ],
+          "species": [
+            {
+              "accession": "10090",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+              "label": "Mus musculus (Mouse)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10090&lvl=3"
+            }
+          ],
+          "parent_information": [
+            {
+              "accession": "CVCL_4343",
+              "category": "Cell line databases/resources",
+              "database": "Cellosaurus",
+              "label": "C-1300",
+              "url": "https://www.cellosaurus.org/CVCL_4343"
+            }
+          ],
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0470?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 12349,
+            "sha256": "84729e41c6a329ed679d01f11eb10e72e8a95a4b8a59548ea032889db28df51b",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0188",
+          "primary_accessions": [
+            "CVCL_0188"
+          ],
+          "recommended_names": [
+            "C2C12"
+          ],
+          "synonyms": [
+            "C2c12",
+            "C2-C12",
+            "C12"
+          ],
+          "species": [
+            {
+              "accession": "10090",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+              "label": "Mus musculus (Mouse)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10090&lvl=3"
+            }
+          ],
+          "parent_information": [
+            {
+              "accession": "CVCL_6812",
+              "category": "Cell line databases/resources",
+              "database": "Cellosaurus",
+              "label": "C2 [Mouse myoblast]",
+              "url": "https://www.cellosaurus.org/CVCL_6812"
+            }
+          ],
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0188?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 17486,
+            "sha256": "9368695819d2e224fd8f8ae1e8f8305d88937001758dc0d6dfb236b2d1cef1af",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        },
+        {
+          "requested_accession": "CVCL_0493",
+          "primary_accessions": [
+            "CVCL_0493"
+          ],
+          "recommended_names": [
+            "RAW 264.7"
+          ],
+          "synonyms": [
+            "RAW264",
+            "RAW2647",
+            "RAW264.7",
+            "RAW-264.7",
+            "Raw 264.7",
+            "Raw264.7"
+          ],
+          "species": [
+            {
+              "accession": "10090",
+              "category": "Taxonomy",
+              "database": "NCBI_TaxID",
+              "iri": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+              "label": "Mus musculus (Mouse)",
+              "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10090&lvl=3"
+            }
+          ],
+          "parent_information": [
+            {
+              "accession": "CVCL_4478",
+              "category": "Cell line databases/resources",
+              "database": "Cellosaurus",
+              "label": "RAW 264",
+              "url": "https://www.cellosaurus.org/CVCL_4478"
+            }
+          ],
+          "comment_fields": [],
+          "file": {
+            "url": "https://api.cellosaurus.org/cell-line/CVCL_0493?fields=id,sy,ac,ox,dr,hi,problematic,caution&format=json",
+            "bytes": 12391,
+            "sha256": "a4042f7678c4aae5bf52ba9bcd12735af54ede8ed8c179eb7815b972ef1aa108",
+            "checksum_scope": "full cached response body downloaded earlier in this audit",
+            "download_complete": true,
+            "cache_reused": true
+          }
+        }
+      ],
+      "interpretation": "Reference identity only. Source stock/subline must be reconciled; name similarity and shared parentage do not establish condition equivalence. HEK293 must not replace HEK293T; unspecified U87/JURKAT stocks remain ambiguous."
+    },
+    "rasp2": {
+      "resource_id": "rasp2",
+      "verification": "full_selected_structure_track_parsed",
+      "metadata_file": {
+        "url": "https://rasp2.zhanglab.net/api/query_bwfiles/?species=hg38",
+        "bytes": 124312,
+        "sha256": "1f894bbd830658d8ce7c91180c1ad74b8a93c5422ae9b40df28e4ab575784b4a",
+        "checksum_scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "cache_reused": true
+      },
+      "human_metadata_tracks": 178,
+      "human_raw_tracks": 124,
+      "human_imputed_tracks": 54,
+      "selected_track": {
+        "species": "hg38",
+        "reagent": "NAI-N3",
+        "technology": "icSHAPE",
+        "journal": "Cell Research",
+        "year": "2021",
+        "doi": "10.1038/s41422-021-00476-y",
+        "label": "icSHAPE_HepG2_pos",
+        "firstauthor": "Lei Sun",
+        "correspondauthor": "Qiangfeng Cliff Zhang",
+        "title": "Predicting dynamic cellular protein-RNA interactions by deep learning using in vivo RNA structures",
+        "datatype": "transcriptome-wide",
+        "condition": "in vivo",
+        "cellline": "HepG2",
+        "strand": "+",
+        "tracktype": "raw",
+        "principle": "Chemical probing (RT stop)",
+        "file_path": "hg38/icSHAPE_CR_2021_Sun/HepG2-pos.bw",
+        "bed_file_path": "hg38/icSHAPE_CR_2021_Sun/HepG2.bed.gz\r",
+        "file_size": "28.3MiB"
+      },
+      "file": {
+        "url": "https://rasp2.zhanglab.net/api/downloadfile/?filetype=bed&filelist=hg38%2FicSHAPE_CR_2021_Sun%2FHepG2.bed.gz",
+        "bytes": 50944000,
+        "sha256": "904864c4b5bcae7e7f993dd9172ba8429aad8e9a4d661824e0fbbf8a3fab1215",
+        "checksum_scope": "full cached response body downloaded earlier in this audit",
+        "download_complete": true,
+        "cache_reused": true
+      },
+      "archive_member": "icSHAPE_hg38_Cell_Research_2021_NAI-N3_in_vivo_both_transcriptome-wide_HepG2.bed.gz",
+      "selected_track_rows": 7732882,
+      "row_width_counts": {
+        "6": 7732882
+      },
+      "numeric_fifth_column_rows": 7732882,
+      "valid_coordinate_rows": 7732882,
+      "header_lines": [],
+      "schema": [
+        "chromosome",
+        "start",
+        "end",
+        "name_placeholder",
+        "reactivity",
+        "strand"
+      ],
+      "interpretation": "Raw chemical-probing signal is structure evidence. Cell identity and condition are source-specific; no synthetic reporter sequence/output pairing established."
+    }
+  }
+}

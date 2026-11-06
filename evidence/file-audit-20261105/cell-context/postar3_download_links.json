@@ -1,0 +1,1248 @@
+{
+  "links": [
+    {
+      "label": "",
+      "href": "#"
+    },
+    {
+      "label": "Home",
+      "href": "./index.php"
+    },
+    {
+      "label": "RBP",
+      "href": "rbp2.php"
+    },
+    {
+      "label": "RNA",
+      "href": "#"
+    },
+    {
+      "label": "Binding sites",
+      "href": "gene2.php"
+    },
+    {
+      "label": "Crosstalk",
+      "href": "cross.php"
+    },
+    {
+      "label": "Variation",
+      "href": "variations.php"
+    },
+    {
+      "label": "Disease",
+      "href": "disease.php"
+    },
+    {
+      "label": "Translatome",
+      "href": "trl.php"
+    },
+    {
+      "label": "Help",
+      "href": "help.php"
+    },
+    {
+      "label": "Contact",
+      "href": "contact.php"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP_binding_sites.txt.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP_binding_sites.txt.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/fly_RBP_binding_sites.txt.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/worm_RBP_binding_sites.txt.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/arabidopsis_RBP_binding_sites.txt.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP_binding_sites.txt.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/AGO_human.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/AGO_mouse.zip"
+    },
+    {
+      "label": "Human",
+      "href": "#human_RBP"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/AARS.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/AGGF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/AKAP8L.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/ALKBH1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/ALKBH5.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/ATXN2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/AUH.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/BCCIP.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/BUD13.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/CAPRIN1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/CDC40.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/CELF2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/CNBP.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/CPSF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/CPSF2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/CPSF3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/CPSF4.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/CPSF6.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/CPSF7.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/CSTF2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/CSTF2T.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/DDX24.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/DDX3X.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/DDX42.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/DDX55.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/DDX59.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/DDX6.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/DGCR8.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/DHX30.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/DICER1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/DIS3L2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/DKC1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/DROSHA.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/EFTUD2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/EIF3A.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/EIF3B.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/EIF3D.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/EIF3G.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/EIF3H.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/EIF4A3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/EIF4G2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/ELAVL1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/EWSR1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/EZH2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/FAM120A.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/FASTKD2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/FBL.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/FIP1L1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/FKBP4.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/FMR1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/FTO.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/FUBP3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/FUS.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/FXR1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/FXR2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/GEMIN5.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/GNL3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/GPKOW.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/GRSF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/GRWD1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/GTF2F1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/HLTF.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/HNRNPA1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/HNRNPA2B1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/HNRNPC.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/HNRNPD.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/HNRNPF.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/HNRNPH1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/HNRNPK.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/HNRNPM.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/HNRNPU.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/HNRNPUL1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/IGF2BP1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/IGF2BP2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/IGF2BP3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/ILF3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/KHDRBS1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/KHSRP.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/LARP4.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/LARP7.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/LIN28A.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/LIN28B.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/LSM11.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/MBNL2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/METAP2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/METTL14.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/METTL3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/MOV10.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/MTPAP.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/NCBP2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/NCBP3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/NKRF.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/NOL12.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/NONO.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/NOP56.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/NOP58.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/NPM1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/NSUN2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/NUDT21.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/PCBP2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/PPIG.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/PPIL4.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/PRKRA.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/PRPF8.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/PTBP1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/PUM2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/PUS1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/QKI.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RBFOX2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RBM10.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RBM15B.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RBM15.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RBM22.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RBM27.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RBM47.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RBM5.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RBPMS.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RPS11.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RPS3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RPS5.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/RTCB.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SAFB2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SBDS.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SERBP1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SF3A3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SF3B1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SF3B4.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SFPQ.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SLBP.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SLTM.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SMNDC1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SND1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SRRM4.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SRSF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SRSF7.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SRSF9.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SSB.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/STAU1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SUB1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SUGP2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/SUPV3L1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/TAF15.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/TARBP2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/TARDBP.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/TBRG4.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/TIA1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/TIAL1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/TNRC6A.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/TNRC6B.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/TNRC6C.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/TRA2A.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/TROVE2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/U2AF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/U2AF2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/UCHL5.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/UPF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/WDR33.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/WTAP.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/XPO5.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/XRCC6.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/XRN2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/YBX3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/YTHDC1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/YTHDC2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/YTHDF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/YTHDF2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/YTHDF3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/YWHAG.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/ZC3H7B.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/ZNF622.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/human_RBP/ZRANB2.binding.sites.zip"
+    },
+    {
+      "label": "Mouse",
+      "href": "#mouse_RBP"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/APC.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/CELF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/CELF2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/CELF4.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/CELF.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/CIRBP.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/CPSF6.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/CREBBP.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/ELAVL1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/EZH2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/FMR1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/FUS.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/LIN28A.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/MBNL1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/MBNL2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/MBNL3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/MSI2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/NOVA1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/NOVA2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/PABPC1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/POU5F1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/PTBP1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/PTBP2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/RBFOX1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/RBFOX2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/RBFOX3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/RBM10.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/RBM3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/SRRM4.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/SRSF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/SRSF2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/SRSF3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/SRSF4.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/TAF15.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/TARDBP.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/U2AF2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/UPF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/YTHDC2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/mouse_RBP/YY1.binding.sites.zip"
+    },
+    {
+      "label": "Fly",
+      "href": "#fly_RBP"
+    },
+    {
+      "label": "Download",
+      "href": "./download/fly_RBP/AUB.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/fly_RBP/CG3800.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/fly_RBP/ORB2B.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/fly_RBP/ORBF.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/fly_RBP/PEP.binding.sites.zip"
+    },
+    {
+      "label": "Worm",
+      "href": "#worm_RBP"
+    },
+    {
+      "label": "Download",
+      "href": "./download/worm_RBP/DCR-1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/worm_RBP/FBF-1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/worm_RBP/FBF-2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/worm_RBP/GLD-1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/worm_RBP/UNC-75.binding.sites.zip"
+    },
+    {
+      "label": "Arabidopsis",
+      "href": "#arabidopsis_RBP"
+    },
+    {
+      "label": "Download",
+      "href": "./download/arabidopsis_RBP/GRP7.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/arabidopsis_RBP/HLP1.binding.sites.zip"
+    },
+    {
+      "label": "Yeast",
+      "href": "#yeast_RBP"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/BUR2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/CBC2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/CDC73.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/CFT2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/CTK1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/CTK2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/CTR9.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/DHH1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/DOT1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/ENO1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/FBA1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/GBP2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/HEK2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/HPR1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/HRB1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/HRP1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/IST3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/LEO1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/LSM1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/LUC7.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/MEX67.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/MPE1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/MSL5.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/MTR4.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/MUD1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/MUD2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/NAB2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/NAB3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/NAM8.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/NPL3.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/NRD1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/PAB1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/PAF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/PAP2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/PAT1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/PCF11.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/PFK2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/PUB1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/RAI1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/RAT1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/RNA15.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/RPB2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/RPO21.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/RTF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/RTT103.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/SBP1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/SEN1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/SET1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/SET2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/SGV1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/SKI2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/SNP1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/SPT5.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/SPT6.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/STO1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/SUA7.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/SUB2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/THO2.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/TIF1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/XRN1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/YRA1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/yeast_RBP/YTH1.binding.sites.zip"
+    },
+    {
+      "label": "Download",
+      "href": "./download/README.md"
+    },
+    {
+      "label": "Terms & Privacy",
+      "href": "#"
+    }
+  ]
+}

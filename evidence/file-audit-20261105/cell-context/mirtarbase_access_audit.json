@@ -1,0 +1,12 @@
+{
+  "resource": "miRTarBase",
+  "verification_level": "metadata",
+  "source_url": "https://awi.cuhk.edu.cn/miRTarBase/downloads/releases/v11.0/",
+  "data_url": "https://awi.cuhk.edu.cn/miRTarBase/downloads/files/11.0/miRTarBase_MTI.csv",
+  "numeric_or_interaction_rows_inspected": 0,
+  "requests_result": "TLS handshake failure on current CSV and legacy official mirror; Windows native TLS request reached HTTP 403.",
+  "web_tool_result": "official release page inspected; direct CSV HTTP403",
+  "license": "unknown; linked LICENSE could not be fetched",
+  "unavailable_gap": "No actual MTI CSV rows inspected. Do not upgrade to file_sample.",
+  "semantic_caveat": "Validated interactions do not establish miRNA abundance/activity, a translation-gating dose-response, or identical activity across cell states."
+}

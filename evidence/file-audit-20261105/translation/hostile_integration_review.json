@@ -1,0 +1,118 @@
+{
+  "audit_date": "2026-11-05",
+  "review_type": "Independent hostile review of integration and modeling claims; no model trained",
+  "overall_verdict": "The audits support carefully scoped benchmark construction and hypothesis tests. They do not establish that combining twenty databases produces a reliable general cell-selective mRNA/circRNA translation model.",
+  "user_critique_adopted": [
+    "Use cell-selective protein expression unless the endpoint separates translation from RNA exposure, abundance and persistence.",
+    "Treat protein output, ribosome occupancy/loading, editing classification, coding potential, binding and modification state as different endpoints.",
+    "Narrow novelty to a quantitative endpoint, explicit cellular context, experimental RNA format and a demonstrated generalization setting.",
+    "An endpoint protein/RNA ratio does not by itself establish instantaneous translation rate because protein synthesis and degradation have a history.",
+    "Existing RiboNN, ContiTE, RiboDecode, PARADE, CICADA and cirCodAn prevent broad claims that sequence-context or circRNA translation prediction is new."
+  ],
+  "defensible_combinations": [
+    {
+      "task": "Endogenous mRNA Ribo-seq/RNA-seq-derived TE benchmark",
+      "labels": "Original measured/processed RiboNN publisher atlas or explicitly matched study Ribo-seq and RNA-seq, with source preprocessing retained",
+      "context_features": "Cell-identity-reconciled HPA or DepMap RNA expression as external proxy features; original paired RNA profiles are preferable where available",
+      "reference_features": "Matched transcript annotation and optional source-context ENCODE/POSTAR binding annotations",
+      "defensible_claim": "Whether selected cellular features improve held-out endogenous TE prediction relative to established sequence-only, multi-context and few-shot baselines",
+      "conditions": [
+        "Resolve exact original dataset file/version and missingness before reporting final scale",
+        "Preserve gene/transcript annotation, species, study, biological condition and source split",
+        "Use study- and cell-held-out evaluation for the corresponding generalization claims",
+        "Treat external HPA/DepMap measurements as unmatched context proxies, not contemporaneous measured state",
+        "Use one deduplicated source atlas when comparing RiboNN and ContiTE; ContiTE is not an independent measurement cohort"
+      ]
+    },
+    {
+      "task": "Synthetic circRNA IRES reporter relative-output benchmark",
+      "labels": "LAMAR released relative Fluc circRNA reporter-output measurements",
+      "context_features": "A restricted human-cell subset with candidate HPA/DepMap matches after resolving source stock/subline identities; keep mouse contexts separate",
+      "auxiliary_data": "Chen2021 circRNA reporter assay can support separate representation/pretraining objectives after sequence-family deduplication; it must retain its own assay head",
+      "defensible_claim": "Whether biological proxy features improve prediction of the specific measured relative-output endpoint in held-out IRES families or cells",
+      "conditions": [
+        "One released scalar per pair does not provide replicate-level uncertainty",
+        "305 sequences measured in13 cells are not3915 independent sequence examples or3915 independent cell contexts",
+        "The cell-feature sample size is at most13 distinct contexts before species and identity exclusions",
+        "Reference-linear-mRNA normalization makes the endpoint a relative advantage; cell effects can arise in the denominator",
+        "No delivered RNA persistence, exposure or time-resolved protein trajectories are supplied by the reviewed matrix"
+      ]
+    }
+  ],
+  "critical_failures_to_avoid": [
+    {
+      "priority": "high",
+      "issue": "tRNA mechanism is not identifiable from an IRES-only library with a shared reporter CDS",
+      "reason": "LAMAR varies IRES inserts in a shared Fluc reporter. A CDS-codon-by-tRNA-context claim needs variation in the coding sequence and measured functional tRNA contexts. Cell-level tRNA features could otherwise explain only global cell/reference differences.",
+      "action": "Keep tRNA-aware CDS optimization as a separate hypothesis requiring an appropriate CDS-varying matched dataset."
+    },
+    {
+      "priority": "high",
+      "issue": "Cross-assay pooling and false external validation",
+      "reason": "LAMAR relative luminescence, Albatross polysome-derived loading, Chen weighted fluorescence bins, Fan motif enrichment and endogenous TE are not the same target. Standardizing labels does not make their biology equivalent.",
+      "action": "Use separate study/assay heads and report assay-specific performance. Albatross can test mechanistic/ranking concordance where justified, but is not a direct external validation of absolute protein-output accuracy."
+    },
+    {
+      "priority": "high",
+      "issue": "Cell identity is not measured cell state",
+      "reason": "Every candidate HPA/DepMap-to-reporter join in the context audit has matched_assay_condition=false. Shared names do not establish matching stock, medium, passage, perturbation or differentiation. Selected tModBase HepG2 values are from an ALKBH7-mutant-rescue condition, not a generic untreated HepG2 state.",
+      "action": "Label features external proxies and conduct sensitivity analyses; do not infer causal regulators or interpolate treatments from baseline labels."
+    },
+    {
+      "priority": "high",
+      "issue": "Pseudo-replication, sequence reuse and train/test leakage",
+      "reason": "The same sequence occurs in several cells; Chen and Weingarten reuse a nominal library; RiboNN/ContiTE reuse the atlas; aggregators overlap study accessions; HPA/DepMap can overlap CCLE provenance.",
+      "action": "Deduplicate upstream records, split by sequence family/gene and source study, and use crossed cell-by-sequence holdouts for joint generalization. Fit preprocessing and feature selection only on training domains."
+    },
+    {
+      "priority": "medium",
+      "issue": "Reference annotations cannot be treated as missing output labels",
+      "reason": "circAtlas coordinates, riboCIRC inferred translation evidence, CircTarget interactions, MODOMICS chemistry, RNALocate localization, RASP reactivity and CLIP binding have no compatible reporter-output response variable. Unsupported or missing evidence is not a true inactive example.",
+      "action": "Use them as explicitly typed annotations or auxiliary objectives; never silently turn absence into a negative output label."
+    },
+    {
+      "priority": "medium",
+      "issue": "Mechanism-component scores do not predict complete sensor circuits",
+      "reason": "ADAR editing-site classification, miRNA binding support, RNA accessibility and protein tethering screens do not measure synthetic-sensor activation, leakage and selectivity jointly.",
+      "action": "Require matched sensor design, target/off-target context, activation and leakage labels for a sensor-performance claim."
+    }
+  ],
+  "minimum_baseline_and_evaluation_contract": [
+    "Compare global/sequence-only predictions, cell offsets, additive sequence-plus-cell models and a regularized interaction model before a large neural context model.",
+    "For circRNA report target-versus-off-target contrasts and within-cell/within-sequence rankings, not only pooled correlation dominated by global effects.",
+    "Distinguish new-sequence, new-cell and simultaneous-new-sequence-and-cell tests. Learned cell identity does not give zero-shot predictions for arbitrary new cells.",
+    "Few-shot target-cell adaptation must use a separate support set; support labels cannot be counted as zero-shot performance or leak into query evaluation.",
+    "Compare endogenous mRNA against RiboNN/ContiTE/RiboDecode as appropriate; compare UTR reporter approaches against PARADE in the corresponding experimental format.",
+    "Report uncertainty at the sequence-family, cell or study level justified by the available replication; row bootstrapping alone understates uncertainty."
+  ],
+  "ribonn_contite_provenance_check": {
+    "status": "Exact source hyperlinks verified in ContiTE SI page4; current source-file dimensions do not reproduce claimed scale. Version/preprocessing discrepancy remains unresolved; no conclusion of label fabrication or use of predictions",
+    "contite_primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13591282/",
+    "contite_methods_claim": "11798 human and11575 mouse genes;96 human and46 mouse contexts; derived from RiboNN processed atlas",
+    "root_actual_publisher_table1_inspection": "Root reports human sheet10348data rows,78TE_context columns and716913numeric TE values in original publisher MOESM3 Table1; reconcile against exact ContiTE SI source/version before adopting either scale.",
+    "contite_supplement_media_filename_from_official_europepmc_xml": "si-contite_final_bbag518.pdf",
+    "contite_supplementary_files_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13591282/supplementaryFiles",
+    "contite_supplement_archive_bytes": 3001813,
+    "contite_supplement_archive_sha256": "c80d695c1f74c0ea334fb76a588b2d77394fbe236ac765ec695abdce63109869",
+    "contite_supplement_pdf_bytes": 3102371,
+    "contite_supplement_pdf_sha256": "85524f8e58866b26c90aa2247148fb7860611c41ea8132c0fc6ff1dab4a13d0a",
+    "contite_supplement_pdf_pages": 17,
+    "source_links_extracted_from_pdf_annotations_page4": [
+      "https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-025-02712-x/MediaObjects/41587_2025_2712_MOESM3_ESM.xlsx",
+      "https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-025-02712-x/MediaObjects/41587_2025_2712_MOESM4_ESM.xlsx"
+    ],
+    "github_example_warning": "Root verified that RiboNN GitHub example TEs are explicitly marked FAKE in README; use actual publisher labels, not example values."
+  },
+  "evidence_read": [
+    "User-supplied critique attachment, full text",
+    "Prior expanded_data_inventory.json and LAMAR/Chen/IRES-LM audit conclusions",
+    "evidence/file-audit-20261105/translation/translation_file_audit.json",
+    "evidence/file-audit-20261105/cell-context/reporter_cell_intersections.json",
+    "evidence/file-audit-20261105/cell-context/audit_summary.json",
+    "evidence/file-audit-20261105/modification-trna/README.md",
+    "evidence/file-audit-20261105/modification-trna/payload_schema.json",
+    "evidence/file-audit-20261105/auxiliary/audit.json",
+    "ContiTE primary Methods and official EuropePMC fullTextXML",
+    "ContiTE full17-page supplementary PDF, especially Dataset Sources section on page3 and TableS1 PDF hyperlink annotations on page4"
+  ]
+}

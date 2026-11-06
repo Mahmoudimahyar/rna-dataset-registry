@@ -8,6 +8,7 @@ Counts are catalog records at mixed levels, not unique biological datasets.
 |---|---|---|---|
 | [ac4C mapping and mRNA stability/translation (Arango et al., 2018)](../datasets/ac4c-arango-gse102113.md) | study | metadata | chemical_modification; ac4C; translation; rna_stability |
 | [ADAPT Cas13a guide-target diagnostic activity](../datasets/adapt-cas13-activity.md) | study | file_sample | rna_diagnostics; cas13_activity; source_provenance |
+| [Albatross synthetic circRNA polysome-loading atlas](../datasets/albatross-circrna-polysome-atlas.md) | study | file_sample | translation; cell_context; polysome_loading |
 | [ALL-tRNAseq tissue and cell-line study](../datasets/all-trnaseq-gse186736.md) | study | schema | trna_distribution; translation_context |
 | [Angenent-Mari toehold Flow-seq library (GSE149225)](../datasets/toehold-flowseq-gse149225.md) | study | file_sample | rna_sensors; toehold_switch; bacterial_translation |
 | [APARENT2 training data](../datasets/aparent2.md) | benchmark | metadata | polyadenylation; utr_function |
@@ -16,19 +17,23 @@ Counts are catalog records at mixed levels, not unique biological datasets.
 | [bpRNA-1m](../datasets/bprna.md) | reference | metadata | secondary_structure |
 | [Brain cell-type Pol III atlas and RiboTag translatome study](../datasets/brain-trna-poliii-ribotag-study.md) | study | metadata | trna_distribution; translation_context |
 | [Breast-cancer tRNA profiling and metastatic-state study](../datasets/breast-cancer-trna-gse77401.md) | study | metadata | trna_distribution; translation_context |
+| [Cellosaurus cell-line identities](../datasets/cellosaurus.md) | reference | file_sample | cell_context; source_provenance |
 | [CellREADR original study](../datasets/cellreadr-2022.md) | study | metadata | rna_sensors; adar_sensing; cell_context |
 | [Charge tRNA-Seq validation and aminoacylation-decay study](../datasets/charge-trnaseq-zenodo10778311.md) | study | metadata | trna_distribution; translation_context |
 | [Charged tRNA-seq aminoacylation study](../datasets/charged-trnaseq-gse97259.md) | study | metadata | trna_distribution; translation_context |
+| [circAtlas v3](../datasets/circatlas3.md) | database | file_sample | translation; cell_context; source_provenance |
+| [CircTarget](../datasets/circtarget.md) | database | file_sample | translation; cell_context; source_provenance |
 | [CNS cell-population TRAP atlas](../datasets/cns-trap.md) | study | metadata | translation; cell_context |
 | [CZ CELLxGENE Census](../datasets/cellxgene-census.md) | derived_resource | metadata | expression; cell_context |
 | [DARNED (original human reference release)](../datasets/darned-editing.md) | database | paper | chemical_modification |
 | [DART VADAR autocatalytic RNA sensing](../datasets/dart-vadar-2023.md) | study | metadata | rna_sensors; adar_sensing; cell_context |
 | [DBtRend](../datasets/dbtrend.md) | derived_resource | paper | trna_distribution; translation_context |
+| [DepMap/CCLE protein-coding expression reference](../datasets/depmap-ccle-expression.md) | database | file_sample | cell_context; source_provenance |
 | [DirectRMDB](../datasets/directrmdb.md) | database | metadata | chemical_modification |
 | [DM-tRNA-seq method study](../datasets/dm-trnaseq-gse66550.md) | study | metadata | trna_distribution; translation_context |
 | [Drosophila ecdysone-response small-RNA study](../datasets/ecdysone-smallrna-gse69934.md) | study | metadata | trna_distribution; translation_context |
 | [EMBL-EBI Expression Atlas](../datasets/expression-atlas.md) | derived_resource | metadata | expression; cell_context |
-| [ENCODE RNA experiments](../datasets/encode.md) | database | metadata | expression; rbp_binding; cell_context |
+| [ENCODE RNA experiments](../datasets/encode.md) | database | file_sample | expression; rbp_binding; cell_context |
 | [ENCORI / starBase](../datasets/encori.md) | database | metadata | rbp_binding; mirna; rna_interaction |
 | [eToeholds: RNA-responsive elements for eukaryotic translational control](../datasets/eukaryotic-toeholds-zhao2021.md) | study | paper | rna_sensors; eukaryotic_toehold; cell_context |
 | [European Nucleotide Archive](../datasets/ena.md) | archive | metadata | discovery; raw_evidence |
@@ -45,11 +50,12 @@ Counts are catalog records at mixed levels, not unique biological datasets.
 | [GtRNAdb](../datasets/gtrnadb.md) | reference | metadata | trna_distribution; translation_context |
 | [Human 293T/HeLa/RPE endogenous decay](../datasets/human-cell-decay.md) | study | metadata | stability; cell_context |
 | [Human Cell Atlas Data Portal](../datasets/human-cell-atlas.md) | database | metadata | expression; cell_context |
-| [Human Protein Atlas RNA expression downloads](../datasets/human-protein-atlas-rna.md) | database | metadata | expression; cell_context |
+| [Human Protein Atlas RNA expression downloads](../datasets/human-protein-atlas-rna.md) | database | file_sample | expression; cell_context |
 | [hydro-tRNAseq and SSB/La PAR-CLIP atlas](../datasets/hydro-trnaseq-gse95683.md) | study | metadata | trna_distribution; translation_context |
 | [K562 SLAM-seq endogenous decay](../datasets/k562-slamseq.md) | study | metadata | stability |
+| [LAMAR multicell circRNA reporter-output panel](../datasets/lamar-circrna-multicell-output.md) | study | file_sample | translation; cell_context; reporter_expression |
 | [m5C-Atlas](../datasets/m5c-atlas.md) | database | metadata | chemical_modification |
-| [m6A-Atlas v2.0](../datasets/m6a-atlas-v2.md) | database | metadata | chemical_modification |
+| [m6A-Atlas v2.0](../datasets/m6a-atlas-v2.md) | database | file_sample | chemical_modification |
 | [m6A2Target](../datasets/m6a2target.md) | database | paper | chemical_modification |
 | [m6AVar (original release)](../datasets/m6avar.md) | database | paper | chemical_modification |
 | [m7GHub V2.0](../datasets/m7ghub-v2.md) | database | metadata | chemical_modification |
@@ -58,7 +64,7 @@ Counts are catalog records at mixed levels, not unique biological datasets.
 | [miR-302 switch in human pluripotency states](../datasets/mir302-switch-2016.md) | study | paper | mirna_regulation; cell_state_sensing |
 | [miRBase](../datasets/mirbase.md) | reference | metadata | mirna; sequence_reference |
 | [Modified-base effects on synthetic mRNA switches](../datasets/modified-mrna-switches-2020.md) | study | paper | mirna_regulation; chemical_modification; cell_context |
-| [MODOMICS (2025 update)](../datasets/modomics.md) | database | metadata | chemical_modification |
+| [MODOMICS (2025 update)](../datasets/modomics.md) | database | file_sample | chemical_modification |
 | [Mouse-brain single-cell and isoform Ribo-STAMP study](../datasets/brain-ribostamp.md) | study | metadata | translation; cell_context |
 | [mRNA m5C in pluripotent stem cells and derived cardiomyocytes](../datasets/hpsc-m5c-gse240569.md) | study | metadata | chemical_modification; m5C |
 | [mRNABench dataset collection](../datasets/mrnabench.md) | benchmark | schema | benchmark; stability; translation; localization |
@@ -80,7 +86,7 @@ Counts are catalog records at mixed levels, not unique biological datasets.
 | [PDB experimental RNA structures](../datasets/pdb-rna.md) | archive | metadata | tertiary_structure |
 | [PolyA_DB3](../datasets/polya-db.md) | database | metadata | polyadenylation |
 | [PolyASite bulk and single-cell atlases](../datasets/polyasite.md) | database | metadata | polyadenylation; transcript_annotation |
-| [POSTAR3](../datasets/postar3.md) | database | paper | rbp_binding; post_transcriptional_regulation |
+| [POSTAR3](../datasets/postar3.md) | database | file_sample | rbp_binding; post_transcriptional_regulation |
 | [PRAISE: quantitative human pseudouridylation](../datasets/praise-gse212210.md) | study | metadata | chemical_modification; pseudouridine |
 | [Prostate-cell GCN2 CHARGE-seq study](../datasets/prostate-charge-gse196251.md) | study | schema | trna_distribution; translation_context |
 | [Pseudo-seq: regulated pseudouridylation (Carlile et al., 2014)](../datasets/pseudo-seq-gse58200.md) | study | metadata | chemical_modification; pseudouridine |
@@ -88,15 +94,17 @@ Counts are catalog records at mixed levels, not unique biological datasets.
 | [RADAR](../datasets/radar-editing.md) | database | paper | chemical_modification |
 | [RADAR modular programmable RNA sensing](../datasets/radar-2022.md) | study | metadata | rna_sensors; adar_sensing; cell_context |
 | [RADARS reprogrammable ADAR sensors](../datasets/radars-2022.md) | study | paper | rna_sensors; adar_sensing; cell_context |
-| [RASP v2](../datasets/rasp2.md) | database | paper | structure_probing; rna_interaction |
+| [RASP v2](../datasets/rasp2.md) | database | file_sample | structure_probing; rna_interaction |
 | [RBS-Seq simultaneous modification profiling](../datasets/rbs-seq-gse90963.md) | study | metadata | chemical_modification; m5C; m1A; pseudouridine |
 | [recount3](../datasets/recount3.md) | derived_resource | metadata | expression; splicing; cell_context |
 | [REDIportal (2025 publication)](../datasets/rediportal.md) | database | paper | chemical_modification |
 | [Rfam](../datasets/rfam.md) | reference | metadata | rna_family; secondary_structure |
 | [Rfam riboswitch-family reference subset](../datasets/rfam-riboswitch-families.md) | reference | metadata | riboswitch; rna_family_annotation; structural_reference |
 | [Ribocentre-switch](../datasets/ribocentre-switch.md) | database | metadata | riboswitch; natural_rna_regulation; structural_reference |
+| [riboCIRC v2](../datasets/ribocirc2.md) | database | file_sample | translation; cell_context; source_provenance |
 | [RiboD prokaryotic riboswitch database](../datasets/ribod.md) | database | metadata | riboswitch; genomic_annotation |
-| [RiboSeq.Org portal family](../datasets/riboseq-org.md) | database | metadata | translation; cell_context |
+| [RiboNN original human endogenous mRNA TE atlas](../datasets/p010-asset-2.md) | derived_resource | file_sample | Translation regulation and dynamics |
+| [RiboSeq.Org portal family](../datasets/riboseq-org.md) | database | file_sample | translation; cell_context |
 | [RM2Target](../datasets/rm2target.md) | database | paper | chemical_modification |
 | [RMaP nanopore RNA-modification challenge](../datasets/rmap-challenge.md) | benchmark | metadata | chemical_modification; nanopore_benchmark |
 | [RMBase v3.0](../datasets/rmbase-v3.md) | database | paper | chemical_modification |
@@ -105,11 +113,11 @@ Counts are catalog records at mixed levels, not unique biological datasets.
 | [RNA Mapping Database](../datasets/rmdb.md) | database | metadata | structure_probing |
 | [RNA004 modification-aware basecalling benchmark (Diensthuber et al., 2026)](../datasets/dorado-rna004-modification-benchmark.md) | benchmark | metadata | chemical_modification; nanopore_benchmark |
 | [RNAcentral](../datasets/rnacentral.md) | reference | metadata | sequence_reference; rna_family |
-| [RNALocate](../datasets/rnalocate.md) | database | metadata | subcellular_localization |
+| [RNALocate](../datasets/rnalocate.md) | database | file_sample | subcellular_localization |
 | [RPFdb v3](../datasets/rpfdb3.md) | database | metadata | translation; cell_context |
 | [Saluki half-life corpus](../datasets/saluki-half-life.md) | benchmark | paper | stability |
 | [Sample et al. 2019 chemistry-specific 5′ UTR reporter libraries](../datasets/sample2019-chemistry-reporters.md) | study | metadata | chemical_modification; synthetic_chemically_modified_mrna; translation |
-| [Sci-ModoM](../datasets/sci-modom.md) | database | schema | chemical_modification |
+| [Sci-ModoM](../datasets/sci-modom.md) | database | file_sample | chemical_modification |
 | [Selective gene expression maintains human tRNA anticodon pools during differentiation](../datasets/human-differentiation-gse227927.md) | study | schema | trna_distribution; translation_context |
 | [Single-base cytosolic/mitochondrial m1A map (Safra et al., 2017)](../datasets/m1a-safra-gse97419.md) | study | metadata | chemical_modification; m1A |
 | [Single-cell ribosome profiling](../datasets/single-cell-ribo.md) | study | metadata | translation; cell_context |
@@ -118,7 +126,9 @@ Counts are catalog records at mixed levels, not unique biological datasets.
 | [Synthetic RNA-based logic computation in mammalian cells](../datasets/rna-logic-matsuura2018.md) | study | paper | mirna_regulation; rna_logic; cell_context |
 | [T-box Riboswitch Annotation Database (TBDB)](../datasets/tbdb.md) | database | paper | riboswitch; trna_binding; structural_reference |
 | [T-cell activation tRNA study](../datasets/tcell-activation-gse165537.md) | study | schema | trna_distribution; translation_context |
+| [T-psi-C tRNA sequencing study index](../datasets/t-psi-c-sequencing-index.md) | reference | metadata | cell_context; source_provenance |
 | [TandemMod IVET/DRS benchmark datasets](../datasets/tandemmod-ivet-gse227087.md) | benchmark | metadata | chemical_modification; nanopore_benchmark |
+| [tModBase v2.0](../datasets/tmodbase2.md) | database | file_sample | cell_context; source_provenance |
 | [tRic: tRNA in Cancer](../datasets/tric.md) | derived_resource | paper | trna_distribution; translation_context |
 | [tRNA-HySeq yeast PAF1/Rtf1 study](../datasets/trna-hyseq-gse134987.md) | study | metadata | trna_distribution; translation_context |
 | [tRNA-pool proliferation and cell-cycle-arrest study](../datasets/trna-proliferation-gse163609.md) | study | metadata | trna_distribution; translation_context |
@@ -165,6 +175,7 @@ Counts are catalog records at mixed levels, not unique biological datasets.
 | [LinearDesign experimental source data](../datasets/p005-asset-2.md) | model_release | unverified | CDS and full mRNA design |
 | [Liver transcript expression and protein classes](../datasets/p008-asset-3.md) | model_release | unverified | CDS and full mRNA design |
 | [mDD-0 training and synthetic fine-tuning data](../datasets/p011-asset-1.md) | model_release | unverified | CDS and full mRNA design |
+| [miRTarBase](../datasets/mirtarbase.md) | database | metadata | cell_context; source_provenance |
 | [mRFP,CoV degradation,iCodon stability](../datasets/p025-asset-1.md) | model_release | unverified | CDS and full mRNA design |
 | [MRL benchmark](../datasets/p037-asset-1.md) | model_release | unverified | Enabling RNA models and measurements |
 | [mRNA half-life task](../datasets/p008-asset-1.md) | model_release | unverified | CDS and full mRNA design |
@@ -189,12 +200,11 @@ Counts are catalog records at mixed levels, not unique biological datasets.
 | [PERSIST-seq / In-line-seq publication assays](../datasets/p003-asset-2.md) | model_release | unverified | Stability, 3′UTR and cell specificity |
 | [Poly(A) nanopore examples](../datasets/p045-asset-1.md) | model_release | unverified | Enabling RNA models and measurements |
 | [Randomized RFP expression](../datasets/p026-asset-1.md) | model_release | unverified | CDS and full mRNA design |
-| [Real RiboNN TE atlas / publication supplement](../datasets/p010-asset-2.md) | model_release | unverified | Translation regulation and dynamics |
 | [Reused UTR functional benchmarks](../datasets/p042-asset-1.md) | model_release | unverified | Enabling RNA models and measurements |
 | [RF/ABI scripts and full UTR material](../datasets/p028-asset-2.md) | model_release | unverified | 5′UTR and translation initiation |
 | [Rfam family training](../datasets/p034-asset-1.md) | model_release | unverified | Enabling RNA models and measurements |
 | [Riboformer ribosome profiles](../datasets/p049-asset-1.md) | model_release | unverified | Translation regulation and dynamics |
-| [RiboNN example training table](../datasets/p010-asset-1.md) | model_release | unverified | Translation regulation and dynamics |
+| [RiboNN example training table](../datasets/p010-asset-1.md) | software_example | unverified | Translation regulation and dynamics |
 | [Ribozyme cleavage kinetics](../datasets/p034-asset-2.md) | model_release | unverified | Enabling RNA models and measurements |
 | [RNA folding examples/structure data](../datasets/p033-asset-1.md) | model_release | unverified | Enabling RNA models and measurements |
 | [RNA ligand screening](../datasets/p044-asset-1.md) | model_release | unverified | Enabling RNA models and measurements |
@@ -209,6 +219,7 @@ Counts are catalog records at mixed levels, not unique biological datasets.
 | [Smart5UTR modified-RNA MRL subset](../datasets/p007-asset-1.md) | model_release | unverified | 5′UTR and translation initiation |
 | [Synthetic bacterial decay](../datasets/p048-asset-1.md) | model_release | unverified | Stability, 3′UTR and cell specificity |
 | [Torsion-angle examples](../datasets/p038-asset-1.md) | model_release | unverified | Enabling RNA models and measurements |
+| [TransCirc](../datasets/transcirc.md) | database | metadata | translation; cell_context; source_provenance |
 | [Translation rate task](../datasets/p008-asset-2.md) | model_release | unverified | CDS and full mRNA design |
 | [Translation-efficiency covariation atlas / figure datasets](../datasets/p009-asset-1.md) | model_release | unverified | Translation regulation and dynamics |
 | [uORF FACS/PoLib tables](../datasets/p027-asset-1.md) | model_release | unverified | Translation regulation and dynamics |

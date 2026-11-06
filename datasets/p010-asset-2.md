@@ -1,50 +1,66 @@
-# Real RiboNN TE atlas / publication supplement
+# RiboNN original human endogenous mRNA TE atlas
 
-Registry ID: `p010-asset-2` · model_release · **candidate** · verification: **unverified**
+Registry ID: `p010-asset-2` · derived_resource · **curated** · verification: **file_sample**
 
-Endogenous transcript × cell context Transcript and context annotations
+Original publisher Human supplement with transcript identities/sequences, cross-validation folds and78 context-specific TE estimates.
 
 ## What the data contains
 
-- Observation unit: Endogenous transcript × cell context
+- Observation unit: One gene/transcript row with repeated context-specific TE estimates
 - RNA scope: RNA; exact type varies by source
-- Biological context: Human/mouse cell/tissue atlas.
-- Assays: not established
+- Biological context: Original Human transcript table with78context columns spanning source cell lines, primary populations and tissues; stock/species/condition metadata must be reconciled, including the TE_Vero_6 label.
+- Assays: Matched Ribo-seq and RNA-seq; study-derived TE residuals
 - Accessions: not established
-- Scale: value: unknown; unit: unknown; basis: Not independently recounted; see prior evidence note; as_of: 2026-11-04
+- Scale: value: 10348; unit: gene/transcript rows in original Human sheet; basis: All rows parsed; 716913 numeric TE values across78 columns. Not that many independent sequences.; as_of: 2026-11-05
 
 ## Labels
 
 | Label | Meaning | Evidence type | Unit | Resolution |
 |---|---|---|---|---|
-| Measured/normalized TE estimates from source datasets | Real functional target described in the paper, separate from fake repo example. | unknown | unknown | unknown |
+| TE_* | Endogenous TE defined by the original paper as residuals from compositional linear regression of centered-log-ratio CDS RPF/RNA counts, then averaged within cell context. Not raw Ribo/RNA ratios, completed protein output, or synthetic reporter labels. | computed | source compositional-regression residual | transcript |
+| fold | Original gene-level cross-validation fold | annotation | fold | transcript |
 
 ## Access and reuse
 
-- Access: unknown
-- Formats: not established
-- Source license: unknown
-- Redistribution: not established
+- Access: open
+- Formats: XLSX
+- Source license: Original paper states processed supplements available without restriction; preserve publisher/source terms
+- Redistribution: Source remains with publisher; metadata only here
 
-- https://doi.org/10.1038/s41587-025-02712-x
+- https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-025-02712-x/MediaObjects/41587_2025_2712_MOESM3_ESM.xlsx
 
 ## Verification and remaining gaps
 
-Checked: 2026-11-04. Actual files/headers inspected: not established.
+Checked: 2026-11-05. Actual files/headers inspected: https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-025-02712-x/MediaObjects/41587_2025_2712_MOESM3_ESM.xlsx.
 
-- Zenodo17258709 contains code and207MB weights, not verified full real TE table.
-- Imported candidate. Prior evidence level: paper_only. Import is not a new file inspection or certification of labels.
+- GitHub example training table is explicitly fake TE in README; not used as biological labels.
+- ContiTE reuses the RiboNN atlas; it is not an independent experimental dataset.
+- ContiTE article states different counts from this inspected original Human supplement; reconcile exact input versions before reproducing or comparing.
+- Publisher Supplementary Tables3/4 contain predicted TEs and must not be treated as measured labels.
+- Same gene across contexts is a repeated observation, not a new independent sequence.
+- No uniformly matched external HPA/DepMap assay condition established.
 
 - May group multiple datasets or overlap other model assets; do not count as an independent experimental dataset.
+- GitHub example training table is explicitly fake TE in README; not used as biological labels.
+- ContiTE reuses the RiboNN atlas; it is not an independent experimental dataset.
+- ContiTE article states different counts from this inspected original Human supplement; reconcile exact input versions before reproducing or comparing.
+- Publisher Supplementary Tables3/4 contain predicted TEs and must not be treated as measured labels.
+- Same gene across contexts is a repeated observation, not a new independent sequence.
+- No uniformly matched external HPA/DepMap assay condition established.
+- Endogenous TE defined by the original paper as residuals from compositional linear regression of centered-log-ratio CDS RPF/RNA counts, then averaged within cell context. Not raw Ribo/RNA ratios, completed protein output, or synthetic reporter labels.
+- The Human sheet is a human-transcript benchmark, not independent verification of every context species or stock. In particular, TE_Vero_6 requires source-metadata reconciliation before assigning a human cell identity.
 
 ## Cell specificity
 
-evidence: unknown; notes: Potential cell-context modeling once real tables are retrieved; endogenous-gene transfer limitations remain.
+evidence: direct_multi_context; notes: Repeated endogenous transcripts across contexts; not synthetic-RNA cell-selective protein output.
 
 ## Sources
 
-- https://doi.org/10.1038/s41587-025-02712-x
+- https://www.nature.com/articles/s41587-025-02712-x
+- https://github.com/Sanofi-Public/RiboNN
+- https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-025-02712-x/MediaObjects/41587_2025_2712_MOESM3_ESM.xlsx
 
-- url: https://doi.org/10.1038/s41587-025-02712-x; supports: Previously recorded audit source; fresh dataset reconciliation pending
+- url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-025-02712-x/MediaObjects/41587_2025_2712_MOESM3_ESM.xlsx; supports: Entire original Human table parsed; exact counts/hash in benchmark audit
+- url: https://www.nature.com/articles/s41587-025-02712-x; supports: Methods define TE as compositional-regression residuals averaged within context
 
 Related models: P010. Related resources: not established.

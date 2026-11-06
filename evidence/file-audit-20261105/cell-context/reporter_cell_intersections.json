@@ -1,0 +1,222 @@
+{
+  "joins": [
+    {
+      "study": "LAMAR13",
+      "source_label": "A204",
+      "candidate_rrid": "CVCL_1058",
+      "hpa_numeric_cell_name": "A-204",
+      "depmap_numeric_model_id": "ACH-000201",
+      "depmap_cell_name": "A-204",
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "LAMAR13",
+      "source_label": "A549",
+      "candidate_rrid": "CVCL_0023",
+      "hpa_numeric_cell_name": "A-549",
+      "depmap_numeric_model_id": "ACH-000681",
+      "depmap_cell_name": "A549",
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "LAMAR13",
+      "source_label": "AGS",
+      "candidate_rrid": "CVCL_0139",
+      "hpa_numeric_cell_name": "AGS",
+      "depmap_numeric_model_id": "ACH-000880",
+      "depmap_cell_name": "AGS",
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "LAMAR13",
+      "source_label": "C2C12",
+      "candidate_rrid": null,
+      "hpa_numeric_cell_name": null,
+      "depmap_numeric_model_id": null,
+      "depmap_cell_name": null,
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": "mouse line; absent from human references",
+      "matched_assay_condition": false
+    },
+    {
+      "study": "LAMAR13",
+      "source_label": "HCT116",
+      "candidate_rrid": "CVCL_0291",
+      "hpa_numeric_cell_name": "HCT 116",
+      "depmap_numeric_model_id": "ACH-000971",
+      "depmap_cell_name": "HCT 116",
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "LAMAR13",
+      "source_label": "HepG2",
+      "candidate_rrid": "CVCL_0027",
+      "hpa_numeric_cell_name": "Hep-G2",
+      "depmap_numeric_model_id": "ACH-000739",
+      "depmap_cell_name": "Hep G2",
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "LAMAR13",
+      "source_label": "HFF1",
+      "candidate_rrid": null,
+      "hpa_numeric_cell_name": null,
+      "depmap_numeric_model_id": null,
+      "depmap_cell_name": null,
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "LAMAR13",
+      "source_label": "JURKAT",
+      "candidate_rrid": "CVCL_0065",
+      "hpa_numeric_cell_name": "JURKAT",
+      "depmap_numeric_model_id": "ACH-000995",
+      "depmap_cell_name": "JURKAT",
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "LAMAR13",
+      "source_label": "Neuro-2a",
+      "candidate_rrid": null,
+      "hpa_numeric_cell_name": null,
+      "depmap_numeric_model_id": null,
+      "depmap_cell_name": null,
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": "LAMAR13 original typo Neruo-2a; no silent normalization to mouseN2A",
+      "matched_assay_condition": false
+    },
+    {
+      "study": "LAMAR13",
+      "source_label": "RAW264.7",
+      "candidate_rrid": null,
+      "hpa_numeric_cell_name": null,
+      "depmap_numeric_model_id": null,
+      "depmap_cell_name": null,
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": "mouse line; absent from human references",
+      "matched_assay_condition": false
+    },
+    {
+      "study": "LAMAR13",
+      "source_label": "SH-SY5Y",
+      "candidate_rrid": "CVCL_0019",
+      "hpa_numeric_cell_name": "SH-SY5Y",
+      "depmap_numeric_model_id": "ACH-001188",
+      "depmap_cell_name": "SH-SY5Y",
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": "LAMAR13 source SY5Y; SH-SY5Y mapping needs identity confirmation",
+      "matched_assay_condition": false
+    },
+    {
+      "study": "LAMAR13",
+      "source_label": "THP-1",
+      "candidate_rrid": "CVCL_0006",
+      "hpa_numeric_cell_name": "THP-1",
+      "depmap_numeric_model_id": "ACH-000146",
+      "depmap_cell_name": "THP-1",
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "LAMAR13",
+      "source_label": "U87",
+      "candidate_rrid": "CVCL_0022",
+      "hpa_numeric_cell_name": "U-87MG ATCC",
+      "depmap_numeric_model_id": "ACH-000075",
+      "depmap_cell_name": "U-87 MG",
+      "identity_status": "U87 shorthand unresolved; candidate only",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "Albatross",
+      "source_label": "HEK293T",
+      "candidate_rrid": "CVCL_0063",
+      "hpa_numeric_cell_name": null,
+      "depmap_numeric_model_id": null,
+      "depmap_cell_name": null,
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "Albatross",
+      "source_label": "HCT8",
+      "candidate_rrid": "CVCL_2478",
+      "hpa_numeric_cell_name": null,
+      "depmap_numeric_model_id": null,
+      "depmap_cell_name": "HCT-8",
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "Albatross",
+      "source_label": "Huh7",
+      "candidate_rrid": "CVCL_0336",
+      "hpa_numeric_cell_name": "Huh-7",
+      "depmap_numeric_model_id": "ACH-000480",
+      "depmap_cell_name": "HuH-7",
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "Albatross",
+      "source_label": "SH-SY5Y",
+      "candidate_rrid": "CVCL_0019",
+      "hpa_numeric_cell_name": "SH-SY5Y",
+      "depmap_numeric_model_id": "ACH-001188",
+      "depmap_cell_name": "SH-SY5Y",
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "Albatross",
+      "source_label": "U2OS",
+      "candidate_rrid": "CVCL_0042",
+      "hpa_numeric_cell_name": "U2OS",
+      "depmap_numeric_model_id": "ACH-000364",
+      "depmap_cell_name": "U-2 OS",
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": null,
+      "matched_assay_condition": false
+    },
+    {
+      "study": "Albatross",
+      "source_label": "mouse N2A",
+      "candidate_rrid": null,
+      "hpa_numeric_cell_name": null,
+      "depmap_numeric_model_id": null,
+      "depmap_cell_name": null,
+      "identity_status": "name-to-RRID mapping requires source identity confirmation; source variants preserved",
+      "source_label_notes": "mouse line; absent from human references",
+      "matched_assay_condition": false
+    }
+  ],
+  "explicit_non_equivalences": [
+    "HEK293 is not HEK293T",
+    "HCT116 is not HCT8",
+    "JURKAT is not Jurkat E6.1",
+    "Neuro-2a/Neruo-2a/N2A require source/Cellosaurus confirmation",
+    "U87 must not be silently resolved as U-87 MG ATCC",
+    "A study cell-name overlap does not establish matched treatment, culture, passage, differentiation or batch"
+  ],
+  "numeric_sources_verified": true
+}
